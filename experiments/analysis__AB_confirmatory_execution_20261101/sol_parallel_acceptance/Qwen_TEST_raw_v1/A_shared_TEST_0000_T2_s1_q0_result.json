@@ -1,0 +1,35 @@
+{
+  "document": {
+    "id": "A_shared_TEST_0000_T2_s1_q0",
+    "donor": "A_shared_TEST_0000_T2_s0_q0",
+    "block": "A_shared_TEST_0000",
+    "study": "A",
+    "cohort": "shared",
+    "split": "TEST",
+    "index": 0,
+    "frame": "T2",
+    "side": 1,
+    "q": 0,
+    "text": "Near the enclosure, the esophagoscopes that the vaquita can observe"
+  },
+  "files": {
+    "analysis/A_short_replication_qwen_20261101/TEST_fixed256_v3/run/completed/capture_A_shared_TEST_0000_T2_s1_q0.json": "b3a3117da09a55ccb5adabac6e8d6d7287837910f65c1ee15577b5902b769513",
+    "analysis/A_short_replication_qwen_20261101/TEST_fixed256_v3/run/cache/a64d0176b42c2babddc39951d37a1c323ecbf9fee3cf662b687931a70160bb37.json": "3af769dd40dac93d3f132f4c59a9c5261345c0c440968adbe3a88f6370ddb92f",
+    "analysis/A_short_replication_qwen_20261101/TEST_fixed256_v3/run/completed/capture_A_shared_TEST_0000_T2_s0_q0.json": "2517f54c4c7b548bc0897490fafd0d9337a6129266ab94c04f0f606ea8433c28",
+    "analysis/A_short_replication_qwen_20261101/TEST_fixed256_v3/run/cache/22334b9dd15ac56902db3fbd9ae2ad321ae04cfb78642f4f8267b42f8b9971de.json": "417def285d2f6bd539793058ba2490f6cdc92b69cbc99700f29cf9d0cd24f595",
+    "analysis/A_short_replication_qwen_20261101/TEST_fixed256_v3/run/completed/suffix_A_shared_TEST_0000_T2_s1_q0_native.json": "6da9678b11970c6c4dbb2dfa5f97252526520198f89105a90f21f60dda42765e",
+    "analysis/A_short_replication_qwen_20261101/TEST_fixed256_v3/run/cache/6ae1d3f24fc10d21b12a161001c956aefcb86cb88d532ed39f60be96b8e318eb.json": "06dff91a3d794efa46e77eadade8d8e656f172a1dee5572e1041a0ff384db3b7",
+    "analysis/A_short_replication_qwen_20261101/TEST_fixed256_v3/run/completed/suffix_A_shared_TEST_0000_T2_s1_q0_P.json": "36446ec9e4e53019d433276700d3c20f49f3a64e010a8a3dd008639a28a8b526",
+    "analysis/A_short_replication_qwen_20261101/TEST_fixed256_v3/run/cache/452ff6d6afd843c1fa46c6dbe20185ad524ecc8aad7d39db4d503bfa5ce09bb9.json": "37260126831a636598a242b3af9a500baac68dfc773514fe7e7888b3c0b21e50",
+    "analysis/A_short_replication_qwen_20261101/TEST_fixed256_v3/run/completed/suffix_A_shared_TEST_0000_T2_s1_q0_U0.json": "40de3d2440399b9cb5bbbc2efb766caefadf16b270d2995e9e59d16f12e12d52",
+    "analysis/A_short_replication_qwen_20261101/TEST_fixed256_v3/run/cache/51dedf56f1f80dd8d38ee8ba33bdab5a28bd537d0222c052bb6e1c250f77b009.json": "cc61907cce965cfd5b9bba61d22687febf3bc1e77e4ca5b28b4ddaf894aa400b",
+    "analysis/A_short_replication_qwen_20261101/TEST_fixed256_v3/run/results/A_shared_TEST_0000_T2_s1_q0.json": "5a778c97f73c324b71fe7909c402f91b3a9c366119b7fb38ae428f54866c3eee"
+  },
+  "identity": {
+    "model": "6c0a47f03e2523c9a91ba0c2d0619671e7ab16f1b27a2cd039742997148c9269",
+    "code": "a7e0eb7c001d76058f8622dd71c6073784e9c3472bc2bdfbea4184b2cbba1bb5"
+  },
+  "own_fit_sha256": "56d4c8fe1448ff02683ab4b001243d56b983c128e33d65811919b54e23af4ccc",
+  "max_target_error": 0.0,
+  "all_saved_loss_vector_arithmetic_passed": true
+}

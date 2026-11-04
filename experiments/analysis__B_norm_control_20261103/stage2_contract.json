@@ -1,0 +1,80 @@
+{
+  "schema_version": 1,
+  "id": "B_NORM_NATIVE_SUFFIX_20261103",
+  "kind": "experiment",
+  "primary_agent": "/root/b_switch_fit",
+  "purpose": "Posthoc exact native-readout response to fixedFITnorm-rescaled TCgroupmask directions. All targets/eligibility frozen before new readout; no TC/native prefix calls.",
+  "tracked_files": [
+    "analysis/B_norm_control_20261103/worker.py",
+    "analysis/B_norm_control_20261103/common.py",
+    "analysis/B_norm_control_20261103/PLAN.txt",
+    "analysis/B_norm_control_20261103/config.json",
+    "analysis/B_norm_control_20261103/TARGETS_FROZEN.json",
+    "analysis/B_norm_control_20261103/stage2_index.json",
+    "analysis/B_norm_control_20261103/stage2_input_manifest.json",
+    "analysis/B_norm_control_20261103/worker_fixtures.py",
+    "analysis/B_norm_control_20261103/worker_fixtures_v2.json"
+  ],
+  "tracked_trees": [],
+  "input_manifests": [
+    "analysis/B_norm_control_20261103/stage2_input_manifest.json"
+  ],
+  "gates": [
+    {
+      "id": "hooks",
+      "category": "hooks",
+      "evidence": "analysis/B_norm_control_20261103/worker_fixtures_v2.json",
+      "pointer": "/payload/passed",
+      "op": "eq",
+      "expected": true,
+      "reason": "Actual worker synthetic suffix fixture verifiescontrols,sharedprefix targets,alias/skipbudget,blockaggregation,immutable replay and uncertainattempt failure; historical exact tail adapter remains unchanged."
+    },
+    {
+      "id": "data",
+      "category": "data",
+      "evidence": "analysis/B_norm_control_20261103/worker_fixtures_v2.json",
+      "pointer": "/payload/passed",
+      "op": "eq",
+      "expected": true,
+      "reason": "Actual worker synthetic suffix fixture verifiescontrols,sharedprefix targets,alias/skipbudget,blockaggregation,immutable replay and uncertainattempt failure; historical exact tail adapter remains unchanged."
+    },
+    {
+      "id": "pilot",
+      "category": "pilot",
+      "evidence": "analysis/B_norm_control_20261103/worker_fixtures_v2.json",
+      "pointer": "/payload/passed",
+      "op": "eq",
+      "expected": true,
+      "reason": "Actual worker synthetic suffix fixture verifiescontrols,sharedprefix targets,alias/skipbudget,blockaggregation,immutable replay and uncertainattempt failure; historical exact tail adapter remains unchanged."
+    },
+    {
+      "id": "accounting",
+      "category": "accounting",
+      "evidence": "analysis/B_norm_control_20261103/worker_fixtures_v2.json",
+      "pointer": "/payload/passed",
+      "op": "eq",
+      "expected": true,
+      "reason": "Actual worker synthetic suffix fixture verifiescontrols,sharedprefix targets,alias/skipbudget,blockaggregation,immutable replay and uncertainattempt failure; historical exact tail adapter remains unchanged."
+    },
+    {
+      "id": "restart",
+      "category": "restart",
+      "evidence": "analysis/B_norm_control_20261103/worker_fixtures_v2.json",
+      "pointer": "/payload/passed",
+      "op": "eq",
+      "expected": true,
+      "reason": "Actual worker synthetic suffix fixture verifiescontrols,sharedprefix targets,alias/skipbudget,blockaggregation,immutable replay and uncertainattempt failure; historical exact tail adapter remains unchanged."
+    }
+  ],
+  "circuits": [],
+  "structural_scope": "Exact post-MLP L15last-positionreplacement to dynamicnativeL16/L17attention+MLP and finalnorm/head. Existing audited ExactTail adapter reused; all required downstreamstates reachable; savedgradient signed halfstep probes recheck nonzero numerical sensitivity.",
+  "entrypoint": {
+    "module": "analysis.B_norm_control_20261103.worker",
+    "args": []
+  },
+  "schedule": "analysis/B_norm_control_20261103/stage2_schedule.json",
+  "budget": {
+    "forward": 776,
+    "backward": 0
+  }
+}

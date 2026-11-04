@@ -1,0 +1,23 @@
+{
+  "hooks": true,
+  "data": true,
+  "pilot": true,
+  "accounting": true,
+  "restart": true,
+  "counts": {
+    "technical_suffix": 16,
+    "capture": 256,
+    "TC_local": 512,
+    "native_local_branch": 256,
+    "scientific_suffix": 1093
+  },
+  "all_scientific_measurements_after_global_target_freeze": true,
+  "immutable_outputs_verified": 5741,
+  "budget": 3088,
+  "actual": {
+    "aliases": 529,
+    "backward_attempts": 0,
+    "forward_attempts": 2133,
+    "skips": 426
+  }
+}

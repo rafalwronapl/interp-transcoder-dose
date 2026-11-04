@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "id": "AB5_B_MECHANISM_COMPLETION_20261103_CUMULATIVE",
+  "kind": "maintenance",
+  "primary_agent": "/root/b_second_artifact_five",
+  "purpose": "Layered extension of exact full raw completion_snapshot_v3: descriptive contrasts and cumulativecost, no repeated inference or fullrawrehash.",
+  "tracked_files": [
+    "analysis/AB_five_experiments_20261103/B_mechanism/complete_v3.py",
+    "analysis/AB_five_experiments_20261103/B_mechanism/REPORT_v3.md",
+    "analysis/AB_five_experiments_20261103/B_mechanism/completion_checks_v3.json",
+    "analysis/AB_five_experiments_20261103/B_mechanism/finish_v3.py",
+    "analysis/AB_five_experiments_20261103/B_mechanism/REPORT_v4.md",
+    "analysis/AB_five_experiments_20261103/B_mechanism/final_analysis_v3.json"
+  ],
+  "tracked_trees": [],
+  "input_manifests": [
+    "analysis/AB_five_experiments_20261103/B_mechanism/completion_manifest_v4.json"
+  ],
+  "gates": [
+    {
+      "id": "completed",
+      "category": "accounting",
+      "evidence": "analysis/AB_five_experiments_20261103/B_mechanism/completion_checks_v3.json",
+      "pointer": "/passed",
+      "op": "eq",
+      "expected": true,
+      "reason": "Complete immutable768cells and workerterminal coverage assertion."
+    }
+  ],
+  "circuits": [],
+  "structural_scope": "Offline report of accepted native suffix interventions only.",
+  "entrypoint": null,
+  "schedule": null,
+  "budget": null
+}

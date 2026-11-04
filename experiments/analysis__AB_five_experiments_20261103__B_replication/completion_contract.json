@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "id": "B_SECOND_ARTIFACT_G1B_L22_COMPLETION_20261103_v1",
+  "kind": "maintenance",
+  "primary_agent": "/root/b_second_artifact_five",
+  "purpose": "Offline completion accounting and finite-corpus summary of accepted fixed second-artifact acquisition; no model or bootstrap replay.",
+  "tracked_files": [
+    "analysis/AB_five_experiments_20261103/B_replication/complete.py",
+    "analysis/AB_five_experiments_20261103/B_replication/completion_checks.json",
+    "analysis/AB_five_experiments_20261103/B_replication/REPORT.md"
+  ],
+  "tracked_trees": [],
+  "input_manifests": [
+    "analysis/AB_five_experiments_20261103/B_replication/completion_manifest.json"
+  ],
+  "gates": [
+    {
+      "id": "all_operations",
+      "category": "accounting",
+      "evidence": "analysis/AB_five_experiments_20261103/B_replication/completion_checks.json",
+      "pointer": "/all_scheduled_attempted",
+      "op": "eq",
+      "expected": true,
+      "reason": "Complete unique durable schedule; all finalizedoutputs hashverified."
+    }
+  ],
+  "circuits": [],
+  "structural_scope": "No new intervention; completed exactnative suffix measurements summarized unchanged.",
+  "entrypoint": null,
+  "schedule": null,
+  "budget": null
+}

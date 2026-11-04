@@ -1,0 +1,41 @@
+{
+  "document": {
+    "id": "A_shared_TEST_0081_T5_s0_q1",
+    "donor": "A_shared_TEST_0081_T5_s1_q1",
+    "block": "A_shared_TEST_0081",
+    "study": "A",
+    "cohort": "shared",
+    "split": "TEST",
+    "index": 81,
+    "frame": "T5",
+    "side": 0,
+    "q": 1,
+    "text": "Everyone agrees that the pleurodont, unlike the transplanters,"
+  },
+  "files": {
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/completed/capture_A_shared_TEST_0081_T5_s0_q1.json": "6dc087211649b53bec6971f2baf75e1182b2bd51f03289daad68b916f25fb277",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/cache/67ef8ff089b280ab44836f314b02d227dbdb437851c945b6afca771dbb7ba7a4.json": "d3de766e5dd9d47e38119dabbc6be7ac39511c6b9303ff1a296c8256b684dddb",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/completed/capture_A_shared_TEST_0081_T5_s1_q1.json": "2f99b005def5794a56fbc5b43649446deb1d9cf7ada84f87e9713792c23bbeaa",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/cache/021ae2b368fe38a053e575b9dd0dc70990939b4d7894e2ed5af0610f86d56f26.json": "5c6459cf89c046a37756a11300c693d61fd757896078734d41fe35b333567018",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/completed/suffix_A_shared_TEST_0081_T5_s0_q1_native.json": "4729b4919edf2dd1ad946504579111e80f2bdfc19ebaae171866b9e88e91de72",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/cache/a9a969067211d07b1a4c6469eb8f83bd84663470f9422bee757eb3ebc33ce737.json": "4749d30cbab4f7f82db1e68bb22cd0066f4ff40b46aa8168969292c01d06b0ac",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/completed/suffix_A_shared_TEST_0081_T5_s0_q1_r0_P.json": "b697eedeac3de126cbde724f037303f15b7deab7838f99b8f2a5b84da6181e65",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/cache/46059bbed62d3344ea20fe92b902062842b3e48b65c898b07574004884f94a0c.json": "014070570ab83d49a6a4674fc8e39773abc3f0b33b4807bc2ec4f8ef7e639b95",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/completed/suffix_A_shared_TEST_0081_T5_s0_q1_r0_U0.json": "f423d763250c373a1f3b627e7cc0a1eddf0d20ffe2aef4ed7332903acf4d3eea",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/cache/3304cc5c8f8af75737fb182ecbed8927ea5c5acc84df80dbc0292a9c957cc275.json": "efedf83218d0dba039f884b89ac4c19fec426f6451671f38b2a0b18b4d19f595",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/results/r0/A_shared_TEST_0081_T5_s0_q1.json": "bfdac9dff249b454808ba77042a9ec7ef3165ab819a9f528db286a01f07133cc"
+  },
+  "identity": {
+    "model": "5fb518228899f9c15e3db99e01c11d159af8451337dee6d85c28f3880fde2b29",
+    "code": "25737ad0d8d462c020f979d68f61d55e90b2e2668df0fb2d0a8008b19f7db7b7",
+    "corpus": "361064de9ca092fcd6a97649eb7daac7f01b03a084cb021f6e6d0b819c00180c",
+    "tokens": "64569cc7e32d060a398bb0dba55885712cb963aa4475dbaf847e795f4b4926f9",
+    "config": "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/config.json",
+    "frozen_fit_hashes": {
+      "r0": "9215ff51a78cfd3a5c9a8149332c17fe9a8d50a8571d6943f1cc2059fb52c833"
+    }
+  },
+  "own_fit_sha256": "9215ff51a78cfd3a5c9a8149332c17fe9a8d50a8571d6943f1cc2059fb52c833",
+  "max_target_error": 0.0,
+  "all_saved_loss_vector_arithmetic_passed": true
+}

@@ -1,0 +1,22 @@
+{
+  "kind": "read_only_incremental_audit_watcher",
+  "pid": 20544,
+  "tool_session": 43881,
+  "source_sha256": "b408077945601a1b158eb4a0cdc4576f197dcaceff6ac750f17b487e9d12a798",
+  "command": "python -u -X utf8=1 analysis/AB_confirmatory_execution_20261101/sol_parallel_acceptance/audit_qwen_evaluation_v1.py --packet analysis/A_short_replication_qwen_20261101/TEST_fixed256_v3 --watch",
+  "priority": "BelowNormal",
+  "OPENBLAS_MKL_OMP_NUMEXPR_threads": 1,
+  "interval_seconds": 60,
+  "max_seconds": 14400,
+  "writes_only": "sol_parallel_acceptance/Qwen_TEST_raw_v1",
+  "reads": "Immutable completed/cache/results and fixed configuration/FIT/source metadata only",
+  "never_reads": [
+    "STATUS",
+    "live ledger"
+  ],
+  "no_model_fit_bootstrap_MC_calls": true,
+  "completion": "Stops when closed stage and all2048results/8192operation proofs audited; official snapshot/review remain separate.",
+  "resume_reason": "Prior watcher2824 absent; original session77712 confirmed4h timeout across system sleep. Same proof cache reused; model19400/22016 untouched.",
+  "previous_captures_verified": 1714,
+  "date": "2026-11-02"
+}

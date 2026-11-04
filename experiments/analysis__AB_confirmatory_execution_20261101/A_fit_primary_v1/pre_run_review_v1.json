@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "snapshot_sha256": "155d2a306e9c1945ddb24fcb06822b1bdc81e0703c9bfd3a5926c6df217909f2",
+  "reviewer_id": "/root/sol_ab_execution/a_fit_pre_run_review",
+  "independent": true,
+  "verdict": "approved",
+  "topics_checked": [
+    "design",
+    "implementation",
+    "data",
+    "cost",
+    "claims"
+  ],
+  "findings": [],
+  "limitations": "Approval covers only fixed primary r0 FIT_ONLY with qualification-first gates: 477 new full-transformer forwards plus 5 local suffix calls, zero backward, and one explicitly admitted prior technical capture. No pretrained loading/inference by reviewer. Seven random/mock production tests independently rerun: PASS (48.197s); contract check PASS. Actual trained qualification remains an enforced worker gate before expansion. No approval of inferential calibration, sample-size selection, PILOT/TEST, model competence, A1-A3 support, generalization, cost savings or worldwide novelty. Runtime accounting is code/receipt based rather than an external hardware counter; estimates are not resource guarantees. Completion requires fresh independent review."
+}

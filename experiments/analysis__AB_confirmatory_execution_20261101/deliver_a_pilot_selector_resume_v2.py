@@ -1,0 +1,81 @@
+"""Resume unpublished evidence copy; reuse validbytes, no experiment replay."""
+from pathlib import Path
+import json,hashlib,shutil,os
+ROOT=Path(__file__).resolve().parents[2]
+BASE=ROOT/'analysis/AB_confirmatory_execution_20261101'
+PARENT=Path('C:/Users/rafal/Downloads/Tor_A_2026-10-31/dowody/AB_confirmatory_20261101')
+DEST=PARENT/'A_pilot_selector_infeasible_v1'
+PRIOR=PARENT/'A_fit_primary_v1'
+def read(p):return json.loads(p.read_text(encoding='utf-8-sig'))
+def sha(p):
+    with p.open('rb') as f:return hashlib.file_digest(f,'sha256').hexdigest()
+def main():
+    pilot=BASE/'A_pilot_ready_v1';selector=BASE/'A_selector_ready_v1'
+    reviews=[read(pilot/'completion_review_sol_v1.json'),read(selector/'completion_review_sol_v1.json')]
+    if any(r['verdict']!='approved' for r in reviews) or not DEST.is_dir() or (DEST/'MANIFEST.json').exists() or (DEST/'README.md').exists():raise ValueError('Accepted unpublished partial destination required')
+    prior_receipt=read(BASE/'A_fit_delivery_v1.json')
+    if sha(PRIOR/'MANIFEST.json')!=prior_receipt['manifest_sha256']:raise ValueError('Prior archive manifest changed')
+    prior=read(PRIOR/'MANIFEST.json')['files']
+    index={Path(v['source']):(k,v) for k,v in prior.items() if v['source'].startswith(str(ROOT))}
+    files={}
+    for p in [pilot/'completion_snapshot_v2.json',selector/'completion_snapshot_v1.json']:
+        files.update(read(p)['payload']['files'])
+    for folder in [pilot,selector,BASE/'A_selector_input_v1',BASE/'A_pilot_assembly_v1']:
+        for p in folder.rglob('*'):
+            if p.is_file() and '__pycache__' not in p.parts and p.suffix!='.pyc':
+                name=p.relative_to(ROOT).as_posix()
+                if name not in files:files[name]=sha(p)
+    for p in [BASE/'sol_parallel_acceptance/A_pilot_completion_v1/canonical_verify.json',
+              BASE/'sol_parallel_acceptance/A_selector_completion_v1/canonical_verify.json']:
+        if p.exists():files[p.relative_to(ROOT).as_posix()]=sha(p)
+    copied={};shared={};omitted={};reused=0;newcopies=0
+    for name,expected in sorted(files.items()):
+        source=ROOT/name
+        if source.suffix.lower() in {'.safetensors','.bin','.pt','.pth','.ckpt'}:
+            omitted[name]=dict(sha256=expected,reason='pretrained weights omitted; accepted identity retained');continue
+        if source in index and index[source][1]['sha256']==expected:
+            old_name,old=index[source];existing=PRIOR/old_name
+            if not existing.is_file() or existing.stat().st_size!=old['bytes']:raise ValueError('Shared evidence missing')
+            shared[name]=dict(package_relative_path=os.path.relpath(existing,DEST).replace('\\','/'),sha256=expected,bytes=old['bytes'],source=str(source));continue
+        relative=Path('lab')/name;target=DEST/relative;target.parent.mkdir(parents=True,exist_ok=True)
+        if target.exists():
+            if sha(target)!=expected:raise ValueError('Existing unpublished bytes disagree; preserve without overwrite: '+name)
+            reused+=1
+        else:
+            shutil.copy2(source,target);newcopies+=1
+        if sha(target)!=expected:raise ValueError('Copied bytes disagree with accepted digest: '+name)
+        copied[relative.as_posix()]=dict(source=str(source),sha256=expected,bytes=target.stat().st_size)
+    text='''# Accepted A PILOT and infeasible frozen selector
+
+Exactly32blocks/640documents were acquired once, with640full+3840local forward calls,
+0backward. Predesignated r0 FIT and prior qualification were reused. The accepted
+assembler produced complete A_power[32,4] and readout/vector[32,5,4,5] arrays.
+The frozen selector returned INFEASIBLE_UNDER_FROZEN_CAP:128was calibration-ineligible;
+both256dispersion scenarios hit the exact predeclared impossible-pass rule after
+368/352simulations. Even allremaining successes yield final lower.79960905<.8.
+Under this ORIGINAL frozen selector protocol no TEST was collected/selected and no A hypothesis was tested. Later fixed-resource A v7 TEST evidence is a separate reviewed package, not included or authorized by this historical negative-selector archive.
+Do not call stopped720simulation frequencies final estimates of population power.
+
+Both genuine independent completion reviews and final canonical exit0 receipts are
+included. Raw native captures, all arms/results/cache/ledger, deterministic assembly,
+selector data/statistics, fixed designs and negative decisions are preserved.
+No fit/model/bootstrap campaign was repeated for delivery. The contextual article
+in the neighboring FIT package is unchanged; it does not present this as confirmation.
+
+MANIFEST.json maps every newly copied file to its accepted SHA256/source/size; copied
+bytes were verified directly against accepted hashes. shared_prior_members reference
+the already independently reviewed ../A_fit_primary_v1 archive, whose manifest hash
+is bound. Both neighboring packages are required for full upstream closure; shared
+FIT evidence is not duplicated or counted as independent replication. Original lab
+paths can be resolved through provenance. Pretrained weights are excluded with hashes
+retained. Archived workers must not be rerun just for review. All primary TEST/shared-
+TEST stages remain subject to their frozen admission; this archive authorizes none.
+'''
+    (DEST/'README.md').write_text(text,encoding='utf-8')
+    copied['README.md']=dict(source='generated by '+str(Path(__file__)),sha256=sha(DEST/'README.md'),bytes=(DEST/'README.md').stat().st_size)
+    (DEST/'MANIFEST.json').write_text(json.dumps(dict(files=copied,shared_prior_members=shared,omitted=omitted,
+        prior_manifest_sha256=prior_receipt['manifest_sha256'],completion_snapshots=[r['snapshot_sha256'] for r in reviews]),indent=2),encoding='utf-8')
+    receipt=dict(destination=str(DEST),new_files=len(copied),new_bytes=sum(v['bytes'] for v in copied.values()),shared_files=len(shared),
+        manifest_sha256=sha(DEST/'MANIFEST.json'),all_new_bytes_verified=True,prior_manifest_sha256=prior_receipt['manifest_sha256'],reused_existing_files=reused,copied_missing_files=newcopies,resume_reason='Unpublished prior copy stopped on optional canonical receipt encoding race; scientific bytes unchanged; no overwrite or experiment replay')
+    (BASE/'A_pilot_selector_delivery_v2.json').write_text(json.dumps(receipt,indent=2),encoding='utf-8');print(json.dumps(receipt))
+if __name__=='__main__':main()

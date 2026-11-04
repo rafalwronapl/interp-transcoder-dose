@@ -1,0 +1,41 @@
+{
+  "document": {
+    "id": "A_shared_TEST_0057_T5_s1_q1",
+    "donor": "A_shared_TEST_0057_T5_s0_q1",
+    "block": "A_shared_TEST_0057",
+    "study": "A",
+    "cohort": "shared",
+    "split": "TEST",
+    "index": 57,
+    "frame": "T5",
+    "side": 1,
+    "q": 1,
+    "text": "Everyone agrees that the chelonians, unlike the ascots,"
+  },
+  "files": {
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/completed/capture_A_shared_TEST_0057_T5_s1_q1.json": "c88c9497e1929523fa43f55874f9723bb1a1f76d29e3024ce5c347c639f03c8c",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/cache/8e1e6d9d5038f2bf36098aff8b8b9c1acc892f6353ef5ac27f10d6eb106e3be8.json": "3f1fd698a3728e5fe795cfcc57ab31151dcee90ce512219642609e18ede6a6d3",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/completed/capture_A_shared_TEST_0057_T5_s0_q1.json": "9dd3c9839e37339d502f75aed481654ec5b7908ee4e27673b284a744cd8f46fd",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/cache/803910343c7881750cfadf9ace07de3ae196cbc40be4c8233ae42a3e06ef6fba.json": "f62e46f2ba5f48d9ff908d14f40625bc465232af4a5c6257917c103bbf0fcea6",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/completed/suffix_A_shared_TEST_0057_T5_s1_q1_native.json": "f3622ef1f0b57eb89922cedc5470d872a26f43fdc5368710b6e337b1fdd5351c",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/cache/ebbeb09e8192e3bc85bffb746a2cc4a0de8283709d4c6c1262e23f470d3621c6.json": "f0119947a2bae9e4587ffd38a37312855ef6b0a9dad81a152e006dc9443f7452",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/completed/suffix_A_shared_TEST_0057_T5_s1_q1_r0_P.json": "28547f59919d66795ff86ef0be6ee85ac1e2f7bb7b626f1acba00bba942ea8d7",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/cache/c4f540c7e1592021b5fa7f71db5c35e368bfde0af4d3812835c0a983de701f85.json": "6242ca331003f8821eff51a9cc38e56b75d81e5053ccb0874b40f42013f686aa",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/completed/suffix_A_shared_TEST_0057_T5_s1_q1_r0_U0.json": "97bb0a19f4a432bdb435323a63d74c0791cf32d02863eda35d20b80c57d82785",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/cache/30ba2593b53fcb2cb689e11901c0750731b1a5b1f85a17110301afc13e975b56.json": "3daeb793347d0c442417a874280d3ce63cac28fc50811639da42706ed07eb630",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/results/r0/A_shared_TEST_0057_T5_s1_q1.json": "72cf5bf217acf784719697581530f05b5c2c626aac7079e99f5f6b5b092fe11c"
+  },
+  "identity": {
+    "model": "5fb518228899f9c15e3db99e01c11d159af8451337dee6d85c28f3880fde2b29",
+    "code": "25737ad0d8d462c020f979d68f61d55e90b2e2668df0fb2d0a8008b19f7db7b7",
+    "corpus": "361064de9ca092fcd6a97649eb7daac7f01b03a084cb021f6e6d0b819c00180c",
+    "tokens": "64569cc7e32d060a398bb0dba55885712cb963aa4475dbaf847e795f4b4926f9",
+    "config": "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/config.json",
+    "frozen_fit_hashes": {
+      "r0": "9215ff51a78cfd3a5c9a8149332c17fe9a8d50a8571d6943f1cc2059fb52c833"
+    }
+  },
+  "own_fit_sha256": "9215ff51a78cfd3a5c9a8149332c17fe9a8d50a8571d6943f1cc2059fb52c833",
+  "max_target_error": 0.0,
+  "all_saved_loss_vector_arithmetic_passed": true
+}

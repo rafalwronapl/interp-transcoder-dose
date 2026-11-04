@@ -1,0 +1,101 @@
+{
+  "schema_version": 1,
+  "id": "AB_SECONDARY_A_A_secondary_actual_v5",
+  "kind": "experiment",
+  "primary_agent": "/root",
+  "purpose": "All prespecified secondary TEST diagnostics from accepted cache; no model calls or new confirmatory support slots.",
+  "tracked_files": [
+    "ab_confirmatory_20261101/__init__.py",
+    "ab_confirmatory_20261101/analysis_ab_v3.py",
+    "ab_confirmatory_20261101/analysis_ab_v4.py",
+    "ab_confirmatory_20261101/eligibility_calibration_v3.py",
+    "ab_confirmatory_20261101/eligibility_paths_v5.py",
+    "ab_confirmatory_20261101/offline_io_v3.py",
+    "ab_confirmatory_20261101/offline_io_v4.py",
+    "ab_confirmatory_20261101/precision.py",
+    "ab_confirmatory_20261101/prepare_secondary_v5.py",
+    "ab_confirmatory_20261101/safe_statistics.py",
+    "ab_confirmatory_20261101/secondary_analysis_v5.py",
+    "ab_confirmatory_20261101/selector_v3.py",
+    "ab_confirmatory_20261101/selector_v4.py",
+    "ab_confirmatory_20261101/stability_validation_v3.py",
+    "ab_confirmatory_20261101/stability_validation_v4.py",
+    "ab_confirmatory_20261101/statistics.py",
+    "analysis/AB_confirmatory_execution_20261101/remaining_statistics_v3/DESIGN_AMENDMENT_1.md",
+    "analysis/AB_confirmatory_execution_20261101/remaining_statistics_v3/DESIGN_FROZEN_V3.md",
+    "analysis/AB_confirmatory_execution_20261101/remaining_statistics_v4/PROSPECTIVE_AMENDMENT.md",
+    "research_checks/__init__.py",
+    "research_checks/gate.py",
+    "research_checks/persistence.py",
+    "analysis/AB_confirmatory_execution_20261101/A_secondary_actual_v5/compute_budget.json",
+    "ab_confirmatory_20261101/prepare.py",
+    "research_checks/reachability.py"
+  ],
+  "tracked_trees": [],
+  "input_manifests": [
+    "analysis/AB_confirmatory_execution_20261101/A_secondary_actual_v5/input_manifest.json"
+  ],
+  "gates": [
+    {
+      "id": "hooks",
+      "category": "hooks",
+      "evidence": "analysis/AB_confirmatory_execution_20261101/A_secondary_actual_v5/evidence.json",
+      "pointer": "/model_calls",
+      "op": "eq",
+      "expected": 0,
+      "reason": "Actual accepted TESTclosure, unchanged descriptive formulas and immutableper-statistic reuse."
+    },
+    {
+      "id": "data",
+      "category": "data",
+      "evidence": "analysis/AB_confirmatory_execution_20261101/A_secondary_actual_v5/evidence.json",
+      "pointer": "/accepted_sealed_raw",
+      "op": "eq",
+      "expected": true,
+      "reason": "Actual accepted TESTclosure, unchanged descriptive formulas and immutableper-statistic reuse."
+    },
+    {
+      "id": "pilot",
+      "category": "pilot",
+      "evidence": "analysis/AB_confirmatory_execution_20261101/A_secondary_actual_v5/evidence.json",
+      "pointer": "/test_scope",
+      "op": "eq",
+      "expected": true,
+      "reason": "Actual accepted TESTclosure, unchanged descriptive formulas and immutableper-statistic reuse."
+    },
+    {
+      "id": "accounting",
+      "category": "accounting",
+      "evidence": "analysis/AB_confirmatory_execution_20261101/A_secondary_actual_v5/evidence.json",
+      "pointer": "/new_support_slots",
+      "op": "eq",
+      "expected": 0,
+      "reason": "Actual accepted TESTclosure, unchanged descriptive formulas and immutableper-statistic reuse."
+    },
+    {
+      "id": "restart",
+      "category": "restart",
+      "evidence": "analysis/AB_confirmatory_execution_20261101/A_secondary_actual_v5/evidence.json",
+      "pointer": "/immutable_cell_cache",
+      "op": "eq",
+      "expected": true,
+      "reason": "Actual accepted TESTclosure, unchanged descriptive formulas and immutableper-statistic reuse."
+    }
+  ],
+  "circuits": [],
+  "structural_scope": "Offline descriptive statistics; no model or reduced circuit.",
+  "entrypoint": {
+    "module": "ab_confirmatory_20261101.secondary_analysis_v5",
+    "args": [
+      "--manifest",
+      "analysis/AB_confirmatory_execution_20261101/A_secondary_actual_v5/analysis_manifest.json",
+      "--out",
+      "analysis/AB_confirmatory_execution_20261101/A_secondary_actual_v5/run"
+    ]
+  },
+  "schedule": "analysis/AB_confirmatory_execution_20261101/A_secondary_actual_v5/operations.json",
+  "budget": {
+    "forward": 0,
+    "backward": 0
+  }
+}

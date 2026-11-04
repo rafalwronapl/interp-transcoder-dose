@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "id": "AB_concurrency_migration_v1",
+  "kind": "maintenance",
+  "primary_agent": "/root/sol_parallel_acceptance",
+  "purpose": "Versioned reviewed orchestration migration; no experiment/model execution.",
+  "tracked_files": [
+    "concurrency_runtime_v1.py",
+    "research_checks/gate.py",
+    "research_checks/_worker.py",
+    "research_checks/__init__.py",
+    "analysis/AB_confirmatory_execution_20261101/sol_parallel_acceptance/test_concurrency_runtime_v1.py",
+    "analysis/AB_confirmatory_execution_20261101/sol_parallel_acceptance/concurrency_migration_v1/migration_policy.json",
+    "analysis/AB_confirmatory_execution_20261101/sol_parallel_acceptance/concurrency_migration_v1/tests.json"
+  ],
+  "tracked_trees": [],
+  "input_manifests": [],
+  "gates": [
+    {
+      "id": "hooks",
+      "category": "hooks",
+      "evidence": "analysis/AB_confirmatory_execution_20261101/sol_parallel_acceptance/concurrency_migration_v1/tests.json",
+      "pointer": "/returncode",
+      "op": "eq",
+      "expected": 0,
+      "reason": "Six cheap receipt/orchestration tests; no model, no numerical simulation."
+    },
+    {
+      "id": "data",
+      "category": "data",
+      "evidence": "analysis/AB_confirmatory_execution_20261101/sol_parallel_acceptance/concurrency_migration_v1/tests.json",
+      "pointer": "/returncode",
+      "op": "eq",
+      "expected": 0,
+      "reason": "Six cheap receipt/orchestration tests; no model, no numerical simulation."
+    },
+    {
+      "id": "pilot",
+      "category": "pilot",
+      "evidence": "analysis/AB_confirmatory_execution_20261101/sol_parallel_acceptance/concurrency_migration_v1/tests.json",
+      "pointer": "/returncode",
+      "op": "eq",
+      "expected": 0,
+      "reason": "Six cheap receipt/orchestration tests; no model, no numerical simulation."
+    },
+    {
+      "id": "accounting",
+      "category": "accounting",
+      "evidence": "analysis/AB_confirmatory_execution_20261101/sol_parallel_acceptance/concurrency_migration_v1/tests.json",
+      "pointer": "/returncode",
+      "op": "eq",
+      "expected": 0,
+      "reason": "Six cheap receipt/orchestration tests; no model, no numerical simulation."
+    },
+    {
+      "id": "restart",
+      "category": "restart",
+      "evidence": "analysis/AB_confirmatory_execution_20261101/sol_parallel_acceptance/concurrency_migration_v1/tests.json",
+      "pointer": "/returncode",
+      "op": "eq",
+      "expected": 0,
+      "reason": "Six cheap receipt/orchestration tests; no model, no numerical simulation."
+    }
+  ],
+  "circuits": [],
+  "structural_scope": "Orchestration only; canonical worker verification remains unchanged. No model execution.",
+  "entrypoint": null,
+  "schedule": null,
+  "budget": null
+}

@@ -1,0 +1,112 @@
+{
+  "schema_version": 1,
+  "id": "B_descriptive_v8_analysis_B_descriptive_analysis_v9",
+  "kind": "experiment",
+  "primary_agent": "/root/sol_parallel_acceptance",
+  "purpose": "Unchanged frozen descriptive B v8 final report from accepted original fixed256 TEST;0model calls.",
+  "tracked_files": [
+    "ab_confirmatory_20261101/__init__.py",
+    "ab_confirmatory_20261101/admission_a_v2.py",
+    "ab_confirmatory_20261101/analyze_b_descriptive_v8.py",
+    "ab_confirmatory_20261101/b_precision_calibration_v6.py",
+    "ab_confirmatory_20261101/baselines_b.py",
+    "ab_confirmatory_20261101/campaign_authorization.py",
+    "ab_confirmatory_20261101/eligibility_calibration_v3.py",
+    "ab_confirmatory_20261101/eligibility_paths_v5.py",
+    "ab_confirmatory_20261101/fitting.py",
+    "ab_confirmatory_20261101/native.py",
+    "ab_confirmatory_20261101/native_tail_b.py",
+    "ab_confirmatory_20261101/offline_io_v3.py",
+    "ab_confirmatory_20261101/offline_io_v4.py",
+    "ab_confirmatory_20261101/precision.py",
+    "ab_confirmatory_20261101/precision_candidate_v6.py",
+    "ab_confirmatory_20261101/prepare.py",
+    "ab_confirmatory_20261101/prepare_b_descriptive_analysis_v9.py",
+    "ab_confirmatory_20261101/recovery_a_status_v1.py",
+    "ab_confirmatory_20261101/runtime.py",
+    "ab_confirmatory_20261101/schedule_a.py",
+    "ab_confirmatory_20261101/schedule_a_v2.py",
+    "ab_confirmatory_20261101/selector_v3.py",
+    "ab_confirmatory_20261101/statistics.py",
+    "ab_confirmatory_20261101/transcoder.py",
+    "ab_confirmatory_20261101/worker_a.py",
+    "ab_confirmatory_20261101/worker_a_estimation_v7.py",
+    "ab_confirmatory_20261101/worker_a_v2.py",
+    "ab_confirmatory_20261101/worker_b_descriptive_v8.py",
+    "ab_confirmatory_20261101/worker_b_evaluate.py",
+    "ab_confirmatory_20261101/worker_b_production_v2.py",
+    "analysis/AB_confirmatory_execution_20261101/B_descriptive_analysis_v9/evidence.json",
+    "analysis/AB_confirmatory_execution_20261101/close_short_pilot_imports_v1.py",
+    "research_checks/__init__.py",
+    "research_checks/gate.py",
+    "research_checks/persistence.py",
+    "research_checks/reachability.py"
+  ],
+  "tracked_trees": [],
+  "input_manifests": [
+    "analysis/AB_confirmatory_execution_20261101/B_descriptive_analysis_v9/input_manifest.json"
+  ],
+  "gates": [
+    {
+      "id": "hooks",
+      "category": "hooks",
+      "evidence": "analysis/AB_confirmatory_execution_20261101/B_descriptive_analysis_v9/evidence.json",
+      "pointer": "/model_calls",
+      "op": "eq",
+      "expected": 0,
+      "reason": "Only accepted immutable raw input; no model calls or method selection."
+    },
+    {
+      "id": "data",
+      "category": "data",
+      "evidence": "analysis/AB_confirmatory_execution_20261101/B_descriptive_analysis_v9/evidence.json",
+      "pointer": "/model_calls",
+      "op": "eq",
+      "expected": 0,
+      "reason": "Only accepted immutable raw input; no model calls or method selection."
+    },
+    {
+      "id": "pilot",
+      "category": "pilot",
+      "evidence": "analysis/AB_confirmatory_execution_20261101/B_descriptive_analysis_v9/evidence.json",
+      "pointer": "/model_calls",
+      "op": "eq",
+      "expected": 0,
+      "reason": "Only accepted immutable raw input; no model calls or method selection."
+    },
+    {
+      "id": "accounting",
+      "category": "accounting",
+      "evidence": "analysis/AB_confirmatory_execution_20261101/B_descriptive_analysis_v9/evidence.json",
+      "pointer": "/model_calls",
+      "op": "eq",
+      "expected": 0,
+      "reason": "Only accepted immutable raw input; no model calls or method selection."
+    },
+    {
+      "id": "restart",
+      "category": "restart",
+      "evidence": "analysis/AB_confirmatory_execution_20261101/B_descriptive_analysis_v9/evidence.json",
+      "pointer": "/model_calls",
+      "op": "eq",
+      "expected": 0,
+      "reason": "Only accepted immutable raw input; no model calls or method selection."
+    }
+  ],
+  "circuits": [],
+  "structural_scope": "Offline finite-corpus report and prospectively specified1999-draw v6 CIs only.",
+  "entrypoint": {
+    "module": "ab_confirmatory_20261101.analyze_b_descriptive_v8",
+    "args": [
+      "--packet",
+      "analysis/AB_confirmatory_execution_20261101/B_descriptive_TEST_v8",
+      "--out",
+      "analysis/AB_confirmatory_execution_20261101/B_descriptive_analysis_v9/result.json"
+    ]
+  },
+  "schedule": "analysis/AB_confirmatory_execution_20261101/B_descriptive_analysis_v9/operations.json",
+  "budget": {
+    "forward": 0,
+    "backward": 0
+  }
+}

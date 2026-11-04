@@ -1,0 +1,11 @@
+{
+  "source_index": "analysis/AB_five_experiments_20261103/B_mechanism/source_index.json",
+  "schedule": "analysis/AB_five_experiments_20261103/B_mechanism/operations.json",
+  "output": "analysis/AB_five_experiments_20261103/B_mechanism/run_v3",
+  "input_manifest": "analysis/AB_five_experiments_20261103/B_mechanism/input_manifest_v3.json",
+  "model_identity": "analysis/AB_confirmatory_execution_20261101/B_fit_primary_v1/model_identity.json",
+  "frozen_fit": "analysis/AB_confirmatory_execution_20261101/B_fit_primary_v1/run/FIT_B.json",
+  "threads": 1,
+  "adoption": "analysis/AB_five_experiments_20261103/B_mechanism/adoption_v3.json",
+  "tc_threads": 2
+}

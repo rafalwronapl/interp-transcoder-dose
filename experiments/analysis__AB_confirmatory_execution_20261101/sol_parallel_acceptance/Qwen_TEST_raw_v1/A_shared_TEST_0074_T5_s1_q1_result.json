@@ -1,0 +1,35 @@
+{
+  "document": {
+    "id": "A_shared_TEST_0074_T5_s1_q1",
+    "donor": "A_shared_TEST_0074_T5_s0_q1",
+    "block": "A_shared_TEST_0074",
+    "study": "A",
+    "cohort": "shared",
+    "split": "TEST",
+    "index": 74,
+    "frame": "T5",
+    "side": 1,
+    "q": 1,
+    "text": "Everyone agrees that the angiologists, unlike the playgoers,"
+  },
+  "files": {
+    "analysis/A_short_replication_qwen_20261101/TEST_fixed256_v3/run/completed/capture_A_shared_TEST_0074_T5_s1_q1.json": "173d8d7bb2ed0deb2b22c13e22908b23ab77593933845268eb2e2cc9b64a9157",
+    "analysis/A_short_replication_qwen_20261101/TEST_fixed256_v3/run/cache/28def5037000971352e141685e270bb4670a53dcef27d2ab01081492036ff1ea.json": "12fbac1922b3fbd34173cae014906f6e7754d17fa7a555400e60df6edc816ff4",
+    "analysis/A_short_replication_qwen_20261101/TEST_fixed256_v3/run/completed/capture_A_shared_TEST_0074_T5_s0_q1.json": "771a4ce89db59bd47fe3902c7333734813b706e91b98f8811d071b25cdb56af1",
+    "analysis/A_short_replication_qwen_20261101/TEST_fixed256_v3/run/cache/85289142015ce7b90d1f7b9d86b95b1460710ecd5f4be997c01b96bfb7faa897.json": "5293676e0af6e6f0ff66ac64633a7b4d9986ef73ec799a94d0e3a8c1bf0a0bbc",
+    "analysis/A_short_replication_qwen_20261101/TEST_fixed256_v3/run/completed/suffix_A_shared_TEST_0074_T5_s1_q1_native.json": "e3ef3f58ef8974966c608c26df693b945eecbf5e18b34806ef7884c3347e6103",
+    "analysis/A_short_replication_qwen_20261101/TEST_fixed256_v3/run/cache/a629f2b9817dab5b1743eee539508fba2995f17a6c1f379d03894fc8e379c198.json": "08168ddcbc5d0abfb45346c1e471fe07c6fcfe26e29314efbf31f711f679962f",
+    "analysis/A_short_replication_qwen_20261101/TEST_fixed256_v3/run/completed/suffix_A_shared_TEST_0074_T5_s1_q1_P.json": "ef9a7d7b141e09d54b7aebdd8ef598c9168a9fe4f2a4a1b5ff2dbbfdb8eea3d9",
+    "analysis/A_short_replication_qwen_20261101/TEST_fixed256_v3/run/cache/7b949ccb7f19074dc38be91ef86782c25b216d2948ec1bfd6ec767edb0bd191a.json": "24b435b5cb918ade764158718d8215591313fdf10c14724beba0522166b0f86c",
+    "analysis/A_short_replication_qwen_20261101/TEST_fixed256_v3/run/completed/suffix_A_shared_TEST_0074_T5_s1_q1_U0.json": "f618062136213a5cddfe2b0d917810c994536a7dd8d86e316d2ed8e3acc58198",
+    "analysis/A_short_replication_qwen_20261101/TEST_fixed256_v3/run/cache/b8d925ed2115bb577f34a547ac04ea612eadbee999f27869341de28786573d7e.json": "0d27073587fa28cbb805651ff10fe37e863f062c53ee2fa69de4fd7ffc88fbc5",
+    "analysis/A_short_replication_qwen_20261101/TEST_fixed256_v3/run/results/A_shared_TEST_0074_T5_s1_q1.json": "531645dc8c52737d88ad6902c4c50a5f60ef03506addafa7b444a7c400e6a04c"
+  },
+  "identity": {
+    "model": "6c0a47f03e2523c9a91ba0c2d0619671e7ab16f1b27a2cd039742997148c9269",
+    "code": "a7e0eb7c001d76058f8622dd71c6073784e9c3472bc2bdfbea4184b2cbba1bb5"
+  },
+  "own_fit_sha256": "56d4c8fe1448ff02683ab4b001243d56b983c128e33d65811919b54e23af4ccc",
+  "max_target_error": 0.0,
+  "all_saved_loss_vector_arithmetic_passed": true
+}

@@ -1,0 +1,41 @@
+{
+  "document": {
+    "id": "A_shared_PILOT_0001_T5_s1_q0",
+    "donor": "A_shared_PILOT_0001_T5_s0_q0",
+    "block": "A_shared_PILOT_0001",
+    "study": "A",
+    "cohort": "shared",
+    "split": "PILOT",
+    "index": 1,
+    "frame": "T5",
+    "side": 1,
+    "q": 0,
+    "text": "Everyone agrees that the agglomerators, unlike the penpusher,"
+  },
+  "files": {
+    "analysis/A_short_replication_llama_20261101/PILOT_ready_v1/run/completed/capture_A_shared_PILOT_0001_T5_s1_q0.json": "fb7adb0ed1e19b42001de3856bdb952e087d696b03d4e18ebd558c054c40f992",
+    "analysis/A_short_replication_llama_20261101/PILOT_ready_v1/run/cache/f6ca1a43d14341fb471899e9179c30bf118ea101dbcba639e33f8f60eb1b9780.json": "1ec68ad5d2cbf7ab6add055f0a23c968b0e1f5fc0e080c7149b0187ce41bbda0",
+    "analysis/A_short_replication_llama_20261101/PILOT_ready_v1/run/completed/capture_A_shared_PILOT_0001_T5_s0_q0.json": "f6ab8129f761f189b4cdd588efca88105b30944b12434c09473923f90cd5517a",
+    "analysis/A_short_replication_llama_20261101/PILOT_ready_v1/run/cache/0671704f661b27dfc47e9e6c2fe32be270dc40efed214e7dc75a8ae8905ac386.json": "a600a3b5d7f606a78314523d914318a785d3a425a5ac3a02f215f32ccee61816",
+    "analysis/A_short_replication_llama_20261101/PILOT_ready_v1/run/completed/suffix_A_shared_PILOT_0001_T5_s1_q0_native.json": "ce00897d939bc8f567639ff879f364033f9b852869fc3193d18f9522f6a08b83",
+    "analysis/A_short_replication_llama_20261101/PILOT_ready_v1/run/cache/b4db593c3140a0e7948dc4f246337f441b9ce7331b099306e23f68d3ff08a8ff.json": "ec410b5236fbab621587963131545632b7c8d948ac6143356bd1332b8b6ba0c3",
+    "analysis/A_short_replication_llama_20261101/PILOT_ready_v1/run/completed/suffix_A_shared_PILOT_0001_T5_s1_q0_r0_P.json": "bdb8d2b98095ad9c444e21bb8edf1725bfe24e8da4a95306a2f38f9fe1cdf0f0",
+    "analysis/A_short_replication_llama_20261101/PILOT_ready_v1/run/cache/bcdd942a54d157ef7d48760964c5ab2798c932a4de52b06b525eef860d872775.json": "31ff5c16141c86959fc995ab1dc498e2c15ec5518396c562a9ba902a75d34e11",
+    "analysis/A_short_replication_llama_20261101/PILOT_ready_v1/run/completed/suffix_A_shared_PILOT_0001_T5_s1_q0_r0_U0.json": "4a4ad123992a182f36ed373f3e882be2fdafd1e4c94657880323eedc5bf908b1",
+    "analysis/A_short_replication_llama_20261101/PILOT_ready_v1/run/cache/fd5233c4b722166d971390616179f973bf6d142c648578cacb4396502932565e.json": "ee0568627d45e053f8dccd0de3b4ab242693ede19322ae3aaad4869491edeba2",
+    "analysis/A_short_replication_llama_20261101/PILOT_ready_v1/run/results/r0/A_shared_PILOT_0001_T5_s1_q0.json": "824e92a2b6edbc729c6ed3e1d92ea8f86f74f291b536e511da55e5930acaf858"
+  },
+  "identity": {
+    "model": "5fb518228899f9c15e3db99e01c11d159af8451337dee6d85c28f3880fde2b29",
+    "code": "e48716286b27b7893bdf75395d4dfbf107f3bc0b6754278bebc0a8ab8bbd5f76",
+    "corpus": "5e3ee9294d9b5402b9e188046c61bc18efbd537cbeda0460d37e2bf22daf2ff5",
+    "tokens": "6f4cd89ddff77b0b823e47390cc3236a8a3cafb3cca252d66d06997c2bf60a81",
+    "config": "analysis/A_short_replication_llama_20261101/PILOT_ready_v1/config.json",
+    "frozen_fit_hashes": {
+      "r0": "9215ff51a78cfd3a5c9a8149332c17fe9a8d50a8571d6943f1cc2059fb52c833"
+    }
+  },
+  "own_fit_sha256": "9215ff51a78cfd3a5c9a8149332c17fe9a8d50a8571d6943f1cc2059fb52c833",
+  "max_target_error": 0.0,
+  "all_saved_loss_vector_arithmetic_passed": true
+}

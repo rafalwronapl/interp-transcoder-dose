@@ -1,0 +1,35 @@
+{
+  "document": {
+    "id": "A_shared_TEST_0127_T5_s0_q0",
+    "donor": "A_shared_TEST_0127_T5_s1_q0",
+    "block": "A_shared_TEST_0127",
+    "study": "A",
+    "cohort": "shared",
+    "split": "TEST",
+    "index": 127,
+    "frame": "T5",
+    "side": 0,
+    "q": 0,
+    "text": "Everyone agrees that the convalescent, unlike the souk,"
+  },
+  "files": {
+    "analysis/A_short_replication_qwen_20261101/TEST_fixed256_v3/run/completed/capture_A_shared_TEST_0127_T5_s0_q0.json": "0b5ef7e377dc54c4f4c01ad1ba3d33751c9a633dd268da56b31e11ea66cee783",
+    "analysis/A_short_replication_qwen_20261101/TEST_fixed256_v3/run/cache/90fe6fe9bf222cd5eb9ea95c9899c990bee9a252501b8ed838f1d7599c0e14d3.json": "22feb9778ee656be4eb17acee23264ea34848a6085621f5f0fbc9da4cd970bdb",
+    "analysis/A_short_replication_qwen_20261101/TEST_fixed256_v3/run/completed/capture_A_shared_TEST_0127_T5_s1_q0.json": "67faea6a4f883fef0703216489dfd4955710efeeec3f7f42297492bb3d790173",
+    "analysis/A_short_replication_qwen_20261101/TEST_fixed256_v3/run/cache/8cd7ca7ae5ee8f935f2ee532620747e5307dbbda0315af96997c84fe0bfa798c.json": "57949c8756637ccee4d6f4290485138e54c344b98899d75de6fb91bca33709f4",
+    "analysis/A_short_replication_qwen_20261101/TEST_fixed256_v3/run/completed/suffix_A_shared_TEST_0127_T5_s0_q0_native.json": "695d1f541888d2ef0b579620862bfc4636038099584f672c4bde462b5e64d436",
+    "analysis/A_short_replication_qwen_20261101/TEST_fixed256_v3/run/cache/3888f727f55824569f300b38f864c452b645727f4c9cd2c6ed35de9d0bd12c37.json": "0f498a008845607e85ca98c9d45d916a556040cbaaa1c3c332d2d3e63acfaab7",
+    "analysis/A_short_replication_qwen_20261101/TEST_fixed256_v3/run/completed/suffix_A_shared_TEST_0127_T5_s0_q0_P.json": "ee5aab177c1ec533482e17fb8fa30691e40205c9db36dae86043c4b3ba10050f",
+    "analysis/A_short_replication_qwen_20261101/TEST_fixed256_v3/run/cache/9bc881e0a8a44e2ddb78897c9c5d4afb0864c6eb1c0151f8f449831ae7420dbb.json": "c6b795414f12740ebd9b57029bc298912408ffef14f285d18ccca77014d9c85f",
+    "analysis/A_short_replication_qwen_20261101/TEST_fixed256_v3/run/completed/suffix_A_shared_TEST_0127_T5_s0_q0_U0.json": "3a6f5c0232c1a85c4ddbd0fea693449706a333107ce0ef040f19a324d61133bd",
+    "analysis/A_short_replication_qwen_20261101/TEST_fixed256_v3/run/cache/0dabc10beaf922756d3e02546e817f9019ef90c60473ef2f5a79de6ac3b2b29d.json": "96fbc3a364d3c8dac4e0da7b6202b0730783b11ef602535e5490eac389a0c4bb",
+    "analysis/A_short_replication_qwen_20261101/TEST_fixed256_v3/run/results/A_shared_TEST_0127_T5_s0_q0.json": "89c470402c662031025c289eb4223f837dcd07f444b63324d5ea3b34d7936986"
+  },
+  "identity": {
+    "model": "6c0a47f03e2523c9a91ba0c2d0619671e7ab16f1b27a2cd039742997148c9269",
+    "code": "a7e0eb7c001d76058f8622dd71c6073784e9c3472bc2bdfbea4184b2cbba1bb5"
+  },
+  "own_fit_sha256": "56d4c8fe1448ff02683ab4b001243d56b983c128e33d65811919b54e23af4ccc",
+  "max_target_error": 0.0,
+  "all_saved_loss_vector_arithmetic_passed": true
+}

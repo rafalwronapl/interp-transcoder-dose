@@ -1,0 +1,35 @@
+{
+  "corpus_sha256": "1a6e533dce3bdf9236e5d3d3499a268f7682c9e5523a5e32d3cd31e8a88fbfd8",
+  "split_counts": {
+    "FIT_MAP": 128,
+    "FIT_U": 128,
+    "PILOT": 256,
+    "TEST": 2048
+  },
+  "checks": {
+    "qwen": {
+      "documents": 2560,
+      "blocked_drafts": 4,
+      "scheduled_forward_counts": [
+        284,
+        1024,
+        4096,
+        8192
+      ],
+      "backward": 0
+    },
+    "llama": {
+      "documents": 2560,
+      "blocked_drafts": 4,
+      "scheduled_forward_counts": [
+        284,
+        1024,
+        4096,
+        8192
+      ],
+      "backward": 0
+    }
+  },
+  "no_model_calls": true,
+  "no_simulation": true
+}

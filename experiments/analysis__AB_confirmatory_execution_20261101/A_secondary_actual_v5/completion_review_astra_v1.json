@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "snapshot_sha256": "b13f0013fbf07778169c4dbb65ea17000392aa1e623e3f807f3c0dbd566035bf",
+  "reviewer_id": "/root/astra_goals_and_concurrency_review",
+  "independent": true,
+  "verdict": "approved",
+  "topics_checked": [
+    "design",
+    "implementation",
+    "data",
+    "cost",
+    "claims"
+  ],
+  "findings": [
+    {
+      "id": "A-SECONDARY-COMPLETION",
+      "severity": "low",
+      "status": "resolved",
+      "evidence": "AllpreRunhashesunchangedincompletion; actualresult/currentfocusedreview/runtimefa793exit0hashesmatch. Existingindependent30cellmean/SE/harm/zero/native checks and86cachedstatreceiptchecksreused.",
+      "resolution": "Acceptformalcompletion of one-r0descriptiveanalysis,0modelcalls."
+    },
+    {
+      "id": "A-SECONDARY-SCOPE",
+      "severity": "low",
+      "status": "accepted",
+      "evidence": "30frame/armcells,256blocks,1999drawsonce,nominalpointwise99%,coverage_establishedfalse.",
+      "resolution": "Noadditionalprimarysupportslots, no15FITstabilityorpopulationcoverageclaim."
+    }
+  ],
+  "limitations": "Narrowmetadataadoption of focused_output_review_v1; no bootstrap/model/refit/fullrawrehash or duplicatecanonicalverification."
+}

@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "snapshot_sha256": "728ab3dcd5a788a9daedee251a5af62c476aef309b71251917a5b8c099a98a25",
+  "reviewer_id": "/root/astra_preparation_audit",
+  "independent": true,
+  "verdict": "approved",
+  "topics_checked": [
+    "design",
+    "implementation",
+    "data",
+    "cost",
+    "claims"
+  ],
+  "findings": [],
+  "limitations": "Eighteen fixed synthetic16FIT crossed pointwise mean-coverage cases;2000 datasets each,1999 production draws,18 one-sided CP bounds>=.95. No added native FIT and no simultaneous four-component claim. Zero model operations. Reuses independently reviewed unchanged scientific sources and saved tests, not rerun. Launcher amendment independently reviewed by Sol, who did not author it. One new CPU calibration at a time beside existing family process; no duplicate cases or outcome-dependent extension. Completion and eligibility interpretation require independent review."
+}

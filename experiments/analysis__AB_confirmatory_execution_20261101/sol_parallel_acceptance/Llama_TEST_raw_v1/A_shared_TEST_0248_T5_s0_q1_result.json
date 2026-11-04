@@ -1,0 +1,41 @@
+{
+  "document": {
+    "id": "A_shared_TEST_0248_T5_s0_q1",
+    "donor": "A_shared_TEST_0248_T5_s1_q1",
+    "block": "A_shared_TEST_0248",
+    "study": "A",
+    "cohort": "shared",
+    "split": "TEST",
+    "index": 248,
+    "frame": "T5",
+    "side": 0,
+    "q": 1,
+    "text": "Everyone agrees that the segregator, unlike the tetrodes,"
+  },
+  "files": {
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/completed/capture_A_shared_TEST_0248_T5_s0_q1.json": "c83549bf2e76fe2a2ee5baca2dc887c0a6ee459f386af2317ddcee82cfa48762",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/cache/5baf003eed8e05e5cfb47d4ea673799650eedbadb77af4556f6e11184a6dfacc.json": "76b5465d8852abc76d8e110065c10126fa1f9a2fe82e6e1c7e947ee77bcd997a",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/completed/capture_A_shared_TEST_0248_T5_s1_q1.json": "5b774556fea519bd638214f143f772c1ec78934794a6324403078df47a6e3441",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/cache/88aa2a2d592eb126a4d01208112c212515abff095488cfd0fe60f8f807a0831a.json": "c8eb40b31c34b9b6a5d831f15b0ccbb09742db75ce55845effa1b93aca9b4537",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/completed/suffix_A_shared_TEST_0248_T5_s0_q1_native.json": "353fc5579df67718356aa19f9524a997f8520be8d86e968df00101efd2f5c9a8",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/cache/faebfefea70fdbdd9340c483c27683b25550cefd12599ecf5ec6ec3314aefc41.json": "1f97c3f222df9e3e85c4fee1fb5adce4de8bc94d175d524623b0c7b6ebb9371d",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/completed/suffix_A_shared_TEST_0248_T5_s0_q1_r0_P.json": "b44b8dd435ad27a3c97e56538f9f37a9c9a0861e9559b0d342c59cc962f2a102",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/cache/1718d1edb2e232a7d5ccea5e26ea8c4c538ee0fcc4530c0045c48ba861d562a5.json": "c1b30beba325d261af1917e95045343b8ec40ba007d6e4b4a14c248f1efa5a0d",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/completed/suffix_A_shared_TEST_0248_T5_s0_q1_r0_U0.json": "1753c2ff531095fc065903e59ec747a033ad53472c314dcc0fcbb012bcf08192",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/cache/4af7ba595c01fc8d18531de28fdde4e3b35b4211659ef621d4415a640150401a.json": "6b09363bd69743fc50abd51e5e06c61e474b10807bb61b0eec711e7e920887e5",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/results/r0/A_shared_TEST_0248_T5_s0_q1.json": "141b13af19c6874737cb444f65dcd69d63105c60616c5b8d64eb33f761bfb489"
+  },
+  "identity": {
+    "model": "5fb518228899f9c15e3db99e01c11d159af8451337dee6d85c28f3880fde2b29",
+    "code": "25737ad0d8d462c020f979d68f61d55e90b2e2668df0fb2d0a8008b19f7db7b7",
+    "corpus": "361064de9ca092fcd6a97649eb7daac7f01b03a084cb021f6e6d0b819c00180c",
+    "tokens": "64569cc7e32d060a398bb0dba55885712cb963aa4475dbaf847e795f4b4926f9",
+    "config": "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/config.json",
+    "frozen_fit_hashes": {
+      "r0": "9215ff51a78cfd3a5c9a8149332c17fe9a8d50a8571d6943f1cc2059fb52c833"
+    }
+  },
+  "own_fit_sha256": "9215ff51a78cfd3a5c9a8149332c17fe9a8d50a8571d6943f1cc2059fb52c833",
+  "max_target_error": 0.0,
+  "all_saved_loss_vector_arithmetic_passed": true
+}

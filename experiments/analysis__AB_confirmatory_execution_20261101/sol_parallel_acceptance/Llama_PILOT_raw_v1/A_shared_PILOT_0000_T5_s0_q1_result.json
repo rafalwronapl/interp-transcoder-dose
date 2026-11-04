@@ -1,0 +1,41 @@
+{
+  "document": {
+    "id": "A_shared_PILOT_0000_T5_s0_q1",
+    "donor": "A_shared_PILOT_0000_T5_s1_q1",
+    "block": "A_shared_PILOT_0000",
+    "study": "A",
+    "cohort": "shared",
+    "split": "PILOT",
+    "index": 0,
+    "frame": "T5",
+    "side": 0,
+    "q": 1,
+    "text": "Everyone agrees that the skycap, unlike the norias,"
+  },
+  "files": {
+    "analysis/A_short_replication_llama_20261101/PILOT_ready_v1/run/completed/capture_A_shared_PILOT_0000_T5_s0_q1.json": "23e6bff1c617d509e9365b48747a184f87c64c61701ef7f62fad8beb852115ed",
+    "analysis/A_short_replication_llama_20261101/PILOT_ready_v1/run/cache/271db01edbc28bb750257f6804c315a9463890341421a634c545eb489cb9b3f3.json": "7ed8c2913d1d45c45294897768fe48ad2e229e9fe9914458ef65ae705f54b21b",
+    "analysis/A_short_replication_llama_20261101/PILOT_ready_v1/run/completed/capture_A_shared_PILOT_0000_T5_s1_q1.json": "96573c632a237c33cd97d3f7cb597ebb60f473e3b6b7cec07f244fb610bf7c55",
+    "analysis/A_short_replication_llama_20261101/PILOT_ready_v1/run/cache/31ad206282be3ef949a7a3263ea3f974f00aec9f0231d3dea10598f86e6db069.json": "cc55dea9b90e0e91e354181c04f4b2bc7ebe307056bc6b983201407f96f33664",
+    "analysis/A_short_replication_llama_20261101/PILOT_ready_v1/run/completed/suffix_A_shared_PILOT_0000_T5_s0_q1_native.json": "0b8ce02911dc1707a70fd376ec929324a91b02b934ad7f036a83ba47950f9bfa",
+    "analysis/A_short_replication_llama_20261101/PILOT_ready_v1/run/cache/71d06cbba90dfbd0e31898db210af2096e21906a00f0f2639f16cb1eb231bab5.json": "988dd5e82a31ce92d21799d61adc162d43d6a1abcd24eb90d018d83aa44b509a",
+    "analysis/A_short_replication_llama_20261101/PILOT_ready_v1/run/completed/suffix_A_shared_PILOT_0000_T5_s0_q1_r0_P.json": "ad173d9b4284e7d8475f42dbd19a118988c0bfa1a38f6968ad2aa3ba10d7bf1a",
+    "analysis/A_short_replication_llama_20261101/PILOT_ready_v1/run/cache/6dec9b514e2a77e52f4a8b4a37de1092f4d9142725e17e0bd53f01729e37ac7a.json": "1cb86d297e15dc316c6d3d7470a6c2c5e15738d7b89fd5cae6ce60c299a2845e",
+    "analysis/A_short_replication_llama_20261101/PILOT_ready_v1/run/completed/suffix_A_shared_PILOT_0000_T5_s0_q1_r0_U0.json": "f06c8191c9cb8664baca256796b3ee31b6182e7887cffc8ffba196a6b41b90b5",
+    "analysis/A_short_replication_llama_20261101/PILOT_ready_v1/run/cache/bf3eb64ae6c672f07533f1c3d23176c6cb29287bf75114ee52fcf4a6cbfc73a5.json": "952cc3ea3a603c1332457c67facfacbf27e7f156b1012dbfda846cd6c465124f",
+    "analysis/A_short_replication_llama_20261101/PILOT_ready_v1/run/results/r0/A_shared_PILOT_0000_T5_s0_q1.json": "decc6afa6ea36d7157bd99ad76ea4766a26e42c65a53fcea2e5c9f49a20928f9"
+  },
+  "identity": {
+    "model": "5fb518228899f9c15e3db99e01c11d159af8451337dee6d85c28f3880fde2b29",
+    "code": "e48716286b27b7893bdf75395d4dfbf107f3bc0b6754278bebc0a8ab8bbd5f76",
+    "corpus": "5e3ee9294d9b5402b9e188046c61bc18efbd537cbeda0460d37e2bf22daf2ff5",
+    "tokens": "6f4cd89ddff77b0b823e47390cc3236a8a3cafb3cca252d66d06997c2bf60a81",
+    "config": "analysis/A_short_replication_llama_20261101/PILOT_ready_v1/config.json",
+    "frozen_fit_hashes": {
+      "r0": "9215ff51a78cfd3a5c9a8149332c17fe9a8d50a8571d6943f1cc2059fb52c833"
+    }
+  },
+  "own_fit_sha256": "9215ff51a78cfd3a5c9a8149332c17fe9a8d50a8571d6943f1cc2059fb52c833",
+  "max_target_error": 0.0,
+  "all_saved_loss_vector_arithmetic_passed": true
+}

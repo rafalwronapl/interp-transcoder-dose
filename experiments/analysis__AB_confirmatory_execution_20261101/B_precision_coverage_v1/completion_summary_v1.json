@@ -1,0 +1,113 @@
+{
+  "cases": 8,
+  "synthetic_datasets": 16000,
+  "reduced_draws": 1999,
+  "paired_production_datasets": 8000,
+  "production_draws": 20000,
+  "passed": 2,
+  "failed": 6,
+  "N128_precision_eligible": false,
+  "N256_precision_eligible": false,
+  "model_calls": 0,
+  "runtime_returncode": 0,
+  "completed_utc": "2026-11-01T12:28:45.876555+00:00",
+  "case_rows": [
+    {
+      "case": {
+        "distribution": "lognormal035",
+        "n": 128
+      },
+      "passed": true,
+      "coverage_successes": 1950,
+      "production_lower": 0.9559296750892663,
+      "reduced_lower": 0.9638632513728957,
+      "overstatement_upper": 0.007933576283629475,
+      "undefined": 0
+    },
+    {
+      "case": {
+        "distribution": "pareto3",
+        "n": 128
+      },
+      "passed": false,
+      "coverage_successes": 1883,
+      "production_lower": 0.9158759121206861,
+      "reduced_lower": 0.9256897145967776,
+      "overstatement_upper": 0.009813802476091484,
+      "undefined": 0
+    },
+    {
+      "case": {
+        "distribution": "lognormal1",
+        "n": 128
+      },
+      "passed": false,
+      "coverage_successes": 1873,
+      "production_lower": 0.9069576690940714,
+      "reduced_lower": 0.9201455736837921,
+      "overstatement_upper": 0.01318790458972077,
+      "undefined": 0
+    },
+    {
+      "case": {
+        "distribution": "heterogeneous",
+        "n": 128
+      },
+      "passed": false,
+      "coverage_successes": 1894,
+      "production_lower": 0.9220083791457466,
+      "reduced_lower": 0.9318221816218382,
+      "overstatement_upper": 0.009813802476091484,
+      "undefined": 0
+    },
+    {
+      "case": {
+        "distribution": "lognormal035",
+        "n": 256
+      },
+      "passed": true,
+      "coverage_successes": 1951,
+      "production_lower": 0.956520758169132,
+      "reduced_lower": 0.9644543344527614,
+      "overstatement_upper": 0.007933576283629475,
+      "undefined": 0
+    },
+    {
+      "case": {
+        "distribution": "pareto3",
+        "n": 256
+      },
+      "passed": false,
+      "coverage_successes": 1920,
+      "production_lower": 0.9366775803332429,
+      "reduced_lower": 0.9464913828093344,
+      "overstatement_upper": 0.009813802476091484,
+      "undefined": 0
+    },
+    {
+      "case": {
+        "distribution": "lognormal1",
+        "n": 256
+      },
+      "passed": false,
+      "coverage_successes": 1912,
+      "production_lower": 0.9321340565775126,
+      "reduced_lower": 0.9419478590536041,
+      "overstatement_upper": 0.009813802476091484,
+      "undefined": 0
+    },
+    {
+      "case": {
+        "distribution": "heterogeneous",
+        "n": 256
+      },
+      "passed": false,
+      "coverage_successes": 1911,
+      "production_lower": 0.9334483795115636,
+      "reduced_lower": 0.941381955795193,
+      "overstatement_upper": 0.007933576283629475,
+      "undefined": 0
+    }
+  ],
+  "independent_completion_review": "pending"
+}

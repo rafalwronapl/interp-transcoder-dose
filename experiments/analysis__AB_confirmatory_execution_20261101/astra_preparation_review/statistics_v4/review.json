@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "snapshot_sha256": "74236028330a4db64d45a01fe7cf783dd29e1bdc9bf2cd45785109c7246fe3dc",
+  "reviewer_id": "/root/astra_preparation_audit",
+  "independent": true,
+  "verdict": "approved",
+  "topics_checked": [
+    "design",
+    "implementation",
+    "data",
+    "cost",
+    "claims"
+  ],
+  "findings": [],
+  "limitations": "Maintenance preparation only. No calibration, PILOT, TEST or added FIT launch approval. Reviewed current sources and 14 preserved v3 plus 3 v4 test receipts; no duplicate test campaign or model calls. Finite generators and pointwise coverage do not establish distribution-free or simultaneous four-component guarantees. Actual eligibility synthesis and campaign contracts require independent reviews. See REPORT.md."
+}

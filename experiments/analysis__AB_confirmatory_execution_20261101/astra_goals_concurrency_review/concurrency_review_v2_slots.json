@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "snapshot_sha256": "1c06e12a86ed7371a10fc4485bb733165c6adf40d4eb278716b447a6feff847f",
+  "reviewer_id": "/root/astra_goals_and_concurrency_review",
+  "independent": true,
+  "verdict": "approved",
+  "topics_checked": [
+    "design",
+    "implementation",
+    "data",
+    "cost",
+    "claims"
+  ],
+  "findings": [
+    {
+      "id": "TWO-CPU-CROSS-VERSION",
+      "severity": "low",
+      "status": "accepted",
+      "evidence": "Exact running v1 A selector21532/3464 and unchanged cpu.lock independently verified. v2 uses that lock as slot0 and second exclusive slot1;5 cheap fixtures independently PASS including real third-process rejection, shared namespace collision and single model lane.",
+      "resolution": "All future launches use v2; current v1 process and all cache/source bytes preserved."
+    },
+    {
+      "id": "CANONICAL-AND-PROVENANCE",
+      "severity": "low",
+      "status": "accepted",
+      "evidence": "Canonical gate/_worker and v1 launcher hashes unchanged from approved v1 snapshot. Parent and child canonical verification retained, policy separately accepted, exact v1 process identity guarded; stage/output locks shared across versions.",
+      "resolution": "No global lock theft, restart, stale-lock deletion or approval bypass."
+    },
+    {
+      "id": "CAPACITY-SCOPE",
+      "severity": "low",
+      "status": "accepted",
+      "evidence": "Two managed CPU slots plus existing family/background; can total three numerical workers. Recorded4physical/8logical cores and about8.9GiB freeRAM. No speedup guarantee.",
+      "resolution": "User expressly authorizes concurrent A+B; preserve active family/background, monitor resource contention separately."
+    }
+  ],
+  "limitations": "Maintenance/runtime approval only. Exact snapshot reproduced;5 independent cheap tests passed and actual grandfathered process/lock chain checked. No scientific simulation or model run by reviewer. Existing v1 may finish naturally; stale locks fail closed. Controlled session requires all future actors use v2; arbitrary outside legacy CLI actors are outside this migration. Each scientific stage still requires its own approved exact pre-run snapshot. Two managed CPU slots are not a claim of two total system processes or guaranteed wall-clock improvement."
+}

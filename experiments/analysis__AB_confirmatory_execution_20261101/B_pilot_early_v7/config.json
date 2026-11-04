@@ -1,0 +1,52 @@
+{
+  "study": "B",
+  "phase": "PILOT",
+  "corpus": "analysis/AB_confirmatory_execution_20261101/B_pilot_early_v7/corpus.json",
+  "tokens": "analysis/AB_confirmatory_execution_20261101/B_pilot_early_v7/tokens.json",
+  "model_identity": "analysis/AB_confirmatory_execution_20261101/B_fit_primary_v1/model_identity.json",
+  "frozen_fit": "analysis/AB_confirmatory_execution_20261101/B_fit_primary_v1/run/FIT_B.json",
+  "frozen_fit_sha256": "27bc20e2e710a4d3e935750ce0116737a2d1d595fe2608208dbdef5f9ca95b9a",
+  "output": "analysis/AB_confirmatory_execution_20261101/B_pilot_early_v7/run",
+  "threads": 2,
+  "layer": 15,
+  "answer_ids": [
+    1304,
+    668
+  ],
+  "doses": [
+    0.05,
+    0.1,
+    0.25,
+    0.5,
+    1.0,
+    2.0
+  ],
+  "gates": {
+    "margin_parity": 0.0001,
+    "branch_relative": 0.0001,
+    "gradient_relative": 0.0001,
+    "gradient_absolute": 1e-05
+  },
+  "schedule": "analysis/AB_confirmatory_execution_20261101/B_pilot_early_v7/operations.json",
+  "authorization_manifest": "C:\\Users\\rafal\\interpretability-lab\\analysis\\AB_confirmatory_execution_20261101\\B_pilot_only_authorization_v7\\authorization.json",
+  "tail_qualification": "analysis/AB_confirmatory_execution_20261101/B_tail_qualification_v1/run/qualification.json",
+  "tail_qualification_sha256": "e2a66a9d0e50a24462fa7cb1b91e8764fe62c46bef2a5db9ad582911dedf3be9",
+  "statistical_preparation_approved": true,
+  "pilot_only_sources": {
+    "ab_confirmatory_20261101/worker_b_pilot_only_v7.py": "0938df0fb69be6ae35484726770fc80e4984e8adb6ed248b168b831d473dd413",
+    "ab_confirmatory_20261101/prepare_b_pilot_only_v7.py": "e67b4e740fa7e9dc365d39a354d198d4906d8e8bdf742cf225d032cdbb648ee3",
+    "ab_confirmatory_20261101/recovery_a_status_v1.py": "720dbbfe4699538b859b0d01fb8fd0f572279ebbd53c4249b3d0990e89b27c97",
+    "ab_confirmatory_20261101/worker_a_estimation_v7.py": "eee8bf67438acfa2dfd46c96c9e5560484072af3ee133d0646fe28757084f096",
+    "ab_confirmatory_20261101/worker_a_v2.py": "c5b1f3419312f9d45aa8ffc36877ad24dc68b1d4fce9ca4af55b715295e92370",
+    "ab_confirmatory_20261101/worker_a.py": "9bc59b46b9f273791ae57add367506f69aaf3144074f7c4519003a9c44a6b992",
+    "ab_confirmatory_20261101/admission_a_v2.py": "04ba3b93e61ff656fa620e473b6e62fc37fe1e63336f170bb3c419db7a001c74",
+    "ab_confirmatory_20261101/schedule_a_v2.py": "e861dc10dca21554c9abd982e96650061cde104a5567f558cf37b1e39d900c79",
+    "ab_confirmatory_20261101/schedule_a.py": "3d9c2486dccfd7bf0e2d47101be678c9186b143a99b8a244c46dc18b54e97399",
+    "ab_confirmatory_20261101/campaign_authorization.py": "5710e0ee74092ecddb45b0bc53bd55ef49884153326bc3da0ecc2678a963ae44",
+    "ab_confirmatory_20261101/eligibility_paths_v5.py": "54b3ca3185232bfafc95332e12fa56f6ec7b8eb303b42b2144e46e9a1d258f2f"
+  },
+  "scientific_objective_v7": "fixed32_B_PILOT_acquisition_only_no_TEST_or_primary_inference",
+  "TEST_authorized": false,
+  "primary_inference_authorized": false,
+  "validity_scope_v7": "Family qualification failed; acquire fixed nuisance/descriptive PILOT only. No primary support claims or TEST admission."
+}

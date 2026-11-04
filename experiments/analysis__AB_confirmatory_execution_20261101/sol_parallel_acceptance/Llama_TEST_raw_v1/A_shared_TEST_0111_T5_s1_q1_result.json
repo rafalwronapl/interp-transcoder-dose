@@ -1,0 +1,41 @@
+{
+  "document": {
+    "id": "A_shared_TEST_0111_T5_s1_q1",
+    "donor": "A_shared_TEST_0111_T5_s0_q1",
+    "block": "A_shared_TEST_0111",
+    "study": "A",
+    "cohort": "shared",
+    "split": "TEST",
+    "index": 111,
+    "frame": "T5",
+    "side": 1,
+    "q": 1,
+    "text": "Everyone agrees that the tantalizers, unlike the jampans,"
+  },
+  "files": {
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/completed/capture_A_shared_TEST_0111_T5_s1_q1.json": "13d2f15aeb81e3679802710a5f4a5c544759e8ccb6ab645eb8fcecd7bee6d62a",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/cache/6362ecfc5b8d00ca95ece6888510d13a7f1588eb90db82a661d05b71c9650c3f.json": "1ae3b2847e3c58d1804bbd6194012f73a1c80ad566466b46bd7d262596adc461",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/completed/capture_A_shared_TEST_0111_T5_s0_q1.json": "c3fb93f13f9845e3ce5ba680c98a046b8a4e3a97aeb836af0286604544eb15a0",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/cache/51a6d78dc1ddc5a9cd9b4616b704e22635cf2519348e91811830e870ba0e1418.json": "74ca32f0c0c5b88cc50e96b32f1b85af590887727d15b0061307993c5086c041",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/completed/suffix_A_shared_TEST_0111_T5_s1_q1_native.json": "be4812ea879356803667730373017a9552019434967c5e5803bb728bbe9b8c4a",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/cache/c58fc33fa77d68adc162118372ff8f805998359c05996a5324dac72887edbeb4.json": "e13607b5a6f8948c6d993037152a61ddae3843cbb95dc91a46f45091085ed7a8",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/completed/suffix_A_shared_TEST_0111_T5_s1_q1_r0_P.json": "9ac51170f0a7d989d5aa3baa5a4b47539c4c9852f393e8ce72043d89d142d914",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/cache/e08c9fd089a708bf80da5d78507c0bb201ca49fd0175d3dbb512d1db7f910c09.json": "c4d4407dc2035047009bf9f40ac7c493d1c21adc4c9f338d4eb670fe8ed87e56",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/completed/suffix_A_shared_TEST_0111_T5_s1_q1_r0_U0.json": "89ae70b6d8c57162af04af7de1486edb22f5284805cc69cb2003c87fadd90288",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/cache/7e8719469dd596e52b30695035e79a0f7d8a1def6561200800563eefc758eba2.json": "8a8ff1711fcdc0831beba1a3a88a75840dbc9f35b79051db1b6fcb66edc393cc",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/results/r0/A_shared_TEST_0111_T5_s1_q1.json": "141b0d440f580a05a158867906ec14ff71f05e27cb9502b98b0a206a1453fbcc"
+  },
+  "identity": {
+    "model": "5fb518228899f9c15e3db99e01c11d159af8451337dee6d85c28f3880fde2b29",
+    "code": "25737ad0d8d462c020f979d68f61d55e90b2e2668df0fb2d0a8008b19f7db7b7",
+    "corpus": "361064de9ca092fcd6a97649eb7daac7f01b03a084cb021f6e6d0b819c00180c",
+    "tokens": "64569cc7e32d060a398bb0dba55885712cb963aa4475dbaf847e795f4b4926f9",
+    "config": "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/config.json",
+    "frozen_fit_hashes": {
+      "r0": "9215ff51a78cfd3a5c9a8149332c17fe9a8d50a8571d6943f1cc2059fb52c833"
+    }
+  },
+  "own_fit_sha256": "9215ff51a78cfd3a5c9a8149332c17fe9a8d50a8571d6943f1cc2059fb52c833",
+  "max_target_error": 0.0,
+  "all_saved_loss_vector_arithmetic_passed": true
+}

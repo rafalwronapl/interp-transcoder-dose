@@ -1,0 +1,17 @@
+{
+  "kind": "read_only_incremental_audit_watcher",
+  "pid": 8472,
+  "creation_date": "/Date(1793601210766)/",
+  "tool_session": 40003,
+  "source_sha256": "e8e40cab8c56614c8902b4a48a1f72a1b6f64c9a63e6c5c29983d10f24e49d0c",
+  "priority": "BelowNormal",
+  "numeric_threads": 1,
+  "interval_seconds": 60,
+  "max_seconds": 14400,
+  "packet": "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3",
+  "scope": "2048docs256blocks8192F0B; NEWTESTproofs only; reuse prior method/source/FIT audit",
+  "own_FIT_sha256": "9215ff51a78cfd3a5c9a8149332c17fe9a8d50a8571d6943f1cc2059fb52c833",
+  "no_model_refit_bootstrap_MC_calls": true,
+  "no_STATUS_or_liveledger_reads": true,
+  "duplicate_audit_absent_before_launch": true
+}

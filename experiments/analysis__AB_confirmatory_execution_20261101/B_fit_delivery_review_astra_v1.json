@@ -1,0 +1,18 @@
+{
+  "reviewer_id": "/root/astra_preparation_audit",
+  "independent": true,
+  "verdict": "approved",
+  "scope": "Mechanical delivery audit only; substantive B FIT acceptance remains prior hash-bound completion review",
+  "manifest_sha256": "1d0962d2f82c800f2c89cb588cd25927445eb381c37757d733cef6a3b2837f42",
+  "files_verified": 3871,
+  "bytes_verified": 165675591,
+  "all_destination_hashes_match": true,
+  "copied_sources_match": true,
+  "generated_files": [
+    "README.md"
+  ],
+  "omitted_weights": 2,
+  "completion_snapshot": "d0d3ef007a9c3e9741729ccb7c04f007021ac8590f992dabd6d92d48164585f4",
+  "readme_scope": "FIT only; failures and reference amendment preserved; no PILOT/TEST or B1-B3 claim",
+  "limitations": "No measurements/refits/tests repeated. Pretrained weights deliberately omitted; identity hashes retained. Archive not a self-contained reproduction of all contextual article claims."
+}

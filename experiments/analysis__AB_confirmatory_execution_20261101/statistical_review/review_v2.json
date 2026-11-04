@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "reviewer_id": "/root/sol_ab_execution/statistical_review",
+  "independent": true,
+  "verdict": "changes_requested",
+  "scope": "Source-bound methodological assessment of ongoing calibration, not launch approval",
+  "report_sha256": "a4e501c136e6f5cbc2b20e66c51558c57adf69d74268ca48961d70d807198b68",
+  "source_manifest_sha256": "10a3e1cc2160bdea07434f4fd9f81c9c6e8e9c9026ed5d73619d740f8e273e8f",
+  "findings": [
+    {
+      "id": "CALV2-N128",
+      "severity": "high",
+      "status": "open",
+      "evidence": "N128 heterogeneous mean lower simultaneousCP bounds exceed nominal at all3levels",
+      "resolution": "Freeze and independently validate a conservative method amendment before TEST"
+    },
+    {
+      "id": "CALV2-N256",
+      "severity": "high",
+      "status": "open",
+      "evidence": "N256 heterogeneous mean at0.05 upperCP0.061785 exceeds frozen0.06 readiness limit; lowerCP0.046522 does not demonstrate inflation",
+      "resolution": "Preserve failure and do not relax tolerance or mislabel as demonstrated>0.06"
+    }
+  ],
+  "limitations": "No model calls. Calibration v1 unmodified. Factor2 mapping is a candidate requiring new seeds/full-family validation/power; not universal guarantee."
+}

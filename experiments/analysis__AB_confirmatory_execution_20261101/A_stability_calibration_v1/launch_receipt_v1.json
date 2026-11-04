@@ -1,0 +1,27 @@
+﻿{
+    "started_utc":  "2026-11-01T13:55:16.7931630Z",
+    "launcher_pid":  2500,
+    "arguments":  [
+                      "-X",
+                      "utf8",
+                      "-m",
+                      "concurrency_runtime_v2",
+                      "--snapshot",
+                      "analysis/AB_confirmatory_execution_20261101/A_stability_calibration_v1/pre_run_snapshot.json",
+                      "--review",
+                      "analysis/AB_confirmatory_execution_20261101/A_stability_calibration_v1/pre_run_review_astra.json",
+                      "--policy",
+                      "analysis/AB_confirmatory_execution_20261101/sol_parallel_acceptance/concurrency_migration_v2/migration_policy.json",
+                      "--policy-snapshot",
+                      "analysis/AB_confirmatory_execution_20261101/sol_parallel_acceptance/concurrency_migration_v2/snapshot_v1.json",
+                      "--policy-review",
+                      "analysis/AB_confirmatory_execution_20261101/astra_goals_concurrency_review/concurrency_review_v2_slots.json"
+                  ],
+    "snapshot":  "728ab3dcd5a788a9daedee251a5af62c476aef309b71251917a5b8c099a98a25",
+    "migration_snapshot":  "1c06e12a86ed7371a10fc4485bb733165c6adf40d4eb278716b447a6feff847f",
+    "scope":  "18fixedcrossedFIT_TESTstabilitycalibrationcases;0modelcalls;before15FIT",
+    "status":  "launcher_started",
+    "free_RAM_KB":  9168380,
+    "resource_sequence_amendment":  "Explicitreviewed2managedCPUslots supersedes originalone-new-offline schedulingprose only; scienceunchanged",
+    "current_TEST_preserved":  true
+}

@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "snapshot_sha256": "f7431920001830942482efc86656e7b1cbec0b1f05ffd6a3680729beecdf5d3a",
+  "reviewer_id": "/root/fast_followup_review",
+  "independent": true,
+  "verdict": "approved",
+  "topics_checked": [
+    "design",
+    "implementation",
+    "data",
+    "cost",
+    "claims"
+  ],
+  "findings": [
+    {
+      "id": "B_ACTUAL_FIT_SCOPE",
+      "severity": "high",
+      "status": "resolved",
+      "evidence": "Actual32blocks/128documents/so+when replaces incorrect64blocks/so-only description in explicit v2 correction.",
+      "resolution": "Original launched code/protocol/results preserved byte-for-byte; SCOPE_CORRECTION_v2 records source hashes; corrected v2 metadata/report and conditional missing-transfer schedule verified against raw documents. Numeric groups/distributions unchanged; added frame summaries explicitly posthoc."
+    },
+    {
+      "id": "B_ATOMIC_FINAL_OUTPUT",
+      "severity": "low",
+      "status": "accepted",
+      "evidence": "Direct deterministic output writes do not implement full transactional crash-resume.",
+      "resolution": "Accepted bounded cheap stateless cache algebra only; corrupted output is rejected and no measured model result can be silently reused. No robust restart claim allowed."
+    }
+  ],
+  "limitations": "Approved corrected v2 report only; historical original scope labels are wrong and explicitly superseded. Independently verified all815snapshot hashes and preserved original hashes; all5actual group count/norm distributions and W1/tolerances recomputed from128cached preactivations and two parameter arrays. Historical FIT has32independent blocks withso/when frames, full dose1; objectives and analytic bound pool frames. Verified triangle mean-norm upper441.55917967160656 and W1lower305.82751158122767 > fixed207.05807499664814 band. Thus no disjoint size32 group can satisfy this empirical pooled norm band under fixed switch definition; not a causal/semantic/readout uniqueness result, fresh population inference, other-condition claim, or approval for B-MASK. Analytic certificate and frame diagnostics are post-run; heuristic groups unchanged. Zero native/TC model loads or forwards. See independent_completion_audit.json."
+}

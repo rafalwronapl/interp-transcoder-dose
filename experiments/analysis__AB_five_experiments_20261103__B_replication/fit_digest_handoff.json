@@ -1,0 +1,28 @@
+{
+  "child": 14756,
+  "processes": [
+    {
+      "ProcessId": 20808,
+      "ParentProcessId": 7872,
+      "CreationDate": "/Date(1793688046641)/",
+      "CommandLine": "\"C:\\Users\\rafal\\miniconda3\\python.exe\" -m research_checks launch --snapshot analysis/AB_five_experiments_20261103/B_replication/resume_snapshot.json --review analysis/AB_five_experiments_20261103/B_replication/resume_review.json "
+    },
+    {
+      "ProcessId": 14756,
+      "ParentProcessId": 20808,
+      "CreationDate": "/Date(1793688093547)/",
+      "CommandLine": "C:\\Users\\rafal\\miniconda3\\python.exe -m research_checks._worker --snapshot analysis/AB_five_experiments_20261103/B_replication/resume_snapshot.json --review analysis/AB_five_experiments_20261103/B_replication/resume_review.json"
+    }
+  ],
+  "ledger_sha256": "9bf217598fed42472205bf1e9fc36cba83e0feaf584c65cf56bd60338252be36",
+  "lock_sha256": "8d57cd781935737f8f1e0bb00f33adc7a7171bb137a8a06f3be7e9565d3d5835",
+  "observed_status": {
+    "stage": "TEST_curve",
+    "completed": 334,
+    "total": 1536,
+    "logical_attempts": 22129,
+    "scheduled": 80932,
+    "elapsed": 1906.9003645000048
+  },
+  "scope": "Stop only exact B child while at least13 cached contexts remain; no active inference interrupted. Same1B replacement beside alreadyrunning A, no third model."
+}

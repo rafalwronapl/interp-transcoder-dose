@@ -1,0 +1,9 @@
+{
+  "status": "OFFLINE_INVENTORY",
+  "files": 6692,
+  "extra_files": 5788,
+  "observed_words": 89590,
+  "selection": "Initial904 filename corpus/dataset/exposure files + independent reviewer227 alternative prompt/stimuli/sentences/documents/general_text/items/names/nouns/data sources + every historical local .py (excluding git/pycache/node_modules and this new package/output).",
+  "limitation": "Conservative literal local exposure; opaque binary activations not decoded as text; freshness is bounded to enumerated files, not model pretraining.",
+  "review_discovery": "Initial filename-only inventory missed bassoonist in SECOND_LOOK pilot_documents_v1.json. Fixed before lexical selection or model use."
+}

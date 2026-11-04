@@ -1,0 +1,27 @@
+{
+  "ok": true,
+  "checked": [
+    {
+      "index": 6,
+      "completed": 368,
+      "successes": 16,
+      "undefined": 0,
+      "optimistic_final_lower": 0.7996090499720644,
+      "earliest_impossible_stop_verified": true
+    },
+    {
+      "index": 9,
+      "completed": 352,
+      "successes": 0,
+      "undefined": 0,
+      "optimistic_final_lower": 0.7996090499720644,
+      "earliest_impossible_stop_verified": true
+    }
+  ],
+  "total_replicates": 720,
+  "new_model_calls": 0,
+  "new_MC_or_bootstrap": 0,
+  "selected": {
+    "A": "INFEASIBLE_UNDER_FROZEN_CAP"
+  }
+}

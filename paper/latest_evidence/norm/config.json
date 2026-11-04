@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "rho": 101.51097375004979,
+  "rho_rule": "FIT q10 across contexts of min over six fixed group contribution norms",
+  "max_amplification": 4.0,
+  "eps": 25.377743437512447,
+  "frames": ["so", "when"],
+  "operator": "full",
+  "dose": 1.0,
+  "expected_blocks": 32,
+  "expected_contexts": 128,
+  "groups_source": "analysis/AB_fast_followups_20261103/B_switch/FROZEN_GROUPS_v2.json",
+  "fit_source": "analysis/AB_fast_followups_20261103/B_switch/FIT_FEASIBILITY_v2.json",
+  "historical_index": "analysis/AB_five_experiments_20261103/B_mechanism/source_index.json",
+  "historical_run": "analysis/AB_five_experiments_20261103/B_mechanism/run_v3",
+  "model_identity": "analysis/AB_confirmatory_execution_20261101/B_fit_primary_v1/model_identity.json",
+  "output": "analysis/B_norm_control_20261103/run",
+  "threads": 1,
+  "max_forward": 776,
+  "max_backward": 0,
+  "posthoc": true,
+  "scope": "Norm-rescaled TC mask-direction readout diagnostic; no claim of equal native switch counts or native circuit importance"
+}

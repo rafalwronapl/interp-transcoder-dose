@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "snapshot_sha256": "ec5838c61a170e59a3af0c14319761c1f08fd6ae846772cc686dd6ff2ea24316",
+  "reviewer_id": "/root/astra_goals_and_concurrency_review",
+  "independent": true,
+  "verdict": "approved",
+  "topics_checked": [
+    "design",
+    "implementation",
+    "data",
+    "cost",
+    "claims"
+  ],
+  "findings": [
+    {
+      "id": "V6-EXTREME-ESTIMATE",
+      "severity": "medium",
+      "status": "resolved",
+      "evidence": "Legacy raw ratio could overflow despite finite log interval. Candidate now returns exp(theta) with finite guard; actual candidate3PASS evidence and current sources bound.",
+      "resolution": "Fixed before first calibration; numerical and extreme regression receipt checked."
+    },
+    {
+      "id": "V6-DEPENDENCIES",
+      "severity": "medium",
+      "status": "resolved",
+      "evidence": "Direct prepare.py dependency and actual candidate numerical tests now bound in narrow v3 packet.",
+      "resolution": "Exact canonical payload/digest reproduced. Future adapters excluded to protect active identity."
+    },
+    {
+      "id": "V6-SCOPE",
+      "severity": "low",
+      "status": "accepted",
+      "evidence": "Paired12 max-studentized log RMS, shared1999 resamples with recomputed centered IF SE, rank1980, exponentiated intervals and original width goals. Fixedseed61,8cases,2000datasets/case,undefined failure,CPalpha.05/8 lower>=.95.",
+      "resolution": "Approve calibration only. Same historical laws with new independent draws are not unseen-law validation; no higher-order guarantee for Pareto3 or rehabilitation of failed v4."
+    }
+  ],
+  "limitations": "16000 fixed synthetic outer datasets,0model calls. Independently inspected formulas, implementation, identity, protocol, budget and numerical/orchestration test evidence without rerunning production MC/model. Runtime CPU-lane admission requires separate reviewed policy. Actual completed independently accepted per-N coverage required before B PILOT. Future native/selector/eligibility/final packets need independent acceptance. Primary B estimands and thresholds unchanged; no current scientific outcome claim, no optional extension until pass."
+}

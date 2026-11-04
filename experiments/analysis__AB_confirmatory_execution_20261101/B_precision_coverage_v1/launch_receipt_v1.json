@@ -1,0 +1,20 @@
+{
+    "scope":  "pureCPUprecisioncoverage;0forward;0backward;oneNewCPUcalibrationjobalongsidefamily",
+    "arguments":  [
+                      "-m",
+                      "research_checks",
+                      "launch",
+                      "--snapshot",
+                      "analysis/AB_confirmatory_execution_20261101/B_precision_coverage_v1/pre_run_snapshot.json",
+                      "--review",
+                      "analysis/AB_confirmatory_execution_20261101/B_precision_coverage_v1/pre_run_review_astra.json"
+                  ],
+    "launcher_pid":  4612,
+    "existing_python_pids":  [
+                                 4428,
+                                 12416
+                             ],
+    "started_utc":  "2026-11-01T11:08:11.0018681Z",
+    "snapshot":  "c66e39c425fc9c6e202e72c385052f4790dfec84d3db1daa9a41c574bb041faf",
+    "status":  "launcher_started"
+}

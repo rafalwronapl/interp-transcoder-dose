@@ -1,0 +1,25 @@
+﻿{
+    "started_utc":  "2026-11-01T11:58:00.3942548Z",
+    "launcher_pid":  19620,
+    "arguments":  [
+                      "-X",
+                      "utf8",
+                      "-m",
+                      "concurrency_runtime_v1",
+                      "--snapshot",
+                      "analysis/AB_confirmatory_execution_20261101/B_tail_qualification_v1/pre_run_snapshot_v1.json",
+                      "--review",
+                      "analysis/AB_confirmatory_execution_20261101/B_tail_qualification_v1/pre_run_review_astra_v1.json",
+                      "--policy",
+                      "analysis/AB_confirmatory_execution_20261101/sol_parallel_acceptance/concurrency_migration_v1/migration_policy.json",
+                      "--policy-snapshot",
+                      "analysis/AB_confirmatory_execution_20261101/sol_parallel_acceptance/concurrency_migration_v1/snapshot_v3.json",
+                      "--policy-review",
+                      "analysis/AB_confirmatory_execution_20261101/astra_goals_concurrency_review/concurrency_review_v3.json"
+                  ],
+    "snapshot":  "ba4c7f114686a6e5ab4517847228b81166d66797902e87bb13f7c1ce03adbe21",
+    "migration_snapshot":  "c1089be1d7ee60a297dfc84d3211088c516dffa8592f98ee506348db8bbc85ea",
+    "scope":  "Technical4unusedFIT;152forward/8backward;noPILOT/TEST",
+    "status":  "launcher_started",
+    "legacy_CPU_preserved":  true
+}

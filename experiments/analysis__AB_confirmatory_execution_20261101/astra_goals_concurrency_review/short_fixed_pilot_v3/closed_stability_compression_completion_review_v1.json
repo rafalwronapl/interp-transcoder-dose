@@ -1,0 +1,32 @@
+{
+  "reviewer": "/root/astra_goals_and_concurrency_review",
+  "independent": true,
+  "status": "closed_receipt_scope_accepted",
+  "approved_assessment_sha256": "51b59ecbc90487efd9d1e4ad844741db9629697b9f7b3be69d3d6269d98762eb",
+  "receipt_hashes": {
+    "analysis/AB_confirmatory_execution_20261101/storage_probe_v1/compressed_case_11_v1.json": "53f0b4648f1c8e65b9befe99e7e065e8d3421bd9d92b334b1477dfc8e9aa21cb",
+    "analysis/AB_confirmatory_execution_20261101/storage_probe_v1/compressed_case_12_v1.json": "709a393dd0dda35b64b5d4d1444efd176bfb6055c1eadc5e645b21262dc50cc2",
+    "analysis/AB_confirmatory_execution_20261101/storage_probe_v1/compressed_case_13_v1.json": "310edbcaea9630910448520adb07d55a28da670395180b2e4d8347ebdb77eae9",
+    "analysis/AB_confirmatory_execution_20261101/storage_probe_v1/compressed_case_14_v1.json": "63837b57fe7befa412ea13c9f22be113ce7bbcb7abc8d94f9125b82ec77fdf53",
+    "analysis/AB_confirmatory_execution_20261101/storage_probe_v1/compressed_case_15_v1.json": "6fc45653de9756e896d16ea9e2f48292bd1ba0a17ac1657dbfb9e05ec10326f2",
+    "analysis/AB_confirmatory_execution_20261101/storage_probe_v1/compressed_case_16_v1.json": "585ed8a237a9ba5a82d2677c6aa1d080a2e7897d00bafe2a75609930e997105f",
+    "analysis/AB_confirmatory_execution_20261101/storage_probe_v1/compressed_case_17_v1.json": "dfa59fca9d01b106ed2073429aa9fef3a1097830d27755ccd6740f2f06922bc5"
+  },
+  "cases": [
+    "11",
+    "12",
+    "13",
+    "14",
+    "15",
+    "16",
+    "17"
+  ],
+  "files": 14000,
+  "api_reported_storage_saved_bytes": 279285823,
+  "remaining11cases_untouched_by_script": true,
+  "scientific_edits": 0,
+  "scope": "Independent review of exactapprovedscript/plan/probe identity andsevenactualsuccessful percaseexecutionreceipts. Executor script performed all14000postcompressionSHA/size/mtimechecks; reviewer didnot repeatthosehashes.",
+  "limitations": "FreeC increase also reflectsQwenunload/pagefile effects; do notattribute allfreedspace tocompression. APIreportedstorage notclusterroundedallocation. No additional compression scope authorized.",
+  "new_model_calls": 0,
+  "new_MC_calls": 0
+}

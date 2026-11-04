@@ -1,0 +1,96 @@
+{
+  "schema_version": 1,
+  "id": "AB_A_PILOT_v2_PILOT_draft_v1",
+  "kind": "experiment",
+  "primary_agent": "/root/astra_remaining_statistics",
+  "purpose": "Execute exactly PILOT using predeclared fits/corpus and audited shared captures; no extra selection or retries.",
+  "tracked_files": [
+    "ab_confirmatory_20261101/__init__.py",
+    "ab_confirmatory_20261101/worker_a.py",
+    "ab_confirmatory_20261101/worker_a_v2.py",
+    "ab_confirmatory_20261101/schedule_a.py",
+    "ab_confirmatory_20261101/schedule_a_v2.py",
+    "ab_confirmatory_20261101/admission_a_v2.py",
+    "ab_confirmatory_20261101/prepare.py",
+    "ab_confirmatory_20261101/prepare_a_v2.py",
+    "ab_confirmatory_20261101/runtime.py",
+    "ab_confirmatory_20261101/native.py",
+    "ab_confirmatory_20261101/fitting.py",
+    "ab_confirmatory_20261101/test_worker_a_v2.py",
+    "ab_confirmatory_20261101/campaign_authorization.py",
+    "ab_confirmatory_20261101/eligibility_paths_v5.py",
+    "ab_confirmatory_20261101/offline_io_v4.py",
+    "ab_confirmatory_20261101/offline_io_v3.py",
+    "analysis/AB_confirmatory_execution_20261101/A_remaining_preparation/PILOT_draft_v1/config.json",
+    "analysis/AB_confirmatory_execution_20261101/A_remaining_preparation/PILOT_draft_v1/corpus.json",
+    "analysis/AB_confirmatory_execution_20261101/A_remaining_preparation/PILOT_draft_v1/tokens.json",
+    "analysis/AB_confirmatory_execution_20261101/A_remaining_preparation/PILOT_draft_v1/model_identity.json",
+    "analysis/AB_confirmatory_execution_20261101/A_remaining_preparation/PILOT_draft_v1/cost.json"
+  ],
+  "tracked_trees": [],
+  "input_manifests": [
+    "analysis/AB_confirmatory_execution_20261101/A_remaining_preparation/PILOT_draft_v1/input_manifest.json",
+    "analysis/AB_confirmatory_execution_20261101/A_remaining_preparation/PILOT_draft_v1/model_manifest.json"
+  ],
+  "gates": [
+    {
+      "id": "hooks",
+      "category": "hooks",
+      "evidence": "analysis/AB_confirmatory_execution_20261101/A_remaining_preparation/PILOT_draft_v1/readiness.json",
+      "pointer": "/qualification_imported",
+      "op": "eq",
+      "expected": true,
+      "reason": "Reuse approved identical r0operator controls; no TEST-based qualification or duplicate calls."
+    },
+    {
+      "id": "data",
+      "category": "data",
+      "evidence": "analysis/AB_confirmatory_execution_20261101/A_remaining_preparation/PILOT_draft_v1/readiness.json",
+      "pointer": "/documents",
+      "op": "eq",
+      "expected": 640,
+      "reason": "Literal frozen corpus/tokens and donor-complete independent blocks."
+    },
+    {
+      "id": "pilot",
+      "category": "pilot",
+      "evidence": "analysis/AB_confirmatory_execution_20261101/A_remaining_preparation/PILOT_draft_v1/readiness.json",
+      "pointer": "/admission_ready",
+      "op": "eq",
+      "expected": true,
+      "reason": "Actual reviewed eligibility/selection/calibration/completion prerequisite required; draftfalse blocks launch."
+    },
+    {
+      "id": "accounting",
+      "category": "accounting",
+      "evidence": "analysis/AB_confirmatory_execution_20261101/A_remaining_preparation/PILOT_draft_v1/readiness.json",
+      "pointer": "/new_logical_forwards",
+      "op": "eq",
+      "expected": 4480,
+      "reason": "Exact newfull/local forward schedule; imported operations omitted and audited."
+    },
+    {
+      "id": "restart",
+      "category": "restart",
+      "evidence": "analysis/AB_confirmatory_execution_20261101/A_remaining_preparation/PILOT_draft_v1/readiness.json",
+      "pointer": "/synthetic_tests_passed",
+      "op": "eq",
+      "expected": true,
+      "reason": "Actual random-model capture/native import, zero-full-forward stability/replay, corruption and mismatch tests."
+    }
+  ],
+  "circuits": [],
+  "structural_scope": "Unchanged last-layer final-position A native branch and exact finite suffix. Reuses approvedr0controls. Stability imports sameTEST residual/capture/native delta records and acquires only newfit-specific suffix predictions.",
+  "entrypoint": {
+    "module": "ab_confirmatory_20261101.worker_a_v2",
+    "args": [
+      "--config",
+      "analysis/AB_confirmatory_execution_20261101/A_remaining_preparation/PILOT_draft_v1/config.json"
+    ]
+  },
+  "schedule": "analysis/AB_confirmatory_execution_20261101/A_remaining_preparation/PILOT_draft_v1/operations.json",
+  "budget": {
+    "forward": 4480,
+    "backward": 0
+  }
+}

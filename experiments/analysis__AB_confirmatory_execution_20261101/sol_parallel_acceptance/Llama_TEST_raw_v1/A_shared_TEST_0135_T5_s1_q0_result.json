@@ -1,0 +1,41 @@
+{
+  "document": {
+    "id": "A_shared_TEST_0135_T5_s1_q0",
+    "donor": "A_shared_TEST_0135_T5_s0_q0",
+    "block": "A_shared_TEST_0135",
+    "study": "A",
+    "cohort": "shared",
+    "split": "TEST",
+    "index": 135,
+    "frame": "T5",
+    "side": 1,
+    "q": 0,
+    "text": "Everyone agrees that the ianfus, unlike the unguiculate,"
+  },
+  "files": {
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/completed/capture_A_shared_TEST_0135_T5_s1_q0.json": "25edda11ded88c76fc79f72e4f68ee680d7db8871f37fb6f96342ef023a6047b",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/cache/fda35e3e3e8bf81d4cf84b6517211c568b14bea9728533a83df1cd57ffa8274a.json": "1595fe38fe4a1f17bf01af0812165d79f454fd1f75318838aff4ca8d3a26ea7a",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/completed/capture_A_shared_TEST_0135_T5_s0_q0.json": "5ce0f0405cc318b9c478dd7df3d8bcc410691c3453530ffeb1da725eb6a8c6f0",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/cache/03d3b7372214e989add67fc1d9136f380c01bf2f8d0fd32a3b775e4ea6a0b201.json": "20824ad5589ddb3b0e9c7dc3fee67f86265d6d21ec67d033a9d7fe6821925a57",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/completed/suffix_A_shared_TEST_0135_T5_s1_q0_native.json": "b93586358a054835f745d1739d387ab9e5931bc0feba64b9793243881b427b6b",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/cache/292b3efdaeadf1c2d9474e7d2a1f3616e2abd54da8f0384d76b32b35bd5d859d.json": "f98d635a00c7ebcf6a8dcfb23e414c99e3ef88212295ff141b48886d3af7ac22",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/completed/suffix_A_shared_TEST_0135_T5_s1_q0_r0_P.json": "ae9f8e78b2ffe8ee5ac3b820bfb37e4e9e06885a2418b89c4aeb2fe16f46b258",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/cache/09fd5a83f3eff43342833abd74b80f3be52da3f02a8951fe6eca4d30be9d23af.json": "aac5a96817a59a653bc94322428fd7b1f1859557aac33222f273935f9d704dbc",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/completed/suffix_A_shared_TEST_0135_T5_s1_q0_r0_U0.json": "19a474e188d99648bb38b317ca399c3d69687c7d46bbc01ef5e392207627ebfb",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/cache/ae3414a91522a0a54daeec45af12e8fff65da7f1d11a27e83cbbed98fee2162a.json": "94314ce681bff96ebec4dc6518c10e4fb0046d1121dd99260de405ff60011847",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/results/r0/A_shared_TEST_0135_T5_s1_q0.json": "b8a8a589dbd952c92424293b9c9167d4d62f3500d77d918c9abe06aa3c37de71"
+  },
+  "identity": {
+    "model": "5fb518228899f9c15e3db99e01c11d159af8451337dee6d85c28f3880fde2b29",
+    "code": "25737ad0d8d462c020f979d68f61d55e90b2e2668df0fb2d0a8008b19f7db7b7",
+    "corpus": "361064de9ca092fcd6a97649eb7daac7f01b03a084cb021f6e6d0b819c00180c",
+    "tokens": "64569cc7e32d060a398bb0dba55885712cb963aa4475dbaf847e795f4b4926f9",
+    "config": "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/config.json",
+    "frozen_fit_hashes": {
+      "r0": "9215ff51a78cfd3a5c9a8149332c17fe9a8d50a8571d6943f1cc2059fb52c833"
+    }
+  },
+  "own_fit_sha256": "9215ff51a78cfd3a5c9a8149332c17fe9a8d50a8571d6943f1cc2059fb52c833",
+  "max_target_error": 0.0,
+  "all_saved_loss_vector_arithmetic_passed": true
+}

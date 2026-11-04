@@ -1,0 +1,11 @@
+# One native technical capture — 1 November 2026
+
+Completed one full forward on local Gemma-3-1B-pt, float32 CPU eager, last layer25/final prompt token. No backward, intervention, local/JVP/suffix call, fit or hypothesis test. Prompt: `Near the enclosure, the bowline beside the individualist`. This is a technical-only record drawn from a qualified FIT_MAP literal, under the explicit limited-scope amendment in PROTOCOL.md. It is not automatically admitted as a fitted sample.
+
+Answer logits: is13.8848724365, are9.9666385651; margin is−are3.9182338715. Actual forward time0.556152seconds (one observation, concurrent offline calibration; not a throughput benchmark). The immutable receipt retains1152-dimensional R/x/y/r/first-linear-input vectors. Within this same full forward, x equals first-linear input exactly; r equals float32(R+y) exactly, maximum discrepancy0 in both checks. All captured values finite.
+
+These observations establish that the selected pretrained model loaded and the requested natural tensors/readout were durably captured. They do not establish pretrained sham equivalence, intervention sensitivity, perturbation precision, task-population competence, statistical calibration, repair/transfer, or any A1–A3/B1–B3 result. Those stages retain their separate gates and independent-review requirements. Main A/B preparation continues; a negative calibration gate is preserved separately.
+
+Provenance: canonical launcher PID17880 started2026-11-01T09:26:33UTC; pre-run snapshot85b0db98fa1df7068ddb4333906a4c300649eff006421a128053b514dd431332, genuine independent pre_run_review_v1 APPROVED and canonical verification PASS. Source/model/data byte identities bound before loading. Raw record and attempt/load/compute receipts are in run/; completed cache is immutable. Actual canonical cached replay evidence is actual_cached_replay_v1.json and must show byte-identical receipts/cache and successful exit before completion approval.
+
+Independent completion status is determined by the fresh completion_review_v1.json and canonical completion verification, not by this author report. This report is frozen for that review. Article-relevant delivery follows the separate Tor_A packaging convention only after acceptance; technical-only scope and all limitations travel with the record. No model weights or unrelated cache copied.

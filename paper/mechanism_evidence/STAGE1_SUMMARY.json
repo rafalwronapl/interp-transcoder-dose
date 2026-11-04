@@ -1,0 +1,1387 @@
+{
+  "scope": "Finite already-observed TEST, 16 cyclically coupled blocks; equal sides within block and equal block weights. No resampling or population inference. Contrasts of squared signed margin errors, not shares of a natural mechanism.",
+  "result_sha256": "8e6ae8e94390e7700831261696fef385dbc84547d2d3309dd646b317324069b7",
+  "cells": 384,
+  "groups": [
+    {
+      "frame": "so",
+      "operator": "full",
+      "dose": 0.05,
+      "records": 32,
+      "blocks": 16,
+      "signed_effects": {
+        "RR": {
+          "mean": 0.019776344299316406,
+          "complete_blocks": 16,
+          "defined_records": 32
+        },
+        "PR": {
+          "mean": 0.09327280521392822,
+          "complete_blocks": 16,
+          "defined_records": 32
+        },
+        "RP": {
+          "mean": 0.005871713161468506,
+          "complete_blocks": 16,
+          "defined_records": 32
+        },
+        "PP": {
+          "mean": 0.021732091903686523,
+          "complete_blocks": 16,
+          "defined_records": 32
+        },
+        "parallel": {
+          "mean": 0.02040576934814453,
+          "complete_blocks": 16,
+          "defined_records": 32
+        },
+        "perpendicular": {
+          "mean": -0.0006232857704162598,
+          "complete_blocks": 16,
+          "defined_records": 32
+        }
+      },
+      "losses": {
+        "RR": {
+          "mean": 0.004398194325176519,
+          "complete_blocks": 16,
+          "defined_records": 32
+        },
+        "PR": {
+          "mean": 0.18159300130719203,
+          "complete_blocks": 16,
+          "defined_records": 32
+        },
+        "RP": {
+          "mean": 0.0008879203315927953,
+          "complete_blocks": 16,
+          "defined_records": 32
+        },
+        "PP": {
+          "mean": 0.040010915630773525,
+          "complete_blocks": 16,
+          "defined_records": 32
+        },
+        "parallel": {
+          "mean": 0.0045962758988480346,
+          "complete_blocks": 16,
+          "defined_records": 32
+        },
+        "perpendicular": {
+          "mean": 4.439109147824638e-06,
+          "complete_blocks": 16,
+          "defined_records": 32
+        }
+      },
+      "contrasts": {
+        "amplitude": {
+          "mean": 0.1771948069820155,
+          "complete_blocks": 16,
+          "defined_records": 32
+        },
+        "direction": {
+          "mean": -0.0035102739935837235,
+          "complete_blocks": 16,
+          "defined_records": 32
+        },
+        "interaction": {
+          "mean": -0.13807181168283478,
+          "complete_blocks": 16,
+          "defined_records": 32
+        },
+        "geometry_interaction": {
+          "mean": -6.139278411865234e-06,
+          "complete_blocks": 16,
+          "defined_records": 32
+        }
+      },
+      "norm_difference": {
+        "mean": 739.4331400666067,
+        "complete_blocks": 16,
+        "defined_records": 32
+      },
+      "norm_increases": 32,
+      "norm_decreases": 0,
+      "norm_equal": 0,
+      "gradient_linear": {
+        "mean": 0.02031164930670421,
+        "complete_blocks": 16,
+        "defined_records": 32
+      }
+    },
+    {
+      "frame": "so",
+      "operator": "full",
+      "dose": 1.0,
+      "records": 32,
+      "blocks": 16,
+      "signed_effects": {
+        "RR": {
+          "mean": -0.009622961282730103,
+          "complete_blocks": 16,
+          "defined_records": 32
+        },
+        "PR": {
+          "mean": -0.0003534853458404541,
+          "complete_blocks": 16,
+          "defined_records": 32
+        },
+        "RP": {
+          "mean": -0.005657285451889038,
+          "complete_blocks": 16,
+          "defined_records": 32
+        },
+        "PP": {
+          "mean": 0.0008676350116729736,
+          "complete_blocks": 16,
+          "defined_records": 32
+        },
+        "parallel": {
+          "mean": -0.014842957258224487,
+          "complete_blocks": 16,
+          "defined_records": 32
+        },
+        "perpendicular": {
+          "mean": 0.003338038921356201,
+          "complete_blocks": 16,
+          "defined_records": 32
+        }
+      },
+      "losses": {
+        "RR": {
+          "mean": 0.12065003867755308,
+          "complete_blocks": 16,
+          "defined_records": 32
+        },
+        "PR": {
+          "mean": 0.13736749780937885,
+          "complete_blocks": 16,
+          "defined_records": 32
+        },
+        "RP": {
+          "mean": 0.13157300372481018,
+          "complete_blocks": 16,
+          "defined_records": 32
+        },
+        "PP": {
+          "mean": 0.15428131878567797,
+          "complete_blocks": 16,
+          "defined_records": 32
+        },
+        "parallel": {
+          "mean": 0.1188261386439251,
+          "complete_blocks": 16,
+          "defined_records": 32
+        },
+        "perpendicular": {
+          "mean": 9.225403402979282e-05,
+          "complete_blocks": 16,
+          "defined_records": 32
+        }
+      },
+      "contrasts": {
+        "amplitude": {
+          "mean": 0.016717459131825763,
+          "complete_blocks": 16,
+          "defined_records": 32
+        },
+        "direction": {
+          "mean": 0.010922965047257094,
+          "complete_blocks": 16,
+          "defined_records": 32
+        },
+        "interaction": {
+          "mean": 0.005990855929042027,
+          "complete_blocks": 16,
+          "defined_records": 32
+        },
+        "geometry_interaction": {
+          "mean": 0.0018819570541381836,
+          "complete_blocks": 16,
+          "defined_records": 32
+        }
+      },
+      "norm_difference": {
+        "mean": 6.440482727152872,
+        "complete_blocks": 16,
+        "defined_records": 32
+      },
+      "norm_increases": 17,
+      "norm_decreases": 15,
+      "norm_equal": 0,
+      "gradient_linear": {
+        "mean": -0.014214116916022916,
+        "complete_blocks": 16,
+        "defined_records": 32
+      }
+    },
+    {
+      "frame": "so",
+      "operator": "projected",
+      "dose": 0.05,
+      "records": 32,
+      "blocks": 16,
+      "signed_effects": {
+        "RR": {
+          "mean": 0.018212109804153442,
+          "complete_blocks": 16,
+          "defined_records": 32
+        },
+        "PR": {
+          "mean": -0.0871017575263977,
+          "complete_blocks": 16,
+          "defined_records": 32
+        },
+        "RP": {
+          "mean": 0.003600597381591797,
+          "complete_blocks": 16,
+          "defined_records": 32
+        },
+        "PP": {
+          "mean": 0.019856572151184082,
+          "complete_blocks": 16,
+          "defined_records": 32
+        },
+        "parallel": {
+          "mean": 0.018812239170074463,
+          "complete_blocks": 16,
+          "defined_records": 32
+        },
+        "perpendicular": {
+          "mean": -0.0005638003349304199,
+          "complete_blocks": 16,
+          "defined_records": 32
+        }
+      },
+      "losses": {
+        "RR": {
+          "mean": 0.003702206237818473,
+          "complete_blocks": 16,
+          "defined_records": 32
+        },
+        "PR": {
+          "mean": 0.8040868103104231,
+          "complete_blocks": 16,
+          "defined_records": 32
+        },
+        "RP": {
+          "mean": 0.0004685095661898231,
+          "complete_blocks": 16,
+          "defined_records": 32
+        },
+        "PP": {
+          "mean": 0.04052507966389385,
+          "complete_blocks": 16,
+          "defined_records": 32
+        },
+        "parallel": {
+          "mean": 0.0038586928400263787,
+          "complete_blocks": 16,
+          "defined_records": 32
+        },
+        "perpendicular": {
+          "mean": 3.3674197084110347e-06,
+          "complete_blocks": 16,
+          "defined_records": 32
+        }
+      },
+      "contrasts": {
+        "amplitude": {
+          "mean": 0.8003846040726046,
+          "complete_blocks": 16,
+          "defined_records": 32
+        },
+        "direction": {
+          "mean": -0.0032336966716286497,
+          "complete_blocks": 16,
+          "defined_records": 32
+        },
+        "interaction": {
+          "mean": -0.7603280339749006,
+          "complete_blocks": 16,
+          "defined_records": 32
+        },
+        "geometry_interaction": {
+          "mean": -3.6329030990600586e-05,
+          "complete_blocks": 16,
+          "defined_records": 32
+        }
+      },
+      "norm_difference": {
+        "mean": 794.4471917488745,
+        "complete_blocks": 16,
+        "defined_records": 32
+      },
+      "norm_increases": 32,
+      "norm_decreases": 0,
+      "norm_equal": 0,
+      "gradient_linear": {
+        "mean": 0.018754403062002854,
+        "complete_blocks": 16,
+        "defined_records": 32
+      }
+    },
+    {
+      "frame": "so",
+      "operator": "projected",
+      "dose": 1.0,
+      "records": 32,
+      "blocks": 16,
+      "signed_effects": {
+        "RR": {
+          "mean": -0.05324834585189819,
+          "complete_blocks": 16,
+          "defined_records": 32
+        },
+        "PR": {
+          "mean": -0.08065435290336609,
+          "complete_blocks": 16,
+          "defined_records": 32
+        },
+        "RP": {
+          "mean": -0.02630627155303955,
+          "complete_blocks": 16,
+          "defined_records": 32
+        },
+        "PP": {
+          "mean": -0.04148763418197632,
+          "complete_blocks": 16,
+          "defined_records": 32
+        },
+        "parallel": {
+          "mean": -0.06293198466300964,
+          "complete_blocks": 16,
+          "defined_records": 32
+        },
+        "perpendicular": {
+          "mean": 0.003117859363555908,
+          "complete_blocks": 16,
+          "defined_records": 32
+        }
+      },
+      "losses": {
+        "RR": {
+          "mean": 0.14387026569409045,
+          "complete_blocks": 16,
+          "defined_records": 32
+        },
+        "PR": {
+          "mean": 0.604884242281372,
+          "complete_blocks": 16,
+          "defined_records": 32
+        },
+        "RP": {
+          "mean": 0.06853214992759149,
+          "complete_blocks": 16,
+          "defined_records": 32
+        },
+        "PP": {
+          "mean": 0.17424218782673506,
+          "complete_blocks": 16,
+          "defined_records": 32
+        },
+        "parallel": {
+          "mean": 0.14650885213731613,
+          "complete_blocks": 16,
+          "defined_records": 32
+        },
+        "perpendicular": {
+          "mean": 0.00010034385445578664,
+          "complete_blocks": 16,
+          "defined_records": 32
+        }
+      },
+      "contrasts": {
+        "amplitude": {
+          "mean": 0.4610139765872816,
+          "complete_blocks": 16,
+          "defined_records": 32
+        },
+        "direction": {
+          "mean": -0.07533811576649896,
+          "complete_blocks": 16,
+          "defined_records": 32
+        },
+        "interaction": {
+          "mean": -0.35530393868813803,
+          "complete_blocks": 16,
+          "defined_records": 32
+        },
+        "geometry_interaction": {
+          "mean": 0.006565779447555542,
+          "complete_blocks": 16,
+          "defined_records": 32
+        }
+      },
+      "norm_difference": {
+        "mean": 465.22655934471936,
+        "complete_blocks": 16,
+        "defined_records": 32
+      },
+      "norm_increases": 31,
+      "norm_decreases": 1,
+      "norm_equal": 0,
+      "gradient_linear": {
+        "mean": -0.06452566899512241,
+        "complete_blocks": 16,
+        "defined_records": 32
+      }
+    },
+    {
+      "frame": "transfer",
+      "operator": "full",
+      "dose": 0.05,
+      "records": 32,
+      "blocks": 16,
+      "signed_effects": {
+        "RR": {
+          "mean": 0.00371396541595459,
+          "complete_blocks": 16,
+          "defined_records": 32
+        },
+        "PR": {
+          "mean": 0.03594619035720825,
+          "complete_blocks": 16,
+          "defined_records": 32
+        },
+        "RP": {
+          "mean": 0.007083714008331299,
+          "complete_blocks": 16,
+          "defined_records": 32
+        },
+        "PP": {
+          "mean": 0.04927241802215576,
+          "complete_blocks": 16,
+          "defined_records": 32
+        },
+        "parallel": {
+          "mean": 0.003228098154067993,
+          "complete_blocks": 16,
+          "defined_records": 32
+        },
+        "perpendicular": {
+          "mean": 0.00020444393157958984,
+          "complete_blocks": 16,
+          "defined_records": 32
+        }
+      },
+      "losses": {
+        "RR": {
+          "mean": 0.0014293295962488628,
+          "complete_blocks": 16,
+          "defined_records": 32
+        },
+        "PR": {
+          "mean": 0.09826071461259289,
+          "complete_blocks": 16,
+          "defined_records": 32
+        },
+        "RP": {
+          "mean": 0.0006290591817332825,
+          "complete_blocks": 16,
+          "defined_records": 32
+        },
+        "PP": {
+          "mean": 0.02995488290002868,
+          "complete_blocks": 16,
+          "defined_records": 32
+        },
+        "parallel": {
+          "mean": 0.0015038613096578501,
+          "complete_blocks": 16,
+          "defined_records": 32
+        },
+        "perpendicular": {
+          "mean": 8.039839940465754e-07,
+          "complete_blocks": 16,
+          "defined_records": 32
+        }
+      },
+      "contrasts": {
+        "amplitude": {
+          "mean": 0.09683138501634403,
+          "complete_blocks": 16,
+          "defined_records": 32
+        },
+        "direction": {
+          "mean": -0.0008002704145155803,
+          "complete_blocks": 16,
+          "defined_records": 32
+        },
+        "interaction": {
+          "mean": -0.06750556129804863,
+          "complete_blocks": 16,
+          "defined_records": 32
+        },
+        "geometry_interaction": {
+          "mean": 0.00028142333030700684,
+          "complete_blocks": 16,
+          "defined_records": 32
+        }
+      },
+      "norm_difference": {
+        "mean": 626.1278137298898,
+        "complete_blocks": 16,
+        "defined_records": 32
+      },
+      "norm_increases": 32,
+      "norm_decreases": 0,
+      "norm_equal": 0,
+      "gradient_linear": {
+        "mean": 0.003240859568302668,
+        "complete_blocks": 16,
+        "defined_records": 32
+      }
+    },
+    {
+      "frame": "transfer",
+      "operator": "full",
+      "dose": 1.0,
+      "records": 32,
+      "blocks": 16,
+      "signed_effects": {
+        "RR": {
+          "mean": -0.2038545310497284,
+          "complete_blocks": 16,
+          "defined_records": 32
+        },
+        "PR": {
+          "mean": -0.19052737951278687,
+          "complete_blocks": 16,
+          "defined_records": 32
+        },
+        "RP": {
+          "mean": -0.15883225202560425,
+          "complete_blocks": 16,
+          "defined_records": 32
+        },
+        "PP": {
+          "mean": -0.1362503468990326,
+          "complete_blocks": 16,
+          "defined_records": 32
+        },
+        "parallel": {
+          "mean": -0.206649512052536,
+          "complete_blocks": 16,
+          "defined_records": 32
+        },
+        "perpendicular": {
+          "mean": 0.0017374753952026367,
+          "complete_blocks": 16,
+          "defined_records": 32
+        }
+      },
+      "losses": {
+        "RR": {
+          "mean": 0.10333160132731223,
+          "complete_blocks": 16,
+          "defined_records": 32
+        },
+        "PR": {
+          "mean": 0.09653446871749338,
+          "complete_blocks": 16,
+          "defined_records": 32
+        },
+        "RP": {
+          "mean": 0.11908269958297524,
+          "complete_blocks": 16,
+          "defined_records": 32
+        },
+        "PP": {
+          "mean": 0.09369449765196691,
+          "complete_blocks": 16,
+          "defined_records": 32
+        },
+        "parallel": {
+          "mean": 0.10515093012256216,
+          "complete_blocks": 16,
+          "defined_records": 32
+        },
+        "perpendicular": {
+          "mean": 3.612551824971888e-05,
+          "complete_blocks": 16,
+          "defined_records": 32
+        }
+      },
+      "contrasts": {
+        "amplitude": {
+          "mean": -0.006797132609818846,
+          "complete_blocks": 16,
+          "defined_records": 32
+        },
+        "direction": {
+          "mean": 0.01575109825566301,
+          "complete_blocks": 16,
+          "defined_records": 32
+        },
+        "interaction": {
+          "mean": -0.01859106932118948,
+          "complete_blocks": 16,
+          "defined_records": 32
+        },
+        "geometry_interaction": {
+          "mean": 0.0010575056076049805,
+          "complete_blocks": 16,
+          "defined_records": 32
+        }
+      },
+      "norm_difference": {
+        "mean": 4.163901975375554,
+        "complete_blocks": 16,
+        "defined_records": 32
+      },
+      "norm_increases": 14,
+      "norm_decreases": 18,
+      "norm_equal": 0,
+      "gradient_linear": {
+        "mean": -0.2072063358757899,
+        "complete_blocks": 16,
+        "defined_records": 32
+      }
+    },
+    {
+      "frame": "transfer",
+      "operator": "projected",
+      "dose": 0.05,
+      "records": 32,
+      "blocks": 16,
+      "signed_effects": {
+        "RR": {
+          "mean": 0.004236668348312378,
+          "complete_blocks": 16,
+          "defined_records": 32
+        },
+        "PR": {
+          "mean": -0.07302334904670715,
+          "complete_blocks": 16,
+          "defined_records": 32
+        },
+        "RP": {
+          "mean": 0.0038367807865142822,
+          "complete_blocks": 16,
+          "defined_records": 32
+        },
+        "PP": {
+          "mean": 0.050023436546325684,
+          "complete_blocks": 16,
+          "defined_records": 32
+        },
+        "parallel": {
+          "mean": 0.0037414133548736572,
+          "complete_blocks": 16,
+          "defined_records": 32
+        },
+        "perpendicular": {
+          "mean": 0.00023928284645080566,
+          "complete_blocks": 16,
+          "defined_records": 32
+        }
+      },
+      "losses": {
+        "RR": {
+          "mean": 0.0012897216060139272,
+          "complete_blocks": 16,
+          "defined_records": 32
+        },
+        "PR": {
+          "mean": 0.5555334683992044,
+          "complete_blocks": 16,
+          "defined_records": 32
+        },
+        "RP": {
+          "mean": 0.00030208507101292525,
+          "complete_blocks": 16,
+          "defined_records": 32
+        },
+        "PP": {
+          "mean": 0.030286703190995468,
+          "complete_blocks": 16,
+          "defined_records": 32
+        },
+        "parallel": {
+          "mean": 0.001356397615751348,
+          "complete_blocks": 16,
+          "defined_records": 32
+        },
+        "perpendicular": {
+          "mean": 9.874105728613358e-07,
+          "complete_blocks": 16,
+          "defined_records": 32
+        }
+      },
+      "contrasts": {
+        "amplitude": {
+          "mean": 0.5542437467931904,
+          "complete_blocks": 16,
+          "defined_records": 32
+        },
+        "direction": {
+          "mean": -0.000987636535001002,
+          "complete_blocks": 16,
+          "defined_records": 32
+        },
+        "interaction": {
+          "mean": -0.5242591286732079,
+          "complete_blocks": 16,
+          "defined_records": 32
+        },
+        "geometry_interaction": {
+          "mean": 0.00025597214698791504,
+          "complete_blocks": 16,
+          "defined_records": 32
+        }
+      },
+      "norm_difference": {
+        "mean": 673.7192113496532,
+        "complete_blocks": 16,
+        "defined_records": 32
+      },
+      "norm_increases": 32,
+      "norm_decreases": 0,
+      "norm_equal": 0,
+      "gradient_linear": {
+        "mean": 0.0037431623330255594,
+        "complete_blocks": 16,
+        "defined_records": 32
+      }
+    },
+    {
+      "frame": "transfer",
+      "operator": "projected",
+      "dose": 1.0,
+      "records": 32,
+      "blocks": 16,
+      "signed_effects": {
+        "RR": {
+          "mean": -0.29846760630607605,
+          "complete_blocks": 16,
+          "defined_records": 32
+        },
+        "PR": {
+          "mean": -0.5546809434890747,
+          "complete_blocks": 16,
+          "defined_records": 32
+        },
+        "RP": {
+          "mean": -0.13689091801643372,
+          "complete_blocks": 16,
+          "defined_records": 32
+        },
+        "PP": {
+          "mean": -0.2334669828414917,
+          "complete_blocks": 16,
+          "defined_records": 32
+        },
+        "parallel": {
+          "mean": -0.3043840527534485,
+          "complete_blocks": 16,
+          "defined_records": 32
+        },
+        "perpendicular": {
+          "mean": 0.002358347177505493,
+          "complete_blocks": 16,
+          "defined_records": 32
+        }
+      },
+      "losses": {
+        "RR": {
+          "mean": 0.15591947224592673,
+          "complete_blocks": 16,
+          "defined_records": 32
+        },
+        "PR": {
+          "mean": 0.51955410561078,
+          "complete_blocks": 16,
+          "defined_records": 32
+        },
+        "RP": {
+          "mean": 0.05062389557818392,
+          "complete_blocks": 16,
+          "defined_records": 32
+        },
+        "PP": {
+          "mean": 0.14059273511253423,
+          "complete_blocks": 16,
+          "defined_records": 32
+        },
+        "parallel": {
+          "mean": 0.1648479980646016,
+          "complete_blocks": 16,
+          "defined_records": 32
+        },
+        "perpendicular": {
+          "mean": 6.24283655099589e-05,
+          "complete_blocks": 16,
+          "defined_records": 32
+        }
+      },
+      "contrasts": {
+        "amplitude": {
+          "mean": 0.36363463336485324,
+          "complete_blocks": 16,
+          "defined_records": 32
+        },
+        "direction": {
+          "mean": -0.10529557666774281,
+          "complete_blocks": 16,
+          "defined_records": 32
+        },
+        "interaction": {
+          "mean": -0.27366579383050293,
+          "complete_blocks": 16,
+          "defined_records": 32
+        },
+        "geometry_interaction": {
+          "mean": 0.0035580992698669434,
+          "complete_blocks": 16,
+          "defined_records": 32
+        }
+      },
+      "norm_difference": {
+        "mean": 430.7028489630425,
+        "complete_blocks": 16,
+        "defined_records": 32
+      },
+      "norm_increases": 32,
+      "norm_decreases": 0,
+      "norm_equal": 0,
+      "gradient_linear": {
+        "mean": -0.30698820405309935,
+        "complete_blocks": 16,
+        "defined_records": 32
+      }
+    },
+    {
+      "frame": "when",
+      "operator": "full",
+      "dose": 0.05,
+      "records": 32,
+      "blocks": 16,
+      "signed_effects": {
+        "RR": {
+          "mean": -0.0028420090675354004,
+          "complete_blocks": 16,
+          "defined_records": 32
+        },
+        "PR": {
+          "mean": -0.04620945453643799,
+          "complete_blocks": 16,
+          "defined_records": 32
+        },
+        "RP": {
+          "mean": 0.006130993366241455,
+          "complete_blocks": 16,
+          "defined_records": 32
+        },
+        "PP": {
+          "mean": 0.03214460611343384,
+          "complete_blocks": 16,
+          "defined_records": 32
+        },
+        "parallel": {
+          "mean": -0.0031862258911132812,
+          "complete_blocks": 16,
+          "defined_records": 32
+        },
+        "perpendicular": {
+          "mean": 0.00010269880294799805,
+          "complete_blocks": 16,
+          "defined_records": 32
+        }
+      },
+      "losses": {
+        "RR": {
+          "mean": 0.002630199683267165,
+          "complete_blocks": 16,
+          "defined_records": 32
+        },
+        "PR": {
+          "mean": 0.21323034017609643,
+          "complete_blocks": 16,
+          "defined_records": 32
+        },
+        "RP": {
+          "mean": 0.0007176859204491848,
+          "complete_blocks": 16,
+          "defined_records": 32
+        },
+        "PP": {
+          "mean": 0.07422974913458802,
+          "complete_blocks": 16,
+          "defined_records": 32
+        },
+        "parallel": {
+          "mean": 0.0027119555390981986,
+          "complete_blocks": 16,
+          "defined_records": 32
+        },
+        "perpendicular": {
+          "mean": 8.173502692443435e-07,
+          "complete_blocks": 16,
+          "defined_records": 32
+        }
+      },
+      "contrasts": {
+        "amplitude": {
+          "mean": 0.21060014049282927,
+          "complete_blocks": 16,
+          "defined_records": 32
+        },
+        "direction": {
+          "mean": -0.00191251376281798,
+          "complete_blocks": 16,
+          "defined_records": 32
+        },
+        "interaction": {
+          "mean": -0.13708807727869043,
+          "complete_blocks": 16,
+          "defined_records": 32
+        },
+        "geometry_interaction": {
+          "mean": 0.0002415180206298828,
+          "complete_blocks": 16,
+          "defined_records": 32
+        }
+      },
+      "norm_difference": {
+        "mean": 690.0831571048335,
+        "complete_blocks": 16,
+        "defined_records": 32
+      },
+      "norm_increases": 32,
+      "norm_decreases": 0,
+      "norm_equal": 0,
+      "gradient_linear": {
+        "mean": -0.003171127012952298,
+        "complete_blocks": 16,
+        "defined_records": 32
+      }
+    },
+    {
+      "frame": "when",
+      "operator": "full",
+      "dose": 1.0,
+      "records": 32,
+      "blocks": 16,
+      "signed_effects": {
+        "RR": {
+          "mean": -0.09283056855201721,
+          "complete_blocks": 16,
+          "defined_records": 32
+        },
+        "PR": {
+          "mean": -0.0906449556350708,
+          "complete_blocks": 16,
+          "defined_records": 32
+        },
+        "RP": {
+          "mean": -0.058187514543533325,
+          "complete_blocks": 16,
+          "defined_records": 32
+        },
+        "PP": {
+          "mean": -0.057196229696273804,
+          "complete_blocks": 16,
+          "defined_records": 32
+        },
+        "parallel": {
+          "mean": -0.09540867805480957,
+          "complete_blocks": 16,
+          "defined_records": 32
+        },
+        "perpendicular": {
+          "mean": 0.0004451274871826172,
+          "complete_blocks": 16,
+          "defined_records": 32
+        }
+      },
+      "losses": {
+        "RR": {
+          "mean": 0.06840609654071272,
+          "complete_blocks": 16,
+          "defined_records": 32
+        },
+        "PR": {
+          "mean": 0.07211393204318028,
+          "complete_blocks": 16,
+          "defined_records": 32
+        },
+        "RP": {
+          "mean": 0.09240824977032958,
+          "complete_blocks": 16,
+          "defined_records": 32
+        },
+        "PP": {
+          "mean": 0.09050167219803029,
+          "complete_blocks": 16,
+          "defined_records": 32
+        },
+        "parallel": {
+          "mean": 0.07059469326071621,
+          "complete_blocks": 16,
+          "defined_records": 32
+        },
+        "perpendicular": {
+          "mean": 6.681444256173563e-05,
+          "complete_blocks": 16,
+          "defined_records": 32
+        }
+      },
+      "contrasts": {
+        "amplitude": {
+          "mean": 0.0037078355024675602,
+          "complete_blocks": 16,
+          "defined_records": 32
+        },
+        "direction": {
+          "mean": 0.02400215322961685,
+          "complete_blocks": 16,
+          "defined_records": 32
+        },
+        "interaction": {
+          "mean": -0.005614413074766844,
+          "complete_blocks": 16,
+          "defined_records": 32
+        },
+        "geometry_interaction": {
+          "mean": 0.002132982015609741,
+          "complete_blocks": 16,
+          "defined_records": 32
+        }
+      },
+      "norm_difference": {
+        "mean": -6.761323304682826,
+        "complete_blocks": 16,
+        "defined_records": 32
+      },
+      "norm_increases": 18,
+      "norm_decreases": 14,
+      "norm_equal": 0,
+      "gradient_linear": {
+        "mean": -0.09582458668317322,
+        "complete_blocks": 16,
+        "defined_records": 32
+      }
+    },
+    {
+      "frame": "when",
+      "operator": "projected",
+      "dose": 0.05,
+      "records": 32,
+      "blocks": 16,
+      "signed_effects": {
+        "RR": {
+          "mean": -0.004926145076751709,
+          "complete_blocks": 16,
+          "defined_records": 32
+        },
+        "PR": {
+          "mean": -0.4172106683254242,
+          "complete_blocks": 16,
+          "defined_records": 32
+        },
+        "RP": {
+          "mean": 0.003589928150177002,
+          "complete_blocks": 16,
+          "defined_records": 32
+        },
+        "PP": {
+          "mean": 0.03007793426513672,
+          "complete_blocks": 16,
+          "defined_records": 32
+        },
+        "parallel": {
+          "mean": -0.005228757858276367,
+          "complete_blocks": 16,
+          "defined_records": 32
+        },
+        "perpendicular": {
+          "mean": 0.00010341405868530273,
+          "complete_blocks": 16,
+          "defined_records": 32
+        }
+      },
+      "losses": {
+        "RR": {
+          "mean": 0.002626586887004123,
+          "complete_blocks": 16,
+          "defined_records": 32
+        },
+        "PR": {
+          "mean": 1.6045646781698508,
+          "complete_blocks": 16,
+          "defined_records": 32
+        },
+        "RP": {
+          "mean": 0.00026521711208715715,
+          "complete_blocks": 16,
+          "defined_records": 32
+        },
+        "PP": {
+          "mean": 0.07443021646258785,
+          "complete_blocks": 16,
+          "defined_records": 32
+        },
+        "parallel": {
+          "mean": 0.0026881692422193737,
+          "complete_blocks": 16,
+          "defined_records": 32
+        },
+        "perpendicular": {
+          "mean": 4.536481128525338e-07,
+          "complete_blocks": 16,
+          "defined_records": 32
+        }
+      },
+      "contrasts": {
+        "amplitude": {
+          "mean": 1.6019380912828467,
+          "complete_blocks": 16,
+          "defined_records": 32
+        },
+        "direction": {
+          "mean": -0.002361369774916966,
+          "complete_blocks": 16,
+          "defined_records": 32
+        },
+        "interaction": {
+          "mean": -1.527773091932346,
+          "complete_blocks": 16,
+          "defined_records": 32
+        },
+        "geometry_interaction": {
+          "mean": 0.00019919872283935547,
+          "complete_blocks": 16,
+          "defined_records": 32
+        }
+      },
+      "norm_difference": {
+        "mean": 753.6154506716896,
+        "complete_blocks": 16,
+        "defined_records": 32
+      },
+      "norm_increases": 32,
+      "norm_decreases": 0,
+      "norm_equal": 0,
+      "gradient_linear": {
+        "mean": -0.005209771371552854,
+        "complete_blocks": 16,
+        "defined_records": 32
+      }
+    },
+    {
+      "frame": "when",
+      "operator": "projected",
+      "dose": 1.0,
+      "records": 32,
+      "blocks": 16,
+      "signed_effects": {
+        "RR": {
+          "mean": -0.25543662905693054,
+          "complete_blocks": 16,
+          "defined_records": 32
+        },
+        "PR": {
+          "mean": -0.5463158190250397,
+          "complete_blocks": 16,
+          "defined_records": 32
+        },
+        "RP": {
+          "mean": -0.09381139278411865,
+          "complete_blocks": 16,
+          "defined_records": 32
+        },
+        "PP": {
+          "mean": -0.2174319326877594,
+          "complete_blocks": 16,
+          "defined_records": 32
+        },
+        "parallel": {
+          "mean": -0.2621420621871948,
+          "complete_blocks": 16,
+          "defined_records": 32
+        },
+        "perpendicular": {
+          "mean": 0.0020745396614074707,
+          "complete_blocks": 16,
+          "defined_records": 32
+        }
+      },
+      "losses": {
+        "RR": {
+          "mean": 0.15080615520375318,
+          "complete_blocks": 16,
+          "defined_records": 32
+        },
+        "PR": {
+          "mean": 0.7611073816168812,
+          "complete_blocks": 16,
+          "defined_records": 32
+        },
+        "RP": {
+          "mean": 0.04402391493755431,
+          "complete_blocks": 16,
+          "defined_records": 32
+        },
+        "PP": {
+          "mean": 0.17438903323179034,
+          "complete_blocks": 16,
+          "defined_records": 32
+        },
+        "parallel": {
+          "mean": 0.15957884322983773,
+          "complete_blocks": 16,
+          "defined_records": 32
+        },
+        "perpendicular": {
+          "mean": 5.2312182617697545e-05,
+          "complete_blocks": 16,
+          "defined_records": 32
+        }
+      },
+      "contrasts": {
+        "amplitude": {
+          "mean": 0.610301226413128,
+          "complete_blocks": 16,
+          "defined_records": 32
+        },
+        "direction": {
+          "mean": -0.10678224026619887,
+          "complete_blocks": 16,
+          "defined_records": 32
+        },
+        "interaction": {
+          "mean": -0.479936108118892,
+          "complete_blocks": 16,
+          "defined_records": 32
+        },
+        "geometry_interaction": {
+          "mean": 0.0046308934688568115,
+          "complete_blocks": 16,
+          "defined_records": 32
+        }
+      },
+      "norm_difference": {
+        "mean": 495.17216939527356,
+        "complete_blocks": 16,
+        "defined_records": 32
+      },
+      "norm_increases": 32,
+      "norm_decreases": 0,
+      "norm_equal": 0,
+      "gradient_linear": {
+        "mean": -0.2633432994989918,
+        "complete_blocks": 16,
+        "defined_records": 32
+      }
+    }
+  ],
+  "pooled": {
+    "records": 384,
+    "blocks": 16,
+    "signed_effects": {
+      "RR": {
+        "mean": -0.07294080903132756,
+        "complete_blocks": 16,
+        "defined_records": 384
+      },
+      "PR": {
+        "mean": -0.16312526414791742,
+        "complete_blocks": 16,
+        "defined_records": 384
+      },
+      "RP": {
+        "mean": -0.037464325626691185,
+        "complete_blocks": 16,
+        "defined_records": 384
+      },
+      "PP": {
+        "mean": -0.04015486935774485,
+        "complete_blocks": 16,
+        "defined_records": 384
+      },
+      "parallel": {
+        "mean": -0.07571555922428767,
+        "complete_blocks": 16,
+        "defined_records": 384
+      },
+      "perpendicular": {
+        "mean": 0.0010445117950439453,
+        "complete_blocks": 16,
+        "defined_records": 384
+      }
+    },
+    "losses": {
+      "RR": {
+        "mean": 0.06325498900207312,
+        "complete_blocks": 16,
+        "defined_records": 384
+      },
+      "PR": {
+        "mean": 0.4707358867545371,
+        "complete_blocks": 16,
+        "defined_records": 384
+      },
+      "RP": {
+        "mean": 0.04245953255870916,
+        "complete_blocks": 16,
+        "defined_records": 384
+      },
+      "PP": {
+        "mean": 0.09309491598246684,
+        "complete_blocks": 16,
+        "defined_records": 384
+      },
+      "parallel": {
+        "mean": 0.06518523399204668,
+        "complete_blocks": 16,
+        "defined_records": 384
+      },
+      "perpendicular": {
+        "mean": 3.5095609935827575e-05,
+        "complete_blocks": 16,
+        "defined_records": 384
+      }
+    },
+    "contrasts": {
+      "amplitude": {
+        "mean": 0.407480897752464,
+        "complete_blocks": 16,
+        "defined_records": 384
+      },
+      "direction": {
+        "mean": -0.020795456443363964,
+        "complete_blocks": 16,
+        "defined_records": 384
+      },
+      "interaction": {
+        "mean": -0.3568455143287063,
+        "complete_blocks": 16,
+        "defined_records": 384
+      },
+      "geometry_interaction": {
+        "mean": 0.001730238397916158,
+        "complete_blocks": 16,
+        "defined_records": 384
+      }
+    },
+    "norm_difference": {
+      "mean": 472.69755031436904,
+      "complete_blocks": 16,
+      "defined_records": 384
+    },
+    "norm_increases": 336,
+    "norm_decreases": 48,
+    "norm_equal": 0,
+    "gradient_linear": {
+      "mean": -0.07620275301138912,
+      "complete_blocks": 16,
+      "defined_records": 384
+    }
+  },
+  "accounting": {
+    "aliases": 0,
+    "undefined": 0
+  },
+  "averaging": "Each numeric mean averages all defined sides/conditions within a complete block, then equal block weights. Undefined record and complete-block denominators are explicit; raw scientific result retains every cell."
+}

@@ -1,0 +1,41 @@
+{
+  "document": {
+    "id": "A_shared_TEST_0169_T5_s0_q0",
+    "donor": "A_shared_TEST_0169_T5_s1_q0",
+    "block": "A_shared_TEST_0169",
+    "study": "A",
+    "cohort": "shared",
+    "split": "TEST",
+    "index": 169,
+    "frame": "T5",
+    "side": 0,
+    "q": 0,
+    "text": "Everyone agrees that the sprawler, unlike the minicab,"
+  },
+  "files": {
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/completed/capture_A_shared_TEST_0169_T5_s0_q0.json": "c8f422977bbc13682a4f11ebb429fea38bceb383a96663461f9509c30b08984f",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/cache/df62f3b469463c01252ff09ab312478441a8d82edfe5ba5f71e0dae08ebb5154.json": "3e042d42b4ee0d724725f8f9f2c1ddb6534a70ea244b81497a3638fbdb055eea",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/completed/capture_A_shared_TEST_0169_T5_s1_q0.json": "9952db661d2cc2297c611e3134d8661ac4621c91be51b8146c6c5711a35c7c91",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/cache/2ac9251a5231a9ee7d88b2658e86ba771445b0e3db304a7dbc72a514b3808436.json": "cd351de75b74ccec8051d50a7a91890854ce7067809804f79bbb67566b17e8f9",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/completed/suffix_A_shared_TEST_0169_T5_s0_q0_native.json": "48e8eb64bc08a3bd85297f6fea24d171554cc2f1f8ca35660a7565cb6ccb3839",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/cache/59e64b2a402b6c117d0cd07616014b6d676ea719aa61741db1528a9549e3e29b.json": "0d5bfde69b126f1137fff6c2263e356661c6a7be27e73a9f4aa801b5a15eecd2",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/completed/suffix_A_shared_TEST_0169_T5_s0_q0_r0_P.json": "e631d3b09a0cd869d3a3bc49d095ba706215557e132dca6374bcdd7e9b9f8fe5",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/cache/e9d8715623c4b85657a7f2f3b2351625318cde68df2045ca21e6b0f64b07cf56.json": "3983f2e6cc3fe1d474aa17f8a5bd5b77d23ca03b7820e9e42488056d9542071b",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/completed/suffix_A_shared_TEST_0169_T5_s0_q0_r0_U0.json": "537dc27343cc8221971c20635d2f8f5169af24343bd1858bbef9087d4411eace",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/cache/3e614071941e9a7bfe76b10e7471541ec4c92176c132da7bfb3f50dd88518ada.json": "052ea769bc7f4bb6325fae1fedf6ee2f0aeea84915181c6a7789fd61d122c40a",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/results/r0/A_shared_TEST_0169_T5_s0_q0.json": "ae38bf393441e80021290d790ab806a575602858283428494f3953fed1ff8d3f"
+  },
+  "identity": {
+    "model": "5fb518228899f9c15e3db99e01c11d159af8451337dee6d85c28f3880fde2b29",
+    "code": "25737ad0d8d462c020f979d68f61d55e90b2e2668df0fb2d0a8008b19f7db7b7",
+    "corpus": "361064de9ca092fcd6a97649eb7daac7f01b03a084cb021f6e6d0b819c00180c",
+    "tokens": "64569cc7e32d060a398bb0dba55885712cb963aa4475dbaf847e795f4b4926f9",
+    "config": "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/config.json",
+    "frozen_fit_hashes": {
+      "r0": "9215ff51a78cfd3a5c9a8149332c17fe9a8d50a8571d6943f1cc2059fb52c833"
+    }
+  },
+  "own_fit_sha256": "9215ff51a78cfd3a5c9a8149332c17fe9a8d50a8571d6943f1cc2059fb52c833",
+  "max_target_error": 0.0,
+  "all_saved_loss_vector_arithmetic_passed": true
+}

@@ -1,0 +1,104 @@
+{
+  "schema_version": 1,
+  "id": "AB_B_TAIL_COMPLETION_20261101_v1",
+  "kind": "experiment",
+  "primary_agent": "/root",
+  "purpose": "Completion audit of four technical FIT native-tail recipients;152F/8B; no PILOT/TEST/hypothesis result.",
+  "tracked_files": [
+    "ab_confirmatory_20261101/__init__.py",
+    "ab_confirmatory_20261101/worker_b_evaluate.py",
+    "ab_confirmatory_20261101/native_tail_b.py",
+    "ab_confirmatory_20261101/native.py",
+    "ab_confirmatory_20261101/runtime.py",
+    "ab_confirmatory_20261101/prepare.py",
+    "ab_confirmatory_20261101/baselines_b.py",
+    "ab_confirmatory_20261101/transcoder.py",
+    "ab_confirmatory_20261101/prepare_tail_b.py",
+    "ab_confirmatory_20261101/test_worker_b_evaluate.py",
+    "ab_confirmatory_20261101/test_native_tail_b.py",
+    "analysis/AB_confirmatory_execution_20261101/B_tail_qualification_v1/config.json",
+    "analysis/AB_confirmatory_execution_20261101/B_tail_qualification_v1/corpus.json",
+    "analysis/AB_confirmatory_execution_20261101/B_tail_qualification_v1/tokens.json",
+    "analysis/AB_confirmatory_execution_20261101/B_tail_qualification_v1/cost.json",
+    "analysis/AB_confirmatory_execution_20261101/B_tail_qualification_v1/PROTOCOL.md",
+    "analysis/AB_confirmatory_execution_20261101/B_tail_qualification_v1/synthetic_tests.log",
+    "analysis/AB_confirmatory_execution_20261101/B_tail_qualification_v1/completion_summary_v1.json",
+    "analysis/AB_confirmatory_execution_20261101/B_tail_qualification_v1/REPORT_COMPLETION_v1.md"
+  ],
+  "tracked_trees": [],
+  "input_manifests": [
+    "analysis/AB_confirmatory_execution_20261101/B_tail_qualification_v1/input_manifest.json",
+    "analysis/AB_confirmatory_execution_20261101/B_fit_primary_v1/model_manifest.json",
+    "analysis/AB_confirmatory_execution_20261101/B_tail_qualification_v1/completion_outputs_manifest_v1.json"
+  ],
+  "gates": [
+    {
+      "id": "hooks",
+      "category": "hooks",
+      "evidence": "analysis/AB_confirmatory_execution_20261101/B_tail_qualification_v1/test_evidence.json",
+      "pointer": "/exact_tail_integration_passed",
+      "op": "eq",
+      "expected": true,
+      "reason": "Random full/tail parity, acquisition, cache and anchor tests."
+    },
+    {
+      "id": "data",
+      "category": "data",
+      "evidence": "analysis/AB_confirmatory_execution_20261101/B_tail_qualification_v1/test_evidence.json",
+      "pointer": "/unused_fit_documents",
+      "op": "eq",
+      "expected": 4,
+      "reason": "Four literal new FIT transfer recipients; no TEST access."
+    },
+    {
+      "id": "pilot",
+      "category": "pilot",
+      "evidence": "analysis/AB_confirmatory_execution_20261101/B_tail_qualification_v1/test_evidence.json",
+      "pointer": "/scientific_inference",
+      "op": "eq",
+      "expected": false,
+      "reason": "Technical equivalence only."
+    },
+    {
+      "id": "accounting",
+      "category": "accounting",
+      "evidence": "analysis/AB_confirmatory_execution_20261101/B_tail_qualification_v1/test_evidence.json",
+      "pointer": "/scheduled_forward",
+      "op": "eq",
+      "expected": 152,
+      "reason": "Exact complete forward/backward schedule, full vs local cost separate."
+    },
+    {
+      "id": "restart",
+      "category": "restart",
+      "evidence": "analysis/AB_confirmatory_execution_20261101/B_tail_qualification_v1/test_evidence.json",
+      "pointer": "/zero_load_replay_passed",
+      "op": "eq",
+      "expected": true,
+      "reason": "Durable prefix preserved and complete replay loads no model."
+    },
+    {
+      "id": "fit_review",
+      "category": "data",
+      "evidence": "analysis/AB_confirmatory_execution_20261101/B_tail_qualification_v1/fit_acceptance.json",
+      "pointer": "/verdict",
+      "op": "eq",
+      "expected": "approved",
+      "reason": "Actual independent completion review of imported frozen FIT."
+    }
+  ],
+  "circuits": [],
+  "structural_scope": "All native layers after15 execute with dynamic attention. Last-token postnormMLP replacement before residual addition.",
+  "entrypoint": {
+    "module": "ab_confirmatory_20261101.worker_b_evaluate",
+    "args": [
+      "--config",
+      "analysis/AB_confirmatory_execution_20261101/B_tail_qualification_v1/config.json"
+    ]
+  },
+  "schedule": "analysis/AB_confirmatory_execution_20261101/B_tail_qualification_v1/operations.json",
+  "budget": {
+    "forward": 152,
+    "backward": 8
+  }
+}

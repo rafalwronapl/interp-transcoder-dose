@@ -1,0 +1,58 @@
+CORRECTED REPORT v2 — supersedes REPORT.txt scope and missing-frame accounting; original artifacts preserved.
+Original worker/protocol incorrectly said64blocks/so-only; actual input and numerical computations used32blocks and bothso/when frames. See SCOPE_CORRECTION_v2.json. No matching recomputation or model calls.
+
+B-FIT — completed cache-only feasibility analysis, 2026-11-03
+
+Independent pre-run review APPROVED: review/pre_run_review_v1.json, snapshot fac5f4f7df97ded249121c7d280cd33202915226036d4ac2db0398cdb899b47a.
+Canonical research_checks launcher completed exit0. Completion independent review: PENDING; see later completion_review receipt.
+
+Scope: historical Gemma270M L15, FIT32 independent blocks,128 recipient documents, so/when frames (64documents each), pooled selection/matching objective, full operator dose1 only. Historical top32 preserved; no TEST readouts used for group selection.
+Exact selective numeric tensor access: threshold[16384],w_dec[16384,640] from existing local params.safetensors; no encoder tensor/native checkpoint loaded; no native or TC class instantiated.
+Actual new native model loads0; TC model loads0; native forwards0; TC forwards0. Cache-only array algebra. Input inventory and all790inputs bound by input_manifest.json; exact params SHA ca3a2fc2c75ffa1c4305497ee1aba381bdedff90a49aeda5db82083e80e194ca.
+
+Observed results:
+Top32 mean actual switches/context 10.375000; mean summed contribution norm 747.386691.
+Alternative features switching at least once: 160; all alternatives combined mean count 11.703125. Top count exceeds ALL alternatives in50/128contexts. These facts alone do not establish distribution-wide impossibility.
+FIT-derived descriptive W1 bands: count 1.437500, norm 207.058075. Whole-block split variability, not equivalence-test thresholds.
+Seed | mean count | mean norm | W1count | W1norm | within both bands
+20261103 | 6.093750 | 221.713366 | 4.281250 | 525.673325 | False
+20261104 | 6.046875 | 222.377637 | 4.328125 | 525.009054 | False
+20261105 | 6.187500 | 211.468226 | 4.187500 | 535.918465 | False
+20261106 | 6.125000 | 218.467746 | 4.250000 | 528.918946 | False
+20261107 | 6.062500 | 220.461170 | 4.312500 | 526.925521 | False
+Unique candidate groups: 5/5; pairwise overlap range 28..31/32. Seeds are not independent biological/statistical samples.
+
+Post-run analytical support audit (no retuning):
+For ANY disjoint size32 group, triangle inequality gives mean norm <= 441.559180; therefore W1norm from top32 >= 305.827512. This exceeds the fixed descriptive FIT norm band 207.058075.
+Norm-band infeasibility certificate: True. See ANALYTIC_NORM_BOUND.json for exact bound/proof. The frozen optimizer itself is a bounded heuristic and does not establish global feasibility/infeasibility.
+
+Interpretation and limits:
+All five candidate groups fail joint count/norm matching. Preserve negative outcome; do not call these strength-matched controls. Candidate groups are frozen in FROZEN_GROUPS.json only for audit, not approved B-MASK execution.
+This is a restricted support/feasibility result, not evidence of unique native mechanisms, exceptional semantic importance, readout usefulness, or general model understanding. It adds no new native-readout/TC accuracy result. Original top32 was deliberately selected by FIT contribution strength, which limits available disjoint alternatives.
+No fresh population inference; no TEST balancing guarantee. The bands are descriptive and this FIT was already used in historical top32 selection. Reported analytical bound is expressly post-run.
+
+Missing measured cache and exact minimum additional FIT work:
+Observed so+when/full/c1 requires0newmodelcalls and is complete. Missing current-document conditions:128full/.05 +128projected/.05 +128projected/1 endpoints=384 additional TC input encodings if directly evaluated,0nativeforwards; all128baseencodings can be reused. No such stage launched. A separately reviewed pure linear encoder-cache derivation could be considered, but cannot silently substitute float rounding/threshold conventions.
+Only transfer FIT frame is absent from this source_index FIT. For the same32blocks and2sides, one frame would need64newnativecaptures if no compatible capture exists elsewhere, plus TC encodings (at most64base+256endpoints for4conditions before donor/end deduplication). Availability elsewhere was not exhaustively inventoried; these are conditional operation counts, not claims of required new calls. No time estimate fabricated.
+
+Small follow-up design, proposed only:
+Before B-MASK, choose an explicit response to failed balance: preserve top32 and collect independent FIT condition support; or preregister a different question allowing weaker/overlapping/variable-size controls, reporting that changed estimand. Do not relax bands or enlarge controls just to produce a positive result within this analysis.
+If valid controls become available, freeze algorithm/tolerances/groups, then exact ONLY/EXCEPT suffixes on historical TEST are posthoc. Minimal scope from plan: so/full/c1. The historical32blocks provide64so-frame recipient documents. Five controls and two arms per group imply at most640newnative suffix evaluations before exact target aliases/deduplication; existing top32/ON/OFF/native results reused. Prefix cache validity and unique target count must be checked in the separate B-MASK plan, reviewed and canonically launched. No B-MASK calls authorized by this report.
+
+Evidence: INVENTORY.json; input_manifest.json; fixtures.json; FIT_FEASIBILITY_v2.json (all per-context distributions and posthoc per-frame summaries); FROZEN_GROUPS_v2.json; ANALYTIC_NORM_BOUND.json; review/pre_run_review_v1.json; pre_run_snapshot.json; launch.log/launch.err. Historical producer worker_v3.py, geometry.py, transcoder.py bound in manifest.
+Literature boundary: this specific strength-support audit adds no novelty claim; use established B13 sources and plans/DALSZE_EKSPERYMENTY_A_B_20261103.txt. Planned follow-ups are not findings.
+
+Posthoc per-frame diagnostics, unchanged pooled-selected groups:
+so:32blocks,64documents; top mean count 11.562500, norm 842.322845; frame-specific descriptive bands [1.625, 307.268576819058].
+  seed20261103: mean count 6.625000, norm 222.674886; W1 [4.9375, 619.6479592800038]; within bands=False.
+  seed20261104: mean count 6.531250, norm 224.003428; W1 [5.03125, 618.3194175743113]; within bands=False.
+  seed20261105: mean count 6.312500, norm 206.551520; W1 [5.25, 635.7713256688683]; within bands=False.
+  seed20261106: mean count 6.468750, norm 222.365541; W1 [5.09375, 619.9573043411027]; within bands=False.
+  seed20261107: mean count 6.500000, norm 223.090317; W1 [5.0625, 619.23252790936]; within bands=False.
+when:32blocks,64documents; top mean count 9.187500, norm 652.450537; frame-specific descriptive bands [2.0, 174.06631299262713].
+  seed20261103: mean count 5.562500, norm 220.751847; W1 [3.625, 431.6986906818935]; within bands=False.
+  seed20261104: mean count 5.562500, norm 220.751847; W1 [3.625, 431.6986906818935]; within bands=False.
+  seed20261105: mean count 6.062500, norm 216.384932; W1 [3.125, 436.06560490720886]; within bands=False.
+  seed20261106: mean count 5.781250, norm 214.569950; W1 [3.40625, 437.880587020445]; within bands=False.
+  seed20261107: mean count 5.625000, norm 217.832023; W1 [3.5625, 434.61851422543896]; within bands=False.
+These frame summaries were added after the pooled result; they did not select/retune groups or bands used in the primary pooled feasibility calculation. The analytic norm bound is pooled acrossso/when, not automatically a frame-specific impossibility proof.

@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "reviewer_id": "/root/astra_learned_plan_review",
+  "independent": true,
+  "verdict": "approved",
+  "snapshot": "editorial_snapshot.json",
+  "snapshot_file_sha256": "1ddf6109e9eff45f93c317c5be9dd225772b64a42a77ffd0d97fb8c9099bc6f2",
+  "topics_checked": [
+    "claims",
+    "methods",
+    "evidence",
+    "figures",
+    "build",
+    "preservation"
+  ],
+  "checks": [
+    "Independently verified all102 actual snapshot file hashes.",
+    "Read revised abstract/introduction, second-artifact and same-dose/switch methods/results, discussion, full new tables, accounting and evidence disclosures; crosschecked against actual accepted REPORT_v2/REPORT_v4 and completion_review_v2/v4.",
+    "Gemma1B crossover distinguished from full-dose useful accuracy: TC115.38 percent versus Taylor269.86, ridge50.80,zero100; dose2 TC benefit over zero/mean but loss to ridge retained. All144 metric cells preserved.",
+    "The32block768-condition diagnostics correctly remain posthoc. Oracle whole-residual same-dose norm matching is distinct from earlier baseline-error swapping. Opposite small-dose partner contrast retained.",
+    "Feature-mask ONLY/EXCEPT definitions retain endpoint magnitudes and nonswitching features; equal32-feature pools are not matched active-strength controls. Random inactivity188/192 and selected8.3125 versus random.02083 switches explicitly disclosed. No recovered native circuit or universal necessity/sufficiency claim.",
+    "Cumulative80932F/0B/three-load second-artifact and7829F/4B diagnostic accounting preserved, including failed/qualification stages.",
+    "Build has four exit0 stages,31pages,no undefined references/citations or overfull boxes; independently rendered and visually checked page7 containing second-artifact summary and new residual/switch methods."
+  ],
+  "findings": [
+    {
+      "id": "EDITORIAL-SCOPE",
+      "severity": "low",
+      "status": "accepted",
+      "evidence": "Private author-review draft with unresolved public release/licensing/authorship statements; source reports retain stale pending text but manuscript explicitly points to subsequent genuine approved receipts.",
+      "resolution": "Approval is for accurate integration of completed accepted evidence. It is not public-submission approval, a fresh raw experiment audit, or certification of worldwide novelty."
+    }
+  ],
+  "limitations": "No model calls, refits or bootstrap; inherited historical studies were checked for retained limitations, not wholly re-audited. New numerical claims checked against approved source summaries and reports. Snapshot field is byte-SHA256 of editorial_snapshot.json with102 entries independently verified."
+}

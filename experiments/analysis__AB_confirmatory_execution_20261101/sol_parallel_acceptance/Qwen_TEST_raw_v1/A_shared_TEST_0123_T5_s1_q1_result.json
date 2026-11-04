@@ -1,0 +1,35 @@
+{
+  "document": {
+    "id": "A_shared_TEST_0123_T5_s1_q1",
+    "donor": "A_shared_TEST_0123_T5_s0_q1",
+    "block": "A_shared_TEST_0123",
+    "study": "A",
+    "cohort": "shared",
+    "split": "TEST",
+    "index": 123,
+    "frame": "T5",
+    "side": 1,
+    "q": 1,
+    "text": "Everyone agrees that the moppers, unlike the subduers,"
+  },
+  "files": {
+    "analysis/A_short_replication_qwen_20261101/TEST_fixed256_v3/run/completed/capture_A_shared_TEST_0123_T5_s1_q1.json": "92f99bd0c11cb0ccd404234f40352f187a72008743d47fb9d06898a8bfd049a6",
+    "analysis/A_short_replication_qwen_20261101/TEST_fixed256_v3/run/cache/b9c66d01d0720486174d0db271b202076dcb531bc2d80ee8bc7b5473a37e204b.json": "88f6aa3c26248bfa1d0be9a355dc646b6d8d8edc14e6b80671b2fa07bbf83240",
+    "analysis/A_short_replication_qwen_20261101/TEST_fixed256_v3/run/completed/capture_A_shared_TEST_0123_T5_s0_q1.json": "3bb1118643e70e15b6f144637da60b75ff80ba0f79c62546eb2dbced469cd248",
+    "analysis/A_short_replication_qwen_20261101/TEST_fixed256_v3/run/cache/4071061dd5d0a3d3501e37ef5b97810f5132a9fbabadc050959adb8e9fe7642c.json": "29202ab85224e2cb6469e50e184713f80e323f25fc84a3fb127019f62a27c613",
+    "analysis/A_short_replication_qwen_20261101/TEST_fixed256_v3/run/completed/suffix_A_shared_TEST_0123_T5_s1_q1_native.json": "8e345430b47d9d0b901e11544ef1bc0e308bb9b6a491fe10665cba55d8256806",
+    "analysis/A_short_replication_qwen_20261101/TEST_fixed256_v3/run/cache/ee776af94001268b70fd2877ff9776fc47bb77b665c77e7e62c885b6ed7da02b.json": "0ab8e30c95e97538bee5bbfec7212f764cd6ba5c1600d2d3bdaefb6f4960761e",
+    "analysis/A_short_replication_qwen_20261101/TEST_fixed256_v3/run/completed/suffix_A_shared_TEST_0123_T5_s1_q1_P.json": "9ac7c6f6dddc561d9db44439eb134b29fc555db586890bf77b3a7eaa5fe3dcd7",
+    "analysis/A_short_replication_qwen_20261101/TEST_fixed256_v3/run/cache/e81eaf12a70a1c957003aeaa12661a5d9b72bd062f0dd62b873669ad32f0809d.json": "d0744e0d030d726ec4364388667e48888d29a24ff37c2aa26119d02d11de8f49",
+    "analysis/A_short_replication_qwen_20261101/TEST_fixed256_v3/run/completed/suffix_A_shared_TEST_0123_T5_s1_q1_U0.json": "11d844e8da69a69ebb5674b3562316e9c9f93622b60030b8d1a71da907e27b6b",
+    "analysis/A_short_replication_qwen_20261101/TEST_fixed256_v3/run/cache/1132b09c73aa691166201651edb3d9b49f4406dec6df80c187bd10fec4816b48.json": "cf57204dbb537e1bc1a47cf577c65be88d3f976bafed4058719cf9f958c05e9f",
+    "analysis/A_short_replication_qwen_20261101/TEST_fixed256_v3/run/results/A_shared_TEST_0123_T5_s1_q1.json": "dd50c2b847d3ee9a62ffa44cbdcbb05c8d087c45250db080b2b5ab2ba9168a0f"
+  },
+  "identity": {
+    "model": "6c0a47f03e2523c9a91ba0c2d0619671e7ab16f1b27a2cd039742997148c9269",
+    "code": "a7e0eb7c001d76058f8622dd71c6073784e9c3472bc2bdfbea4184b2cbba1bb5"
+  },
+  "own_fit_sha256": "56d4c8fe1448ff02683ab4b001243d56b983c128e33d65811919b54e23af4ccc",
+  "max_target_error": 0.0,
+  "all_saved_loss_vector_arithmetic_passed": true
+}

@@ -1,0 +1,41 @@
+{
+  "document": {
+    "id": "A_shared_TEST_0182_T5_s1_q1",
+    "donor": "A_shared_TEST_0182_T5_s0_q1",
+    "block": "A_shared_TEST_0182",
+    "study": "A",
+    "cohort": "shared",
+    "split": "TEST",
+    "index": 182,
+    "frame": "T5",
+    "side": 1,
+    "q": 1,
+    "text": "Everyone agrees that the hemophiliacs, unlike the whisperers,"
+  },
+  "files": {
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/completed/capture_A_shared_TEST_0182_T5_s1_q1.json": "f60c971c25b8733dffda6a85cd52b788446e08ec92ca321a5bd1e7255109d95b",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/cache/aa9a314fa756d02d9c45f37b07bc86bbc59d7f5a85b2320ca1c968d626a718ec.json": "3e007d9e23290438698ee69a61fbcbb7850ffbdc6dcd858b875cc54248d4b825",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/completed/capture_A_shared_TEST_0182_T5_s0_q1.json": "6f0baca9730e7dc15ff72209cdc5a5d4a1f6196dd9c8d269e2b4dfbf185fd420",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/cache/2f5d14419086882f430f3448be77091637050a742a097df9bec76f3383307346.json": "ed9d98cea4dc3b3e86c86d696ec7499aa016d79e29ca157456afc3630c228b60",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/completed/suffix_A_shared_TEST_0182_T5_s1_q1_native.json": "55f051e1677c52ee0d8bc96855453edf8b52e246c98811953a18174a65873666",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/cache/b8d4442fa2585d51124f1e6b28259401fde85c50b8b2672b39aa854969e237b5.json": "02c7625fbf09e6814ba318ae96ca9df1a48fe74c298facf1d2a9fc02377a1785",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/completed/suffix_A_shared_TEST_0182_T5_s1_q1_r0_P.json": "cd20cc548560473f8ca78f490d3e8358aad2f29a465a9133c5ceeb107c24a333",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/cache/2cdf57d5c6da0837f3535d73f0ffdd4e3357eab7a6bc466d51c7279a8fd59f5c.json": "7b78e0a9d686efe418a2db1dff51d5a2b83c33d7494998ef04ee2ac9212112fc",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/completed/suffix_A_shared_TEST_0182_T5_s1_q1_r0_U0.json": "05e2eadc334a38bd263ddd8f2bd69bc79db5cd2fa611f00e10dd59051e558af5",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/cache/ecffe9dda6337862900f429b3277b51e76d52e685a83f74bb16d0919f65c502d.json": "c6dd51e61183778cc7b661ecc85c7a1992f5f1c43ae662be2f7c5875e484437f",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/results/r0/A_shared_TEST_0182_T5_s1_q1.json": "61508dcf9a81fc2f168e2fed90448cfa8063c17df253f57fd1353f695fd0c7da"
+  },
+  "identity": {
+    "model": "5fb518228899f9c15e3db99e01c11d159af8451337dee6d85c28f3880fde2b29",
+    "code": "25737ad0d8d462c020f979d68f61d55e90b2e2668df0fb2d0a8008b19f7db7b7",
+    "corpus": "361064de9ca092fcd6a97649eb7daac7f01b03a084cb021f6e6d0b819c00180c",
+    "tokens": "64569cc7e32d060a398bb0dba55885712cb963aa4475dbaf847e795f4b4926f9",
+    "config": "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/config.json",
+    "frozen_fit_hashes": {
+      "r0": "9215ff51a78cfd3a5c9a8149332c17fe9a8d50a8571d6943f1cc2059fb52c833"
+    }
+  },
+  "own_fit_sha256": "9215ff51a78cfd3a5c9a8149332c17fe9a8d50a8571d6943f1cc2059fb52c833",
+  "max_target_error": 0.0,
+  "all_saved_loss_vector_arithmetic_passed": true
+}

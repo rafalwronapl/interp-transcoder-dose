@@ -1,0 +1,35 @@
+{
+  "document": {
+    "id": "A_shared_TEST_0128_T5_s0_q1",
+    "donor": "A_shared_TEST_0128_T5_s1_q1",
+    "block": "A_shared_TEST_0128",
+    "study": "A",
+    "cohort": "shared",
+    "split": "TEST",
+    "index": 128,
+    "frame": "T5",
+    "side": 0,
+    "q": 1,
+    "text": "Everyone agrees that the fiddlestick, unlike the toastracks,"
+  },
+  "files": {
+    "analysis/A_short_replication_qwen_20261101/TEST_fixed256_v3/run/completed/capture_A_shared_TEST_0128_T5_s0_q1.json": "6b9a0ff10bd41418ea17f6843b025d9f74a07777e021db79581aa60bbacb7569",
+    "analysis/A_short_replication_qwen_20261101/TEST_fixed256_v3/run/cache/2d9fad0102ecbda47af124815beb1342f294eef3ab8d291bd2a35e88100021dc.json": "0c5cae7ee4f88937060bea068ac525a345c3918de8398e8c51e03c83df3ef19b",
+    "analysis/A_short_replication_qwen_20261101/TEST_fixed256_v3/run/completed/capture_A_shared_TEST_0128_T5_s1_q1.json": "48b126323294a526a3b47a2af047907c195df3c15c8481ef627ed1330b33967c",
+    "analysis/A_short_replication_qwen_20261101/TEST_fixed256_v3/run/cache/080c6dadfbcc89e3ab88f2ae40c9ee3fa25f9436be0ed86b2be18a1b32b012e9.json": "ef84ca495ba80741d5fdd69879c73245999aeadf3df7c89fb750f5ca2d93a5a1",
+    "analysis/A_short_replication_qwen_20261101/TEST_fixed256_v3/run/completed/suffix_A_shared_TEST_0128_T5_s0_q1_native.json": "8846227f8a792d02a1caa79d25e4bf07b5bd3bcb17b20cb8601a6f757d996246",
+    "analysis/A_short_replication_qwen_20261101/TEST_fixed256_v3/run/cache/323911ba90655a192865384762a8bd8287519934ecd7ad446dc4de850760efc2.json": "6a4e7f3351435f78b2bb5902d1da6d8792ecbaeb8515285c334ce8c8941baa86",
+    "analysis/A_short_replication_qwen_20261101/TEST_fixed256_v3/run/completed/suffix_A_shared_TEST_0128_T5_s0_q1_P.json": "14f3000a6a2bc53e0f976d67a29682948ff03308d314d161504a829fd3978643",
+    "analysis/A_short_replication_qwen_20261101/TEST_fixed256_v3/run/cache/797bac1634c1a571f7f2f7e8cef98ce5ee1929ba5e1c88ef1ac71c4424f287b3.json": "9f49b8481fd48d98c5ba9b434ee9f234b3efa2bb9ff2d3fe90072784e112633f",
+    "analysis/A_short_replication_qwen_20261101/TEST_fixed256_v3/run/completed/suffix_A_shared_TEST_0128_T5_s0_q1_U0.json": "e81370979f3b6e7dae7b9f9ef8ce72b689eb5a878dca299b72d303e1c12e3bb9",
+    "analysis/A_short_replication_qwen_20261101/TEST_fixed256_v3/run/cache/74deed076bfdd3122530e6e1c9b0873780575f1a50405717d69037e569e4d100.json": "9761896d67bb5835b91eeee4785da9b9b1bbbc1e32295a7c863ac9f90304b04e",
+    "analysis/A_short_replication_qwen_20261101/TEST_fixed256_v3/run/results/A_shared_TEST_0128_T5_s0_q1.json": "2dddeec21d0ed8a911fe69c880af5cc694659c7e48c9e16cd5f459e06510b46f"
+  },
+  "identity": {
+    "model": "6c0a47f03e2523c9a91ba0c2d0619671e7ab16f1b27a2cd039742997148c9269",
+    "code": "a7e0eb7c001d76058f8622dd71c6073784e9c3472bc2bdfbea4184b2cbba1bb5"
+  },
+  "own_fit_sha256": "56d4c8fe1448ff02683ab4b001243d56b983c128e33d65811919b54e23af4ccc",
+  "max_target_error": 0.0,
+  "all_saved_loss_vector_arithmetic_passed": true
+}

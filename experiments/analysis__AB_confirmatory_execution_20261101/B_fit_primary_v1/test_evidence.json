@@ -1,0 +1,25 @@
+{
+  "tests": 1,
+  "failures": 0,
+  "errors": 0,
+  "pretrained_calls": 0,
+  "passed": true,
+  "source_hashes": {
+    "ab_confirmatory_20261101\\__init__.py": "5baaad50cc8b4df177cc20cb7c8a254cd62c50f3bb7dac8816bc852d59a2c162",
+    "ab_confirmatory_20261101\\worker_b.py": "4923e40185fc728edb490d7f14d2a80b17ed770e40a3f15f13e329099826179e",
+    "ab_confirmatory_20261101\\prepare.py": "e4f0bf1eec787488499ef27d10411249c9b05560a3db62f1a0b3219e897f5321",
+    "ab_confirmatory_20261101\\native.py": "e798596f3f6add0c885fb03efec6e165193bf7470a1da190adb04da03796e810",
+    "ab_confirmatory_20261101\\runtime.py": "f32b0862683b46e69812f325cb2d61fa2c3f3de786d928089eaf3d46fadb642b",
+    "ab_confirmatory_20261101\\baselines_b.py": "1727d1d1ad12fb251bf5799ca10b3d3adc504812a648a3e1bc780c1189e1cd9f",
+    "ab_confirmatory_20261101\\transcoder.py": "c76d71b96ee0b7c5d26a5a206fc4fd4db57063f22c1d2c917061b9990cc7e02b",
+    "ab_confirmatory_20261101\\test_worker_b.py": "2931ede6c70f4e32ced4feb5bbe9bc5003061ab314acbecafb6b37b12107cbc5"
+  },
+  "two_stage_qualification_tested": true,
+  "zero_load_replay_tested": true,
+  "config_identity_mismatch_tested": true,
+  "independent_reference_mutant_tested": true,
+  "literal_documents": 128,
+  "scientific_inference": false,
+  "scheduled_forward": 1860,
+  "scheduled_backward": 4
+}

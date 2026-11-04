@@ -1,0 +1,70 @@
+{
+  "production_integration_passed": true,
+  "zero_load_replay_passed": true,
+  "source_hashes": {
+    "ab_confirmatory_20261101/worker_b_evaluate.py": "bc229ea73ca91e61e108310eda3d02cdda93d790380d3a209737c92b2f5fc615",
+    "ab_confirmatory_20261101/native_tail_b.py": "e587cc4e63ad8527ec22f936bb2b7a1f458177dfbe4270fd51bb00b096d9beef",
+    "ab_confirmatory_20261101/worker_b_production_v2.py": "86e3564e591daaa9d5d6afaca776a5e431746285b98203c33f08529fa7a14cc1",
+    "ab_confirmatory_20261101/campaign_authorization.py": "5710e0ee74092ecddb45b0bc53bd55ef49884153326bc3da0ecc2678a963ae44",
+    "ab_confirmatory_20261101/eligibility_paths_v5.py": "54b3ca3185232bfafc95332e12fa56f6ec7b8eb303b42b2144e46e9a1d258f2f",
+    "ab_confirmatory_20261101/prepare_production_b.py": "5a161b0d0349b20bbbf2581f6fced56d2a1a5fa23b2fdd8cef7211a6df347e33",
+    "ab_confirmatory_20261101/prepare_b_drafts_v2.py": "e699a521fe8d6e3c5b3b6ae2e42c9474dac6fd2189311a23659e4d1a4b4d1618",
+    "ab_confirmatory_20261101/assemble_b_v2.py": "73d0569dc7673edd5d360d5292c165a5b55abafd970722a8e366d58c9919566b",
+    "ab_confirmatory_20261101/test_worker_b_evaluate.py": "647b237a06a9d1d4444335d386a033e731523534f3c76e94be67683d82d8b86d",
+    "ab_confirmatory_20261101/test_b_production_v2.py": "ae07b1e0fd41278415f5e6784bbbe4c30718c2eb074a03ae7413538f35f65c81",
+    "ab_confirmatory_20261101/test_campaign_authorization.py": "e6a4e5701e52126817a652f2d96cc7deafd02f29bf3a1d9f77b65b165e7112d4",
+    "ab_confirmatory_20261101/test_eligibility_paths_v5.py": "a2ba2a340dd240336a42cff97e851a76b4b72faeb40d08c3c3f5f1028ecf8a55",
+    "ab_confirmatory_20261101/test_assemble_b_v2.py": "c62da0f7ebf048305d4a0f89199e1350c24b4afc7d3088c930d912b4cd8ab68e",
+    "ab_confirmatory_20261101/native.py": "e798596f3f6add0c885fb03efec6e165193bf7470a1da190adb04da03796e810",
+    "ab_confirmatory_20261101/runtime.py": "f32b0862683b46e69812f325cb2d61fa2c3f3de786d928089eaf3d46fadb642b",
+    "ab_confirmatory_20261101/prepare.py": "e4f0bf1eec787488499ef27d10411249c9b05560a3db62f1a0b3219e897f5321",
+    "ab_confirmatory_20261101/baselines_b.py": "1727d1d1ad12fb251bf5799ca10b3d3adc504812a648a3e1bc780c1189e1cd9f",
+    "ab_confirmatory_20261101/transcoder.py": "c76d71b96ee0b7c5d26a5a206fc4fd4db57063f22c1d2c917061b9990cc7e02b",
+    "ab_confirmatory_20261101/offline_io_v3.py": "4c01282d7edcf4e177f4028e23e91fab3c67abaea9388047377ade161a0fbc34",
+    "ab_confirmatory_20261101/offline_io_v4.py": "af14383b428d6a1a04f62468a501e78a1395a6858f0672b6acd2d61cbda330fa",
+    "ab_confirmatory_20261101/analysis_ab_v3.py": "8901efea05d641712943e708d76120bc086ba8bcc73f4a53a3efa9590d0d25d7",
+    "ab_confirmatory_20261101/analysis_ab_v4.py": "eb65233982d71f9196bc680ead53155b9a777efbc1dd369862982c5eca28a7a6",
+    "ab_confirmatory_20261101/statistics.py": "c2dbec7e6d42326376b588796818eeb377f617b42ce7f38e04219a30f4d94fb4",
+    "ab_confirmatory_20261101/safe_statistics.py": "fd28928ac9bcb96c91fbb34a5176fb9fdde5bf9f236251f70108befc2e1ec2be",
+    "ab_confirmatory_20261101/precision.py": "408cf6e58aaa943173d55db514e0a0d24f8ddd7e9bf0a5bdd1b4604752614830"
+  },
+  "actual_tests": [
+    {
+      "tool_chunk": "171b38",
+      "final_exit_chunk": "be5b07",
+      "tests": 1,
+      "seconds": 43.927,
+      "scope": "Random-only production6methods6doses3templates; replay; margin/branch mutant guards"
+    },
+    {
+      "tool_chunk": "6c2580",
+      "tests": 3,
+      "seconds": 7.647,
+      "scope": "Real canonical verifier and two acquisition authorization tests"
+    },
+    {
+      "tool_chunk": "96c688",
+      "tests": 2,
+      "seconds": 4.51,
+      "scope": "Paired pooling, missing blocks, sealed closure, replay and injected record"
+    }
+  ],
+  "tests_passed": 6,
+  "new_pretrained_calls": 0,
+  "draft_checks": [
+    {
+      "packet": "PILOT_32",
+      "launch_blocked": true
+    },
+    {
+      "packet": "TEST_128",
+      "launch_blocked": true
+    },
+    {
+      "packet": "TEST_256",
+      "launch_blocked": true
+    }
+  ],
+  "limitation": "Future actual eligibility/selection/tail completion remain separate independently reviewed launch prerequisites.",
+  "amendment": "Version2: only builder prerequisite snapshot/test-receipt paths changed. Measurement/authorization/assembly test subjects unchanged; builder reviewed statically, not represented as tested by random inference."
+}

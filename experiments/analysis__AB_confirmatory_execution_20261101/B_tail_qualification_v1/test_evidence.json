@@ -1,0 +1,20 @@
+{
+  "exact_tail_integration_passed": true,
+  "unused_fit_documents": 4,
+  "scientific_inference": false,
+  "scheduled_forward": 152,
+  "scheduled_backward": 8,
+  "zero_load_replay_passed": true,
+  "command": "python -m unittest ab_confirmatory_20261101.test_worker_b_evaluate -v",
+  "actual_tool_chunk": "1e4db3",
+  "exit_code": 0,
+  "tests": 1,
+  "seconds": 5.5,
+  "random_weights_only": true,
+  "limitation": "Production PILOT/TEST branch not covered by this technical-stage test.",
+  "tested_sources": {
+    "ab_confirmatory_20261101/worker_b_evaluate.py": "bc229ea73ca91e61e108310eda3d02cdda93d790380d3a209737c92b2f5fc615",
+    "ab_confirmatory_20261101/native_tail_b.py": "e587cc4e63ad8527ec22f936bb2b7a1f458177dfbe4270fd51bb00b096d9beef",
+    "ab_confirmatory_20261101/test_worker_b_evaluate.py": "647b237a06a9d1d4444335d386a033e731523534f3c76e94be67683d82d8b86d"
+  }
+}

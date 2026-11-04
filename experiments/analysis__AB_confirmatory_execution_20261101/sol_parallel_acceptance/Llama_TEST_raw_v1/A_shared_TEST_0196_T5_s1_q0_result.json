@@ -1,0 +1,41 @@
+{
+  "document": {
+    "id": "A_shared_TEST_0196_T5_s1_q0",
+    "donor": "A_shared_TEST_0196_T5_s0_q0",
+    "block": "A_shared_TEST_0196",
+    "study": "A",
+    "cohort": "shared",
+    "split": "TEST",
+    "index": 196,
+    "frame": "T5",
+    "side": 1,
+    "q": 0,
+    "text": "Everyone agrees that the axletrees, unlike the stigmatic,"
+  },
+  "files": {
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/completed/capture_A_shared_TEST_0196_T5_s1_q0.json": "bb53ed3ca9104ede354672246d2deffd7b5983b303d6e1f5176f240e953113fc",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/cache/8fb331fe48e2ccb55c0a22a3de1f70d9bea8b10b7dfe4c75545a2fc9ca7a69bb.json": "2fa8a9b9c1a163e9e98bba53d9634390877c022fb3a719915512462a6ac2ae54",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/completed/capture_A_shared_TEST_0196_T5_s0_q0.json": "eee13f478ae765c7a260ea725b9f8007cf0b3277d41ad3f4126b468a13abb466",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/cache/c756a3591ae894c0185a33f0074bc84c5faa09718738a6ef9e31f232c4547c11.json": "7d677bf703d9d4c283c8c39099b9dc79ff9a2b4382371fa94b02b6fc3053f400",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/completed/suffix_A_shared_TEST_0196_T5_s1_q0_native.json": "c7f0a7f71fa3c603e22ce7c8663ba9eeff94a904ceddf7a5f2aa166efb5c226d",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/cache/8f9aa35b241b28e63bf2482203f3f7e3e4fb9f3e6ad81b20f33e50ea09ede9ee.json": "51af2463feccaa18970846bce4306ce4760a4b5d32de9dcdc217fffe6f292c6c",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/completed/suffix_A_shared_TEST_0196_T5_s1_q0_r0_P.json": "0a6a3f74ef1c5a15cd7b92db25f0e8456578da95e0cee0e34180b7ef92c0cfb6",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/cache/0e2f075431cc1874964ead6a4969cb0a140611e70fae71834aef2ba62092f940.json": "044f652dba033a64c098a356dc9c7eee10e1a18b10ed0b61036cfbf01e142872",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/completed/suffix_A_shared_TEST_0196_T5_s1_q0_r0_U0.json": "4daaadcbbb53316c8058b48c0a4d0e725d8fd7c56fa0b8a1b25e8bb71986e23f",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/cache/d09f1f393594a1d508b0410e7aa9704815809c36ecffcc73ed2e25f6c675d656.json": "e44078064b6fe859f30a9cbbcad785c5e06cbc5a3e98984e0247e0ad5ed9070b",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/results/r0/A_shared_TEST_0196_T5_s1_q0.json": "af20f6d35bc482230c4b632eece9ca170f4299f9e4f66cb9fcc21359606be4d6"
+  },
+  "identity": {
+    "model": "5fb518228899f9c15e3db99e01c11d159af8451337dee6d85c28f3880fde2b29",
+    "code": "25737ad0d8d462c020f979d68f61d55e90b2e2668df0fb2d0a8008b19f7db7b7",
+    "corpus": "361064de9ca092fcd6a97649eb7daac7f01b03a084cb021f6e6d0b819c00180c",
+    "tokens": "64569cc7e32d060a398bb0dba55885712cb963aa4475dbaf847e795f4b4926f9",
+    "config": "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/config.json",
+    "frozen_fit_hashes": {
+      "r0": "9215ff51a78cfd3a5c9a8149332c17fe9a8d50a8571d6943f1cc2059fb52c833"
+    }
+  },
+  "own_fit_sha256": "9215ff51a78cfd3a5c9a8149332c17fe9a8d50a8571d6943f1cc2059fb52c833",
+  "max_target_error": 0.0,
+  "all_saved_loss_vector_arithmetic_passed": true
+}

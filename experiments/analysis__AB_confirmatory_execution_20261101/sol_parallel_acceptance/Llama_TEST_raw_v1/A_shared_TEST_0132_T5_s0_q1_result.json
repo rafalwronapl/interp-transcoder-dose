@@ -1,0 +1,41 @@
+{
+  "document": {
+    "id": "A_shared_TEST_0132_T5_s0_q1",
+    "donor": "A_shared_TEST_0132_T5_s1_q1",
+    "block": "A_shared_TEST_0132",
+    "study": "A",
+    "cohort": "shared",
+    "split": "TEST",
+    "index": 132,
+    "frame": "T5",
+    "side": 0,
+    "q": 1,
+    "text": "Everyone agrees that the blackmailer, unlike the autodidacts,"
+  },
+  "files": {
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/completed/capture_A_shared_TEST_0132_T5_s0_q1.json": "99c74e90d55f46c9add887f693a74c6d882b244a60d48ff57b4736ccf58be512",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/cache/f758e5401a957d605c952a76abc3abc24c037b84dbbf98f080932e81e7eb4086.json": "499592a172b7a718d84630dde5ea57473eba130804612bbc55aa4e38b0bf36ad",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/completed/capture_A_shared_TEST_0132_T5_s1_q1.json": "1cacbaa8bdcdd1e58b1d525c680837daa3596647cbefcef15c5920f131d625ef",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/cache/3f0d3072e813da7d29c157ba3643ee880afd68661168041d010f0e27becff698.json": "bceb0d5d1373545a0982d4bed7079ae3ad3656d146d12e63c429779a151cda2d",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/completed/suffix_A_shared_TEST_0132_T5_s0_q1_native.json": "ada3280d52f7e3febb633752ef556c23a6af2fefba93dc7318271814de77e916",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/cache/6305a2269e1f763c2949358ed0a117a56059e2b876d43b2224bd69c73c0785c0.json": "c75b4d61e7e706a79aca4e3f026084bc0f47dd55063069df6eab0ce2e7781f34",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/completed/suffix_A_shared_TEST_0132_T5_s0_q1_r0_P.json": "db751382cae91edb2b11a8627b77586d4f9519831d5319b02f2aadbafacd00dd",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/cache/1e5a604dd7c7ca8c4f3741c09d19c4f0407d825b5adc31b1b1e72e855845e2d9.json": "ed9a343e230440e1f6f5fadc43b4f9b6990b5875055a50b5ebc6900bd9d12099",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/completed/suffix_A_shared_TEST_0132_T5_s0_q1_r0_U0.json": "ba1a4739e3b64e598749b83d8bd01165af5e6bb7eec449cf852fde1ae58caf94",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/cache/ba01b01d228cfab28706b045e98668724597af8ab9a175634fab31c7f4aed2d8.json": "6f71c81a0712d0c5dbcab7c64fd40a06d166a9fd739e13453b41dd8a618a544b",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/results/r0/A_shared_TEST_0132_T5_s0_q1.json": "dba547243a17664bd450b93ce5d0ebadf074d2cb01e26cda9257b766b27a3e95"
+  },
+  "identity": {
+    "model": "5fb518228899f9c15e3db99e01c11d159af8451337dee6d85c28f3880fde2b29",
+    "code": "25737ad0d8d462c020f979d68f61d55e90b2e2668df0fb2d0a8008b19f7db7b7",
+    "corpus": "361064de9ca092fcd6a97649eb7daac7f01b03a084cb021f6e6d0b819c00180c",
+    "tokens": "64569cc7e32d060a398bb0dba55885712cb963aa4475dbaf847e795f4b4926f9",
+    "config": "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/config.json",
+    "frozen_fit_hashes": {
+      "r0": "9215ff51a78cfd3a5c9a8149332c17fe9a8d50a8571d6943f1cc2059fb52c833"
+    }
+  },
+  "own_fit_sha256": "9215ff51a78cfd3a5c9a8149332c17fe9a8d50a8571d6943f1cc2059fb52c833",
+  "max_target_error": 0.0,
+  "all_saved_loss_vector_arithmetic_passed": true
+}

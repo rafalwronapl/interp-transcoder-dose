@@ -1,0 +1,41 @@
+{
+  "document": {
+    "id": "A_shared_TEST_0244_T5_s0_q1",
+    "donor": "A_shared_TEST_0244_T5_s1_q1",
+    "block": "A_shared_TEST_0244",
+    "study": "A",
+    "cohort": "shared",
+    "split": "TEST",
+    "index": 244,
+    "frame": "T5",
+    "side": 0,
+    "q": 1,
+    "text": "Everyone agrees that the periwig, unlike the herrerasaurs,"
+  },
+  "files": {
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/completed/capture_A_shared_TEST_0244_T5_s0_q1.json": "377336b52a78d3105a5bc7d532d26b29515a4b187b3f856c56aba158c9f06225",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/cache/3b8c1314ea773b6be2bcb99a4d8e3ea69018005b75a8e540d8c0bfd2ef47d98d.json": "81ce6352c2aeaaeecf70782a2aea906c10fd6a05c40a3b15a6595a03f27eb2f1",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/completed/capture_A_shared_TEST_0244_T5_s1_q1.json": "3fd530cdfae6f2540993113d2e4d38ab934ef430a5c15e24d9a01379cdccb9f2",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/cache/648db448f1cbdaeba4b0230695ef4e6158143f2f2180f46e5c9dad8211380ad3.json": "453245099dab8f36b8048b4da3ac21375bdb886b2060795288ce2428c69185c2",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/completed/suffix_A_shared_TEST_0244_T5_s0_q1_native.json": "1b554ad1fd8d71229c3df81dee49d6700634ec5d9b555345f1cab0e9f21bc112",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/cache/041a837b9acba55ffcf471639b287638481a2c7029ca9e2c335d044a80c58310.json": "b1ffbb1135f818332a45fe6f997adf375456b033278543a3fc0afc0e9cde6584",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/completed/suffix_A_shared_TEST_0244_T5_s0_q1_r0_P.json": "f3ee9ad7e48b679994dc770bae98bf3740c104023cec874e7347c87636457768",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/cache/5b777490db0b9229a424fda35edd567b1110fdc01b04eb7399bc59757dd6995a.json": "c6426daa6acad81f518f26e59695f262cec084da39e572c25414cb52f0528fcd",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/completed/suffix_A_shared_TEST_0244_T5_s0_q1_r0_U0.json": "ab29ec5ac90a0c4ed101e7ca70b46ef6e6bfe66ab42d30b075b9ec93d885501d",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/cache/ca8dd174538c9fc1ad4700b01a87cbd232a31080d51ff9a927e4ddf63a76c932.json": "5a76bbde011a57e222b530df83c24e81fec2238b125f0b8c77b9a713b5620288",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/results/r0/A_shared_TEST_0244_T5_s0_q1.json": "977598a10d1faf633517fd5bf78e4b1bdaf9447acb87c96acb0b965074f0635d"
+  },
+  "identity": {
+    "model": "5fb518228899f9c15e3db99e01c11d159af8451337dee6d85c28f3880fde2b29",
+    "code": "25737ad0d8d462c020f979d68f61d55e90b2e2668df0fb2d0a8008b19f7db7b7",
+    "corpus": "361064de9ca092fcd6a97649eb7daac7f01b03a084cb021f6e6d0b819c00180c",
+    "tokens": "64569cc7e32d060a398bb0dba55885712cb963aa4475dbaf847e795f4b4926f9",
+    "config": "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/config.json",
+    "frozen_fit_hashes": {
+      "r0": "9215ff51a78cfd3a5c9a8149332c17fe9a8d50a8571d6943f1cc2059fb52c833"
+    }
+  },
+  "own_fit_sha256": "9215ff51a78cfd3a5c9a8149332c17fe9a8d50a8571d6943f1cc2059fb52c833",
+  "max_target_error": 0.0,
+  "all_saved_loss_vector_arithmetic_passed": true
+}

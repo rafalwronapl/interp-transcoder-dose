@@ -1,0 +1,37 @@
+{
+  "blocks": 256,
+  "documents": 1536,
+  "forward": 158208,
+  "backward": 1536,
+  "logical_operations": 159744,
+  "counts": {
+    "cache": 158208,
+    "completed": 159744,
+    "capture_completed": 1536,
+    "result_cells": 18432
+  },
+  "cost": {
+    "documents": 1536,
+    "blocks": 256,
+    "full_forward": 1536,
+    "native_tail_forward": 112128,
+    "local_native": 18432,
+    "local_TC": 23040,
+    "local_JVP": 3072,
+    "backward": 1536,
+    "model_budget": {
+      "forward": 158208,
+      "backward": 1536
+    },
+    "new_FIT_calls": 0,
+    "new_PILOT_calls": 0,
+    "automatic_retry_reserve": 0
+  },
+  "new_FIT_calls": 0,
+  "repeated_prior_measurements": 0,
+  "runtime_returncode": 0,
+  "runtime_completed": "2026-11-01T20:01:35.839209+00:00",
+  "scope": "Fixed256 descriptive TEST; no original Bfamily/Holm/support claims; futureanalysis TCc1v6joint12CIs only",
+  "independent_completion_review": "pending",
+  "scientific_effect_report": "Notcomputedbythisclosurehelper"
+}

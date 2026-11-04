@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "snapshot_sha256": "1ff08bbe85991c4f79e5ed6bea1dee59fe383949810f8a92bf8e8385223dccfa",
+  "reviewer_id": "/root/astra_b_mechanism_execution_plan",
+  "independent": true,
+  "verdict": "approved",
+  "topics_checked": [
+    "design",
+    "implementation",
+    "data",
+    "cost",
+    "claims"
+  ],
+  "findings": [
+    {
+      "id": "BMECH-S0-COMPLETE-ARITHMETIC",
+      "severity": "low",
+      "status": "accepted",
+      "evidence": "Independent review_stage0_completion.py passed all18432 derived row identities,144 endpoint-energy strata,288 all-method strata,73728 per-block summaries and48 reporter natural-gradient strata. Checked loss from signed error, exact-target cosine denominator, finite-minus-linear/rho identity, endpoint energy/cross identities, balanced means/RMS/relativeRMS and report JSON copies.",
+      "resolution": "STAGE0_COMPLETION_NUMERIC_REVIEW.json and independent source explicitly bound in actual44-member completion snapshot. Actual result SHA3903b344434cd13fde8bbf8c2ff329d5753f38e31e63495566ce3e686f98b035; summary SHA90466de73ccc75ad8b83bde205f69d59bb8073013632fea4afff2f2859bc9a54 verified."
+    },
+    {
+      "id": "BMECH-S0-INTERPRETATION",
+      "severity": "low",
+      "status": "accepted",
+      "evidence": "For all-three-frame pooled full patches c=.05 to1, TC error RMS rises0.054223328 to0.34459396 while signal RMS rises0.047924506 to3.0612783; relativeRMS falls1.1314322 to0.11256538. Natural-y linear error RMS0.055783397 to0.26670727 and remainder RMS0.0053875216 to0.1274204 remain explicitly different from true-endpoint-gradient stage1.",
+      "resolution": "Relative improvement is not a reduction of absolute error. Natural-point linear projection is informative but incomplete at larger interventions. Report preserves all strata and stages; no training cause or population confirmation inferred."
+    },
+    {
+      "id": "BMECH-S0-CENTERING-SCOPE",
+      "severity": "low",
+      "status": "accepted",
+      "evidence": "Full c=1 centered-cross terms are positive within each individual frame (so28932.501, transfer26141.202, when19381.773), whereas pooled centered-cross is negative. The decomposition depends on centering population and includes between-frame mean differences when pooled.",
+      "resolution": "Do not describe pooled centered cancellation as universal within-frame cancellation or identify constant bias causally. Equal endpoint energies under full donor swap are structurally expected. Report states these energy terms are descriptive and retains separate frame/side tables."
+    },
+    {
+      "id": "BMECH-S0-COMPLETE-COST",
+      "severity": "low",
+      "status": "accepted",
+      "evidence": "Actual canonical runtime1839fc6771da4e2b87b98c2c540dfb98 exited0. Entire18432-cell result sealed; zero model loads, forward/backward calls, new gradients, TC evaluations, fits or resampling. Canonical wall1554.880882seconds includes mandated guard I/O.",
+      "resolution": "Approved completed offline stage, not a new acquisition. Bound original pre-run proof covers98311 consumed input files; completion binds derived outputs/current unchanged sources/report/review evidence without repeating original full raw audit."
+    }
+  ],
+  "limitations": "Independent review of actual root/Sol implementation and derived outputs; reviewer authored the execution plan but not analyzer or reporter. Exhaustive derived arithmetic and aggregation audit used zero model calls; no repeated98311-file raw audit or new bootstrap. Original accepted source integrity and canonical guarded execution reused. Exact cached target geometry covers all18432 cells; raw-endpoint reconstruction/bitwise target reproduction was separately audited for384 stage1 cells and is not claimed for every stage0 cell. Approved finite already-inspected256-block description, not new holdout confirmation, family eligibility, mechanism percentages, a TC training cause or worldwide priority. Stage1 controlled results remain separately reviewed."
+}

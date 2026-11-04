@@ -1,0 +1,41 @@
+{
+  "document": {
+    "id": "A_shared_TEST_0168_T5_s0_q0",
+    "donor": "A_shared_TEST_0168_T5_s1_q0",
+    "block": "A_shared_TEST_0168",
+    "study": "A",
+    "cohort": "shared",
+    "split": "TEST",
+    "index": 168,
+    "frame": "T5",
+    "side": 0,
+    "q": 0,
+    "text": "Everyone agrees that the cockerel, unlike the guereza,"
+  },
+  "files": {
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/completed/capture_A_shared_TEST_0168_T5_s0_q0.json": "94b95562e69cbe005cb6cad971153eca083b8c68d1d3fed96ab2a40e6ebff75d",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/cache/61a9ca5a5d07508ba22d06c34a307a57bbc4ece396fcfc586707311aa30d8bc8.json": "6f72626500ecf4be1095683a46a127ded0b7bc3fb30c546eac77a8a0dce63353",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/completed/capture_A_shared_TEST_0168_T5_s1_q0.json": "000b077f45a0d2bd8f270f55393a0aeb42f81f15c06d397b93f693427816d402",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/cache/12f0a293e854f5439554a655001a2339df46d4311c4370ec0edabc9f060e8d76.json": "929d5f22776e437f227a712973968391cc2e8b8f36b318ba707ca858e5e5f40e",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/completed/suffix_A_shared_TEST_0168_T5_s0_q0_native.json": "c47af3e3efbd9fe5866780f17d0882d7ef91e06895bf5f48b22f7a20817410f8",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/cache/7727ac59bde8d93f0a5647f3668259f59b277285f121fb9d4981c41706dd5cdd.json": "952016b0eeea6ee313705410f70483c668ced3ebdc4a44e69b03e86913715a91",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/completed/suffix_A_shared_TEST_0168_T5_s0_q0_r0_P.json": "b686e8634c29889084d244910b838b5a3858d42af2c78abc5c30b1521debfc4f",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/cache/b2c9d3be3c32dc3e92d92af127a9d4f7d8f4598570e1304c24b6bdebf8ef005e.json": "d45fccfc1c9f7aca5284c42e8c99ba722bbacf8024acab346d19123983308d05",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/completed/suffix_A_shared_TEST_0168_T5_s0_q0_r0_U0.json": "e0708ae0bcb1e59c6d838c1d92429b6572a4cf13e94564d7c43183afe4bfaa4a",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/cache/af16a2fa9ab79f790808a944df5b3e5da16c40148e611791e91ec246dc8f1dd2.json": "c7818aa26c20ffafc6d7568181664e959cb0518428f45629aac9105492990bb6",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/results/r0/A_shared_TEST_0168_T5_s0_q0.json": "75603281969bca55902bb415cf43589d1e4eb9c2d721ff893560393b68115798"
+  },
+  "identity": {
+    "model": "5fb518228899f9c15e3db99e01c11d159af8451337dee6d85c28f3880fde2b29",
+    "code": "25737ad0d8d462c020f979d68f61d55e90b2e2668df0fb2d0a8008b19f7db7b7",
+    "corpus": "361064de9ca092fcd6a97649eb7daac7f01b03a084cb021f6e6d0b819c00180c",
+    "tokens": "64569cc7e32d060a398bb0dba55885712cb963aa4475dbaf847e795f4b4926f9",
+    "config": "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/config.json",
+    "frozen_fit_hashes": {
+      "r0": "9215ff51a78cfd3a5c9a8149332c17fe9a8d50a8571d6943f1cc2059fb52c833"
+    }
+  },
+  "own_fit_sha256": "9215ff51a78cfd3a5c9a8149332c17fe9a8d50a8571d6943f1cc2059fb52c833",
+  "max_target_error": 0.0,
+  "all_saved_loss_vector_arithmetic_passed": true
+}

@@ -1,0 +1,73 @@
+{
+  "schema_version": 1,
+  "id": "postTEST_offline_policy_v3_and_Bpacket",
+  "kind": "maintenance",
+  "primary_agent": "/root/sol_parallel_acceptance",
+  "purpose": "Metadata-only two added CPU entrypoints and accepted closed B descriptive-analysis packet builder; unchanged runtime1model2CPU and numerical code.",
+  "tracked_files": [
+    "concurrency_runtime_v2.py",
+    "concurrency_runtime_v1.py",
+    "research_checks/gate.py",
+    "research_checks/_worker.py",
+    "ab_confirmatory_20261101/prepare_b_descriptive_analysis_v9.py",
+    "ab_confirmatory_20261101/analyze_b_descriptive_v8.py",
+    "a_short_llama_20261101/analysis.py",
+    "analysis/AB_confirmatory_execution_20261101/sol_parallel_acceptance/offline_policy_v3/migration_policy.json",
+    "analysis/AB_confirmatory_execution_20261101/sol_parallel_acceptance/offline_policy_v3/scope.json",
+    "analysis/AB_confirmatory_execution_20261101/close_short_pilot_imports_v1.py",
+    "ab_confirmatory_20261101/precision_candidate_v6.py",
+    "ab_confirmatory_20261101/b_precision_calibration_v6.py",
+    "analysis/AB_confirmatory_execution_20261101/sol_parallel_acceptance/offline_policy_v3/checks.json"
+  ],
+  "tracked_trees": [],
+  "input_manifests": [],
+  "gates": [
+    {
+      "id": "hooks",
+      "category": "hooks",
+      "evidence": "analysis/AB_confirmatory_execution_20261101/sol_parallel_acceptance/offline_policy_v3/scope.json",
+      "pointer": "/new_model_calls",
+      "op": "eq",
+      "expected": 0,
+      "reason": "Additive metadata only; no numerical/model experiment."
+    },
+    {
+      "id": "data",
+      "category": "data",
+      "evidence": "analysis/AB_confirmatory_execution_20261101/sol_parallel_acceptance/offline_policy_v3/scope.json",
+      "pointer": "/new_model_calls",
+      "op": "eq",
+      "expected": 0,
+      "reason": "Additive metadata only; no numerical/model experiment."
+    },
+    {
+      "id": "pilot",
+      "category": "pilot",
+      "evidence": "analysis/AB_confirmatory_execution_20261101/sol_parallel_acceptance/offline_policy_v3/scope.json",
+      "pointer": "/new_model_calls",
+      "op": "eq",
+      "expected": 0,
+      "reason": "Additive metadata only; no numerical/model experiment."
+    },
+    {
+      "id": "accounting",
+      "category": "accounting",
+      "evidence": "analysis/AB_confirmatory_execution_20261101/sol_parallel_acceptance/offline_policy_v3/scope.json",
+      "pointer": "/new_model_calls",
+      "op": "eq",
+      "expected": 0,
+      "reason": "Additive metadata only; no numerical/model experiment."
+    },
+    {
+      "id": "restart",
+      "category": "restart",
+      "evidence": "analysis/AB_confirmatory_execution_20261101/sol_parallel_acceptance/offline_policy_v3/scope.json",
+      "pointer": "/new_model_calls",
+      "op": "eq",
+      "expected": 0,
+      "reason": "Additive metadata only; no numerical/model experiment."
+    }
+  ],
+  "circuits": [],
+  "structural_scope": "New reviewed policy version; old policies and all current scientific sources unchanged."
+}

@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "snapshot_sha256": "df1df4af3c5b2f58a7d61022bb33279d009c2d86805b04479cc26e9c74d67a1a",
+  "reviewer_id": "/root/five_campaign_review",
+  "independent": true,
+  "verdict": "approved",
+  "topics_checked": [
+    "design",
+    "implementation",
+    "data",
+    "cost",
+    "claims"
+  ],
+  "findings": [
+    {
+      "id": "RAW-COMPLETION-INTEGRITY",
+      "severity": "low",
+      "status": "resolved",
+      "evidence": "Actual child exited0; independently verified22432 sealed raw files,768 unique cells on32 blocks, ledger digests and disjoint complete schedule accounting. Corrected stage7366F/0B plus6922aliases; cumulative7829F+4B includes initial failed461F+4B and qualification2F. Independently recomputed all16 grouped mean losses and every row loss from actual native/predicted margins. Final24-file layered snapshot verified.",
+      "resolution": "Approve completion of experiments3/5 as fixed-corpus posthoc diagnostics. Independent raw audit saved in independent_completion_audit.json. No model reruns were needed for review."
+    },
+    {
+      "id": "DIRECTION-AND-SWITCH-INTERPRETATION",
+      "severity": "low",
+      "status": "accepted",
+      "evidence": "Checked all residual norm-rounding bounds and recomputed actual selected/random switch counts. At full dose selected32 pool has mean8.3125 switches versus0.0208333 random; random inactive188/192 contexts. Large full-dose top-only/removal contrasts are real, but controls are not matched for number or norm of active changes. Transfer/full small-dose partner7 and several feature comparisons retain opposite signs.",
+      "resolution": "Report conditional direction dependence and selected-group contribution to this TC replacement operator. Do not claim strength-matched feature identity, universal necessity/sufficiency, fresh holdout, population significance or recovered native circuit. REPORT_v4 states these limits and retains all strata."
+    },
+    {
+      "id": "TECHNICAL-RECOVERY-PROVENANCE",
+      "severity": "low",
+      "status": "resolved",
+      "evidence": "Historical2thread TC arithmetic exactly qualified at failed pair; corrected endpoint checks remained exact. Original1thread FIT-selected pools and valid native controls explicitly adopted; failed raw cache retained. No uncertainty-threshold relaxation or outcome-based group reselection.",
+      "resolution": "Preserve recovery history and cumulative compute costs in publication evidence package."
+    }
+  ],
+  "limitations": "Independent source/provenance and raw-output consistency audit, not a fresh independent numerical reproduction. Data are32 previously observed blocks, two coupled same-dose partners and fixed FIT-selected groups. Random groups frequently have no active switches; strong selected-group contrasts cannot establish selectivity at matched intervention strength. Full mechanistic explanation and external replication remain open."
+}

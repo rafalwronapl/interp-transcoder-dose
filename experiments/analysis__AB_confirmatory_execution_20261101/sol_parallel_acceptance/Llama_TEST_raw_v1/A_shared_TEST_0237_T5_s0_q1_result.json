@@ -1,0 +1,41 @@
+{
+  "document": {
+    "id": "A_shared_TEST_0237_T5_s0_q1",
+    "donor": "A_shared_TEST_0237_T5_s1_q1",
+    "block": "A_shared_TEST_0237",
+    "study": "A",
+    "cohort": "shared",
+    "split": "TEST",
+    "index": 237,
+    "frame": "T5",
+    "side": 0,
+    "q": 1,
+    "text": "Everyone agrees that the hipflask, unlike the styracosaurs,"
+  },
+  "files": {
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/completed/capture_A_shared_TEST_0237_T5_s0_q1.json": "d8deec61cd27e66c02be01de77048c66a46c5a5e628fe3377e92aac3ec53dd4e",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/cache/5f04feb2a4dc9d74199de3e0206fa2a23265e02c7337ad46ba59696de5312060.json": "13caec3a1cc1c46717f020ae578b333d4406bc7c9483ed9c0b780a6f352e1394",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/completed/capture_A_shared_TEST_0237_T5_s1_q1.json": "80dc00cc4dae7e9767e263039feef6bcafe4b9126251598d4e7247b54a618f71",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/cache/835ee1eebc30b18bc8674387bf036a359f7e98127010d261bf9dba53fae9449b.json": "bc7852d0e91b99c139cf357455d8b26f15af9e0d42c26a3cc83f90b440424363",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/completed/suffix_A_shared_TEST_0237_T5_s0_q1_native.json": "ed229605c9d1488f55594e4c53d6cdbd48d4094797e743f0cdaa4af5d1ca325e",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/cache/bc389b4cbdc250f07b9990c155ff67bf7807486e71b42d4d7445afc508ef9890.json": "1a8d639537125f56e6df2fee4ffa99b48a4c56a979c9384f85d1e101cf567a7b",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/completed/suffix_A_shared_TEST_0237_T5_s0_q1_r0_P.json": "77998e023f420866d9169d031a07e9cc789f62398366f064fe274639da498dc9",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/cache/decf260708efd26e2f69f3d35a2f4d227cfc55290c89b3343ee6bb5d230db74b.json": "94462d119a33ba82a6522588d28bdc9f34fea09cfcbb8d08a7a5c9de8d5e7853",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/completed/suffix_A_shared_TEST_0237_T5_s0_q1_r0_U0.json": "9c0e52d73872a7aa8a6c4a9fc99b22afd486888d2a4dcc81f61134d3d94c5a50",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/cache/a16ce724e9fc89761fc86b7b34e49f45cdd767e9b2727a6ecad5ef25b0aa538e.json": "98287c2bb66c7a119f1c9ce5535dad43f44a13fafccd243c49ea5cb69d19a767",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/results/r0/A_shared_TEST_0237_T5_s0_q1.json": "556a352830f599804762c3414f5dafab25f77f449e87d20dd88b5c1592f90a1a"
+  },
+  "identity": {
+    "model": "5fb518228899f9c15e3db99e01c11d159af8451337dee6d85c28f3880fde2b29",
+    "code": "25737ad0d8d462c020f979d68f61d55e90b2e2668df0fb2d0a8008b19f7db7b7",
+    "corpus": "361064de9ca092fcd6a97649eb7daac7f01b03a084cb021f6e6d0b819c00180c",
+    "tokens": "64569cc7e32d060a398bb0dba55885712cb963aa4475dbaf847e795f4b4926f9",
+    "config": "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/config.json",
+    "frozen_fit_hashes": {
+      "r0": "9215ff51a78cfd3a5c9a8149332c17fe9a8d50a8571d6943f1cc2059fb52c833"
+    }
+  },
+  "own_fit_sha256": "9215ff51a78cfd3a5c9a8149332c17fe9a8d50a8571d6943f1cc2059fb52c833",
+  "max_target_error": 0.0,
+  "all_saved_loss_vector_arithmetic_passed": true
+}

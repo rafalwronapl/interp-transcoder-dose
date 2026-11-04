@@ -1,0 +1,94 @@
+{
+  "ok": true,
+  "cases": [
+    {
+      "case": {
+        "distribution": "lognormal035",
+        "n": 128
+      },
+      "passed": true,
+      "coverage_successes": 1950,
+      "production_lower": 0.9559296750892663,
+      "undefined": 0
+    },
+    {
+      "case": {
+        "distribution": "pareto3",
+        "n": 128
+      },
+      "passed": false,
+      "coverage_successes": 1883,
+      "production_lower": 0.9158759121206861,
+      "undefined": 0
+    },
+    {
+      "case": {
+        "distribution": "lognormal1",
+        "n": 128
+      },
+      "passed": false,
+      "coverage_successes": 1873,
+      "production_lower": 0.9069576690940714,
+      "undefined": 0
+    },
+    {
+      "case": {
+        "distribution": "heterogeneous",
+        "n": 128
+      },
+      "passed": false,
+      "coverage_successes": 1894,
+      "production_lower": 0.9220083791457466,
+      "undefined": 0
+    },
+    {
+      "case": {
+        "distribution": "lognormal035",
+        "n": 256
+      },
+      "passed": true,
+      "coverage_successes": 1951,
+      "production_lower": 0.956520758169132,
+      "undefined": 0
+    },
+    {
+      "case": {
+        "distribution": "pareto3",
+        "n": 256
+      },
+      "passed": false,
+      "coverage_successes": 1920,
+      "production_lower": 0.9366775803332429,
+      "undefined": 0
+    },
+    {
+      "case": {
+        "distribution": "lognormal1",
+        "n": 256
+      },
+      "passed": false,
+      "coverage_successes": 1912,
+      "production_lower": 0.9321340565775126,
+      "undefined": 0
+    },
+    {
+      "case": {
+        "distribution": "heterogeneous",
+        "n": 256
+      },
+      "passed": false,
+      "coverage_successes": 1911,
+      "production_lower": 0.9334483795115636,
+      "undefined": 0
+    }
+  ],
+  "selected_precision_eligible": {
+    "128": false,
+    "256": false
+  },
+  "new_records_audited": 12000,
+  "prior_records_audits_reused": 20000,
+  "all_prior_hash_closures_rechecked": true,
+  "new_model_MC_bootstrap_calls": 0,
+  "runtime_returncode": 0
+}

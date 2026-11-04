@@ -1,0 +1,21 @@
+{
+  "A_exit_receipt": "operations/research_launch_12a364dcdd024ca3ab29e4794c9b4624.json",
+  "A_completed": "analysis/AB_budget_readout_20261103/run/completed.json",
+  "A_snapshot": "4f5beed5d111a8dd60bfbc737616a95b86d6173947f687c8efd53eb4ab6f84df",
+  "A_processes": [
+    17500,
+    7568
+  ],
+  "B_snapshot": "analysis/B_norm_control_20261103/stage2_snapshot_v2.json",
+  "B_review": "analysis/B_norm_control_20261103/review/stage2_pre_run_review_v2.json",
+  "B_snapshot_sha256": "c608e535193377fa88931e0847a96d9d53c9c252ee8ceaa453cf9f42452c19d8",
+  "B_snapshot_file_sha256": "8e00b00434a42121e134956a81a5f5b1229812f0cb09bf0a9f1f6710c5320390",
+  "B_review_file_sha256": "f196dbb02d7b8a086077d627492f824dd53b9c6d4be77cfcade058e672d16047",
+  "queue_code_sha256": "66877ad05e588db4b239b2ec059e9c2e7fa573241b429aa2f86f094e0cd26fe3",
+  "maximum_wait_seconds": 7200,
+  "poll_seconds": 10,
+  "A_process_filetimes": {
+    "17500": 134381932001004244,
+    "7568": 134381932330790163
+  }
+}

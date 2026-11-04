@@ -1,0 +1,41 @@
+{
+  "document": {
+    "id": "A_shared_TEST_0087_T5_s1_q0",
+    "donor": "A_shared_TEST_0087_T5_s0_q0",
+    "block": "A_shared_TEST_0087",
+    "study": "A",
+    "cohort": "shared",
+    "split": "TEST",
+    "index": 87,
+    "frame": "T5",
+    "side": 1,
+    "q": 0,
+    "text": "Everyone agrees that the evangelists, unlike the hallstand,"
+  },
+  "files": {
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/completed/capture_A_shared_TEST_0087_T5_s1_q0.json": "928a8c5609e3770e6a833b8a2341fc58ef135dc201f0ac336a1c34e5311e4787",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/cache/595e3a508cd3c89e8da793466598e8219687c9ff825de877f5ef04e688a570e3.json": "62d7fb1ca562009d8b19b0bbaaec3bc8c2bbb51502018cb628d8f2d7d3a42856",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/completed/capture_A_shared_TEST_0087_T5_s0_q0.json": "51a6336cf77209d4039803d4f22c9495922035e76b02ac1ad8f2e59ca209cd80",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/cache/30b4bc71c31afeaa539ca1f0ceccff2632ffdfd3ad507ee05b767c735be723e5.json": "9cd83de02b389a80af3762503df34e33ce605328b93edd803f823614d15f6ff1",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/completed/suffix_A_shared_TEST_0087_T5_s1_q0_native.json": "114ca4f30db1a9c858a3b4b3891e9138e8066c750115a5e5d50381c53cc3644e",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/cache/c3ff4af75b27e2d74f497d9363d668ad47c0895184547594c3917d70f962dbfe.json": "eef51be4af6fae83cd85169eb3b3bd621946766626960af022cbe91348f363c7",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/completed/suffix_A_shared_TEST_0087_T5_s1_q0_r0_P.json": "6272ef576e5c54519921bed4c493194c534659a97a0b18c9ef615b7d6aee481d",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/cache/46c9ee90ca82179620c4d62bb3ae76ccd837643d40fa59e7138723c44f02c5b5.json": "08c8c5edf28106bff1c4e2426ed5270f437712c6cb9653a5b2b79c2c347a1059",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/completed/suffix_A_shared_TEST_0087_T5_s1_q0_r0_U0.json": "e74ca8f6cb7665141b8f52a7326369cfd494ff1a594e14748ab105d712d163ad",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/cache/6ffa0c608be4b74e538d0fd60deffb68f6329153df00e4e5c8bcb3b70f1c4530.json": "440a5db7ade3bc00b59536caa94de126e14dad6bf5a76e683873d49d8b70bb41",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/results/r0/A_shared_TEST_0087_T5_s1_q0.json": "fcd62efceae4ffcb12e2653f8f22f0f86e0662c95ac175e6bccbcdc9075881e5"
+  },
+  "identity": {
+    "model": "5fb518228899f9c15e3db99e01c11d159af8451337dee6d85c28f3880fde2b29",
+    "code": "25737ad0d8d462c020f979d68f61d55e90b2e2668df0fb2d0a8008b19f7db7b7",
+    "corpus": "361064de9ca092fcd6a97649eb7daac7f01b03a084cb021f6e6d0b819c00180c",
+    "tokens": "64569cc7e32d060a398bb0dba55885712cb963aa4475dbaf847e795f4b4926f9",
+    "config": "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/config.json",
+    "frozen_fit_hashes": {
+      "r0": "9215ff51a78cfd3a5c9a8149332c17fe9a8d50a8571d6943f1cc2059fb52c833"
+    }
+  },
+  "own_fit_sha256": "9215ff51a78cfd3a5c9a8149332c17fe9a8d50a8571d6943f1cc2059fb52c833",
+  "max_target_error": 0.0,
+  "all_saved_loss_vector_arithmetic_passed": true
+}

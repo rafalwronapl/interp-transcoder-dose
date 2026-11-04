@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "reviewer_id": "/root/sol_ab_execution/lexical_review",
+  "independent": true,
+  "verdict": "approved",
+  "scope": "LEXICAL_PREPARATION_ONLY",
+  "launch_authorized": false,
+  "source_snapshot": "analysis/AB_confirmatory_execution_20261101/lexical_review/lexical_source_snapshot_v3.json",
+  "source_snapshot_sha256": "965ea0ed2213afa514d05d8ce48ec9d1e9e04d2cb2c5d8be0bd0a783955d4342",
+  "topics_checked": [
+    "lexical design",
+    "data qualification",
+    "exposure",
+    "donor pairing",
+    "tokenization",
+    "scope of claims"
+  ],
+  "findings": [
+    {
+      "id": "LEX-MORPHOLOGY",
+      "severity": "high",
+      "status": "resolved",
+      "evidence": "Production exception-map/endings qualification plus premeasurement denylist and group exclusion; independent pool/corpus replay identical.",
+      "resolution": "Known irregular/invariant/mass cases addressed before any model stage. No general manual all-word certification asserted."
+    },
+    {
+      "id": "LEX-EXPOSURE",
+      "severity": "high",
+      "status": "resolved",
+      "evidence": "6692 declared historical source hashes match. bassoonist is observed and absent from qualified pool. No retained noun alias or regular-plural alias matches observed_words_v2.",
+      "resolution": "Expanded historical sources and regenerated draft corpus before measurements."
+    },
+    {
+      "id": "LEX-SEMANTICS",
+      "severity": "high",
+      "status": "resolved",
+      "evidence": "Machine-defined concrete sense roots, lowercase first-sense lemma, shared-synset grouping, exception checks, mass-ancestor exclusion and13-entry denylist. Final2225-noun pool; no denylist leaks.",
+      "resolution": "Operational population and rare-word/limited human inspection boundaries explicitly documented."
+    },
+    {
+      "id": "LEX-COUNTABILITY-SCOPE",
+      "severity": "low",
+      "status": "accepted",
+      "evidence": "Whole headword list read; flagged definitions and60 selected-word sample inspected. Not every definition manually certified.",
+      "resolution": "Restrict claim to declared machine-defined WordNet population and eligibility audit; preserve all TEST blocks regardless of eventual model competence. Any later known technical corpus error must be recorded, never silently outcome-selected."
+    },
+    {
+      "id": "LEX-DONOR-LENGTH",
+      "severity": "low",
+      "status": "accepted",
+      "evidence": "Donor sequence lengths differ for some prompts; all donor identities involutive and final coordinates replay exactly.",
+      "resolution": "Use independent donor/recipient last-prompt coordinates; require actual hook/reachability/suffix and nonzero control evidence in model-stage review."
+    }
+  ],
+  "evidence": [
+    "production_checks_v2.json",
+    "countability_exclusions_v2.json",
+    "REPORT_v3.md"
+  ],
+  "limitations": "Not a research_checks launch review. No pretrained model loading/inference, hook controls, numerical suffix parity, statistical coverage/power/sample-size approval or scientific result approval. Exact draft pool/corpus and tokenizer replay passed. Freshness bounded to6692 enumerated local sources, not opaque binary-only contexts or pretraining. Sixteen FIT cohorts allocation checked but scientific number not endorsed here."
+}

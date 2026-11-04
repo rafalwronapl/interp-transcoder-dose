@@ -1,0 +1,15 @@
+# B FIT continuation: serialization and independent reference amendment
+
+2026-11-01. Original B FIT64operations are complete/durable:60forward+4backward. No unknownattempts. The original worker halted publishing gate1 because its noise-aware floor was numpy.float32. Shadow replay then revealed original TC fused-reference absolutecutofffailed. Both failures remain documented; no historical PASS is invented.
+
+Four separately reviewed NEW unfused-reference calculations used identical cachedinputs and originalrawweights. Allfour match SAVEDactualTCoutputs exactly (zero max/normdifference), at unchanged original1e-5cutoff. No nativecalls repeated. Reference provenance/results are bound here and independently checked byAstra. That four-operation diagnostic has its own cost/receipts and is not hidden in thisremainingbudget.
+
+This wrapper imports the frozen original worker/config unchanged. It only converts numpy scalars for immutable JSON summaries and,at gate1 publication,explicitly applies the independentlyqualified unfusedreference. Every non-TC gate is recomputed from originalcached values with unchangedcriteria; oldfusedreference fields/passedfalse remain in the newsummary beside supersedingreference receipt/hash. The frozen worker then consumes this explicitlyamended pass check. No broader failedgate bypass,thresholdwidening,new data/arm selection or refitting recipe change occurs.
+
+Remainingoperationallowlist:1800forward,0backward. Original64groups MUST have valid priorcache; their callbackis forbidden,so missingoldcache cannotcause recomputation. Remaining124naturalcaptures/localnative/projectedJVP proceed underoriginalschedule; no new full-operator qualification rerun. Originalfourgradients/backwards remaincached. AlloriginalscientificFITsettings unchanged,stillnoPILOT/TEST orhypothesistest.
+
+Cache identity deliberately retains original MEASUREMENT code/config hash because all measurement functions are unchanged. Newlaunchercontract separately binds wrapper+amendment/referenceproof. This is explicit compatibility,not false reuse after changedoperators. Stageusesoriginalrun directory andappendsaccounting/newresults. Bindoriginalimmutablecache/completion/identity/schedule andcopiesofpriorledger/status;do not bindliveappendableledger/status as immutableinputs. No oldrawreceipt bytes change.
+
+Actualoffline shadowcheck used copiedsource/config/run bytes withpreservedmeasurementidentities,stubmodel load and forbiddenmodelcallbacks. It replayed all64completedlogicaloperations,rebuiltgate1PASS withnewreference,then stopped atfirstNEWcapture;alloriginalfilesunchanged. This is evidence of zero repeatedpretrainedoperations,not a newmeasurement. Shadow's artificialnewattempt is confined totemporarycopy and excludedfromlabcost.
+
+Canonicalreview/launchrequired. Oncompletionaudit fulloriginal+continuedledger,all1864originalscheduledoperations plusseparate4referencecalls,caches,fits and originalfailures. Do notsumold64twice; reportextraBmodelreload separately. No automaticretryreserve. Further failurepreservesevidence andstopsforreviewednarrowrepair.

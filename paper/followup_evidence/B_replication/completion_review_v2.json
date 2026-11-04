@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "snapshot_sha256": "88fdc42544cc93391286e77ed603324eddcccedd58fff7f02ef9cc3d960917ba",
+  "reviewer_id": "/root/five_campaign_review",
+  "independent": true,
+  "verdict": "approved",
+  "topics_checked": [
+    "design",
+    "implementation",
+    "data",
+    "cost",
+    "claims"
+  ],
+  "findings": [
+    {
+      "id": "RAW-B-REPLICATION-COMPLETION",
+      "severity": "low",
+      "status": "resolved",
+      "evidence": "Actual canonical exit0. Independently verified6675 sealed files,3332 durable unique attempt bundles covering80932 unique logical forwards,0backwards,3 explicit model loads. Recomputed all144 RMS/nativeRMS/relativeRMS metrics from9216 rows on256 unique TEST blocks. Final33-file layered snapshot verified; independent_completion_audit.json is bound.",
+      "resolution": "Approve completed experiment1 with all6doses,6methods,3templates and main mixture retained. Cache-only replay and exact FIT digest memoization did not repeat successful scientific measurements."
+    },
+    {
+      "id": "MIXED-REPLICATION-RESULT",
+      "severity": "low",
+      "status": "accepted",
+      "evidence": "Mainc.05 TC134.182% versusTaylor23.559%; c1 TC115.381% versusTaylor269.857%,ridge50.797%,mean66.994%,zero100%. Transferc1 TC137.426%. Thus relative ranking crosses while the original low-error, simple-baseline-beating c1 regime does not replicate. At larger prespecifiedc2 mainTC41.862% does beatzero andmean43.733%, but remains worse thanridge34.627%; allcurve values retained.",
+      "resolution": "Describe replication of dose-dependent TC/Taylor ranking, not a second10%-error artifact or general TC superiority. Do not flatten the entirecurve to TC never useful: c2 improves against some baselines. Model/layer/artefact changes are confounded and transfer shares lexicalblocks."
+    },
+    {
+      "id": "RECOVERY-AND-INFERENCE",
+      "severity": "low",
+      "status": "resolved",
+      "evidence": "Original STATUS publication failure, exact cache-preserving recovery and suspended-ledger handoff disclosed. Actual memo1536hits retains exact original digest with final immutability check. Nominal block intervals conditional on frozenFIT remain separate from calibrated population/familywise claims.",
+      "resolution": "Keep3-load provenance and unique80932F accounting; no artifact substitution or outcome-dependent new success criterion."
+    }
+  ],
+  "limitations": "Independent raw-output consistency and provenance audit, not fresh native-model reproduction. One preselected second artifact with historical exposure, one full operator/readout,32FIT blocks and256TEST blocks;3templates are not independent lexicalreplications. No bootstrap rerun during review. Completion acceptance includes negative or mixed results and does not establish universal dose crossover or high-accuracy TC regime."
+}

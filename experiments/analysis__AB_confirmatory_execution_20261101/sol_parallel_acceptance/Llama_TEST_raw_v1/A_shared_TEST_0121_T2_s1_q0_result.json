@@ -1,0 +1,41 @@
+{
+  "document": {
+    "id": "A_shared_TEST_0121_T2_s1_q0",
+    "donor": "A_shared_TEST_0121_T2_s0_q0",
+    "block": "A_shared_TEST_0121",
+    "study": "A",
+    "cohort": "shared",
+    "split": "TEST",
+    "index": 121,
+    "frame": "T2",
+    "side": 1,
+    "q": 0,
+    "text": "Near the enclosure, the stayers that the macroeconomist can observe"
+  },
+  "files": {
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/completed/capture_A_shared_TEST_0121_T2_s1_q0.json": "40f669a3d25ab23ceba4b8556efa82388f40ff0f9c7bbd4fdad353bac6c93781",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/cache/f4bc600a86ad34b2d27923fbf10b7f94ac7d624db65c745f9666d73153c90023.json": "2f5b90051761d74fdf041785c81494326d8668ad35fd60566f421b249fcacc4d",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/completed/capture_A_shared_TEST_0121_T2_s0_q0.json": "4ff765d62977182507859ea3812ccfdec370221194e4bc696d042783c929f633",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/cache/71dec197d863abcb3a0f98e0adff977ab6fecf999686308ea4917edddc0448e8.json": "39dd18ab5718ab4c20a56041ab6b15944f5f612443b91131aab0f1d99a9057d1",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/completed/suffix_A_shared_TEST_0121_T2_s1_q0_native.json": "4825b2720abe9bb70a561d1491b1202e54a15a3b0786bac62225ff1691933c1b",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/cache/492c9c02a67759feb4871b23b8655b2e822acfe3d4a58a88f6cd3ba06670df00.json": "e1080cf6bd3492b30d2715e09ca90b1cf32995150b8fba987fabe9343e14cc81",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/completed/suffix_A_shared_TEST_0121_T2_s1_q0_r0_P.json": "18656027cee60bcb8bf20a25ed5e90d293858bfdfdaed66cbf73b31935b0105d",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/cache/607c3d65ca42f0eb10438c122d8b82c4c7c384e01b87b6d6730085fe6e29eaf4.json": "a779a71f91dc39e78a1bfebe2bb481c35c4748f81bae5021d02727af5ec24e14",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/completed/suffix_A_shared_TEST_0121_T2_s1_q0_r0_U0.json": "3d8cfcb9faffca297cb174938323e527d777d35b052affff672997a666292ba9",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/cache/970b42cb1090d5406a70d93f0dc45942de3b5755b17fcf6a015497703214ec31.json": "202be901dcef2134733f0b9f2563a721f1674dc53bc9461fae58dea4fe10156c",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/results/r0/A_shared_TEST_0121_T2_s1_q0.json": "e3fab0ce2ce206c41be2a7de88259e93ea5682c97c4a674111306c1860390396"
+  },
+  "identity": {
+    "model": "5fb518228899f9c15e3db99e01c11d159af8451337dee6d85c28f3880fde2b29",
+    "code": "25737ad0d8d462c020f979d68f61d55e90b2e2668df0fb2d0a8008b19f7db7b7",
+    "corpus": "361064de9ca092fcd6a97649eb7daac7f01b03a084cb021f6e6d0b819c00180c",
+    "tokens": "64569cc7e32d060a398bb0dba55885712cb963aa4475dbaf847e795f4b4926f9",
+    "config": "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/config.json",
+    "frozen_fit_hashes": {
+      "r0": "9215ff51a78cfd3a5c9a8149332c17fe9a8d50a8571d6943f1cc2059fb52c833"
+    }
+  },
+  "own_fit_sha256": "9215ff51a78cfd3a5c9a8149332c17fe9a8d50a8571d6943f1cc2059fb52c833",
+  "max_target_error": 0.0,
+  "all_saved_loss_vector_arithmetic_passed": true
+}

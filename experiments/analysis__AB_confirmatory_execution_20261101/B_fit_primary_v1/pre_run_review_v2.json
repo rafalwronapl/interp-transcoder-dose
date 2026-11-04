@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "snapshot_sha256": "d2ed7dbddcc533ba0bbec15353ad5dd10712b63c711c0e8915c9a3a5193aef56",
+  "reviewer_id": "/root/astra_preparation_audit",
+  "independent": true,
+  "verdict": "approved",
+  "topics_checked": [
+    "design",
+    "implementation",
+    "data",
+    "cost",
+    "claims"
+  ],
+  "findings": [
+    {
+      "id": "AP5",
+      "severity": "high",
+      "status": "resolved",
+      "evidence": "B_QUALIFICATION_DESIGN_ROOT.md and worker_b gate order",
+      "resolution": "Full gate1 before expanded captures; final128-record direction before projected gate2; random end-to-end order test passed."
+    },
+    {
+      "id": "AP6",
+      "severity": "high",
+      "status": "resolved",
+      "evidence": "worker_b reference encoder and test_worker_b encoder mutant",
+      "resolution": "Reference encoder recomputed independently; corrupted encoder is rejected before FIT output."
+    },
+    {
+      "id": "AP7",
+      "severity": "high",
+      "status": "resolved",
+      "evidence": "worker_b runtime identity and mismatch test",
+      "resolution": "Code cache identity includes config SHA; altered config rejected before another model load."
+    },
+    {
+      "id": "AP8",
+      "severity": "medium",
+      "status": "resolved",
+      "evidence": "worker_b branch-norm guards and qualification diagnostics",
+      "resolution": "Explicit nonzero finite norms plus gradient/amplitude/TC discrepancy receipts; source-stable tested code."
+    },
+    {
+      "id": "AP1",
+      "severity": "medium",
+      "status": "resolved",
+      "evidence": "Frozen PROTOCOL_B_CONTROLS actual h input",
+      "resolution": "Dose applied exactly once; fixed ridge consumes actual h."
+    }
+  ],
+  "limitations": "Approved only fixed B FIT stage with two enforced qualification gates,128 natural captures and vector-only fits; no PILOT/TEST/inference/stability authorization. Random-model tests and static review do not assert pretrained qualification success. Official reference provenance is indexed formula text, not commit-pinned library parity. Separate completion review required. See pre_run_REPORT_v1.md and reviewer packet_checks.json. Restart/cache behavior was reviewed under implementation. Version2 changes only topic-schema conformance; same reviewed snapshot, findings and verdict."
+}

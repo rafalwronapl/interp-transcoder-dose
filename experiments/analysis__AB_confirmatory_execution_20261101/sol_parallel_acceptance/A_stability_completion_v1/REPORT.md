@@ -1,0 +1,13 @@
+# A stability calibration — independent negative-stage acceptance
+
+The fixed 18-case calibration does not qualify the proposed multi-FIT extension: 14 cases pass and four lognormal cases fail. Failures occur at FIT variance fractions .5 and .9 for both N128 and N256. This blocks acquisition/inference for the additional15FIT extension. It does not revise the separately eligible, conditional-on-one-frozen-r0 A primary study.
+
+This is a synthetic crossed population-mean calibration with16 conceptual FIT rows, N128/256 TEST columns, normal/t3/lognormal laws and fit fractions .1/.5/.9. Each fixed case has2000saved datasets and1999production bootstrap draws; no native model calls. The construction is pointwise, not simultaneous coverage for four variance components. The requirement is a Clopper–Pearson lower coverage bound at least.95 with bound alpha.05/18.14/18 success is a counter-record, not universal coverage assurance.
+
+Independent inspection covered the original v4 calibration and imported v3 generator/crossed interval construction, all18case requests/spec/aggregate hashes, all artifact-to-snapshot hash memberships and CP arithmetic. The decisive N256/lognormal/.9 case17 was checked at the saved-record level for all2000datasets and2000statistics: exact seed/request correspondence,16×256 finite data shape, interval ordering, coverage indicator, halfwidth, aggregate successes, width quantiles and physical-width sensitivities. It has1806/2000coverage successes and lower bound.8832824513676938. No bootstrap draws, synthetic datasets, fitted model, SVD or native measurement was regenerated.
+
+The remaining17cases were reviewed through saved case/aggregate metadata, artifact membership and CP arithmetic; their full raw statistical calculations were not independently re-derived. Whole-snapshot byte integrity is checked separately by the single canonical verification in `canonical_verify.json`. The strict completion review is `../../A_stability_calibration_v1/completion_review_sol_v1.json`; approval is for honest completion of a negative stage, not for expanding the experiment.
+
+The first canonical run completed current-snapshot comparison but rejected the reviewer receipt format (limitations list instead of required text). That diagnostic is preserved in canonical_verify_schema_failure_v1.json. The receipt format was corrected; final canonical verification is rerun without changing scientific bytes or repeating an experiment.
+
+Final corrected canonical verification completed successfully (tool6db3f9, exit0), exact snapshot9421b4ba6f10e6c672068ba74c0b1b28171a5f62f0d38dd762ed2790089c4e75. Authoritative corrected reviewv2 is byte-identical to the v1 alias used by that successful command.

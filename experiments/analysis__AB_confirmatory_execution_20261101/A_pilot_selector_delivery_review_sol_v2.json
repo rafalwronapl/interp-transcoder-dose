@@ -1,0 +1,18 @@
+{
+  "reviewer_id": "/root/sol_parallel_acceptance",
+  "independent": true,
+  "verdict": "approved",
+  "scope": "Historical accepted PILOT and negative original selector archive only; later resource-v7 TEST excluded, no 80% power claim.",
+  "manifest_sha256": "a66fa5b0094258d555cb1f0ea06548dd6a6d30fc52b60656ffc50f030abfdacf",
+  "files_verified": 11320,
+  "bytes_verified": 361433209,
+  "shared_prior_verified": 1020,
+  "all_destination_hashes_sizes_match": true,
+  "all_nongenerated_sources_match": true,
+  "historical_source_deviations": [],
+  "generated_members": [
+    "README.md"
+  ],
+  "limitations": "Mechanical delivery review only; prior scientific acceptance reused. Pretrained weights omitted with identities retained. No experiment, fitting, bootstrap, Monte Carlo or model calls repeated. Original laboratory paths require provenance mapping. Independent FIT archive delivery review is issued now; historical wording about prior archive review refers to scientific acceptance until this receipt.",
+  "evidence": "sol_parallel_acceptance/a_delivery_verified_index_v1.json"
+}

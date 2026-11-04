@@ -1,0 +1,33 @@
+B norm-control — completed posthoc native-readout diagnostic, 2026-11-03
+
+Question: do FIT top32 TC mask-removal directions affect native readout differently from five fixed alternative-group directions at equal output-vector norm?
+Changed estimand: TC mask-induced prediction directions normalized around TC_FULL/RR reference. Historical ON arm is not used. These are neither equal native feature-switch counts nor direct native neuron/circuit interventions.
+
+Scope:32historicalTESTblocks,128contexts,so/when,2sides,full operator,dose1. Eligible 128/128,eligibleblocks 32. Transfer excluded. Existing outcomes were exposed; this is posthoc, not fresh confirmation.
+Six groups fixed before measurement: originaltop32 and five approvedB-FITalternativegroups (seeds20261103..20261107,overlap28..31features). FIT32blocks/128documents fixed rho=q10(min-six-norms)=101.510973750050; eps=rho/4=25.377743437512. JointALL6eligibility,cap4. FITeligible127/128; no TESTretuning.
+All targetvectors and eligibility were hash-sealed in TARGETS_FROZEN.json before any new readout. Target_g=TC_FULL_target−rho*S_g/norm(S_g), where S_g is the summed signed threshold-switch decoder contribution. Native error D was not used for construction.
+
+Primary contrast (top MSEincrement minus equal mean offivecontrolincrements; equal blockweights): 0.165807184973. Positive means top removal caused a larger squared-error increase aroundTC_FULL; negative means a smaller increase. This does not itself establish importance of a native circuit.
+TC_FULL/RR referenceMSE on sameeligibleblocks: 0.11213188772.
+Group | MSE | increment vsTC_FULL | mean signed readout effect | mean absolute readout effect
+top32 | 0.273347195574 | 0.161215307854 | -0.00368362665176 | 0.297022432089
+control_20261103 | 0.108177924684 | -0.00395396303553 | -0.00855612754822 | 0.0184859186411
+control_20261104 | 0.107393014732 | -0.00473887298799 | -0.00938692688942 | 0.0189276635647
+control_20261105 | 0.10710757416 | -0.00502431355938 | -0.0103731825948 | 0.0208079889417
+control_20261106 | 0.107584686004 | -0.00454720171602 | -0.00948704779148 | 0.0189843922853
+control_20261107 | 0.107436853421 | -0.00469503429895 | -0.00979825854301 | 0.0189508348703
+
+Frame summaries (samefrozen pooledFITscale/groups):
+so:eligible64/64,blocks32; topminuscontrols MSEincrement 0.228974517693.
+when:eligible64/64,blocks32; topminuscontrols MSEincrement 0.102639852254.
+
+Numerical matching afterfloat32:actualnormrange [101.51094179322962, 101.51100589918642]; intendedrho101.51097375004979; maxroundingnorm 0.000152279256; maxdeclaredroundingbound 0.000203218897; amplificationrange [0.051383753527622214, 3.5163755736981126]. Full context/group diagnostics retained.
+
+Actual cost: 420native suffix attempts,0backward,0TCforwards,0newnativeprefixforwards; 356exacttargetaliases,0skippedlogicalarms. Native model loads 1; TCloads0. Maximumreviewedbudget776logicalsuffixes included8technicalcontrols.
+Technical controls:two same-value native revalidations;four genuinelynew signed half-historical-step gradient-direction probes;two deliberate TC_FULL same-target parityrevalidations. These checks do not replace historical results or count as new scientific comparisons. Controls and parity tolerances passed before direction readouts.
+
+Interpretation/limits: empirical finite-corpus diagnostic conditional on these FIT-selected directions,oneTCartifact,one she-minus-he readout and oneinterventioncondition. Equal vector norm does not imply equal number of switches,semanticcontent,curvature ornative circuit importance. Five controls overlap heavily; the unit is32blocks,notfive independent controlreplications. Original failed unscaled strengthmatching remains a valid distinct result.
+Everyeligiblecontext contributes allsix directions; missing contexts would be excludedjointly and explicitly reported. No bestgroup/condition chosen from newoutcomes. Negative results are retained. No globalnovelty,modelunderstanding orgeneralization claim.
+
+Independent pre-run review and canonical launch were required. Final independent review: pending; consult review/completion_review receipt for actual status rather than this frozen report line.
+Evidence: PLAN.txt,config.json,FIT_SCALE_FREEZE.json,TARGETS_FROZEN.json,stage1_snapshot.json,stage2_snapshot_v2.json,review/,run/stage_completed.json,run/SUMMARY.json,run/results/,run/controls/,FINAL_ANALYSIS.json. All input/cache/model/code identities bound in stage2_input_manifest.json.

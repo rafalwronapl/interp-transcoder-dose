@@ -1,0 +1,15 @@
+# Independent future-stage handoff review
+
+Approved as a design/implementation handoff only. No launch authorization. Exact source copies and SHA256 manifest are preserved in source_snapshot.json and sources/. Reviewer: /root/sol_ab_execution/a_fit_pre_run_review.
+
+The handoff preserves A1-A3 and B1-B3, keeps original r0 primary, and isolates the additional FIT stability module. The FIT-only sequence is coherent: recipe/direction/vector-label acquisition can proceed after its own technical qualification and review, while unresolved inference remains gated before PILOT. Future stability sampling cannot inherit approval from r0.
+
+B coordinates match the public artifact declarations: layer15 normalized MLP input to post-feedforward-normalized output. This is layer15 of18, so output replacements require the actual remaining layers and final readout. Using full native patched forwards until a verified truncated adapter exists is correct. The handoff correctly rejects the A final-layer previous-token negative argument for B; later attention makes that site reachable. An optional truly unreachable final-layer adapter must itself be tested.
+
+FIT counts are internally coherent:32pairs x2templates x2sides=128 captures;2operators x6doses yield1536 new local native endpoints before legitimate dedup. Mean cells have32rows per side; ridge cells64rows; pooled transfer ridge128rows. Class direction uses equal weights and native z only. Ridge and means receive vector labels only; donor z is permitted input, finite TEST nativeD is evaluation truth only. Transfer uses pooled main-template fits without transfer-native fitting. Existing compact ridge agrees algebraically with the specified centered globalRMS/nlambda/intercept recipe; production APIs do not accept finite native truth in forecasts.
+
+TC base/endpoints, native base/endpoints, native derivative and finite suffix outputs should be acquired once and shared. Zero requires no extra readout. Native JVP and readout gradient have different targets and must not be confused. The code currently provides partial operator/baseline/TC APIs, not a B stage worker/schedule. PublicTC metadata checks and synthetic algebra alone do not establish reference parity; numeric/reference evidence is still required before expansion.
+
+Block-paired inference, IUT for A2/B1/B3, separate three-slot Holm families, joint pooled-energy resampling for B2 and crossed FIT-by-TEST stability units match the fixed design. Undefined primary cells remain inconclusive/p1 bookkeeping without deleting blocks or canceling unrelated hypotheses. Statistical calibration remains unresolved and is not certified here.
+
+Three low-severity implementation clarifications are accepted with mandatory dispositions in review.json: distinguish finite-margin E/S from vector energies; honor the frozen A amendment over stale generic A draft status; charge actual JVP/TC/gradient/full-forward work in the eventual literal schedule. No blocker/high finding. No active A, model cache, code or calibration input was edited.

@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "FIT_documents": 128,
+  "FIT_blocks": 32,
+  "FIT_frames": [
+    "so",
+    "when"
+  ],
+  "all_five_controls_recomputed": true,
+  "tolerances_recomputed": true,
+  "triangle_upper_bound": 441.55917967160656,
+  "W1_lower_bound": 305.82751158122767,
+  "norm_band_infeasibility_for_disjoint32_in_observed_condition": true,
+  "native_calls": 0,
+  "scope": "Only historical so+when/full/dose1 FIT pooled, fixed W1 band and switch definition; post-run algebraic certificate, no causal uniqueness"
+}

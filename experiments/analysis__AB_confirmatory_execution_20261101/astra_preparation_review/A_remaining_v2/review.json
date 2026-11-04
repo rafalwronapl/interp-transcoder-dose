@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "snapshot_sha256": "fb8a4124c727ed0a2cdd26da2447b686580d5069712ee8a0679d6fef04dc364c",
+  "reviewer_id": "/root/astra_preparation_audit",
+  "independent": true,
+  "verdict": "approved",
+  "topics_checked": [
+    "design",
+    "implementation",
+    "data",
+    "cost",
+    "claims"
+  ],
+  "findings": [
+    {
+      "id": "A-ASSEMBLY-SEAL",
+      "severity": "high",
+      "status": "resolved",
+      "evidence": "assemble_a_v2 requires every read result in its stage closure; actual append-after-closure rejection test",
+      "resolution": "Unsealed appended records cannot enter arrays."
+    },
+    {
+      "id": "A-IDENTITY-BIND",
+      "severity": "medium",
+      "status": "resolved",
+      "evidence": "maintenance_contract_v2 and snapshotv2 bind assembly source_identity files/designs and actual original corpus/tokens/FIT provenance",
+      "resolution": "Manifest-only update; no repeated numerical tests."
+    }
+  ],
+  "limitations": "Maintenance preparation only; four literal draft packets retain false scientific admission. Reviewed scoped Runtime reuse, exact shared TEST semantics, actual3random-worker and2synthetic assembly test receipts without reruns. Worker change after tested source adds only eligibility adapter dependency identity. Future ready packets require current r0 adoption, actual calibration/selector authorization and separate independent launch review. No pretrained acquisition or scientific hypothesis result. See REPORT.md."
+}

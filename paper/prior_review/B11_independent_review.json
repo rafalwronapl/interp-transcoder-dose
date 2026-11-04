@@ -1,0 +1,68 @@
+{
+  "schema_version": 1,
+  "reviewer_id": "/root/review_new_opinion",
+  "independent": true,
+  "verdict": "approved",
+  "status": "approved_working_manuscript",
+  "snapshot_sha256": "cde6702511a44e25a327fec01d58845d4d5f19fdf65562497707f5088d6eb384",
+  "snapshot_path": "editorial_snapshot.json",
+  "files_sha256": {
+    "main.tex": "035bf1b6ae6e7f04eedde0f69fe65abd35e7b40f6bd1ff9292aed53bf8975832",
+    "main.pdf": "6c4ffb53628180681429bfe444549984aa6fa69945c0938619a57b80f666b664",
+    "references.bib": "225292924b751da4f52710f4a63a06380e63e61dc95d3ea7b01e26e4c84057fa",
+    "editorial_snapshot.json": "cde6702511a44e25a327fec01d58845d4d5f19fdf65562497707f5088d6eb384"
+  },
+  "checks": {
+    "snapshot_members_verified": 75,
+    "declared_evidence_files_unchanged": 40,
+    "additional_scientific_files_unchanged": [
+      "selected_gemma_TC_config.json"
+    ],
+    "main_tex_tables_unchanged": 12,
+    "figure_assets_unchanged": 5,
+    "pages": 25,
+    "four_build_exit_codes": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "final_log_undefined_or_overfull": false,
+    "model_calls": 0,
+    "refits": 0,
+    "resampling": 0
+  },
+  "findings": [
+    {
+      "id": "DATA_PRESERVATION",
+      "severity": "info",
+      "status": "accepted",
+      "evidence": "40 declared preservation files independently byte-compared; main.tex tables unchanged; all figure assets unchanged; additional root config checked where applicable."
+    },
+    {
+      "id": "B_OFFSET",
+      "severity": "info",
+      "status": "accepted",
+      "evidence": "Dose-independent baseline offset derived correctly; stable-mask/smooth-native local condition and finite-dose non-necessity retained. Abstract softens unsupported mechanistic emphasis."
+    },
+    {
+      "id": "B_GEOMETRY",
+      "severity": "info",
+      "status": "accepted",
+      "evidence": "RR/RP and PR/PP norm matching correctly qualified by FP32 rounding. Gradient perpendicular first-order zero distinguished from measured finite nonlinear response; unequal norm caveat retained."
+    },
+    {
+      "id": "B_LITERATURE",
+      "severity": "info",
+      "status": "accepted",
+      "evidence": "Zhang/Wang scalar attribution approximation distinguished from vector Taylor plus exact nonlinear suffix. Lange citation metadata uses root-verified primary source; local Qwen component does not identify shortcut cause. No venue/priority claim introduced."
+    },
+    {
+      "id": "B_APPENDIX",
+      "severity": "info",
+      "status": "accepted",
+      "evidence": "Duplicate section removed, fullgrid label moved to actual grid section. Clean references and PDF extraction checked."
+    }
+  ],
+  "scope": "Independent editorial source/diff/PDF-text/build-log and compact-evidence preservation review. Not a new raw-cache replication, exhaustive literature audit, external peer review, or arXiv acceptance certification. Root supplied verified Lange primary-source metadata; prior assessment interpretation independently reviewed. Authorship, public release and manuscript scope limitations remain."
+}

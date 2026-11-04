@@ -1,0 +1,24 @@
+\subsection{Complete-cache diagnosis: vector cancellation and readout sensitivity}
+The posthoc cache analysis retains all 18432 cells: 256 blocks, three templates, two sides, two operators and six doses. It reuses the saved gradient $g_y$ at the \emph{natural} branch output $y$, with no new model evaluation, derivative, fit or resampling. This differs from the gradient $g_N$ newly evaluated at the true intervention endpoint in the smaller experiment below. Writing $G$ for the exact native suffix margin, the rounded native and TC targets define the residual $r=v_T-v_N$; the finite error is $E=G(v_T)-G(v_N)$ and its natural-point linear term is $A=g_y^\top r$. The remainder identity
+\[
+ E-A=\rho_T-\rho_N,\qquad
+ \rho_v=G(v)-G(y)-g_y^\top(v-y)
+\]
+is checked on each saved cell. It is a bookkeeping identity, not a linearity assumption.
+
+For full edits, pooling \emph{all three templates}, residual RMS norm grows from 95.31 at dose .05 to 840.64 at dose 1. Finite readout-error RMS grows from .05422 to .34459 logits; the corresponding natural-point linear-term RMS is .05578 and .26671, and remainder RMS is .00539 and .12742. Thus the favorable large-dose relative error does not arise from a smaller vector residual or smaller absolute readout error. Nonlinear remainder is appreciable at full dose, so the natural-point gradient is not an exact finite predictor. Appendix~\ref{app:cachegeometry} retains both operators and the corresponding endpoint-energy decomposition.
+
+The endpoint cross term splits into $-2\mu_1^\top\mu_0$ and $-2\mathbb{E}[(e_1-\mu_1)^\top(e_0-\mu_0)]$, but the centering population matters. At full dose, the centered cross term is positive within each of the three frames, yet negative when frames are pooled (Table~\ref{tab:centering}). Between-frame offsets therefore prevent interpreting pooled centered cancellation as a universal within-frame property. At this full donor swap, equality of the two endpoint-energy distributions is expected from the paired construction, not evidence of a learned invariance. This decomposition does not identify a common constant bias as the cause of accurate deltas, assign nonlinear readout loss to vector components, or identify a training mechanism. Reused baseline endpoints carry balanced condition weights, not independent samples.
+
+\begin{table}[ht]\centering\small
+\begin{tabular}{lrrrr}\toprule
+Frame & $\mathbb{E}\|e_0\|^2=\mathbb{E}\|e_1\|^2$ & Mean cross & Centered cross & $\mathbb{E}\|e_1-e_0\|^2$\\\midrule
+so & 1.812042 & -2.867153 & +.028933 & .785863\\
+when & 1.164116 & -1.607974 & +.019382 & .739639\\
+transfer & 1.102033 & -1.635660 & +.026141 & .594548\\
+All three & 1.359397 & -.859141 & -1.152970 & .706683\\\bottomrule
+\end{tabular}
+\caption{Full edits at $c=1$, 256 blocks; vector-energy units divided by $10^6$. Both endpoint energies equal the displayed value. Twice that value plus the two cross terms equals delta-error energy, up to rounding. The pooled row centers across all frames; it is not the average of the three within-frame centered cross terms. These are descriptive endpoint statistics, not readout-loss or mechanism percentages.}\label{tab:centering}
+\end{table}
+
+This all-three-template pooling gives full-edit TC relative errors of 113.14\% at dose .05 and 11.26\% at dose 1. These are not revisions of the original so/when-only main-mixture values, 117.46\% and 10.11\%; the aggregation differs. The following controlled experiment asks what happens when residual properties are changed at fixed native truth, which the cache decomposition alone cannot establish.

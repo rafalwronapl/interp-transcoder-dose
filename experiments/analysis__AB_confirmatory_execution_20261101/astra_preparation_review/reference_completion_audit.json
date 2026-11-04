@@ -1,0 +1,34 @@
+{
+  "scope": "Independent offline audit of completed four-reference diagnostic; no repeated operators",
+  "attempts": 4,
+  "native_calls": 0,
+  "records": [
+    {
+      "document": "B_FIT_0000_so_s0",
+      "exact_array_equal": true,
+      "max_absolute": 0.0,
+      "difference_norm": 0.0
+    },
+    {
+      "document": "B_FIT_0000_so_s1",
+      "exact_array_equal": true,
+      "max_absolute": 0.0,
+      "difference_norm": 0.0
+    },
+    {
+      "document": "B_FIT_0000_when_s0",
+      "exact_array_equal": true,
+      "max_absolute": 0.0,
+      "difference_norm": 0.0
+    },
+    {
+      "document": "B_FIT_0000_when_s1",
+      "exact_array_equal": true,
+      "max_absolute": 0.0,
+      "difference_norm": 0.0
+    }
+  ],
+  "results_sha256": "8a1e541caa716b7ef29afdd91ad49e73ee65eb9751e79d639bffece884c84a4f",
+  "ledger_sha256": "4e01f1ba5382bfcaa3b3542fd44987f39662cca5e3b8eee835da7eeffad6bcec",
+  "conclusion": "Saved production outputs exactly equal independent official-unfused raw-weight references; old F.linear comparison failure remains historical."
+}

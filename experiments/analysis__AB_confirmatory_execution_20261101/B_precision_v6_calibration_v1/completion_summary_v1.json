@@ -1,0 +1,99 @@
+{
+  "cases": 8,
+  "passed": 8,
+  "synthetic_datasets": 16000,
+  "production_draws": 1999,
+  "bridge_draws": 0,
+  "model_calls": 0,
+  "precision_eligible_by_n": {
+    "128": true,
+    "256": true
+  },
+  "primary_family_eligibility": "Separate: B128 failed primary family; B256 full family pending at closure preparation.",
+  "case_rows": [
+    {
+      "case": {
+        "distribution": "lognormal035",
+        "n": 128
+      },
+      "passed": true,
+      "coverage_lower": 0.9798455260171932,
+      "coverage_successes": 1975,
+      "undefined": 0
+    },
+    {
+      "case": {
+        "distribution": "pareto3",
+        "n": 128
+      },
+      "passed": true,
+      "coverage_lower": 0.9855360303760761,
+      "coverage_successes": 1984,
+      "undefined": 0
+    },
+    {
+      "case": {
+        "distribution": "lognormal1",
+        "n": 128
+      },
+      "passed": true,
+      "coverage_lower": 0.9792276933341069,
+      "coverage_successes": 1974,
+      "undefined": 0
+    },
+    {
+      "case": {
+        "distribution": "heterogeneous",
+        "n": 128
+      },
+      "passed": true,
+      "coverage_lower": 0.9902196572663248,
+      "coverage_successes": 1991,
+      "undefined": 0
+    },
+    {
+      "case": {
+        "distribution": "lognormal035",
+        "n": 256
+      },
+      "passed": true,
+      "coverage_lower": 0.9792276933341069,
+      "coverage_successes": 1974,
+      "undefined": 0
+    },
+    {
+      "case": {
+        "distribution": "pareto3",
+        "n": 256
+      },
+      "passed": true,
+      "coverage_lower": 0.9855360303760761,
+      "coverage_successes": 1984,
+      "undefined": 0
+    },
+    {
+      "case": {
+        "distribution": "lognormal1",
+        "n": 256
+      },
+      "passed": true,
+      "coverage_lower": 0.9842473074898042,
+      "coverage_successes": 1982,
+      "undefined": 0
+    },
+    {
+      "case": {
+        "distribution": "heterogeneous",
+        "n": 256
+      },
+      "passed": true,
+      "coverage_lower": 0.9881721508615399,
+      "coverage_successes": 1988,
+      "undefined": 0
+    }
+  ],
+  "actual_runtime_returncode": 0,
+  "runtime_completed": "2026-11-01T13:59:54.815721+00:00",
+  "independent_completion_review": "pending",
+  "scope": "All eight fixed cases completed; failure retained, no extension until pass. New seeds do not constitute independent validation laws."
+}

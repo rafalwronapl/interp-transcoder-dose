@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "snapshot_sha256": "32a1fdcd5d00d38dda178a1acd1d20ee802d4b39846af02bc0934bbf0752d8a1",
+  "reviewer_id": "/root/sol_results_acceptance",
+  "independent": true,
+  "verdict": "approved",
+  "topics_checked": [
+    "design",
+    "implementation",
+    "data",
+    "cost",
+    "claims"
+  ],
+  "findings": [],
+  "limitations": "Independent offline completion acceptance of primary r0 FIT_ONLY only. Checked actual source/protocol, all 980 completion-manifest hashes, 971 stage-manifest hashes, 972 cached-replay hashes, ledger/schedule equality (482 unique attempted/computed operations: 447 natural full captures,30 full controls,5 local suffix),448 states including one admitted historical import,48 disjoint lexical blocks and donor pairing,qualification-first44operations then438remaining captures,all five actual controls. Independently reconstructed vector matrices: ridge KKT relative residual4.11e-15,intercept/RMS consistency,all four rank8 projectors exact,orthogonality<=2.665e-15,V_target240107.0870612265 exact. Reviewed cache fastpath returning before torch/model import and existing partial-failure/corruption evidence; no new model calls, pretrained loading, synthetic suite repetition or data acquisition. Accounting relies on auditable code/receipts rather than an external hardware monitor. Approval establishes acquisition/qualification/frozen vector-only fitting, not A1-A3, repair efficacy, inference/sample-size eligibility, language competence, transfer,generalization, cost savings or novelty. PILOT/TEST and additional cohorts require separate frozen protocols/reviews. Offline evidence: completion_review_sol/offline_checks_v1.json; audit.py."
+}

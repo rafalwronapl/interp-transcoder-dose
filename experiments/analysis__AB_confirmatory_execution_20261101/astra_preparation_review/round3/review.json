@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "snapshot_sha256": "ce61441c5fef1ef3e65eb96cfb4fc955089a34db578965a6fcc70da64261ed1c",
+  "reviewer_id": "/root/astra_preparation_audit",
+  "independent": true,
+  "verdict": "changes_requested",
+  "scope": "Draft methodology/code only",
+  "launch_authorized": false,
+  "topics_checked": [
+    "implementation",
+    "design",
+    "cache",
+    "cost",
+    "statistics"
+  ],
+  "findings": [
+    {
+      "id": "AP5",
+      "severity": "high",
+      "status": "resolved",
+      "evidence": "Two-stage qualification ordering in B_QUALIFICATION_DESIGN_ROOT and worker_b",
+      "resolution": "Static changed-source review passed; executable evidence remains separate."
+    },
+    {
+      "id": "AP6",
+      "severity": "high",
+      "status": "resolved",
+      "evidence": "worker_b independent encoder expression",
+      "resolution": "Static changed-source review passed; executable evidence remains separate."
+    },
+    {
+      "id": "AP7",
+      "severity": "high",
+      "status": "resolved",
+      "evidence": "worker_b config SHA in code cache identity",
+      "resolution": "Static changed-source review passed; executable evidence remains separate."
+    },
+    {
+      "id": "AP8",
+      "severity": "medium",
+      "status": "open",
+      "evidence": "worker_b branch norm denominators and qualification receipts",
+      "resolution": "Explicit nonzero finite norms and diagnostic fields before launch."
+    },
+    {
+      "id": "AP9",
+      "severity": "medium",
+      "status": "open",
+      "evidence": "A_STABILITY_PRECISION_ROOT scalar18-case construction",
+      "resolution": "Label pointwise coverage and descriptive joint width attainment."
+    }
+  ],
+  "report_sha256": "587c40ed158db283015b35d6869fba3d8b56c21d9f3a3103a2811853d0d8f614",
+  "limitations": "No canonical launch authorization or production numeric qualification. Later source fixes require new snapshot."
+}

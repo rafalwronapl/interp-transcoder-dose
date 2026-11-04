@@ -1,0 +1,93 @@
+{
+    "schema_version":  1,
+    "id":  "AB_B_REFERENCE_UNFUSED_20261101_v1",
+    "kind":  "experiment",
+    "primary_agent":  "/root",
+    "purpose":  "Diagnose failedFP32fusedreference parity using officialunfusedreference at unchanged1e-5cutoff on cached4inputs;no native recapture.",
+    "tracked_files":  [
+                          "ab_confirmatory_20261101/reference_b_unfused.py",
+                          "ab_confirmatory_20261101/prepare_reference_b.py",
+                          "ab_confirmatory_20261101/prepare.py",
+                          "ab_confirmatory_20261101/runtime.py",
+                          "ab_confirmatory_20261101/worker_b.py",
+                          "analysis/AB_confirmatory_execution_20261101/B_reference_unfused_v1/PROTOCOL.md",
+                          "analysis/AB_confirmatory_execution_20261101/B_reference_unfused_v1/packet.json",
+                          "analysis/AB_confirmatory_execution_20261101/B_reference_unfused_v1/test_reference.py",
+                          "analysis/AB_confirmatory_execution_20261101/B_reference_unfused_v1/reference_test.json",
+                          "analysis/AB_confirmatory_execution_20261101/B_fit_primary_v1/B_REFERENCE_RETRIEVAL.md",
+                          "analysis/AB_confirmatory_execution_20261101/B_fit_primary_v1/model_identity.json",
+                          "models/ab_gs2_270m_l15/config.json",
+                          "ab_confirmatory_20261101/transcoder.py",
+                          "ab_confirmatory_20261101/__init__.py",
+                          "analysis/AB_confirmatory_execution_20261101/B_fit_primary_v1/config.json"
+                      ],
+    "tracked_trees":  [
+
+                      ],
+    "input_manifests":  [
+                            "analysis/AB_confirmatory_execution_20261101/B_reference_unfused_v1/input_manifest.json"
+                        ],
+    "gates":  [
+                  {
+                      "id":  "hooks",
+                      "category":  "hooks",
+                      "evidence":  "analysis/AB_confirmatory_execution_20261101/B_reference_unfused_v1/evidence.json",
+                      "pointer":  "/new_native_calls",
+                      "op":  "eq",
+                      "expected":  0,
+                      "reason":  "No hooks/nativeexecution; cached normalized inputs and savedTCoutputs."
+                  },
+                  {
+                      "id":  "data",
+                      "category":  "data",
+                      "evidence":  "analysis/AB_confirmatory_execution_20261101/B_reference_unfused_v1/evidence.json",
+                      "pointer":  "/cached_records",
+                      "op":  "eq",
+                      "expected":  4,
+                      "reason":  "Exact4previouscontrolinputs/rawoutputs bound;no newselection."
+                  },
+                  {
+                      "id":  "pilot",
+                      "category":  "pilot",
+                      "evidence":  "analysis/AB_confirmatory_execution_20261101/B_reference_unfused_v1/evidence.json",
+                      "pointer":  "/new_native_calls",
+                      "op":  "eq",
+                      "expected":  0,
+                      "reason":  "Technical reference-expression diagnosis only,noPILOT/TEST."
+                  },
+                  {
+                      "id":  "accounting",
+                      "category":  "accounting",
+                      "evidence":  "analysis/AB_confirmatory_execution_20261101/B_reference_unfused_v1/evidence.json",
+                      "pointer":  "/new_reference_calls",
+                      "op":  "eq",
+                      "expected":  4,
+                      "reason":  "FourNEWunfusedreference evaluations,not repeats of savedfusedreference oractualTC."
+                  },
+                  {
+                      "id":  "restart",
+                      "category":  "restart",
+                      "evidence":  "analysis/AB_confirmatory_execution_20261101/B_reference_unfused_v1/evidence.json",
+                      "pointer":  "/no_prior_operation_repeated",
+                      "op":  "eq",
+                      "expected":  true,
+                      "reason":  "Separateidentity/cache;original64opsread-only;completecachedreplay avoidsweightload."
+                  }
+              ],
+    "circuits":  [
+
+                 ],
+    "structural_scope":  "LocalTCreference fromrawweights onstorednativeinputs, no modelreplacement ordownstreamclaim.",
+    "entrypoint":  {
+                       "module":  "ab_confirmatory_20261101.reference_b_unfused",
+                       "args":  [
+                                    "--stage",
+                                    "analysis/AB_confirmatory_execution_20261101/B_reference_unfused_v1"
+                                ]
+                   },
+    "schedule":  "analysis/AB_confirmatory_execution_20261101/B_reference_unfused_v1/operations.json",
+    "budget":  {
+                   "forward":  4,
+                   "backward":  0
+               }
+}

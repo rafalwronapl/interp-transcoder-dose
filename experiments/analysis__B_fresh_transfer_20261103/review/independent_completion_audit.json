@@ -1,0 +1,22 @@
+{
+  "passed": true,
+  "contexts": 256,
+  "attempts": 2133,
+  "aliases": 529,
+  "skips": 426,
+  "actual_norm_range": [
+    101.51094977246147,
+    101.51100604203042
+  ],
+  "contrasts": {
+    "object": 0.013883453812094456,
+    "primary_so_when": 0.19835196857301723,
+    "so": 0.28425957050911,
+    "transfer": 0.08365206496659645,
+    "when": 0.11244436663692453
+  },
+  "all256targets_recomputed_from_actual_TC_outputs": true,
+  "all_actual_or_aliased_suffixes_recomputed": true,
+  "global_freeze_before_scientific_calls": true,
+  "pretrained_calls": 0
+}

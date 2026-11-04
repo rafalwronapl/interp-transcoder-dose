@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "snapshot_sha256": "2fdd5bacde1e2d4e8d07b8ce74a24b9e8628186f4c9f9bbee58f70d68bc0514a",
+  "reviewer_id": "/root/astra_goals_and_concurrency_review",
+  "independent": true,
+  "verdict": "approved",
+  "topics_checked": [
+    "design",
+    "implementation",
+    "data",
+    "cost",
+    "claims"
+  ],
+  "findings": [
+    {
+      "id": "V6-FINAL-PROVENANCE-JOIN",
+      "severity": "high",
+      "status": "resolved",
+      "evidence": "Joined calibration/run evidence originally entered inherited TEST-only raw acceptance and would block valid final preparation. Builder now verifies original TEST assembly first, separately validates v6 eligibility, then binds both into new analysis/input manifests.",
+      "resolution": "Realistic ninth regression includes calibration/run absent TEST snapshot; actual9PASS receipt bound. No frozen old builder changed."
+    },
+    {
+      "id": "V6-ADMISSION-AND-METADATA",
+      "severity": "high",
+      "status": "resolved",
+      "evidence": "Current native TEST guard binds exact v6 selector candidate/method/spec; eligibility paths resolve from base; direct1999 metadata removes obsolete20k bridge; method-specific closed calibration required.",
+      "resolution": "All earlier source-review findings resolved. Fixed indices/power kernel, original thresholds and minimum eligible N preserved."
+    },
+    {
+      "id": "V6-PREPARATION-SCOPE",
+      "severity": "low",
+      "status": "accepted",
+      "evidence": "Current candidate and transitive source closure, actual numerical3PASS and integration9PASS evidence bound. Actual calibration separately frozen and independent of future adapters.",
+      "resolution": "Preparation acceptance only, not scientific qualification. Historical failures and existing caches retained."
+    }
+  ],
+  "limitations": "Read actual candidate/calibration, eligibility, selector, native wrapper, final-analysis and packet-builder sources; inspected cheap fixture evidence without repeating MC or model campaigns. Exact canonical maintenance payload reproduced. Actual per-N calibration closure acceptance remains mandatory; future synthesis, native, selector and final execution each require their own reviewed exact packets. Final TEST acceptance remains separate from eligibility acceptance. Same-law fresh-seed calibration is not unseen-law validation and does not establish universal or second-order coverage. No numerical/model experiment executed by reviewer."
+}

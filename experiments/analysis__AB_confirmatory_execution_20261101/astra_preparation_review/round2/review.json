@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "snapshot_sha256": "fa97a0189e5ece6fe8232cc1da7a8fb7f2f9921d761fb207281105c72096dc83",
+  "reviewer_id": "/root/astra_preparation_audit",
+  "independent": true,
+  "verdict": "changes_requested",
+  "scope": "ROOT preparation methodology only",
+  "launch_authorized": false,
+  "topics_checked": [
+    "estimands",
+    "power generator",
+    "numeric qualification",
+    "stage dependencies",
+    "reuse"
+  ],
+  "findings": [
+    {
+      "id": "AP5",
+      "severity": "high",
+      "status": "open",
+      "evidence": "B_QUALIFICATION_DESIGN_ROOT.md:19,27 vs PROTOCOL_B_CONTROLS.md:11",
+      "resolution": "Split pre-natural-capture full-operator gate from post128capture projected-direction gate before expanded local endpoints."
+    },
+    {
+      "id": "AP1",
+      "severity": "medium",
+      "status": "resolved",
+      "evidence": "PROTOCOL_B_CONTROLS.md:13,15 now h=c*delta_z and RMS(h)",
+      "resolution": "Dose exactly once."
+    },
+    {
+      "id": "AP4",
+      "severity": "low",
+      "status": "resolved",
+      "evidence": "B_QUALIFICATION_DESIGN_ROOT.md:23 fixed direction/amplitude and noise floor",
+      "resolution": "Explicit prospective numerical qualification design; not measured PASS."
+    },
+    {
+      "id": "AP2",
+      "severity": "medium",
+      "status": "accepted",
+      "evidence": "Executable spec synchronization remains pending",
+      "resolution": "Required before PILOT; active files preserved."
+    },
+    {
+      "id": "AP3",
+      "severity": "medium",
+      "status": "accepted",
+      "evidence": "Generator formulas now specified; implementation/calibration and stability precision remain pending",
+      "resolution": "Design scope only; corresponding pre-PILOT/additional-FIT gates retained."
+    }
+  ],
+  "report_sha256": "9e550eb5014d0f5302eb16593cd24a8c88bce2137c3398019957ec1392c58155",
+  "limitations": "No launch/model/output approval, no official external-source retrieval by this reviewer, no new novelty assessment. No numeric generator calibration or independent model execution."
+}

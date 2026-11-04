@@ -1,0 +1,41 @@
+{
+  "document": {
+    "id": "A_shared_TEST_0183_T5_s0_q0",
+    "donor": "A_shared_TEST_0183_T5_s1_q0",
+    "block": "A_shared_TEST_0183",
+    "study": "A",
+    "cohort": "shared",
+    "split": "TEST",
+    "index": 183,
+    "frame": "T5",
+    "side": 0,
+    "q": 0,
+    "text": "Everyone agrees that the marlinespike, unlike the calpac,"
+  },
+  "files": {
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/completed/capture_A_shared_TEST_0183_T5_s0_q0.json": "9ba3794f283120f00bb0ffff902a1b7c9769fadd03a65482141b815b94970083",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/cache/b8a1c72a2fed7ebbaa31205b9a7491af8870648bf3e599390f1307a66d5deb66.json": "5018d72e4cb72dfcb374cac05a2fe590a7e308be090b1f7da15b43d397d75617",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/completed/capture_A_shared_TEST_0183_T5_s1_q0.json": "24b830e27e188f183fba815cc7de9cc5feef43e5c34ca737b0c108b14d45847e",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/cache/8b4425bc70356453a65626c374c081bd3bf8b9ad1f8671c96ecd6d3f36a4b21f.json": "7426ae61d10387ac56d310a6154c95bcfedc6710da8063ca5615095c50ecbe16",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/completed/suffix_A_shared_TEST_0183_T5_s0_q0_native.json": "fb5576b53b76ef158a3fe1b5aa73366be8c49218618096a8ba1481062803a69f",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/cache/47a3d278ac903c73a50b5a1ac5b05a516c3f252544ed1f43d1c13654d07c0698.json": "f1909a943b7fa5aaa6206141302c1940b09cfb6fb6eee2ede68fc202f92b3c3a",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/completed/suffix_A_shared_TEST_0183_T5_s0_q0_r0_P.json": "f8961e913abec2f7306a3931e14eef06dc4ed37b3e954c7843e5853f347bd37f",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/cache/9956af6c522f86cb76b935a442222dcccde60fe008780c9b6d28857228627940.json": "2b77421c70e7fc467c46fb85f84707f0764d6323b4e76a0e881e1f0817344100",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/completed/suffix_A_shared_TEST_0183_T5_s0_q0_r0_U0.json": "3a7483de79825d935edeccb31a0ca5d6ba2d59fa5f52851193244ad8ba86cd62",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/cache/5ab87160c26524e641f8875980a7d54d75e82729914ab17f6950ba888bb9ffd9.json": "91a45dcbc671e63ff0f31263d5255ead4917f9cca20dfda8adee04a7d6abdcef",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/results/r0/A_shared_TEST_0183_T5_s0_q0.json": "e9aa047364050a1bafca6dea5c4e8d52b9ff2ecd056c2ec6fb846fb7f138ab9f"
+  },
+  "identity": {
+    "model": "5fb518228899f9c15e3db99e01c11d159af8451337dee6d85c28f3880fde2b29",
+    "code": "25737ad0d8d462c020f979d68f61d55e90b2e2668df0fb2d0a8008b19f7db7b7",
+    "corpus": "361064de9ca092fcd6a97649eb7daac7f01b03a084cb021f6e6d0b819c00180c",
+    "tokens": "64569cc7e32d060a398bb0dba55885712cb963aa4475dbaf847e795f4b4926f9",
+    "config": "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/config.json",
+    "frozen_fit_hashes": {
+      "r0": "9215ff51a78cfd3a5c9a8149332c17fe9a8d50a8571d6943f1cc2059fb52c833"
+    }
+  },
+  "own_fit_sha256": "9215ff51a78cfd3a5c9a8149332c17fe9a8d50a8571d6943f1cc2059fb52c833",
+  "max_target_error": 0.0,
+  "all_saved_loss_vector_arithmetic_passed": true
+}

@@ -1,0 +1,29 @@
+{
+  "study": "B",
+  "phase": "FIT_ONLY",
+  "corpus": "analysis/AB_confirmatory_execution_20261101/B_fit_primary_v1/corpus.json",
+  "tokens": "analysis/AB_confirmatory_execution_20261101/B_fit_primary_v1/tokens.json",
+  "model_identity": "analysis/AB_confirmatory_execution_20261101/B_fit_primary_v1/model_identity.json",
+  "output": "analysis/AB_confirmatory_execution_20261101/B_fit_primary_v1/run",
+  "threads": 2,
+  "expected_documents": 128,
+  "layer": 15,
+  "answer_ids": [
+    1304,
+    668
+  ],
+  "control_documents": [
+    "B_FIT_0000_so_s0",
+    "B_FIT_0000_so_s1",
+    "B_FIT_0000_when_s0",
+    "B_FIT_0000_when_s1"
+  ],
+  "schedule": "analysis/AB_confirmatory_execution_20261101/B_fit_primary_v1/operations.json",
+  "gates": {
+    "fd_base": 1e-05,
+    "fd_relative": 0.02,
+    "branch_relative": 0.0001,
+    "sham_abs": 1e-05,
+    "margin_parity": 0.0001
+  }
+}

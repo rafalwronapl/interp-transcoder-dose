@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "snapshot_sha256": "9421b4ba6f10e6c672068ba74c0b1b28171a5f62f0d38dd762ed2790089c4e75",
+  "reviewer_id": "/root/sol_parallel_acceptance",
+  "independent": true,
+  "verdict": "approved",
+  "topics_checked": [
+    "design",
+    "implementation",
+    "data",
+    "cost",
+    "claims"
+  ],
+  "findings": [],
+  "limitations": [
+    "Acceptance of completed NEGATIVE calibration, not authorization for15 additionalFITs or universal interval coverage.14/18fixed scenarios passed;4lognormal cases failed.",
+    "All18case/spec/aggregate hashes, artifact memberships and CP bounds checked; full saved data/statistic arithmetic audited for decisive case17 only (N256/lognormal/fit_fraction.9,1806/2000,lower.8832824513676938). No claim all72kraw calculations re-derived.",
+    "No model, refit, SVD, dataset regeneration or bootstrap/MC replay. Native and scientific one-r0A outcomes not re-audited; independent original numerical sources inspected. Canonical full snapshot verification is recorded separately."
+  ]
+}

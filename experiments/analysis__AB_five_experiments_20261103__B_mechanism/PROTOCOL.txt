@@ -1,0 +1,47 @@
+Experiments3/5, frozen design before new outcomes, 2026-11-03.
+Reuse accepted Gemma270 L15 B TEST captures and native/TC/FROZEN endpoints.
+Select blocks16..47 inclusive (32blocks), all3frames and bothsides, full/projected,
+doses.05/1:192documents,768cells. Old TEST outcomes exposed; not freshholdout.
+This sample excludes the16previous geometry blocks but is still posthoc.
+
+3: for each recipient choose cyclic partners offsets1 and7 within selected32,
+sameframe/side/operator/dose. Use actual FP32target residuals t-n for both.
+For partner residual s insert n+||r||s/||s|| roundedonceFP32. Keep originalRR
+fromcache. No baselineerror swaps, no gradients, no populationCIs because
+partnercoupling. Report all12frame/operator/dose strata plus equalblock pooling,
+signedchanges/loss/normrounding. Zero donorresidual explicitly undefined, no
+replacementpartnerselection. Duplicate targets alias onlywithinrecipient.
+
+5: select global32featureIDs on original FIT only, before any new TEST evaluation.
+FIT score perfeature mean |relu(pre1)*(mask1-mask0)|*||decoderrow|| at fullc1
+across all originalFITdocuments. Rank descending, tiesfeatureID ascending.
+Random32 from complement with fixedseed20261103; samefeaturecount notnormmatch.
+For TEST hold continuous endpoint preactivation fixed and vary only threshold
+mask. Define h0=relu(pre0)*mask0, hbase=relu(pre1)*mask0,
+switch=relu(pre1)*(mask1-mask0). ExactTC endpoint hbase+switch.
+Arms ONLY_top32, ALL_except_top32, ONLY_random32, ALL_except_random32,
+ONLY_turn_on, ONLY_turn_off, BASE (allmaskssameasbaseline).
+All targets use y+decoder(feature_endpoint)-cachedTCbase, native truth fixed.
+Endpoint mask manipulations are artificial counterfactuals, not actual input
+perturbations. ONLY/ALL_except test sufficiency/necessity relative to this TC
+construction, not a true native mechanism. ON/OFF partition exact in vector
+space but downstream nonadditive. Report individualgroupvectornorms and interaction.
+No prediction of effect from TEST labels; globalIDs frozen fromFITswitchsize
+only, not TESTreadouts or donor residual losses. ExistingFROZEN baseline may
+differ from BASE because BASE retains endpoint ReLU clipping and FP32 arithmetic;
+measure discrepancy, do not assume it small or silently equate them.
+
+TC encoding needed because originalcache kept outputs but not preactivations.
+Reuse saved TC output to paritycheck reencoding, do not rerun nativecapture or
+originalRRtails. Newmodel calls: four oldFITtechnicalcontrol gradients with
+plus/minus sensitivity (12suffixF+4B);192baselineTC+768endpointTC;
+FIT2encodes/doc; max768*(2residual+7feature)=6912suffixF. Also768*8=6144
+decoder-only forwards (7hybrids and full-reconstruction parity), counted separately
+in IDs and totalforwardbudget. Exactbudgetfromsourceindex.
+No new scientific gradient or refit/bootstrap. All operations schedule before
+load; reserve beforecompute, immutable cache, unknowncrash attempt consumes slot.
+Same exact suffix adapter/model/software as accepted qualification; original
+4FITcontrols and qualifications adopted. One full local270Mload and oneTCload.
+Arithmetical checks: exact target reconstruction, native/cached semantics,
+fullfeaturedecodedendpointparity, intended/roundednorm bounds, zero/alias cases.
+Fullrun approval needs actual source manifests, fixtures and independentreview.

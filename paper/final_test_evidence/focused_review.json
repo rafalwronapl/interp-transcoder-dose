@@ -1,0 +1,13 @@
+{
+  "status": "approved_focused_actual_output",
+  "reviewer": "/root/astra_goals_and_concurrency_review",
+  "independent": true,
+  "result_sha256": "aa9353e9462dfa56f3ba1c6768a94b6623d98c97a1222622166c9be3aaf332a1",
+  "result_payload_sha256": "541818a3573383697880a2baae94df41275d81a7e1497e98ecea6aa70306224c",
+  "pre_run_snapshot_sha256": "8ac68f6938281491c01b1861e6b255ef5020cd719f0a5019eb497837dbb6c525",
+  "runtime_receipt": "operations\\concurrency_runtime_v1\\launch_732dc6e5d9524b709ddd1c4ee15e0065.json",
+  "runtime_sha256": "5520c7ff2bb527af7df33090438f87591ac524f4042839e578e5a21690d03aba",
+  "aggregation_proof": "analysis/B_final_review_20261102/result_checks_v1.json",
+  "claims": "288descriptivecells,36endpointcells,5finitecontrasts and12qualifiedTCc1 intervals; originalfamilyineligible. ActualsimultaneouswidthtargetFAILED projected/whenrelativehalfwidth.02431004>.02; no inference expansion.",
+  "limitations": "No bootstrap/model/refit/fullcache rerun. Actual consumed source bindings and direct record aggregation checked. Official completion snapshot prepared separately by executor."
+}

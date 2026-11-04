@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "snapshot_sha256": "49967dcfcd6f1bf4cdf500fda0694d656af1baa190df8801a96a1e0c6769b580",
+  "reviewer_id": "/root/astra_goals_and_concurrency_review",
+  "independent": true,
+  "verdict": "approved",
+  "topics_checked": [
+    "design",
+    "implementation",
+    "data",
+    "cost",
+    "claims"
+  ],
+  "findings": [
+    {
+      "id": "V6-ACTUAL-COVERAGE",
+      "severity": "low",
+      "status": "accepted",
+      "evidence": "All8fixed cases complete:16000datasets,1999bootstrapdraws each; all32000sealed data/statistic file and payload hashes, exact request/seed identities, shapes/finiteness, stored estimates/widths/coverage and independent CP arithmetic audited once. Counts1975,1984,1974,1991,1974,1984,1982,1988 of2000;undefined0.",
+      "resolution": "All8 joint-coverage CP lower bounds .9792276933 to.9902196573 exceed frozen.95 at alpha.05/8. Precision qualification passes atN128and256."
+    },
+    {
+      "id": "V6-CLOSURE-PROVENANCE",
+      "severity": "low",
+      "status": "accepted",
+      "evidence": "Previously audited case hashes/aggregate reused and all32000artifact hashes matched official completion snapshot. Original accepted v3 numerical sources unchanged; actual runtime e6e89d1b return0 at13:59:54UTC binds approved ec5838c6 pre-run.",
+      "resolution": "Actual completed prospective calibration accepted; no simulation extension, dataset/bootstrap regeneration, method change or old-failure rewrite."
+    }
+  ],
+  "limitations": "This is finite-scenario precision interval coverage qualification only. It does not establish target-width assurance, B primary-family eligibility, B1-B3 scientific support, unseen-law or distribution-free coverage, or higher-order guarantees for Pareto3. Same eight law cases with new fixed seeds; old failed percentile results retained. N128 primary-family failure and any N256 family failures remain separate. No model calls or bootstrap/data regeneration by reviewer. Incremental raw audits cached under astra_goals_concurrency_review/v6_closed_cases; final snapshot membership and immutable case hashes checked without duplicating prior audits. Native PILOT/TEST or inference requires its own appropriate authorization; this receipt creates no general eligibility bypass."
+}

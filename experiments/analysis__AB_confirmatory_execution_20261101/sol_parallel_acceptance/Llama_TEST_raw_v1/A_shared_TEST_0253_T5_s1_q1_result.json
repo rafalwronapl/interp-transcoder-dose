@@ -1,0 +1,41 @@
+{
+  "document": {
+    "id": "A_shared_TEST_0253_T5_s1_q1",
+    "donor": "A_shared_TEST_0253_T5_s0_q1",
+    "block": "A_shared_TEST_0253",
+    "study": "A",
+    "cohort": "shared",
+    "split": "TEST",
+    "index": 253,
+    "frame": "T5",
+    "side": 1,
+    "q": 1,
+    "text": "Everyone agrees that the coadjutors, unlike the rheumatics,"
+  },
+  "files": {
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/completed/capture_A_shared_TEST_0253_T5_s1_q1.json": "8be3202e895a0e95922d00fd6ac15f8352e4081e27f608437fcddb32056a2771",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/cache/44b6bb26527f138c5c1481fc332b4d9bf05185a02c8b6885e7d38d3e45080ebd.json": "dffea0487c481929e195bc8ce6cf72ff5eda1e1a6c36a560a239bd339869b924",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/completed/capture_A_shared_TEST_0253_T5_s0_q1.json": "c69e69ab63b97d74d37a5fece1934bc788eea606930e3643c0479516f3701dff",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/cache/0171d7b1f8fbdc410cd28a5391046b516fa84a63a6764fd6c1dd204b7d2d833d.json": "637c483e26ebd91c2d40841cf3db52948c7b9de158f368ccc0b3602a01ab0f1f",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/completed/suffix_A_shared_TEST_0253_T5_s1_q1_native.json": "99f98b63dd9682f9db2af380b41acb1fb270a0ea9c84b209e85a97c0a46dd98e",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/cache/077c9a1d1132175a9b82ce97adafffa560410b02ec51292cd3d93dd466705004.json": "c0b27bdcd0fbe7005235058e94eeb443f8a64a06562eb638f612a8eba78c3c71",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/completed/suffix_A_shared_TEST_0253_T5_s1_q1_r0_P.json": "493f3f24af7f3fa55ab7b385364a541858016d73d62b524e233526963941fee4",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/cache/02ac5c41a3ed1b1af7305be34ab01d1766b06f8c35eebe75ed4c1dc85f818b34.json": "cf1dfb2863f96edf49852da37ee9fa1529e7b34f718bc8d4b83bede5c68d4960",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/completed/suffix_A_shared_TEST_0253_T5_s1_q1_r0_U0.json": "3da6040918b3405431826d911c7b7f683718c7f680db6852c123afe15111f977",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/cache/07c8c03422acc250e41423e8300d53067c506dd7fd230f16202596f8d10f63bd.json": "a0d8387ba7d68e65570db0022794a74a72740b864b75530a6fa8acd959aec94d",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/results/r0/A_shared_TEST_0253_T5_s1_q1.json": "f8a0e0aa888d4e79684f8aa96cdefd65cfa11ee85741885eaa74906cc963a2cd"
+  },
+  "identity": {
+    "model": "5fb518228899f9c15e3db99e01c11d159af8451337dee6d85c28f3880fde2b29",
+    "code": "25737ad0d8d462c020f979d68f61d55e90b2e2668df0fb2d0a8008b19f7db7b7",
+    "corpus": "361064de9ca092fcd6a97649eb7daac7f01b03a084cb021f6e6d0b819c00180c",
+    "tokens": "64569cc7e32d060a398bb0dba55885712cb963aa4475dbaf847e795f4b4926f9",
+    "config": "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/config.json",
+    "frozen_fit_hashes": {
+      "r0": "9215ff51a78cfd3a5c9a8149332c17fe9a8d50a8571d6943f1cc2059fb52c833"
+    }
+  },
+  "own_fit_sha256": "9215ff51a78cfd3a5c9a8149332c17fe9a8d50a8571d6943f1cc2059fb52c833",
+  "max_target_error": 0.0,
+  "all_saved_loss_vector_arithmetic_passed": true
+}

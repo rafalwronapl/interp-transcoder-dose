@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "snapshot_sha256": "ce6434621cf2c6775c9a83bb191d85b917ce760a57e8e687325d368636368aa6",
+  "reviewer_id": "/root/astra_preparation_audit",
+  "independent": true,
+  "verdict": "approved",
+  "topics_checked": [
+    "design",
+    "implementation",
+    "data",
+    "cost",
+    "claims"
+  ],
+  "findings": [
+    {
+      "id": "REF-BIND-1",
+      "severity": "medium",
+      "status": "resolved",
+      "evidence": "v2 snapshot includes package __init__ and original four-control config",
+      "resolution": "Manifest-only correction; no measurement/code/test reruns."
+    }
+  ],
+  "limitations": "Only four NEW independent official-unfused reference evaluations on original cached inputs, zero native calls, original cutoffs retained. Not authorization for remaining1800FIT operations or PILOT/TEST. Old failed F.linear comparison preserved. Random tests do not assert pretrained reference PASS; separate completion/recovery reviews required. See pre_run_REPORT_v2.md."
+}

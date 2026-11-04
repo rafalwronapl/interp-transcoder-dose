@@ -1,0 +1,41 @@
+{
+  "document": {
+    "id": "A_shared_PILOT_0000_T2_s1_q1",
+    "donor": "A_shared_PILOT_0000_T2_s0_q1",
+    "block": "A_shared_PILOT_0000",
+    "study": "A",
+    "cohort": "shared",
+    "split": "PILOT",
+    "index": 0,
+    "frame": "T2",
+    "side": 1,
+    "q": 1,
+    "text": "Near the enclosure, the skycaps that the norias can observe"
+  },
+  "files": {
+    "analysis/A_short_replication_llama_20261101/PILOT_ready_v1/run/completed/capture_A_shared_PILOT_0000_T2_s1_q1.json": "6d19384118dc991af1221aea11d846e74b9a9620ac7c0e44af84a982eee178a7",
+    "analysis/A_short_replication_llama_20261101/PILOT_ready_v1/run/cache/a1fcaea0f870762f84b9c5ce03098355b08a3d89183cef5518bbc40feb7562a9.json": "66fd274809665bf8e3cf2eb495d8cc865f89b23d5fae4501335c1fe8c3e9de8b",
+    "analysis/A_short_replication_llama_20261101/PILOT_ready_v1/run/completed/capture_A_shared_PILOT_0000_T2_s0_q1.json": "be515c1f1f2f99da88917a57f4b337610605dad10d89dc9ac3ea7daab4930b0f",
+    "analysis/A_short_replication_llama_20261101/PILOT_ready_v1/run/cache/f121045054b9f08118dd02919091d7ab705d9a17ddb92f22af22b167145978a6.json": "957f5fecc0992fea4e73072e8aec4fd14ffbed0c182ca8af2990ade824915c42",
+    "analysis/A_short_replication_llama_20261101/PILOT_ready_v1/run/completed/suffix_A_shared_PILOT_0000_T2_s1_q1_native.json": "67ce28573d573fa1d9fdd7efc45a33fcf4e4976fab129f75926936a4acf08bd0",
+    "analysis/A_short_replication_llama_20261101/PILOT_ready_v1/run/cache/4cf5eebe36bd23efdeacfdfd9023f8df8c52568a2c982ea6045ac44e6a803f4e.json": "d0b7d098fa63e2679dcda1c7de841db48e630782cd8782b16668c61a48d3696d",
+    "analysis/A_short_replication_llama_20261101/PILOT_ready_v1/run/completed/suffix_A_shared_PILOT_0000_T2_s1_q1_r0_P.json": "2a0ba811223ddba97b57b8d7591117b80a19734c7f2422e6f0972f09ba4ded69",
+    "analysis/A_short_replication_llama_20261101/PILOT_ready_v1/run/cache/7033c6ac849c64e39c1dbac60bd2230ed4406ef3b4635f36d63d211a3640ba1a.json": "18a2810eaf5debe1c4b77a49c1348071add11b57d31655cbd1bd214a9a380ad7",
+    "analysis/A_short_replication_llama_20261101/PILOT_ready_v1/run/completed/suffix_A_shared_PILOT_0000_T2_s1_q1_r0_U0.json": "a54edbe2d5d9ce1e2abf5225e8905f95239cbec79922c35de4b96555e7dfef2a",
+    "analysis/A_short_replication_llama_20261101/PILOT_ready_v1/run/cache/25b9f267f6d71741e3c8dca279f3629fa2dbb4d5c1da5cfc659ec5b0148b86ab.json": "1e469b46ab26a9524370a79a0f420d8899e5ea077edcd9532b58ea3755d297fd",
+    "analysis/A_short_replication_llama_20261101/PILOT_ready_v1/run/results/r0/A_shared_PILOT_0000_T2_s1_q1.json": "5c0a863b267d7dcd336ca113fea3079cf99290366b78b8bc2d851850c553b064"
+  },
+  "identity": {
+    "model": "5fb518228899f9c15e3db99e01c11d159af8451337dee6d85c28f3880fde2b29",
+    "code": "e48716286b27b7893bdf75395d4dfbf107f3bc0b6754278bebc0a8ab8bbd5f76",
+    "corpus": "5e3ee9294d9b5402b9e188046c61bc18efbd537cbeda0460d37e2bf22daf2ff5",
+    "tokens": "6f4cd89ddff77b0b823e47390cc3236a8a3cafb3cca252d66d06997c2bf60a81",
+    "config": "analysis/A_short_replication_llama_20261101/PILOT_ready_v1/config.json",
+    "frozen_fit_hashes": {
+      "r0": "9215ff51a78cfd3a5c9a8149332c17fe9a8d50a8571d6943f1cc2059fb52c833"
+    }
+  },
+  "own_fit_sha256": "9215ff51a78cfd3a5c9a8149332c17fe9a8d50a8571d6943f1cc2059fb52c833",
+  "max_target_error": 0.0,
+  "all_saved_loss_vector_arithmetic_passed": true
+}

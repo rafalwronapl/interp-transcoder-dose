@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "snapshot_sha256": "c608e535193377fa88931e0847a96d9d53c9c252ee8ceaa453cf9f42452c19d8",
+  "reviewer_id": "/root/fast_followup_review",
+  "independent": true,
+  "verdict": "approved",
+  "topics_checked": [
+    "design",
+    "implementation",
+    "data",
+    "cost",
+    "claims"
+  ],
+  "findings": [
+    {
+      "id": "B_COMPLETED_CURRENT_IDENTITY",
+      "severity": "high",
+      "status": "resolved",
+      "evidence": "Initial completed fastpath verified only output bytes.",
+      "resolution": "Runtime identity/schedule immutable checks now precede completion fastpath and loader. Independent actual guard tests reject changed identity before loader callback."
+    },
+    {
+      "id": "B_UNCERTAIN_BEFORE_LOAD",
+      "severity": "high",
+      "status": "resolved",
+      "evidence": "Initial Runtime/uncertain reservation check occurred after native load.",
+      "resolution": "Current preflight scans every attempt and validates durable identity/request-bound cache before heavyimports/load; actual guard reproduced with zero loadercallbacks."
+    },
+    {
+      "id": "B_TECHNICAL_REVALIDATION_WORDING",
+      "severity": "low",
+      "status": "accepted",
+      "evidence": "PLAN enumerates8controls but later exception phrase names only2RRparities.",
+      "resolution": "Actual reviewed schedule/code unambiguously budgets2native same-value technical revalidations,4new half-historical-step signedprobes and2RRsame-target parity revalidations; all8charged, no scientific historicalresult replacement. This receipt makes exact scope explicit."
+    }
+  ],
+  "limitations": "Approves exact frozen norm-direction suffix stage,776logicalforward cap/0backward, oneGemma270Mload per uninterrupted run, noTCmodel or newnativeprefix calls. Independently verified1977snapshot files and rederived all768frozenfloat32targets from actual128cachedTESTpreactivationpairs/exactdecoder/threshold; reference isTC_FULL/RR, notON. Every actualcontexteligible under fixedFITcommonrho101.51097375004979/epsrho4; actualnormbounds/amplification checked. Reproduced actualworker fakepipeline/aliases/skips/replay/no-loadguards and unequal-context equal-block aggregation. Actual native controls must pass1e-4shams and signed nonzero probes before main readouts. This is posthoc32historicalblocks,so+when/full1, fixedtop32+5overlappingcontrols; norm-rescaled mask-direction effects are changedestimand, not exactunscaledmask, equal native switching, nativecircuit evidence, freshconfirmation or genericfeatureimportance. Native suffix remains serialized with other modelworkers."
+}

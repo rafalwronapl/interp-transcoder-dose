@@ -1,0 +1,41 @@
+{
+  "document": {
+    "id": "A_shared_PILOT_0002_T5_s0_q0",
+    "donor": "A_shared_PILOT_0002_T5_s1_q0",
+    "block": "A_shared_PILOT_0002",
+    "study": "A",
+    "cohort": "shared",
+    "split": "PILOT",
+    "index": 2,
+    "frame": "T5",
+    "side": 0,
+    "q": 0,
+    "text": "Everyone agrees that the guestworker, unlike the diestock,"
+  },
+  "files": {
+    "analysis/A_short_replication_llama_20261101/PILOT_ready_v1/run/completed/capture_A_shared_PILOT_0002_T5_s0_q0.json": "8e74655262e32dd4b2e346ec6270880a52a257e002235b7ab862b5d1797f3ba5",
+    "analysis/A_short_replication_llama_20261101/PILOT_ready_v1/run/cache/f7be841c6a99e3db8c26dfbda60590bc4a7eddeb55157b2af7207b735e8d3d43.json": "82a8cb3c9562605ca1f678fa51e9aaf90f4cecb61e6a0bc5cc297cf97dd2604a",
+    "analysis/A_short_replication_llama_20261101/PILOT_ready_v1/run/completed/capture_A_shared_PILOT_0002_T5_s1_q0.json": "a572bb49d466e3f27492202c4fb1e8e1f3392280f5eb572933e799f0071b0987",
+    "analysis/A_short_replication_llama_20261101/PILOT_ready_v1/run/cache/4ad19144930dcc7bf38ffbad57ba405671f7585eada177f6e897fe9b39258d87.json": "d17cd706cf6b4e4f111faf6743bb6be85f328862ed6f48b93768852311a84d7b",
+    "analysis/A_short_replication_llama_20261101/PILOT_ready_v1/run/completed/suffix_A_shared_PILOT_0002_T5_s0_q0_native.json": "dfefa0431ea63b6b18f13efc09327fb3185c49875b6c0eb01b2496c4e8cbd716",
+    "analysis/A_short_replication_llama_20261101/PILOT_ready_v1/run/cache/1838bd6b85d412adf1c2a24b251c1b43ac05020d7c4b753f4a62dcd7d4b8c6e2.json": "a745c5f6755d394e72bc26b653503f5f7c4605e9c5f2f64057c13c46d3e4e13f",
+    "analysis/A_short_replication_llama_20261101/PILOT_ready_v1/run/completed/suffix_A_shared_PILOT_0002_T5_s0_q0_r0_P.json": "f60b89d5e424b28e47f001cfb89447eca228c393e32953140eb5de0c44547e03",
+    "analysis/A_short_replication_llama_20261101/PILOT_ready_v1/run/cache/3c58d09b36c4f4646628154af95750b34a16ed83e31562b882afd71535f2d442.json": "1e853a96cf8ce7790957011f5eb0465eebd32877430f1f8da153d84e31b4f51c",
+    "analysis/A_short_replication_llama_20261101/PILOT_ready_v1/run/completed/suffix_A_shared_PILOT_0002_T5_s0_q0_r0_U0.json": "11737b512902c0667e3b8dae67d73f68013cfd42738db6c01848b762932386fe",
+    "analysis/A_short_replication_llama_20261101/PILOT_ready_v1/run/cache/832c009f4c5071ca79d301655f7b5d91d77a76c3081facf4ccc3b3fb431ebb52.json": "2843b7dad2903a43267e42bf793e872a456ebf2c70967c39db2dd993f704be62",
+    "analysis/A_short_replication_llama_20261101/PILOT_ready_v1/run/results/r0/A_shared_PILOT_0002_T5_s0_q0.json": "d54b4ba97f1c7eb03b463fbf82927b0cddbf9108da000257a79e31c4746ed588"
+  },
+  "identity": {
+    "model": "5fb518228899f9c15e3db99e01c11d159af8451337dee6d85c28f3880fde2b29",
+    "code": "e48716286b27b7893bdf75395d4dfbf107f3bc0b6754278bebc0a8ab8bbd5f76",
+    "corpus": "5e3ee9294d9b5402b9e188046c61bc18efbd537cbeda0460d37e2bf22daf2ff5",
+    "tokens": "6f4cd89ddff77b0b823e47390cc3236a8a3cafb3cca252d66d06997c2bf60a81",
+    "config": "analysis/A_short_replication_llama_20261101/PILOT_ready_v1/config.json",
+    "frozen_fit_hashes": {
+      "r0": "9215ff51a78cfd3a5c9a8149332c17fe9a8d50a8571d6943f1cc2059fb52c833"
+    }
+  },
+  "own_fit_sha256": "9215ff51a78cfd3a5c9a8149332c17fe9a8d50a8571d6943f1cc2059fb52c833",
+  "max_target_error": 0.0,
+  "all_saved_loss_vector_arithmetic_passed": true
+}

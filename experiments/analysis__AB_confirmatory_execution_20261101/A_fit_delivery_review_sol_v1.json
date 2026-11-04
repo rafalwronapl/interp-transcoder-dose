@@ -1,0 +1,28 @@
+{
+  "reviewer_id": "/root/sol_parallel_acceptance",
+  "independent": true,
+  "verdict": "approved",
+  "scope": "Mechanical FIT archive delivery only; original independently accepted FIT, no PILOT/TEST/inference approval.",
+  "manifest_sha256": "9285169609f70c62176a16feb4e476e5cc331b7e48221458036c2eefd50dcc14",
+  "files_verified": 1031,
+  "bytes_verified": 67929620,
+  "shared_prior_verified": 0,
+  "all_destination_hashes_sizes_match": true,
+  "all_nongenerated_sources_match": false,
+  "historical_source_deviations": [
+    {
+      "member": "src/research_checks/gate.py",
+      "source": "C:\\Users\\rafal\\interpretability-lab\\research_checks\\gate.py",
+      "archived_sha256": "f83fb03cf74df4ae62e327bb4d2ef17bd489ef89adc96e95f3529af21779544e",
+      "accepted_historical_snapshots": [
+        "C:\\Users\\rafal\\Downloads\\Tor_A_2026-10-31\\dowody\\AB_confirmatory_20261101\\A_fit_primary_v1\\stage\\completion_snapshot_v1.json",
+        "C:\\Users\\rafal\\Downloads\\Tor_A_2026-10-31\\dowody\\AB_confirmatory_20261101\\A_fit_primary_v1\\stage\\pre_run_snapshot_v1.json"
+      ]
+    }
+  ],
+  "generated_members": [
+    "README.md"
+  ],
+  "limitations": "Mechanical delivery review only; prior scientific acceptance reused. Pretrained weights omitted with identities retained. No experiment, fitting, bootstrap, Monte Carlo or model calls repeated. Original laboratory paths require provenance mapping. Independent FIT archive delivery review is issued now; historical wording about prior archive review refers to scientific acceptance until this receipt.",
+  "evidence": "sol_parallel_acceptance/a_delivery_verified_index_v1.json"
+}

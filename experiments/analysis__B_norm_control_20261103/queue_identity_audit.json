@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "processes": {
+    "17500": {
+      "alive": true,
+      "creation_FILETIME": 134381932001004244,
+      "mismatched_creation_rejected": true
+    },
+    "7568": {
+      "alive": true,
+      "creation_FILETIME": 134381932330790163,
+      "mismatched_creation_rejected": true
+    }
+  },
+  "parent_pid": 17500,
+  "worker_parent_pid": 17500,
+  "command_line_identity": "Both live commandlines verified via Win32_Process: research_checks launch/_worker with analysis/AB_budget_readout_20261103/pre_run_snapshot.json and review/pre_run_review.json"
+}

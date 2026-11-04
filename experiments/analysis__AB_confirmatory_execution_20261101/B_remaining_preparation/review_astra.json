@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "snapshot_sha256": "a05113130f9f75f6f615b2a3ada45f22b7c9f366f34ec82ac1361dbd40e38773",
+  "reviewer_id": "/root/astra_preparation_audit",
+  "independent": true,
+  "verdict": "approved",
+  "topics_checked": [
+    "design",
+    "implementation",
+    "data",
+    "cost",
+    "claims"
+  ],
+  "findings": [
+    {
+      "id": "B-AUTH-PATHS",
+      "severity": "high",
+      "status": "resolved",
+      "evidence": "eligibility_paths_v5 containment/relative conversion plus real canonical verifier test",
+      "resolution": "Canonical review boundary fixed without changing frozen statistical code."
+    },
+    {
+      "id": "B-ASSEMBLY-SEAL",
+      "severity": "high",
+      "status": "resolved",
+      "evidence": "assemble_b_v2 requires actual results in verified closure; injected appended-record test passed",
+      "resolution": "No unbound result can enter assembled arrays."
+    },
+    {
+      "id": "B-PREP-BIND",
+      "severity": "medium",
+      "status": "resolved",
+      "evidence": "v2 binds package init, all statistical identity sources/designs and original corpus/tokens",
+      "resolution": "Provenance-only correction; actual test evidence preserved and builder wiring amendment disclosed."
+    }
+  ],
+  "limitations": "Maintenance preparation only. Three literal drafts remain scientifically blocked; actual eligibility,selectedN,tail completion acceptance and separate launch review required. Reviewed six existing random/offline tests and source hashes, no reruns or pretrained calls. Draft referenced FIT/model hashes independently checked; actual ready packets must bind full current acceptance and raw/model identities. Builder snapshot-reference change statically reviewed rather than represented as random-tested. No claim of positive calibration or B1-B3 support. See REPORT_astra.md."
+}

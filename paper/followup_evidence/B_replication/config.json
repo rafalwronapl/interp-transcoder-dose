@@ -1,0 +1,32 @@
+{
+  "model": "models/gemma-3-1b-pt",
+  "tc": "models/gemma_scope/gemma-3-1b-pt/transcoder/layer_22_width_16k_l0_medium",
+  "layer": 22,
+  "threads": 2,
+  "answer_ids": [
+    1304,
+    668
+  ],
+  "controls": [
+    "B2_FIT_0000_so_0",
+    "B2_FIT_0000_so_1",
+    "B2_FIT_0000_when_0",
+    "B2_FIT_0000_when_1"
+  ],
+  "doses": [
+    0.05,
+    0.1,
+    0.25,
+    0.5,
+    1.0,
+    2.0
+  ],
+  "operator": "full",
+  "fit_blocks": 32,
+  "test_blocks": 256,
+  "gates": {
+    "margin_absolute": 0.0002,
+    "branch_relative": 0.0001
+  },
+  "selection": "Deepest available local Gemma3-1B no-affine medium16k public transcoder; availability/cost rule, prior historical exposure disclosed. No new outcome screening."
+}

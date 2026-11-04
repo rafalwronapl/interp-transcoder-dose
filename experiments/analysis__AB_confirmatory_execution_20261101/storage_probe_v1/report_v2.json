@@ -1,0 +1,30 @@
+{
+  "source": "C:\\Users\\rafal\\interpretability-lab\\analysis\\AB_confirmatory_execution_20261101\\B_precision_v6_calibration_v1\\run\\00\\0000_data.json",
+  "probe": "C:\\Users\\rafal\\interpretability-lab\\analysis\\AB_confirmatory_execution_20261101\\storage_probe_v1\\closed_dataset_copy.json",
+  "scope": "Only own disposablecopy; NOscientificdatafilesmodified",
+  "before": {
+    "logical_bytes": 22505,
+    "allocated_bytes": 22505,
+    "compressed": false,
+    "sha256": "ac0e163a18b8debd321fbe27762556afc70b0226f203cd123e1c7be9ab897e6c",
+    "mtime_ns": 1793537204620191700
+  },
+  "after": {
+    "logical_bytes": 22505,
+    "allocated_bytes": 16384,
+    "compressed": true,
+    "sha256": "ac0e163a18b8debd321fbe27762556afc70b0226f203cd123e1c7be9ab897e6c",
+    "mtime_ns": 1793537204620191700
+  },
+  "compact_returncode": 0,
+  "hash_and_logical_size_preserved": true,
+  "new_model_or_MC_calls": 0,
+  "undo": {
+    "returncode": 0,
+    "sha256": "ac0e163a18b8debd321fbe27762556afc70b0226f203cd123e1c7be9ab897e6c",
+    "logical_bytes": 22505,
+    "mtime_ns": 1793537204620191700,
+    "compressed": false
+  },
+  "fully_reversible_on_own_copy": true
+}

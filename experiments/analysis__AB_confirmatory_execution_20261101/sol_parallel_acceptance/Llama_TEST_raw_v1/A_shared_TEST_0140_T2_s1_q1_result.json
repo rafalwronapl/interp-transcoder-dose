@@ -1,0 +1,41 @@
+{
+  "document": {
+    "id": "A_shared_TEST_0140_T2_s1_q1",
+    "donor": "A_shared_TEST_0140_T2_s0_q1",
+    "block": "A_shared_TEST_0140",
+    "study": "A",
+    "cohort": "shared",
+    "split": "TEST",
+    "index": 140,
+    "frame": "T2",
+    "side": 1,
+    "q": 1,
+    "text": "Near the enclosure, the emancipators that the guardrooms can observe"
+  },
+  "files": {
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/completed/capture_A_shared_TEST_0140_T2_s1_q1.json": "cb5ad7c5bdc6f07715125246797275e30794797e845964f07ea7f169f5766f10",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/cache/ad3290c42fe6de7c57ffe4bdb18fa1f502898f57f70ee9eadbb48c509eacb839.json": "a3ca56fb66d6aff6fe515ee683e44623b9a1e75acd30c2dd5ec40e20ce2d7249",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/completed/capture_A_shared_TEST_0140_T2_s0_q1.json": "bbe4a04205e292c62ef34a12116b79d4f3cbbacd260d15a45a7fdecd4e3237b6",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/cache/cd4764fee1fc0f7fa82aab3d7b2c1808f917d944e71f89b4a78d85d2b8ef3719.json": "3c50fde6e0cea5fd7fa0b5dc715327d28a5fe3e022205d51df43b54f4c58b02c",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/completed/suffix_A_shared_TEST_0140_T2_s1_q1_native.json": "0431d3a8f0042761709d2ddac9ae08a5d108eb5531877cbb3c4538c0c50607e2",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/cache/d41908ed42832fe1dd1ae926ca3c5beec469996dd2bb8ca91bde1061a19c4614.json": "dd227a8ddbb3ed6e1d6e1aa8ead84083ce05ef1d16f8bc87d84e4048d1b860df",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/completed/suffix_A_shared_TEST_0140_T2_s1_q1_r0_P.json": "6df1c9decbc6a9f06bd099629475cc28f4e5f3dfb130f864f2ac372556273170",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/cache/85d641e5da10365a004eba894b228b727f324f8aab894fc6280808e9dd779ae1.json": "6970c54428460cc2c4162c9b12457937d6f3b20c8e15b64f72aaf3071343861d",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/completed/suffix_A_shared_TEST_0140_T2_s1_q1_r0_U0.json": "20f24b8feece79a7090147e8cc0927589dbddcb5466d4f6ccdf27eb9a3d86f5e",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/cache/7a599f3aa7c267eb19f62b0e02f509655a767fc5ca370c6ad3bf5da7e3e68b91.json": "a3fcc635c77e942fd4af213f1ed01b205d3e6f3aa6f6fc3d8906e9713a92a5b8",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/results/r0/A_shared_TEST_0140_T2_s1_q1.json": "3b01064969ad72f0d42950c97829d38bbcd939d1e9dde76cdbb1d762c0a8dd29"
+  },
+  "identity": {
+    "model": "5fb518228899f9c15e3db99e01c11d159af8451337dee6d85c28f3880fde2b29",
+    "code": "25737ad0d8d462c020f979d68f61d55e90b2e2668df0fb2d0a8008b19f7db7b7",
+    "corpus": "361064de9ca092fcd6a97649eb7daac7f01b03a084cb021f6e6d0b819c00180c",
+    "tokens": "64569cc7e32d060a398bb0dba55885712cb963aa4475dbaf847e795f4b4926f9",
+    "config": "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/config.json",
+    "frozen_fit_hashes": {
+      "r0": "9215ff51a78cfd3a5c9a8149332c17fe9a8d50a8571d6943f1cc2059fb52c833"
+    }
+  },
+  "own_fit_sha256": "9215ff51a78cfd3a5c9a8149332c17fe9a8d50a8571d6943f1cc2059fb52c833",
+  "max_target_error": 0.0,
+  "all_saved_loss_vector_arithmetic_passed": true
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "snapshot_sha256": "a3425e9051972a0fea8d6744f3dc0f3c536976e1a668c3a8a566be29d9c86ada",
+  "reviewer_id": "/root/sol_ab_execution/single_capture_review",
+  "independent": true,
+  "verdict": "approved",
+  "topics_checked": ["design", "implementation", "data", "cost", "claims"],
+  "findings": [],
+  "limitations": "Completion approval covers only the one natural technical capture and preserved replay, not main A/B preparation, FIT admission or hypotheses. Independently checked all six immutable run-record payload digests; request/cache/completion agreement; frozen packet/model identities; finite 1152-dimensional raw vectors; exact input and float32 residual identities; logits/margin arithmetic; replay before/after/current hashes; launch evidence; and canonical completion snapshot equality. No pretrained loading, model inference or extra replay was performed by reviewer. One forward and zero backward are supported by the reviewed production code and immutable receipts rather than an external hardware counter. Trained sham, intervention sensitivity, transfer, statistical adequacy, fit utility and throughput remain untested. Canonical completion verification authorizes no new run."
+}

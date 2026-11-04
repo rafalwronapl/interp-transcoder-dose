@@ -1,0 +1,32 @@
+{
+  "scope": "Actual literal PILOT packet semantic checks, no numerical tests or models",
+  "reviewer": "/root/astra_goals_and_concurrency_review",
+  "actual_tool_evidence": [
+    "session46651",
+    "chunk442879 QwenPASS",
+    "chunk3aba94 LlamaPASS exit0"
+  ],
+  "checks": [
+    "genericvalidate actualacceptedownFIT/A256eligibility/closure",
+    "exact shared32block256documentprefix",
+    "original worker schedule equality1024uniqueF0B"
+  ],
+  "files": {
+    "analysis/A_short_replication_qwen_20261101/PILOT_ready_v1/config.json": "4657273db0a8d0b5fe4cf910d374489b53a4bbba4d0882edc38d4f2e5031ebc3",
+    "analysis/A_short_replication_qwen_20261101/PILOT_ready_v1/corpus.json": "5e3ee9294d9b5402b9e188046c61bc18efbd537cbeda0460d37e2bf22daf2ff5",
+    "analysis/A_short_replication_qwen_20261101/PILOT_ready_v1/operations.json": "14edb7a4d80a8de0dc201ebceaa1f6104e595197972d77db8e79c45fadde5ea0",
+    "analysis/A_short_replication_llama_20261101/PILOT_ready_v1/config.json": "d4da1d2a63b733dc16422f9864a5fefffc84a7cdba4fc0f4f4cd218a6f7b2f54",
+    "analysis/A_short_replication_llama_20261101/PILOT_ready_v1/corpus.json": "5e3ee9294d9b5402b9e188046c61bc18efbd537cbeda0460d37e2bf22daf2ff5",
+    "analysis/A_short_replication_llama_20261101/PILOT_ready_v1/operations.json": "ea4543e7f4e07b3305a8df8456c3a884fadc01f8c7cebd46cca1caeeea7a4fa6",
+    "short_fixed_workflow_v3.py": "8d3354afc784dfd0526fd10e40a1cbc3fd1f7ed0ff056e4d82a17fb8e2ab51c1",
+    "prepare_short_fixed_v3.py": "ec02246d79f9b5c85fe464ce15dd53d8e62253e969515b3b01b6f0fa2a62de70"
+  },
+  "models": [
+    "qwen",
+    "llama"
+  ],
+  "passed": true,
+  "model_calls": 0,
+  "bootstrap_calls": 0,
+  "launch_approval": "Pending official snapshots/importclosure inspection"
+}

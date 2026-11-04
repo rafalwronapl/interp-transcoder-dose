@@ -1,0 +1,73 @@
+{
+  "schema_version": 1,
+  "id": "AB_runtime_v3_exact_A_plus_early_B",
+  "kind": "maintenance",
+  "primary_agent": "/root/sol_parallel_acceptance",
+  "purpose": "Authorize exact small data-only B PILOT as second native job beside untouched active A; two CPU slots unchanged; exact snapshot and fresh RAM guard.",
+  "tracked_files": [
+    "concurrency_runtime_v3.py",
+    "concurrency_runtime_v2.py",
+    "concurrency_runtime_v1.py",
+    "research_checks/gate.py",
+    "research_checks/_worker.py",
+    "analysis/AB_confirmatory_execution_20261101/sol_parallel_acceptance/test_concurrency_runtime_v3.py",
+    "analysis/AB_confirmatory_execution_20261101/sol_parallel_acceptance/concurrency_migration_v3/migration_policy.json",
+    "analysis/AB_confirmatory_execution_20261101/sol_parallel_acceptance/concurrency_migration_v3/focused_tests.json",
+    "analysis/AB_confirmatory_execution_20261101/B_pilot_early_v7/pre_run_snapshot_v1.json",
+    "analysis/AB_confirmatory_execution_20261101/B_pilot_early_v7/pre_run_review_astra_v1.json"
+  ],
+  "tracked_trees": [],
+  "input_manifests": [],
+  "gates": [
+    {
+      "id": "hooks",
+      "category": "hooks",
+      "evidence": "analysis/AB_confirmatory_execution_20261101/sol_parallel_acceptance/concurrency_migration_v3/focused_tests.json",
+      "pointer": "/returncode",
+      "op": "eq",
+      "expected": 0,
+      "reason": "Three focused cross-version two-model cap/exact-B/RAM/namespace/global-lock fixtures, no model or simulation."
+    },
+    {
+      "id": "data",
+      "category": "data",
+      "evidence": "analysis/AB_confirmatory_execution_20261101/sol_parallel_acceptance/concurrency_migration_v3/focused_tests.json",
+      "pointer": "/returncode",
+      "op": "eq",
+      "expected": 0,
+      "reason": "Three focused cross-version two-model cap/exact-B/RAM/namespace/global-lock fixtures, no model or simulation."
+    },
+    {
+      "id": "pilot",
+      "category": "pilot",
+      "evidence": "analysis/AB_confirmatory_execution_20261101/sol_parallel_acceptance/concurrency_migration_v3/focused_tests.json",
+      "pointer": "/returncode",
+      "op": "eq",
+      "expected": 0,
+      "reason": "Three focused cross-version two-model cap/exact-B/RAM/namespace/global-lock fixtures, no model or simulation."
+    },
+    {
+      "id": "accounting",
+      "category": "accounting",
+      "evidence": "analysis/AB_confirmatory_execution_20261101/sol_parallel_acceptance/concurrency_migration_v3/focused_tests.json",
+      "pointer": "/returncode",
+      "op": "eq",
+      "expected": 0,
+      "reason": "Three focused cross-version two-model cap/exact-B/RAM/namespace/global-lock fixtures, no model or simulation."
+    },
+    {
+      "id": "restart",
+      "category": "restart",
+      "evidence": "analysis/AB_confirmatory_execution_20261101/sol_parallel_acceptance/concurrency_migration_v3/focused_tests.json",
+      "pointer": "/returncode",
+      "op": "eq",
+      "expected": 0,
+      "reason": "Three focused cross-version two-model cap/exact-B/RAM/namespace/global-lock fixtures, no model or simulation."
+    }
+  ],
+  "circuits": [],
+  "structural_scope": "Controlled-session orchestration only, existing v2A/model/global locks and all scientific sources unchanged. Only exact approvedB can enter newslot.",
+  "entrypoint": null,
+  "schedule": null,
+  "budget": null
+}

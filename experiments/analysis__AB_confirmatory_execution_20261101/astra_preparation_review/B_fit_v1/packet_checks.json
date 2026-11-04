@@ -1,0 +1,23 @@
+{
+  "passed": true,
+  "documents": 128,
+  "blocks": 32,
+  "exact_source_corpus_slice": true,
+  "exact_source_token_slice": true,
+  "four_cell_balance": true,
+  "fixed_first_block_controls": true,
+  "schedule_reconstruction": true,
+  "counts": {
+    "forward": 1860,
+    "backward": 4
+  },
+  "sources": {
+    "analysis/AB_confirmatory_execution_20261101/B_fit_primary_v1/config.json": "6d54357b11745d44a7b279e067607b0090e66ca45a3776667fa889fc22dfc963",
+    "analysis/AB_confirmatory_execution_20261101/B_fit_primary_v1/corpus.json": "e28d2fe24000d4db1ff8c5959581c935f16bee34e200ee2ca311e9074133274a",
+    "analysis/AB_confirmatory_execution_20261101/B_fit_primary_v1/tokens.json": "90aed99ce0108a5a84c211052064c9e3c126793d89fa47d51ea7f5818012d697",
+    "analysis/AB_confirmatory_execution_20261101/B_fit_primary_v1/operations.json": "cfbfb7a1a4bbce6aad6097eb99b3bde31c0a05cee48ce94b3edd0514fa515c44",
+    "analysis/AB_confirmatory_execution_20261101/corpus/corpus_v1.json": "b847047b321cd9c36e6b04aa96232ed926936b2b33d620505c8bc014c3c1c180",
+    "analysis/AB_confirmatory_execution_20261101/corpus/tokens_v1.json": "30b7e535811935d3c75fef118a7033eaabd92627082e76fce936a4d25ce7e315"
+  },
+  "scope": "Subset/schedule audit only; no retokenization or repetition of lexical audit; no pretrained model calls."
+}

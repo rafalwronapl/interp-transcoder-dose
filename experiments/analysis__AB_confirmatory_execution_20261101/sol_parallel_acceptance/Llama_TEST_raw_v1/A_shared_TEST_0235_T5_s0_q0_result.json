@@ -1,0 +1,41 @@
+{
+  "document": {
+    "id": "A_shared_TEST_0235_T5_s0_q0",
+    "donor": "A_shared_TEST_0235_T5_s1_q0",
+    "block": "A_shared_TEST_0235",
+    "study": "A",
+    "cohort": "shared",
+    "split": "TEST",
+    "index": 235,
+    "frame": "T5",
+    "side": 0,
+    "q": 0,
+    "text": "Everyone agrees that the chairlift, unlike the mutineer,"
+  },
+  "files": {
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/completed/capture_A_shared_TEST_0235_T5_s0_q0.json": "ba2530f6dfaea3d43f4263a6f05000fffaabef7e891a984e768c1b7cb8a7a68e",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/cache/4b6dee60e66bbe93d9aa8f2e163b602ac0c656ad8d4fe47adb256840a9101f36.json": "b53c7e044f8290976ca1e900d59bb85193f6863040c5217833fdf6755870091f",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/completed/capture_A_shared_TEST_0235_T5_s1_q0.json": "8d0b940459b2a7a610f1af3b8dbeb6d4842ba7eec5717e08e74ac906f5054ab9",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/cache/546468a066598b069f87287064dd5d60be550fb798beede2b5f2022971e852af.json": "a4b378d4195b1411216a9863e086e4b0ea440f89704bac6bf58c07a49c070433",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/completed/suffix_A_shared_TEST_0235_T5_s0_q0_native.json": "d79131655bfec3b3d6eae63e151c19a5adbe6e9c06c0a2ba458efbf377668ddd",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/cache/17ecb2b7ec0d489051d6ef886a38d05b2a20d54eecf3190490f806adddd29adf.json": "d319a221e607d44c944a078835208bb5b1bfe4718edfa9f087a780d9aca1bd63",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/completed/suffix_A_shared_TEST_0235_T5_s0_q0_r0_P.json": "b62c54c512b50a544f5f58cedd30096be15634038e8f9faed914cf9634d822d2",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/cache/001013df48219c650de660f0e60be0e11ef19c860799f89a839aad4cf93aa307.json": "7bef99947ea5bbcef01a85be379967425c78072389538a9747cc1fdac33de9a4",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/completed/suffix_A_shared_TEST_0235_T5_s0_q0_r0_U0.json": "d28b357aac9c7bf71a0556840fbfc90fe0715f70b90badd60e2eeffc59b63bfc",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/cache/117493c1162590edcb33074fa5e41ed56376774fa7fb1c909b3cd77986a2a13a.json": "1ebfd1903a9f08475f44fa7822a265ad028e4cb955495056d86bb21fc9b0aef5",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/results/r0/A_shared_TEST_0235_T5_s0_q0.json": "3ebc4fe7ce88befcb3da2d5a80c7271d43502aa043c169be7a0e6c3204dbd457"
+  },
+  "identity": {
+    "model": "5fb518228899f9c15e3db99e01c11d159af8451337dee6d85c28f3880fde2b29",
+    "code": "25737ad0d8d462c020f979d68f61d55e90b2e2668df0fb2d0a8008b19f7db7b7",
+    "corpus": "361064de9ca092fcd6a97649eb7daac7f01b03a084cb021f6e6d0b819c00180c",
+    "tokens": "64569cc7e32d060a398bb0dba55885712cb963aa4475dbaf847e795f4b4926f9",
+    "config": "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/config.json",
+    "frozen_fit_hashes": {
+      "r0": "9215ff51a78cfd3a5c9a8149332c17fe9a8d50a8571d6943f1cc2059fb52c833"
+    }
+  },
+  "own_fit_sha256": "9215ff51a78cfd3a5c9a8149332c17fe9a8d50a8571d6943f1cc2059fb52c833",
+  "max_target_error": 0.0,
+  "all_saved_loss_vector_arithmetic_passed": true
+}

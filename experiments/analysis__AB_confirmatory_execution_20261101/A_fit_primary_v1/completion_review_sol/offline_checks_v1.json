@@ -1,0 +1,39 @@
+{
+  "manifest_files_verified": 971,
+  "captures": 448,
+  "new_natural": 447,
+  "attempts": 482,
+  "new_full": 477,
+  "local_suffix": 5,
+  "backward": 0,
+  "ledger_events": {
+    "attempt": 482,
+    "computed": 482
+  },
+  "ridge_kkt_relative": 4.11051275355109e-15,
+  "V_target": 240107.0870612265,
+  "basis_checks": {
+    "U0": {
+      "orthogonality_max": 2.220446049250313e-15,
+      "projector_difference": 0.0,
+      "rank8_singular_value": 4161.029719543803
+    },
+    "Uctrl": {
+      "orthogonality_max": 1.9984014443252818e-15,
+      "projector_difference": 0.0,
+      "rank8_singular_value": 4215.580444940704
+    },
+    "U2": {
+      "orthogonality_max": 2.6645352591003757e-15,
+      "projector_difference": 0.0,
+      "rank8_singular_value": 4192.50155152454
+    },
+    "U5": {
+      "orthogonality_max": 1.3322676295501878e-15,
+      "projector_difference": 0.0,
+      "rank8_singular_value": 4364.062592108301
+    }
+  },
+  "replay_files_verified": 972,
+  "model_calls_during_audit": 0
+}

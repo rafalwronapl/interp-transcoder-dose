@@ -1,0 +1,81 @@
+{
+  "schema_version": 1,
+  "id": "B_NORM_TARGET_FREEZE_20261103",
+  "kind": "experiment",
+  "primary_agent": "/root/b_switch_fit",
+  "purpose": "Freeze norm-matched TC mask-direction targets and eligibility before new readouts; cache algebra only.",
+  "tracked_files": [
+    "analysis/B_norm_control_20261103/stage1_input_manifest.json",
+    "analysis/B_norm_control_20261103/stage1_index.json",
+    "analysis/B_norm_control_20261103/PLAN.txt",
+    "analysis/B_norm_control_20261103/config.json",
+    "analysis/B_norm_control_20261103/FIT_SCALE_FREEZE.json",
+    "analysis/B_norm_control_20261103/common.py",
+    "analysis/B_norm_control_20261103/stage1.py",
+    "analysis/B_norm_control_20261103/prepare_stage1.py",
+    "analysis/B_norm_control_20261103/fixtures.py",
+    "analysis/B_norm_control_20261103/fixtures.json"
+  ],
+  "tracked_trees": [],
+  "input_manifests": [
+    "analysis/B_norm_control_20261103/stage1_input_manifest.json"
+  ],
+  "gates": [
+    {
+      "id": "hooks",
+      "category": "hooks",
+      "evidence": "analysis/B_norm_control_20261103/fixtures.json",
+      "pointer": "/payload/passed",
+      "op": "eq",
+      "expected": true,
+      "reason": "Detailed synthetic cache-target construction, matched norm and joint eligibility; zero pretrained stage."
+    },
+    {
+      "id": "data",
+      "category": "data",
+      "evidence": "analysis/B_norm_control_20261103/fixtures.json",
+      "pointer": "/payload/passed",
+      "op": "eq",
+      "expected": true,
+      "reason": "Detailed synthetic cache-target construction, matched norm and joint eligibility; zero pretrained stage."
+    },
+    {
+      "id": "pilot",
+      "category": "pilot",
+      "evidence": "analysis/B_norm_control_20261103/fixtures.json",
+      "pointer": "/payload/passed",
+      "op": "eq",
+      "expected": true,
+      "reason": "Detailed synthetic cache-target construction, matched norm and joint eligibility; zero pretrained stage."
+    },
+    {
+      "id": "accounting",
+      "category": "accounting",
+      "evidence": "analysis/B_norm_control_20261103/fixtures.json",
+      "pointer": "/payload/passed",
+      "op": "eq",
+      "expected": true,
+      "reason": "Detailed synthetic cache-target construction, matched norm and joint eligibility; zero pretrained stage."
+    },
+    {
+      "id": "restart",
+      "category": "restart",
+      "evidence": "analysis/B_norm_control_20261103/fixtures.json",
+      "pointer": "/payload/passed",
+      "op": "eq",
+      "expected": true,
+      "reason": "Detailed synthetic cache-target construction, matched norm and joint eligibility; zero pretrained stage."
+    }
+  ],
+  "circuits": [],
+  "structural_scope": "No circuit/native suffix executed; cache-only prediction-vector algebra.",
+  "entrypoint": {
+    "module": "analysis.B_norm_control_20261103.stage1",
+    "args": []
+  },
+  "schedule": "analysis/B_norm_control_20261103/stage1_schedule.json",
+  "budget": {
+    "forward": 0,
+    "backward": 0
+  }
+}

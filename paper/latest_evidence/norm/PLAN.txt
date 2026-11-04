@@ -1,0 +1,65 @@
+B norm-control native-readout diagnostic — 2026-11-03
+New estimand, explicitly posthoc. Preserve every historical result/cache.
+
+Reference is TC_FULL, historical RR, NOT the historical ON arm (ON contains
+positive threshold crossings only). For fixed group G, define
+S_G=sum_{j in G} relu(pre1_j)*(1[pre1_j>threshold_j]-1[pre0_j>threshold_j])*Wdec_j.
+EXCEPT_G prediction minus TC_FULL prediction = -S_G, including OFF terms and
+vector cancellation. New target is T_G=TC_FULL_target-rho*S_G/||S_G||.
+This compares norm-rescaled directions of TC mask-induced prediction changes.
+It does not equalize native switch counts, native neuron interventions, exact
+unscaled mask operations, or circuit importance. Native error D is not used to
+construct directions/scale/eligibility. Existing top32 and five alternative
+groups are fixed from approved B-FIT; controls overlap28..31features and are
+not six independent groups or originally strength-matched controls.
+
+FIT scale fixed before new TEST target construction/readouts:
+Historical32FITblocks128documents,so+when,full operator,dose1. rho is the10th
+percentile over FIT contexts of min over six fixed group contribution norms:
+rho=101.51097375004979. Maximum amplification4; eps=rho/4=25.377743437512447.
+Eligibility is ALL six group norms>=eps, computed without readout labels.
+If any group fails, skip the entire context; retain reasons/counts, never
+change rho/groups/threshold based on TEST. FIT eligibility127/128contexts.
+Report raw norms,scale factors,actual float32 target norms/rounding for all
+eligible directions. A missing direction never becomes a zero-effect result.
+
+Scope: same32historicalTESTblocks,so/when,2sides,full/c1=128contexts.
+Transfer frame excluded from this execution. This is posthoc reused TEST;
+prior outcomes were already exposed. New construction chosen from FIT only
+does not make this a fresh confirmatory study. No grid/search/bestseed choice.
+
+Stage1: cache-only target preparation, zero model loads/native/TC forwards.
+Freeze all inputs first. Bind all raw precursor caches/receipts,exact decoder
+and threshold keys/model revision/producer code, fixed FIT groups and scale.
+Read stored TEST preactivations and TC_FULL target vectors; calculate all
+eligibility and targets; freeze/hash the entire target set BEFORE any new
+readout. Existing RR/native labels used only for eventual comparison/parity,
+never target selection. No native/TC classes instantiated in stage1.
+
+Stage2: separately independently reviewed exact native suffix worker after
+stage1. Native Gemma270M loaded once; existing exact L15prefix reused, dynamic
+L16/L17attention and finalnorm/head. No TC load/evaluation,new native prefix,
+backward,cloud,download. At most128*6=768 new direction suffixes plus8technical
+suffix controls=776logical forward operations; actual lower if exclusions or
+exact target aliases. Reuse cached RR and native margins. Controls:2saved FIT
+native shams,4signed nonzero probes along2saved native gradients (fixed half
+the historical signed step, genuinely new targets),2TC_FULLsham
+parities on fixed TEST recipients. All8 count toward budget; no new gradients.
+Canonical research_checks launch only after pre-run approval. Resume never
+repeats completed measurements or uncertain reservations; sealed receipts
+remain byte-identical. Completed historical measurements never rerun except
+the two explicitly budgeted TC_FULL technical parity controls.
+
+Primary: per-context squared readout error relative to cached native margin;
+increment relative to TC_FULL error; top minus mean of five controls. Average
+first across eligible sides/frames within each block, then blocks equally.
+Report per-frame counts and effects and paired block distribution; controls
+averaged with equal weights, never choose best control. Also report signed
+native-readout effect margin(T_G)-margin(TC_FULL),absolute effects,and errors.
+Eligibility defines selected coverage; no full-cohort claim when cases skip.
+No arbitrary positive-effect gate. Positive,null,negative results retained.
+
+Nearest background: existing reviewed B13 feature ablation/intervention-strength
+literature and plans/DALSZE_EKSPERYMENTY_A_B_20261103.txt. Normalizing directional
+perturbations is an established control technique; this new conditional
+diagnostic adds no worldwide novelty or general native-circuit claim.

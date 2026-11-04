@@ -1,0 +1,52 @@
+{
+  "study": "B",
+  "phase": "TEST",
+  "corpus": "analysis/AB_confirmatory_execution_20261101/B_descriptive_TEST_v8/corpus.json",
+  "tokens": "analysis/AB_confirmatory_execution_20261101/B_descriptive_TEST_v8/tokens.json",
+  "model_identity": "analysis/AB_confirmatory_execution_20261101/B_fit_primary_v1/model_identity.json",
+  "frozen_fit": "analysis/AB_confirmatory_execution_20261101/B_fit_primary_v1/run/FIT_B.json",
+  "frozen_fit_sha256": "27bc20e2e710a4d3e935750ce0116737a2d1d595fe2608208dbdef5f9ca95b9a",
+  "output": "analysis/AB_confirmatory_execution_20261101/B_descriptive_TEST_v8/run",
+  "threads": 2,
+  "layer": 15,
+  "answer_ids": [
+    1304,
+    668
+  ],
+  "doses": [
+    0.05,
+    0.1,
+    0.25,
+    0.5,
+    1.0,
+    2.0
+  ],
+  "gates": {
+    "margin_parity": 0.0001,
+    "branch_relative": 0.0001,
+    "gradient_relative": 0.0001,
+    "gradient_absolute": 1e-05
+  },
+  "schedule": "analysis/AB_confirmatory_execution_20261101/B_descriptive_TEST_v8/operations.json",
+  "authorization_manifest": "C:\\Users\\rafal\\interpretability-lab\\analysis\\AB_confirmatory_execution_20261101\\B_descriptive_authorization_v8\\authorization.json",
+  "tail_qualification": "analysis/AB_confirmatory_execution_20261101/B_tail_qualification_v1/run/qualification.json",
+  "tail_qualification_sha256": "e2a66a9d0e50a24462fa7cb1b91e8764fe62c46bef2a5db9ad582911dedf3be9",
+  "statistical_preparation_approved": true,
+  "primary_inference_authorized": false,
+  "descriptive_sources": {
+    "ab_confirmatory_20261101/worker_b_descriptive_v8.py": "5caf007e0db04a15153aee0a3e08497e7215a51288ea14f3450f1952de29370e",
+    "ab_confirmatory_20261101/prepare_b_descriptive_v8.py": "4d607c9bbe8bc3f8120a0e09641ac1a18b7d359e68e33d4c1400cebf88f19688",
+    "ab_confirmatory_20261101/analyze_b_descriptive_v8.py": "3f9407cbdee7284160ce1768ed077cf813c26ebb6e8c5b3dd1244f26a2fdd385",
+    "ab_confirmatory_20261101/recovery_a_status_v1.py": "720dbbfe4699538b859b0d01fb8fd0f572279ebbd53c4249b3d0990e89b27c97",
+    "ab_confirmatory_20261101/worker_a_estimation_v7.py": "eee8bf67438acfa2dfd46c96c9e5560484072af3ee133d0646fe28757084f096",
+    "ab_confirmatory_20261101/worker_a_v2.py": "c5b1f3419312f9d45aa8ffc36877ad24dc68b1d4fce9ca4af55b715295e92370",
+    "ab_confirmatory_20261101/worker_a.py": "9bc59b46b9f273791ae57add367506f69aaf3144074f7c4519003a9c44a6b992",
+    "ab_confirmatory_20261101/admission_a_v2.py": "04ba3b93e61ff656fa620e473b6e62fc37fe1e63336f170bb3c419db7a001c74",
+    "ab_confirmatory_20261101/b_precision_calibration_v6.py": "8aa02bd3936ab511a59765ffa077479000879122a002e6976e6d3a1bcd82d05a",
+    "ab_confirmatory_20261101/precision_candidate_v6.py": "669c4207cdf6cea5807b739aadcd2269241eec393e5218018bc7dcfed1a993d9"
+  },
+  "scientific_objective_v8": "fixed256_B_descriptive_TEST_no_family_inference",
+  "descriptive_fixed_n": 256,
+  "validity_scope_v8": "Both original family gates failed; fixed resource descriptive TEST, no p/Holm/rejection/support. Only exact v6 TCc1 joint12 intervals qualified under fixed scenarios.",
+  "descriptive_TEST_authorized": true
+}

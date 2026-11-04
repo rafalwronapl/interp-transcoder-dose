@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "snapshot_sha256": "baaea95ac82401447ebd596757ec59cb8dc55a72093e84876c67427d635e810d",
+  "reviewer_id": "/root/sol_parallel_acceptance",
+  "independent": true,
+  "verdict": "approved",
+  "topics_checked": [
+    "design",
+    "implementation",
+    "data",
+    "cost",
+    "claims"
+  ],
+  "findings": [
+    {
+      "id": "A-PILOT-PROVENANCE-1",
+      "severity": "medium",
+      "status": "resolved",
+      "evidence": "Original completion manifest omitted final immutable runtime launch receipt although raw stage was sealed.",
+      "resolution": "v2 adds exact operations/concurrency_runtime_v1/launch_ed2f0be0dbd64677b7c7ea15f8ab3278.json: canonical child utf8=1, approved original pre-run and migration hashes, returncode0. No raw/source/array changes."
+    }
+  ],
+  "limitations": "Actual worker/adapter/runtime/native suffix/authorization/assembler/statistical sources independently inspected. Verified all9605 sealed files,4480unique attempt/computed/cache requests,640donor-complete PILOT results/32blocks,640full+3840local/0backward, noFIT/qualificationrepeat. All raw squared readout losses exact; vector errors independently reconstructed within5.1e-16relative. Both32x5x4x5 arrays and32x4 frozen contrasts independently reconstructed exactly. Original completion snapshot canonically reproduced; v2 packaging-only delta inspected. See sol_parallel_acceptance/A_pilot_completion_v1/AUDIT.md and audit_result.json. No model replay, fitting or bootstrap. This approves acquisition/assembly only, not hypotheses, population validity, power, selected TEST N or TEST findings; previously independently accepted FIT/calibration not rerun."
+}

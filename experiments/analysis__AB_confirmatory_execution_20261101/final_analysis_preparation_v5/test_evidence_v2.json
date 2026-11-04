@@ -1,0 +1,41 @@
+{
+  "tests_passed": 3,
+  "exit_code": 0,
+  "tool_chunk": "8fa215",
+  "seconds": 1.552,
+  "new_model_calls": 0,
+  "source_hashes": {
+    "ab_confirmatory_20261101/__init__.py": "5baaad50cc8b4df177cc20cb7c8a254cd62c50f3bb7dac8816bc852d59a2c162",
+    "ab_confirmatory_20261101/analysis_ab_v3.py": "8901efea05d641712943e708d76120bc086ba8bcc73f4a53a3efa9590d0d25d7",
+    "ab_confirmatory_20261101/analysis_ab_v4.py": "eb65233982d71f9196bc680ead53155b9a777efbc1dd369862982c5eca28a7a6",
+    "ab_confirmatory_20261101/eligibility_calibration_v3.py": "d3eaf008c06850c87954ce8e98fc46a811de1b1bd60859a863d1be6da5e9502f",
+    "ab_confirmatory_20261101/eligibility_paths_v5.py": "54b3ca3185232bfafc95332e12fa56f6ec7b8eb303b42b2144e46e9a1d258f2f",
+    "ab_confirmatory_20261101/final_analysis_v5.py": "b89b27521414dacd4c2d032dd2b9fe7d6d0864c5cb426df94834cb99b3ea8b77",
+    "ab_confirmatory_20261101/offline_io_v3.py": "4c01282d7edcf4e177f4028e23e91fab3c67abaea9388047377ade161a0fbc34",
+    "ab_confirmatory_20261101/offline_io_v4.py": "af14383b428d6a1a04f62468a501e78a1395a6858f0672b6acd2d61cbda330fa",
+    "ab_confirmatory_20261101/precision.py": "408cf6e58aaa943173d55db514e0a0d24f8ddd7e9bf0a5bdd1b4604752614830",
+    "ab_confirmatory_20261101/prepare.py": "e4f0bf1eec787488499ef27d10411249c9b05560a3db62f1a0b3219e897f5321",
+    "ab_confirmatory_20261101/prepare_final_analysis_v5.py": "dfc8b3b3074bc3f19c36c5a4a3d55aa8ceb1c6fc226d8d62dc63a4ead3813dd7",
+    "ab_confirmatory_20261101/safe_statistics.py": "fd28928ac9bcb96c91fbb34a5176fb9fdde5bf9f236251f70108befc2e1ec2be",
+    "ab_confirmatory_20261101/selector_v3.py": "4d73d377407b052758017ab6d0e9f2c6da857e40f3fe7dfa67f3dccd066f64a0",
+    "ab_confirmatory_20261101/selector_v4.py": "184b0f8087403c9a4432010f903523e8aacaa9977778c1f33a6e3ec08e963566",
+    "ab_confirmatory_20261101/stability_validation_v3.py": "f22adb048a9148218f220ae320277aee8700ddb921ebfb51c418a4875cecd9a6",
+    "ab_confirmatory_20261101/stability_validation_v4.py": "d14669c442c234938d3a5ba282ae5c531894ba9eff173384278b499408b35f64",
+    "ab_confirmatory_20261101/statistics.py": "c2dbec7e6d42326376b588796818eeb377f617b42ce7f38e04219a30f4d94fb4",
+    "ab_confirmatory_20261101/test_final_analysis_v5.py": "c74ab2c8d7cc4ebe09ff109d96579fd9d412eac2f07488920aeb8b02256d45be",
+    "analysis/AB_confirmatory_execution_20261101/remaining_statistics_v3/DESIGN_AMENDMENT_1.md": "c68d1a5f537428834ef9548d18725ff41c4992726f3acb84a864dc6c5b8513e6",
+    "analysis/AB_confirmatory_execution_20261101/remaining_statistics_v3/DESIGN_FROZEN_V3.md": "caad588a0108cfd05aa533d48a294099c1631642272e470ed2bf893221d85c3b",
+    "analysis/AB_confirmatory_execution_20261101/remaining_statistics_v4/PROSPECTIVE_AMENDMENT.md": "f728a6b8d4955d192a630123d692873754fa0b364c052b323dfc29cb695abe6c",
+    "research_checks/__init__.py": "ba6772943ec8209c6b33d2d332ccf48c92db807607443635d4c93d0fdf04dde4",
+    "research_checks/gate.py": "e2487ec274c6d2e39daddc1542d4cce790e0d154637c5acefcbeb86f0dcac523",
+    "research_checks/persistence.py": "95b730c714692c8b269ea177bdcb852dd59e92203648a8abcf705d87be715fde",
+    "ab_confirmatory_20261101/test_stability_dispatch_v5.py": "8ef1f3fc35aa01c80d4bce2c6102611fee73447c80ac0eedbf0dfd8a60ab3ecb"
+  },
+  "scope": "A/B primary numerical dispatch,replay,scope/block-axis rejection; stability numeric kernel tests preserved, acceptance wiring statically reviewed.",
+  "additional_test": {
+    "tool_chunk": "acaa14",
+    "seconds": 0.485,
+    "tests": 1,
+    "scope": "DerivedSTABILITYmanifest dispatch, designated acceptedFITscale, flattenedclosure; mocked statistical kernel prevents repeat numerical tests."
+  }
+}

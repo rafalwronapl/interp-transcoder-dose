@@ -1,0 +1,35 @@
+{
+  "document": {
+    "id": "A_shared_TEST_0202_T2_s1_q1",
+    "donor": "A_shared_TEST_0202_T2_s0_q1",
+    "block": "A_shared_TEST_0202",
+    "study": "A",
+    "cohort": "shared",
+    "split": "TEST",
+    "index": 202,
+    "frame": "T2",
+    "side": 1,
+    "q": 1,
+    "text": "Near the enclosure, the bonesetters that the nursers can observe"
+  },
+  "files": {
+    "analysis/A_short_replication_qwen_20261101/TEST_fixed256_v3/run/completed/capture_A_shared_TEST_0202_T2_s1_q1.json": "63d84526e65c869e48796847af6d729efd2ee2960082428ceb50ddc008fc1dff",
+    "analysis/A_short_replication_qwen_20261101/TEST_fixed256_v3/run/cache/4bf704c5c383098f905964de1f3687c18cc399928fb59147c4ba5aac933e674d.json": "80938368c4f453431bd50de7c9dd7cc08fe5443ad3c4699abed8000437967905",
+    "analysis/A_short_replication_qwen_20261101/TEST_fixed256_v3/run/completed/capture_A_shared_TEST_0202_T2_s0_q1.json": "54f3e6aae57a9b1bde2a87ef696e68ab4d07d450d70f0cbb0652ee9d2081e62b",
+    "analysis/A_short_replication_qwen_20261101/TEST_fixed256_v3/run/cache/78f1506c6a0968a4379dab30d6e8261e6911c1bd379630680626386738819415.json": "7f65e09fee3d5088ed70aea2f76e488936c000dcbefe27e1d62b92efd3fbe134",
+    "analysis/A_short_replication_qwen_20261101/TEST_fixed256_v3/run/completed/suffix_A_shared_TEST_0202_T2_s1_q1_native.json": "5a135ffec41f4578b4740267883495f8604b9e7e24d15ea2bd2ee28f01c5c86e",
+    "analysis/A_short_replication_qwen_20261101/TEST_fixed256_v3/run/cache/cac0dbccdaffa27998f68ae4799838eb43463de1fc926dcdf1ac922507539936.json": "b4b1728faaad604206cfad6501d4a7543c0706461c3cfaa84e4358f14747e281",
+    "analysis/A_short_replication_qwen_20261101/TEST_fixed256_v3/run/completed/suffix_A_shared_TEST_0202_T2_s1_q1_P.json": "9470c8cdc5d95d70144d93af64f479a052fa906e5667493bdf921d09a6f1bf15",
+    "analysis/A_short_replication_qwen_20261101/TEST_fixed256_v3/run/cache/7b3c1e8048eaff2c00317188b2a56aa7a864a107d963f8c13fa38b513933c508.json": "89e8f5c396a5bdce361b4a3d7e024ce051be1c518ed60f58203533a5a02d0035",
+    "analysis/A_short_replication_qwen_20261101/TEST_fixed256_v3/run/completed/suffix_A_shared_TEST_0202_T2_s1_q1_U0.json": "b4ad38b7fb50c11114b04849ef5c5eba3204a5bb7281559d9cc475bf5e7ea9a7",
+    "analysis/A_short_replication_qwen_20261101/TEST_fixed256_v3/run/cache/d3dedbe8635706a4f795a8c8dcfbcad7da886d75b412ff2378d05a4859d9d55e.json": "c0ce27885b58cd398a5a15aff8b934e13432ff306078840cc83abf7a58c0af2e",
+    "analysis/A_short_replication_qwen_20261101/TEST_fixed256_v3/run/results/A_shared_TEST_0202_T2_s1_q1.json": "91807290d9f695f51b4bb071e5d7cef9cfbc4f1e47916a0673dc42301a5e3418"
+  },
+  "identity": {
+    "model": "6c0a47f03e2523c9a91ba0c2d0619671e7ab16f1b27a2cd039742997148c9269",
+    "code": "a7e0eb7c001d76058f8622dd71c6073784e9c3472bc2bdfbea4184b2cbba1bb5"
+  },
+  "own_fit_sha256": "56d4c8fe1448ff02683ab4b001243d56b983c128e33d65811919b54e23af4ccc",
+  "max_target_error": 0.0,
+  "all_saved_loss_vector_arithmetic_passed": true
+}

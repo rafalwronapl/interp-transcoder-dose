@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "snapshot_sha256": "789d40b784bcde9f6ce109ad68632e90a6b2ffd11ecb9aea63c416be117535c7",
+  "reviewer_id": "/root/sol_ab_execution/statistical_review",
+  "independent": true,
+  "verdict": "approved",
+  "topics_checked": [
+    "design",
+    "implementation",
+    "claims"
+  ],
+  "scope": "DRAFT methodological direction only; no model-launch or executable-selector approval",
+  "findings": [
+    {
+      "id": "NS1",
+      "severity": "medium",
+      "status": "accepted",
+      "evidence": "Synchronize sample_size_spec before PILOT; preserve active bound inputs",
+      "resolution": "Accepted only as explicit unresolved gate in DRAFT direction; executable readiness not approved. See REPORT.md."
+    },
+    {
+      "id": "NS2",
+      "severity": "medium",
+      "status": "accepted",
+      "evidence": "Coherent positive-energy B power generator remains a real pre-PILOT gate",
+      "resolution": "Accepted only as explicit unresolved gate in DRAFT direction; executable readiness not approved. See REPORT.md."
+    },
+    {
+      "id": "NS3",
+      "severity": "medium",
+      "status": "accepted",
+      "evidence": "Analytic assurance versus production sparse-tail bootstrap bridge unresolved",
+      "resolution": "Accepted only as explicit unresolved gate in DRAFT direction; executable readiness not approved. See REPORT.md."
+    },
+    {
+      "id": "NS4",
+      "severity": "medium",
+      "status": "accepted",
+      "evidence": "Additional15FIT requires numerical stabilityprecision and crossed calibration",
+      "resolution": "Accepted only as explicit unresolved gate in DRAFT direction; executable readiness not approved. See REPORT.md."
+    }
+  ],
+  "report_sha256": "ec6943af1799eac20ff1909ea44cb6706be030fa1222afad17dca36d46dd2caf",
+  "limitations": "No N selector/generator/bridge/stabilityprecision implementation accepted. No model calls. Seven exact reviewed sources copied/hash-bound; active calibration and FIT stage unchanged. Later synchronized executable snapshot and independent review mandatory."
+}

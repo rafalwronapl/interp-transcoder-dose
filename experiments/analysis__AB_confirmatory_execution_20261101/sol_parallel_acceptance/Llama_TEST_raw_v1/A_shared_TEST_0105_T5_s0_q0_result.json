@@ -1,0 +1,41 @@
+{
+  "document": {
+    "id": "A_shared_TEST_0105_T5_s0_q0",
+    "donor": "A_shared_TEST_0105_T5_s1_q0",
+    "block": "A_shared_TEST_0105",
+    "study": "A",
+    "cohort": "shared",
+    "split": "TEST",
+    "index": 105,
+    "frame": "T5",
+    "side": 0,
+    "q": 0,
+    "text": "Everyone agrees that the weldment, unlike the kinescope,"
+  },
+  "files": {
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/completed/capture_A_shared_TEST_0105_T5_s0_q0.json": "acb5029aa6bca042ea39f79d4359aa2e9c3330b02ccf637a5cea06c4908f75a4",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/cache/2d623e4586e694bb349011e40b966c81da47b09402ffba3df565f2516cd68517.json": "30e045977cf954d94b582e6a03dbc8cc04485fa2d19727c9b5706b216b8b8a74",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/completed/capture_A_shared_TEST_0105_T5_s1_q0.json": "5b9be0c7c06a347c1397109207444f14e2e71cc92e7531a4e0d11e383a275e38",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/cache/924479352d45a009e0b5f671c1269ab827c5f03b93c982915e659a1e31e18ebe.json": "20979959636b7e083561f6c80389d148edd65665ab3373401127568e5b510103",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/completed/suffix_A_shared_TEST_0105_T5_s0_q0_native.json": "7245f1c33dd63b5bb90f8fde8f6ebb297621c18c4eb7a3cb746d198d7dbe5ee6",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/cache/ce6c758f04875da088769e52c3349f2602dac66cf14a640381ca7c37c5464803.json": "ff9067d2ff71e732d6deb8a96f58823b000de1a0ebcf4898834525cb18046d49",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/completed/suffix_A_shared_TEST_0105_T5_s0_q0_r0_P.json": "f06312f0a3cde5baf556c1b14d950e0a7f9ad5e2b444885d76a50393d0532563",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/cache/85a3b45272d96d2aa0492b1ff9ced8d027252389fc2ef182885f7b398ebb6fa0.json": "9d7650e02dd51a536b4f00329c0229cd05d529f4016d5e5e7498feb60bece96f",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/completed/suffix_A_shared_TEST_0105_T5_s0_q0_r0_U0.json": "7c8f1fa2a7a03c27c521ddfbda011a85406168311ec13493bb828374dd86adea",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/cache/f2ee0af6b171cd2c7055f175e30c7bf6e98634fcf4a8454ff3719b256c79aed3.json": "4f5dba04a4b2c082f6e0314d9e071f7595a11dd442e358713000791dd37b5966",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/results/r0/A_shared_TEST_0105_T5_s0_q0.json": "98d35de4bcc4880f2acf2c4dd71f21d466221aba234371c500ca94d11f30d604"
+  },
+  "identity": {
+    "model": "5fb518228899f9c15e3db99e01c11d159af8451337dee6d85c28f3880fde2b29",
+    "code": "25737ad0d8d462c020f979d68f61d55e90b2e2668df0fb2d0a8008b19f7db7b7",
+    "corpus": "361064de9ca092fcd6a97649eb7daac7f01b03a084cb021f6e6d0b819c00180c",
+    "tokens": "64569cc7e32d060a398bb0dba55885712cb963aa4475dbaf847e795f4b4926f9",
+    "config": "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/config.json",
+    "frozen_fit_hashes": {
+      "r0": "9215ff51a78cfd3a5c9a8149332c17fe9a8d50a8571d6943f1cc2059fb52c833"
+    }
+  },
+  "own_fit_sha256": "9215ff51a78cfd3a5c9a8149332c17fe9a8d50a8571d6943f1cc2059fb52c833",
+  "max_target_error": 0.0,
+  "all_saved_loss_vector_arithmetic_passed": true
+}

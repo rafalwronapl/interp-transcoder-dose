@@ -1,0 +1,57 @@
+\begin{table}[!ht]\centering\footnotesize
+\begin{tabular}{llrr}\toprule
+Fresh frame & Group & MSE increment & Mean absolute effect\\\midrule
+primary so when & top32 & 0.198123247 & 0.311745606\\
+primary so when & seed 03 & 0.000442362 & 0.018969096\\
+primary so when & seed 04 & -0.000342306 & 0.018865287\\
+primary so when & seed 05 & -0.000481870 & 0.021080993\\
+primary so when & seed 06 & -0.000532022 & 0.019464307\\
+primary so when & seed 07 & -0.000229772 & 0.018619440\\
+so & top32 & 0.283096935 & 0.326267257\\
+so & seed 03 & 0.000257846 & 0.021379545\\
+so & seed 04 & -0.001311489 & 0.021171927\\
+so & seed 05 & -0.002104003 & 0.024382651\\
+so & seed 06 & -0.001366559 & 0.021828339\\
+so & seed 07 & -0.001288972 & 0.021153122\\
+when & top32 & 0.113149559 & 0.297223955\\
+when & seed 03 & 0.000626878 & 0.016558647\\
+when & seed 04 & 0.000626878 & 0.016558647\\
+when & seed 05 & 0.001140263 & 0.017779335\\
+when & seed 06 & 0.000302515 & 0.017100275\\
+when & seed 07 & 0.000829427 & 0.016085759\\
+transfer & top32 & 0.079019483 & 0.276870654\\
+transfer & seed 03 & -0.005323914 & 0.014987432\\
+transfer & seed 04 & -0.005323914 & 0.014987432\\
+transfer & seed 05 & -0.003463832 & 0.016010193\\
+transfer & seed 06 & -0.005118383 & 0.016061801\\
+transfer & seed 07 & -0.003932868 & 0.017210300\\
+object & top32 & 0.018188546 & 0.286604563\\
+object & seed 03 & 0.004344472 & 0.012589720\\
+object & seed 04 & 0.004344472 & 0.012589720\\
+object & seed 05 & 0.004556042 & 0.012129095\\
+object & seed 06 & 0.004556042 & 0.012129095\\
+object & seed 07 & 0.003724435 & 0.012915081\\
+\bottomrule\end{tabular}
+\caption{Every frozen group on every fresh frame, plus the primary pooled so/when summary. Context and block coverage are in Table~\ref{tab:normnew}; so and when each cover 64/64 contexts in all 32 blocks.}\end{table}
+\begin{table}[ht]\centering\small\begin{tabular}{lrrr}\toprule Group & MSE & Increment & Absolute effect\\\midrule
+top32 & 0.273347196 & 0.161215308 & 0.297022432\\
+seed 03 & 0.108177925 & -0.003953963 & 0.018485919\\
+seed 04 & 0.107393015 & -0.004738873 & 0.018927664\\
+seed 05 & 0.107107574 & -0.005024314 & 0.020807989\\
+seed 06 & 0.107584686 & -0.004547202 & 0.018984392\\
+seed 07 & 0.107436853 & -0.004695034 & 0.018950835\\
+\bottomrule\end{tabular}\caption{All historical pooled groups, 128/128 contexts in 32 blocks.}\end{table}
+\begin{table}[ht]\centering\small\begin{tabular}{llrr}\toprule Historical frame & Group & MSE increment & Signed effect\\\midrule
+so & top32 & 0.223606066 & 0.002366230\\
+so & seed 03 & -0.004062667 & -0.008267939\\
+so & seed 04 & -0.005632487 & -0.009929538\\
+so & seed 05 & -0.006210511 & -0.010175273\\
+so & seed 06 & -0.005267923 & -0.010155961\\
+so & seed 07 & -0.005668672 & -0.010206088\\
+when & top32 & 0.098824550 & -0.009733483\\
+when & seed 03 & -0.003845259 & -0.008844316\\
+when & seed 04 & -0.003845259 & -0.008844316\\
+when & seed 05 & -0.003838116 & -0.010571092\\
+when & seed 06 & -0.003826481 & -0.008818135\\
+when & seed 07 & -0.003721397 & -0.009390429\\
+\bottomrule\end{tabular}\caption{All six frozen historical groups within each frame; each frame covers 64/64 contexts and 32/32 blocks.}\end{table}

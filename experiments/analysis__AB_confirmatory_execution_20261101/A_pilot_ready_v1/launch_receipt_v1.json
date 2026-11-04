@@ -1,0 +1,26 @@
+﻿{
+    "started_utc":  "2026-11-01T12:00:25.4507078Z",
+    "launcher_pid":  460,
+    "arguments":  [
+                      "-X",
+                      "utf8",
+                      "-m",
+                      "concurrency_runtime_v1",
+                      "--snapshot",
+                      "analysis/AB_confirmatory_execution_20261101/A_pilot_ready_v1/pre_run_snapshot_v1.json",
+                      "--review",
+                      "analysis/AB_confirmatory_execution_20261101/A_pilot_ready_v1/pre_run_review_astra_v1.json",
+                      "--policy",
+                      "analysis/AB_confirmatory_execution_20261101/sol_parallel_acceptance/concurrency_migration_v1/migration_policy.json",
+                      "--policy-snapshot",
+                      "analysis/AB_confirmatory_execution_20261101/sol_parallel_acceptance/concurrency_migration_v1/snapshot_v3.json",
+                      "--policy-review",
+                      "analysis/AB_confirmatory_execution_20261101/astra_goals_concurrency_review/concurrency_review_v3.json"
+                  ],
+    "snapshot":  "1c9b72044bd8317eac3f3924f01f49471ece0738dc352f0dbaaf46889c0f3931",
+    "migration_snapshot":  "c1089be1d7ee60a297dfc84d3211088c516dffa8592f98ee506348db8bbc85ea",
+    "scope":  "Actual A PILOT32blocks;640full+3840local/0backward;frozenr0;noTEST",
+    "status":  "launcher_started",
+    "free_RAM_KB":  7568692,
+    "tail_verdict_not_A_dependency":  true
+}

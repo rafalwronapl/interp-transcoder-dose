@@ -1,0 +1,41 @@
+{
+  "document": {
+    "id": "A_shared_TEST_0013_T5_s1_q0",
+    "donor": "A_shared_TEST_0013_T5_s0_q0",
+    "block": "A_shared_TEST_0013",
+    "study": "A",
+    "cohort": "shared",
+    "split": "TEST",
+    "index": 13,
+    "frame": "T5",
+    "side": 1,
+    "q": 0,
+    "text": "Everyone agrees that the gyroplanes, unlike the cheapskate,"
+  },
+  "files": {
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/completed/capture_A_shared_TEST_0013_T5_s1_q0.json": "1a8d03e034540239a797365923cc29f72314bd9929555fb0fb3eb91500b0d30f",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/cache/bf0054d2e874d0585d9279d13404a601e574a479cae5b88dc6c5c1d4a276de53.json": "d3c54fc6d18a841ae7712a0997107c684f73c8af67ed8c1666e0d4523a94504c",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/completed/capture_A_shared_TEST_0013_T5_s0_q0.json": "6eb5afee149701db31d7fd679eae87ce22a09958113c04b9b8c0a6684e09bae2",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/cache/14fc5534fb1492c6680d8292ccc8d03d71aaa142c8c8c24810d7e83b87e1ec1b.json": "e04e5841e592584737abb9e8f229a281dbf42ffb7b7ce933a4e6b95b06d9853d",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/completed/suffix_A_shared_TEST_0013_T5_s1_q0_native.json": "0af240ccef136cf1ac306bcc1659cf0dc6219152de101b1b876f3dfc928fd238",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/cache/af0ff26324877b69e1214498ce46acba3b2cdb0637897a6aed2911be4ac04c64.json": "3333322b5ef75c3231c3af1bcbb88aa4cde22092e311ad950b272d997ebb7d78",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/completed/suffix_A_shared_TEST_0013_T5_s1_q0_r0_P.json": "75d313ccb4145667681d6afc5c07c38851027d6f01afa337de948b971c87d511",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/cache/11080327d726e612b56eea6d0d65fa03cd9c35d1bda8c154e354b38ee4b0d5c0.json": "8a77c89aeb709fc0173ee268f9c69122d580041fe287ff31c2bcb2ba00147a45",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/completed/suffix_A_shared_TEST_0013_T5_s1_q0_r0_U0.json": "6013feb3219e8edc2896e4a5cd9650db7e02f7ebda3a96a10daf27009067a01e",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/cache/e5e8df912c0d82c33eb934051a45b63bed52c8ebf832c7e02678b5eea6ee2976.json": "dd37acb83303f86905f1264bcb4ac4354b43481c09984822d15ba5ece38e9e76",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/results/r0/A_shared_TEST_0013_T5_s1_q0.json": "75380f24693af168d5917954bd088eb36bd346fd8d0a89dd473b5bd7702ec3ae"
+  },
+  "identity": {
+    "model": "5fb518228899f9c15e3db99e01c11d159af8451337dee6d85c28f3880fde2b29",
+    "code": "25737ad0d8d462c020f979d68f61d55e90b2e2668df0fb2d0a8008b19f7db7b7",
+    "corpus": "361064de9ca092fcd6a97649eb7daac7f01b03a084cb021f6e6d0b819c00180c",
+    "tokens": "64569cc7e32d060a398bb0dba55885712cb963aa4475dbaf847e795f4b4926f9",
+    "config": "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/config.json",
+    "frozen_fit_hashes": {
+      "r0": "9215ff51a78cfd3a5c9a8149332c17fe9a8d50a8571d6943f1cc2059fb52c833"
+    }
+  },
+  "own_fit_sha256": "9215ff51a78cfd3a5c9a8149332c17fe9a8d50a8571d6943f1cc2059fb52c833",
+  "max_target_error": 0.0,
+  "all_saved_loss_vector_arithmetic_passed": true
+}

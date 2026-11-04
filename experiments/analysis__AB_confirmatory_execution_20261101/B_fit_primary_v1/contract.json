@@ -1,0 +1,101 @@
+{
+    "schema_version":  1,
+    "id":  "AB_B_PRIMARY_FIT_ONLY_20261101_v1",
+    "kind":  "experiment",
+    "primary_agent":  "/root",
+    "purpose":  "Fixed new B FIT capture, full qualification then final direction/projected qualification, native-vector baselines. NoPILOT/TEST.",
+    "tracked_files":  [
+                          "ab_confirmatory_20261101/__init__.py",
+                          "ab_confirmatory_20261101/worker_b.py",
+                          "ab_confirmatory_20261101/prepare.py",
+                          "ab_confirmatory_20261101/native.py",
+                          "ab_confirmatory_20261101/runtime.py",
+                          "ab_confirmatory_20261101/baselines_b.py",
+                          "ab_confirmatory_20261101/transcoder.py",
+                          "ab_confirmatory_20261101/prepare_fit_b.py",
+                          "ab_confirmatory_20261101/test_worker_b.py",
+                          "ab_confirmatory_20261101/test_transcoder.py",
+                          "analysis/AB_confirmatory_execution_20261101/B_fit_primary_v1/ROOT_STAGE_HANDOFF.md",
+                          "analysis/AB_confirmatory_execution_20261101/B_fit_primary_v1/PROTOCOL_B.md",
+                          "analysis/AB_confirmatory_execution_20261101/B_fit_primary_v1/PROTOCOL_B_CONTROLS.md",
+                          "analysis/AB_confirmatory_execution_20261101/B_fit_primary_v1/B_QUALIFICATION_DESIGN_ROOT.md",
+                          "analysis/AB_confirmatory_execution_20261101/B_fit_primary_v1/B_REFERENCE_RETRIEVAL.md",
+                          "analysis/AB_confirmatory_execution_20261101/B_fit_primary_v1/config.json",
+                          "analysis/AB_confirmatory_execution_20261101/B_fit_primary_v1/corpus.json",
+                          "analysis/AB_confirmatory_execution_20261101/B_fit_primary_v1/tokens.json",
+                          "analysis/AB_confirmatory_execution_20261101/B_fit_primary_v1/model_identity.json",
+                          "analysis/AB_confirmatory_execution_20261101/B_fit_primary_v1/cost_estimate.json",
+                          "analysis/AB_confirmatory_execution_20261101/B_fit_primary_v1/synthetic_tests.log",
+                          "analysis/AB_confirmatory_execution_20261101/B_fit_primary_v1/run_synthetic_review_tests.py"
+                      ],
+    "tracked_trees":  [
+
+                      ],
+    "input_manifests":  [
+                            "analysis/AB_confirmatory_execution_20261101/B_fit_primary_v1/model_manifest.json",
+                            "analysis/AB_confirmatory_execution_20261101/B_fit_primary_v1/input_manifest.json"
+                        ],
+    "gates":  [
+                  {
+                      "id":  "hooks",
+                      "category":  "hooks",
+                      "evidence":  "analysis/AB_confirmatory_execution_20261101/B_fit_primary_v1/test_evidence.json",
+                      "pointer":  "/two_stage_qualification_tested",
+                      "op":  "eq",
+                      "expected":  true,
+                      "reason":  "Full gate1 then naturalcapture then finalFITw thenprojectedgate2; end-to-end random test."
+                  },
+                  {
+                      "id":  "data",
+                      "category":  "data",
+                      "evidence":  "analysis/AB_confirmatory_execution_20261101/B_fit_primary_v1/test_evidence.json",
+                      "pointer":  "/literal_documents",
+                      "op":  "eq",
+                      "expected":  128,
+                      "reason":  "Reviewed corpus subset,paired main-template FIT, noPILOT/TEST."
+                  },
+                  {
+                      "id":  "pilot",
+                      "category":  "pilot",
+                      "evidence":  "analysis/AB_confirmatory_execution_20261101/B_fit_primary_v1/test_evidence.json",
+                      "pointer":  "/scientific_inference",
+                      "op":  "eq",
+                      "expected":  false,
+                      "reason":  "Separately reviewed fixedFIT-only scope; no Nselection or hypothesis test."
+                  },
+                  {
+                      "id":  "accounting",
+                      "category":  "accounting",
+                      "evidence":  "analysis/AB_confirmatory_execution_20261101/B_fit_primary_v1/test_evidence.json",
+                      "pointer":  "/scheduled_forward",
+                      "op":  "eq",
+                      "expected":  1860,
+                      "reason":  "152full+1692localnative+8JVP+8TC/reference;4backwards distinct."
+                  },
+                  {
+                      "id":  "restart",
+                      "category":  "restart",
+                      "evidence":  "analysis/AB_confirmatory_execution_20261101/B_fit_primary_v1/test_evidence.json",
+                      "pointer":  "/zero_load_replay_tested",
+                      "op":  "eq",
+                      "expected":  true,
+                      "reason":  "Actual B FIT replay preserves bytes without loads, config mismatch/corruption rejected."
+                  }
+              ],
+    "circuits":  [
+
+                 ],
+    "structural_scope":  "Full native layer15 postnorm output replacement with complete later native attention/MLP. No last-layer shortcut. Nonzero measured sensitivity and input/output parity; finalw only after128natural FIT captures.",
+    "entrypoint":  {
+                       "module":  "ab_confirmatory_20261101.worker_b",
+                       "args":  [
+                                    "--config",
+                                    "analysis/AB_confirmatory_execution_20261101/B_fit_primary_v1/config.json"
+                                ]
+                   },
+    "schedule":  "analysis/AB_confirmatory_execution_20261101/B_fit_primary_v1/operations.json",
+    "budget":  {
+                   "forward":  1860,
+                   "backward":  4
+               }
+}

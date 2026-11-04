@@ -1,0 +1,21 @@
+﻿{
+    "args":  [
+                 "-X",
+                 "utf8",
+                 "-m",
+                 "concurrency_runtime_v2",
+                 "--snapshot",
+                 "analysis/AB_confirmatory_execution_20261101/A_secondary_actual_v5/pre_run_snapshot_v1.json",
+                 "--review",
+                 "analysis/AB_confirmatory_execution_20261101/A_secondary_actual_v5/pre_run_review_astra_v1.json",
+                 "--policy",
+                 "analysis/AB_confirmatory_execution_20261101/sol_parallel_acceptance/offline_policy_v3/migration_policy.json",
+                 "--policy-snapshot",
+                 "analysis/AB_confirmatory_execution_20261101/sol_parallel_acceptance/offline_policy_v3/snapshot_v1.json",
+                 "--policy-review",
+                 "analysis/AB_confirmatory_execution_20261101/sol_parallel_acceptance/offline_policy_v3/review_astra_v1.json"
+             ],
+    "pid":  16528,
+    "scope":  "A r0 secondary30cells CPU analysis0F0B, frozen1999draws/cache; no new support slots or additionalFIT",
+    "started_utc":  "2026-11-02T06:39:50.7151536Z"
+}

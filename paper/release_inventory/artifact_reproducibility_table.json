@@ -1,0 +1,454 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-02",
+  "scope": "Current closed B descriptive fixed256 program; earlier exploratory/public-artifact studies are not silently certified by this inventory.",
+  "no_network_download_model_or_statistics_run": true,
+  "weight_hash_policy": "All weightSHA256/size values copied from already-frozen model identity; no huge weight/raw file was rehashed.",
+  "base_model": {
+    "repository": "google/gemma-3-270m",
+    "repository_url": "https://huggingface.co/google/gemma-3-270m",
+    "recorded_revision": "9b0cfec892e2bc2afd938c98eabe4e4a7b1e0ca1",
+    "recorded_revision_url": "https://huggingface.co/google/gemma-3-270m/tree/9b0cfec892e2bc2afd938c98eabe4e4a7b1e0ca1",
+    "checkpoint": {
+      "sha256": "abb58eb73aece5163624090d5383c59cbcdb9e9539ec84cb864f74386c4b21d5",
+      "bytes": 536223056
+    },
+    "local_folder": "C:\\Users\\rafal\\interpretability-lab\\models\\gemma-3-270m",
+    "revision_proof": {
+      "actual_original_path": "C:\\Users\\rafal\\.cache\\huggingface\\hub\\models--google--gemma-3-270m\\snapshots\\9b0cfec892e2bc2afd938c98eabe4e4a7b1e0ca1\\model.safetensors",
+      "alias": "analysis/TC_DOSELAW_20261030/takeover/inputs/001_model.safetensors",
+      "alias_recorded_sha256": "abb58eb73aece5163624090d5383c59cbcdb9e9539ec84cb864f74386c4b21d5",
+      "bindings": "analysis/TC_DOSELAW_20261030/takeover/external_bindings.json",
+      "manifest": "analysis/TC_DOSELAW_20261030/takeover/input_manifest.json"
+    },
+    "config_dtype": "bfloat16",
+    "runtime_dtype": "float32",
+    "backend": "CPU eager",
+    "hidden_size": 640,
+    "layers": 18,
+    "license": null,
+    "files": {
+      "C:\\Users\\rafal\\interpretability-lab\\models\\gemma-3-270m\\added_tokens.json": {
+        "sha256": "50b2f405ba56a26d4913fd772089992252d7f942123cc0a034d96424221ba946",
+        "bytes": 35
+      },
+      "C:\\Users\\rafal\\interpretability-lab\\models\\gemma-3-270m\\config.json": {
+        "sha256": "8983343e5bfbf8e336d222a522a1d781443491e9de2d081b8856f8fd26ab6046",
+        "bytes": 1352
+      },
+      "C:\\Users\\rafal\\interpretability-lab\\models\\gemma-3-270m\\generation_config.json": {
+        "sha256": "5f5e01a065c3a4efb169a97bc13dbe5d62031f40a3e7004323daaaff348ec420",
+        "bytes": 133
+      },
+      "C:\\Users\\rafal\\interpretability-lab\\models\\gemma-3-270m\\model.safetensors": {
+        "sha256": "abb58eb73aece5163624090d5383c59cbcdb9e9539ec84cb864f74386c4b21d5",
+        "bytes": 536223056
+      },
+      "C:\\Users\\rafal\\interpretability-lab\\models\\gemma-3-270m\\special_tokens_map.json": {
+        "sha256": "2f7b0adf4fb469770bb1490e3e35df87b1dc578246c5e7e6fc76ecf33213a397",
+        "bytes": 662
+      },
+      "C:\\Users\\rafal\\interpretability-lab\\models\\gemma-3-270m\\tokenizer.json": {
+        "sha256": "7d4046bf0505a327dd5a0abbb427ecd4fc82f99c2ceaa170bc61ecde12809b0c",
+        "bytes": 33384570
+      },
+      "C:\\Users\\rafal\\interpretability-lab\\models\\gemma-3-270m\\tokenizer_config.json": {
+        "sha256": "94b03056ec5831e9021c3e3fe9db682778c4f2d081c4188f1fcb8b90541cf1cf",
+        "bytes": 1155375
+      }
+    }
+  },
+  "transcoder": {
+    "repository": "google/gemma-scope-2-270m-pt",
+    "repository_url": "https://huggingface.co/google/gemma-scope-2-270m-pt",
+    "recorded_revision": "b218cd5d69dc2fa71cff448b68d625e6c9702d49",
+    "artifact": "transcoder/layer_15_width_16k_l0_medium",
+    "artifact_url": "https://huggingface.co/google/gemma-scope-2-270m-pt/tree/b218cd5d69dc2fa71cff448b68d625e6c9702d49/transcoder/layer_15_width_16k_l0_medium",
+    "configuration": {
+      "hf_hook_point_in": "model.layers.15.pre_feedforward_layernorm.output",
+      "hf_hook_point_out": "model.layers.15.post_feedforward_layernorm.output",
+      "width": 16384,
+      "model_name": "google/gemma-3-270m-pt",
+      "architecture": "jump_relu",
+      "l0": 60,
+      "affine_connection": false,
+      "type": "transcoder"
+    },
+    "local_folder": "C:\\Users\\rafal\\interpretability-lab\\models\\ab_gs2_270m_l15",
+    "original_folder": "C:\\Users\\rafal\\tcdl\\gs2_270m\\transcoder\\layer_15_width_16k_l0_medium",
+    "original_params_samefile": true,
+    "download_metadata": "C:\\Users\\rafal\\tcdl\\gs2_270m\\.cache\\huggingface\\download\\transcoder\\layer_15_width_16k_l0_medium\\params.safetensors.metadata",
+    "download_record": [
+      "b218cd5d69dc2fa71cff448b68d625e6c9702d49",
+      "ca3a2fc2c75ffa1c4305497ee1aba381bdedff90a49aeda5db82083e80e194ca",
+      "1793389425.2533374"
+    ],
+    "license_recorded": "cc-by-4.0",
+    "license_card": "analysis/atlas_discovery_20261030/sources/google__gemma-scope-2-270m-pt__README.md",
+    "files": {
+      "C:\\Users\\rafal\\interpretability-lab\\models\\ab_gs2_270m_l15\\config.json": {
+        "sha256": "25025e10d3dfb312ebcbe8df633f6bf5b00f2222847c7a5c310eef59e3fdf909",
+        "bytes": 309
+      },
+      "C:\\Users\\rafal\\interpretability-lab\\models\\ab_gs2_270m_l15\\params.safetensors": {
+        "sha256": "ca3a2fc2c75ffa1c4305497ee1aba381bdedff90a49aeda5db82083e80e194ca",
+        "bytes": 84020088
+      }
+    },
+    "config_model_name_alias_note": "TC config literal google/gemma-3-270m-pt; actual base checkpoint repository/cache is google/gemma-3-270m. Do not silently normalize the two names."
+  },
+  "tokenizer": {
+    "class_recorded": "GemmaTokenizer",
+    "add_bos_recorded": true,
+    "add_eos_recorded": false,
+    "frozen_token_summary": {
+      "documents": 1920,
+      "answer_tokens": [
+        " she",
+        " he"
+      ],
+      "answer_ids": [
+        1304,
+        668
+      ],
+      "bos": 2,
+      "length_min": 8,
+      "length_max": 13,
+      "length_quantiles": [
+        9.0,
+        11.0,
+        11.0,
+        12.0
+      ],
+      "unequal_donor_lengths": 844,
+      "coordinate_rule": "last prompt token in each recipient/donor independently; MLP is positionwise; donor need not have same sequence length"
+    },
+    "recipe": "AutoTokenizer.from_pretrained(local_files_only=True); tok(text) defaults; answers encoded with add_special_tokens=False. No tokenizer was loaded by this inventory.",
+    "files": {
+      "C:\\Users\\rafal\\interpretability-lab\\models\\gemma-3-270m\\added_tokens.json": {
+        "sha256": "50b2f405ba56a26d4913fd772089992252d7f942123cc0a034d96424221ba946",
+        "bytes": 35
+      },
+      "C:\\Users\\rafal\\interpretability-lab\\models\\gemma-3-270m\\special_tokens_map.json": {
+        "sha256": "2f7b0adf4fb469770bb1490e3e35df87b1dc578246c5e7e6fc76ecf33213a397",
+        "bytes": 662
+      },
+      "C:\\Users\\rafal\\interpretability-lab\\models\\gemma-3-270m\\tokenizer.json": {
+        "sha256": "7d4046bf0505a327dd5a0abbb427ecd4fc82f99c2ceaa170bc61ecde12809b0c",
+        "bytes": 33384570
+      },
+      "C:\\Users\\rafal\\interpretability-lab\\models\\gemma-3-270m\\tokenizer_config.json": {
+        "sha256": "94b03056ec5831e9021c3e3fe9db682778c4f2d081c4188f1fcb8b90541cf1cf",
+        "bytes": 1155375
+      }
+    }
+  },
+  "intervention": {
+    "layer_zero_based": 15,
+    "remaining_layers": [
+      16,
+      17
+    ],
+    "position": "last prompt token in each recipient/donor independently",
+    "input_hook": "model.layers.15.pre_feedforward_layernorm.output",
+    "output_hook": "model.layers.15.post_feedforward_layernorm.output",
+    "native_branch": "post_feedforward_layernorm(mlp(z))",
+    "residual_capture": "pre_feedforward_layernorm forward pre-hook",
+    "readout": "logit(' she') - logit(' he')",
+    "answer_ids": [
+      1304,
+      668
+    ],
+    "attention": "eager;use_cache=False; no KV-cache shortcut",
+    "tail": "Full-sequence boundary after layer15 retained; replace final-position hidden with R+M in original native addition order; run original layers16/17 with saved kwargs, finalnorm/head.",
+    "jump_relu": "strict pre>threshold, ReLU(pre), fixed public encoder/decoder/bias; affine_connection=false",
+    "runtime_float32_analysis_note": "Endpoint identity arithmetic is separately evaluated in float64; does not make native/TC execution float64."
+  },
+  "design": {
+    "FIT": {
+      "pairs": 32,
+      "documents": 128,
+      "frames": [
+        "so",
+        "when"
+      ]
+    },
+    "PILOT": {
+      "pairs": 32,
+      "documents": 192,
+      "frames": [
+        "so",
+        "when",
+        "transfer"
+      ]
+    },
+    "TEST": {
+      "pairs": 256,
+      "documents": 1536,
+      "frames": [
+        "so",
+        "when",
+        "transfer"
+      ]
+    },
+    "methods": [
+      "TC",
+      "FROZEN",
+      "TAYLOR",
+      "MEAN",
+      "RIDGE",
+      "ZERO"
+    ],
+    "operators": [
+      "full",
+      "projected"
+    ],
+    "doses": [
+      0.05,
+      0.1,
+      0.25,
+      0.5,
+      1.0,
+      2.0
+    ],
+    "projected_direction": "Frozen FIT direction normalize(mean(z|female)-mean(z|male)); full donor delta or (delta dot w)w; no TEST refit.",
+    "inference_scope": "Both original family candidates ineligible; fixed256 descriptive finite-corpus TEST. Only v6 TC c1 joint12 intervals qualified in finite synthetic scenarios; all other outcomes descriptive. No p/Holm/rejection/support claims.",
+    "precision": {
+      "draws": 1999,
+      "seed": 2026110191,
+      "method": "studentized log-RMS maxT, all12 coordinates jointly; rank1980/1999",
+      "scope": "TC at dose1 only: full/projected × so/when/equal-energy mixture × absolute/relative RMS. Transfer intervals not qualified. No universal or width/power assurance."
+    }
+  },
+  "environment": {
+    "python": "3.13.11 | packaged by Anaconda, Inc. | (main, Dec 10 2025, 21:21:58) [MSC v.1929 64 bit (AMD64)]",
+    "implementation": "cpython",
+    "platform": "win32",
+    "machine": "AMD64",
+    "executable_sha256": "ec0ea8d6907787b76dcf8524aaa93e52e167ceee62fa8778e182ea637a3dbc1d",
+    "optimize": 0,
+    "utf8_mode": 1,
+    "packages": {
+      "torch": "2.11.0+cpu",
+      "transformers": "5.5.4",
+      "safetensors": "0.7.0",
+      "numpy": "2.4.4",
+      "scipy": "1.17.0",
+      "tokenizers": "0.22.2",
+      "huggingface-hub": "1.11.0"
+    },
+    "torch_threads": 2
+  },
+  "stages": [
+    {
+      "id": "B_fit_reference_recovery_v2",
+      "purpose": "Accepted composite128-record FIT; original1860F4B plus separate4unfused referenceF; two actual LLM loads after preserved failure.",
+      "completion_snapshot": "analysis/AB_confirmatory_execution_20261101/B_fit_reference_recovery_v2/completion_snapshot_v1.json",
+      "completion_snapshot_sha256": "d0d3ef007a9c3e9741729ccb7c04f007021ac8590f992dabd6d92d48164585f4",
+      "completion_review": "analysis/AB_confirmatory_execution_20261101/B_fit_reference_recovery_v2/completion_review_astra_v1.json",
+      "completion_review_file_sha256": "e475061a814d474a6419f44c163d95d50f07cb8def6c7a801656461867da1d1f",
+      "contract": "analysis/AB_confirmatory_execution_20261101/B_fit_reference_recovery_v2/contract.json",
+      "budget": {
+        "forward": 1800,
+        "backward": 0
+      },
+      "entrypoint": {
+        "module": "ab_confirmatory_20261101.worker_b_serialization_recovery",
+        "args": [
+          "--config",
+          "analysis/AB_confirmatory_execution_20261101/B_fit_primary_v1/config.json",
+          "--amendment",
+          "analysis/AB_confirmatory_execution_20261101/B_fit_reference_recovery_v2/amendment.json"
+        ]
+      },
+      "observed_pre_run_utf8_mode": 1
+    },
+    {
+      "id": "B_tail_qualification_v1",
+      "purpose": "Technical exact-tail/full-native output and gradient qualification;4unusedFIT documents;152F8B.",
+      "completion_snapshot": "analysis/AB_confirmatory_execution_20261101/B_tail_qualification_v1/completion_snapshot_v2.json",
+      "completion_snapshot_sha256": "3403ce5da8ce3a7aca00910a46d7a7da5a1af1a63e910451b0a884c889e17dd5",
+      "completion_review": "analysis/AB_confirmatory_execution_20261101/B_tail_qualification_v1/completion_review_astra_v2.json",
+      "completion_review_file_sha256": "8c868ece34edf276a8ccbacc2198d2eac64b181e95eae8f83d8a37d651e7e59f",
+      "contract": "analysis/AB_confirmatory_execution_20261101/B_tail_qualification_v1/contract.json",
+      "budget": {
+        "forward": 152,
+        "backward": 8
+      },
+      "entrypoint": {
+        "module": "ab_confirmatory_20261101.worker_b_evaluate",
+        "args": [
+          "--config",
+          "analysis/AB_confirmatory_execution_20261101/B_tail_qualification_v1/config.json"
+        ]
+      },
+      "observed_pre_run_utf8_mode": 1
+    },
+    {
+      "id": "B_precision_v6_calibration_v1",
+      "purpose": "Prospective synthetic finite-scenario qualification;8cases2000datasets1999draws,0modelcalls; not universal coverage or family validity.",
+      "completion_snapshot": "analysis/AB_confirmatory_execution_20261101/B_precision_v6_calibration_v1/completion_snapshot_v1.json",
+      "completion_snapshot_sha256": "49967dcfcd6f1bf4cdf500fda0694d656af1baa190df8801a96a1e0c6769b580",
+      "completion_review": "analysis/AB_confirmatory_execution_20261101/B_precision_v6_calibration_v1/completion_review_astra_v1.json",
+      "completion_review_file_sha256": "3e70175e481f413e434f5402222877164d97fafd6cca59102a668a53ce297636",
+      "contract": "analysis/AB_confirmatory_execution_20261101/B_precision_v6_calibration_v1/contract.json",
+      "budget": {
+        "forward": 0,
+        "backward": 0
+      },
+      "entrypoint": {
+        "module": "ab_confirmatory_20261101.b_precision_calibration_v6",
+        "args": [
+          "--out",
+          "analysis/AB_confirmatory_execution_20261101/B_precision_v6_calibration_v1/run"
+        ]
+      },
+      "observed_pre_run_utf8_mode": 1
+    },
+    {
+      "id": "B_pilot_early_v7",
+      "purpose": "Acquisition-only32paired blocks192documents,19776F192B; no refit/selection/inference.",
+      "completion_snapshot": "analysis/AB_confirmatory_execution_20261101/B_pilot_early_v7/completion_snapshot_v1.json",
+      "completion_snapshot_sha256": "431ca09b1128967c3ff4b22d94bde02e852fa5d8dfd638881246762bf133d0d5",
+      "completion_review": "analysis/AB_confirmatory_execution_20261101/B_pilot_early_v7/completion_review_astra_v1.json",
+      "completion_review_file_sha256": "e4faca23374b6be4acae446abb03d662d11e4a13df7a2fe7c5740461fa972050",
+      "contract": "analysis/AB_confirmatory_execution_20261101/B_pilot_early_v7/contract.json",
+      "budget": {
+        "forward": 19776,
+        "backward": 192
+      },
+      "entrypoint": {
+        "module": "ab_confirmatory_20261101.worker_b_pilot_only_v7",
+        "args": [
+          "--config",
+          "analysis/AB_confirmatory_execution_20261101/B_pilot_early_v7/config.json"
+        ]
+      },
+      "observed_pre_run_utf8_mode": 1
+    },
+    {
+      "id": "B_descriptive_TEST_v8",
+      "purpose": "Fixed256paired blocks1536documents,158208F1536B; family-ineligible finite-corpus study, no p/Holm/support claims.",
+      "completion_snapshot": "analysis/AB_confirmatory_execution_20261101/B_descriptive_TEST_v8/completion_snapshot_v1.json",
+      "completion_snapshot_sha256": "3a247b07f32fc030d9ac24efc74aea8a60eba38ddc3d97425a65d10da41b24f1",
+      "completion_review": "analysis/AB_confirmatory_execution_20261101/B_descriptive_TEST_v8/completion_review_astra_v1.json",
+      "completion_review_file_sha256": "73feff251414a17ee2ffccb777b1b209941fb487f7acaf0a918176b735a8c9f1",
+      "contract": "analysis/AB_confirmatory_execution_20261101/B_descriptive_TEST_v8/contract.json",
+      "budget": {
+        "forward": 158208,
+        "backward": 1536
+      },
+      "entrypoint": {
+        "module": "ab_confirmatory_20261101.worker_b_descriptive_v8",
+        "args": [
+          "--config",
+          "analysis/AB_confirmatory_execution_20261101/B_descriptive_TEST_v8/config.json"
+        ]
+      },
+      "observed_pre_run_utf8_mode": 1
+    }
+  ],
+  "final_analysis": {
+    "status": "PENDING: mandatory accepted-TEST builder verification; no final report/result existed at inventory",
+    "packet": "analysis/AB_confirmatory_execution_20261101/B_descriptive_analysis_v9",
+    "result": "analysis/AB_confirmatory_execution_20261101/B_descriptive_analysis_v9/result.json",
+    "result_sha256": null,
+    "completion_snapshot_sha256": null
+  },
+  "source_files_sha256": {
+    "ab_confirmatory_20261101/native.py": "e798596f3f6add0c885fb03efec6e165193bf7470a1da190adb04da03796e810",
+    "ab_confirmatory_20261101/native_tail_b.py": "e587cc4e63ad8527ec22f936bb2b7a1f458177dfbe4270fd51bb00b096d9beef",
+    "ab_confirmatory_20261101/transcoder.py": "c76d71b96ee0b7c5d26a5a206fc4fd4db57063f22c1d2c917061b9990cc7e02b",
+    "ab_confirmatory_20261101/reference_b_unfused.py": "c335f13f708e15da17dd9291d3b52d85ef4986c7a5596fcd1a04a3909411ccf2",
+    "ab_confirmatory_20261101/worker_b.py": "4923e40185fc728edb490d7f14d2a80b17ed770e40a3f15f13e329099826179e",
+    "ab_confirmatory_20261101/worker_b_production_v2.py": "86e3564e591daaa9d5d6afaca776a5e431746285b98203c33f08529fa7a14cc1",
+    "ab_confirmatory_20261101/worker_b_evaluate.py": "bc229ea73ca91e61e108310eda3d02cdda93d790380d3a209737c92b2f5fc615",
+    "ab_confirmatory_20261101/worker_b_pilot_only_v7.py": "0938df0fb69be6ae35484726770fc80e4984e8adb6ed248b168b831d473dd413",
+    "ab_confirmatory_20261101/worker_b_descriptive_v8.py": "5caf007e0db04a15153aee0a3e08497e7215a51288ea14f3450f1952de29370e",
+    "ab_confirmatory_20261101/analyze_b_descriptive_v8.py": "3f9407cbdee7284160ce1768ed077cf813c26ebb6e8c5b3dd1244f26a2fdd385",
+    "ab_confirmatory_20261101/precision_candidate_v6.py": "669c4207cdf6cea5807b739aadcd2269241eec393e5218018bc7dcfed1a993d9",
+    "ab_confirmatory_20261101/b_precision_calibration_v6.py": "8aa02bd3936ab511a59765ffa077479000879122a002e6976e6d3a1bcd82d05a",
+    "ab_confirmatory_20261101/tokenize_corpus.py": "42f4cc10fca8a4cf2a7ff489b897b8da2b63999703311fa50fbb0636e2259308",
+    "analysis/AB_confirmatory_execution_20261101/B_fit_reference_recovery_v2/contract.json": "fcc5b90dfc16f2c801a023b74cf92020259be5f25b45aabac1439f715a629393",
+    "analysis/AB_confirmatory_execution_20261101/B_fit_reference_recovery_v2/completion_review_astra_v1.json": "e475061a814d474a6419f44c163d95d50f07cb8def6c7a801656461867da1d1f",
+    "analysis/AB_confirmatory_execution_20261101/B_tail_qualification_v1/contract.json": "013dfa90844815fdeecad3179b3b52765c87181410c41fcba076d77a66e31046",
+    "analysis/AB_confirmatory_execution_20261101/B_tail_qualification_v1/completion_review_astra_v2.json": "8c868ece34edf276a8ccbacc2198d2eac64b181e95eae8f83d8a37d651e7e59f",
+    "analysis/AB_confirmatory_execution_20261101/B_tail_qualification_v1/config.json": "7a245ad9062a0eefe77ba7910a1785cefc907fbfa1bfc2f20e2af216958515e5",
+    "analysis/AB_confirmatory_execution_20261101/B_tail_qualification_v1/corpus.json": "d25ed2894193ce801bf90fe216796202e7ce0bc9847ef71764beb8a2cf9e6b5e",
+    "analysis/AB_confirmatory_execution_20261101/B_tail_qualification_v1/tokens.json": "5ef3ffb9d985e6a51e97876d722b3c99f2d0c17f32ce1be04d7dddf61b8df7a2",
+    "analysis/AB_confirmatory_execution_20261101/B_tail_qualification_v1/cost.json": "dfd35e65583127ed9e002663e79ae0cd2cf0e515ed5ac1ab3a0dc9959412a5d4",
+    "analysis/AB_confirmatory_execution_20261101/B_precision_v6_calibration_v1/contract.json": "fbd63f22be629e4f3058f387025c58f1868337150c42a0d7ad3af2053bebd54a",
+    "analysis/AB_confirmatory_execution_20261101/B_precision_v6_calibration_v1/completion_review_astra_v1.json": "3e70175e481f413e434f5402222877164d97fafd6cca59102a668a53ce297636",
+    "analysis/AB_confirmatory_execution_20261101/B_pilot_early_v7/contract.json": "2876f2c98e60aaa72a75409269e2fd27ba423e276e17a6619b6bc2fc6233e0ad",
+    "analysis/AB_confirmatory_execution_20261101/B_pilot_early_v7/completion_review_astra_v1.json": "e4faca23374b6be4acae446abb03d662d11e4a13df7a2fe7c5740461fa972050",
+    "analysis/AB_confirmatory_execution_20261101/B_pilot_early_v7/config.json": "f95423c2f0c8325e7d612d2076c68e677018ebe23d0942e9f6796759f330af37",
+    "analysis/AB_confirmatory_execution_20261101/B_pilot_early_v7/corpus.json": "d874368bf69635ff339e2bb92a35c61abe08e160bbda6e13ca7eb6590bba654f",
+    "analysis/AB_confirmatory_execution_20261101/B_pilot_early_v7/tokens.json": "941f2413aefa22f4d87217de72330dba1477f7603c9e7ae3446224317de53b57",
+    "analysis/AB_confirmatory_execution_20261101/B_pilot_early_v7/cost.json": "da7ec3c737402321785573b1033240c4bc1abbc65b95f23a27bfdd71e828381a",
+    "analysis/AB_confirmatory_execution_20261101/B_descriptive_TEST_v8/contract.json": "dd4effe7ef23d08c6ca69b8f2973ea4d1ac7a7bd56476c45e574a7976581c8ca",
+    "analysis/AB_confirmatory_execution_20261101/B_descriptive_TEST_v8/completion_review_astra_v1.json": "73feff251414a17ee2ffccb777b1b209941fb487f7acaf0a918176b735a8c9f1",
+    "analysis/AB_confirmatory_execution_20261101/B_descriptive_TEST_v8/config.json": "66d7bd146e172d987264ad1dfecac34520dc8839ba9c8e8bc5005ccbd6eef46f",
+    "analysis/AB_confirmatory_execution_20261101/B_descriptive_TEST_v8/corpus.json": "92634848dae81ed3b870663e8ab5a90c4ce89f488dacdd1bb100d3f13bfc0f1e",
+    "analysis/AB_confirmatory_execution_20261101/B_descriptive_TEST_v8/tokens.json": "a4649d66d3c2850ebdf087ddfe0f6219cb6db08e092e05b0ad1f537193604404",
+    "analysis/AB_confirmatory_execution_20261101/B_descriptive_TEST_v8/cost.json": "cfbebc82551c5d54b5611bef763816450a4da1d0f15d953929ab36a7bde55a3a",
+    "analysis/AB_confirmatory_execution_20261101/B_fit_primary_v1/config.json": "6d54357b11745d44a7b279e067607b0090e66ca45a3776667fa889fc22dfc963",
+    "analysis/AB_confirmatory_execution_20261101/B_fit_primary_v1/corpus.json": "e28d2fe24000d4db1ff8c5959581c935f16bee34e200ee2ca311e9074133274a",
+    "analysis/AB_confirmatory_execution_20261101/B_fit_primary_v1/tokens.json": "90aed99ce0108a5a84c211052064c9e3c126793d89fa47d51ea7f5818012d697",
+    "analysis/AB_confirmatory_execution_20261101/B_fit_primary_v1/model_identity.json": "5ada010cee78e9b736c14aae4a433db1df770370607e0584748b71749f82f5b8",
+    "analysis/AB_confirmatory_execution_20261101/B_fit_primary_v1/model_manifest.json": "f404806c799f47f76dfab30f175af9bd873b5d211cd053d2e26fc12cb6a41641",
+    "analysis/AB_confirmatory_execution_20261101/PROTOCOL_B.md": "7a100e975fd4328f2ea3531125c76349e0cba57567392148dc7fdf1c0bbb2e1d",
+    "analysis/AB_confirmatory_execution_20261101/PROTOCOL_B_CONTROLS.md": "2755eb4a5fcff9843a9ac7561c82d453dd04bca235e1b60fa61861500b7ddddd",
+    "analysis/AB_confirmatory_execution_20261101/B_descriptive_authorization_v8/amendment.json": "e445f3fa790f0986b3227e93c300bb7f642eac915ca76ac809011d19bacadf39",
+    "analysis/AB_confirmatory_execution_20261101/B_precision_repair_v6/PROTOCOL.md": "28ef22182dac67e4d593c0fed9bb786dd4241fe9e75eb614dd5b37ec9cb43c98",
+    "analysis/AB_confirmatory_execution_20261101/B_pilot_only_authorization_v7/amendment.json": "654d42817405bfe2ca5c19a540d4f1a42015815b6ab64e9bd50e751352b8ab4b",
+    "analysis/AB_confirmatory_execution_20261101/corpus/tokenization_v1.json": "2bffed51898f65200ccb26493069dd92bcb75f040e30c728bb57778d093f6ee9"
+  },
+  "protocol_sources": [
+    "analysis/AB_confirmatory_execution_20261101/B_descriptive_authorization_v8/amendment.json",
+    "analysis/AB_confirmatory_execution_20261101/B_precision_repair_v6/PROTOCOL.md",
+    "analysis/AB_confirmatory_execution_20261101/B_pilot_only_authorization_v7/amendment.json"
+  ],
+  "historical_protocol_note": "PROTOCOL_B.md explicitly says DRAFT/not frozen and contains earlier primary inference plan; actual accepted contracts/snapshots and v8 amendment control the current descriptive TEST.",
+  "gaps": [
+    {
+      "id": "BASE_LICENSE",
+      "status": "missing_local_record",
+      "detail": "No base-model LICENSE/model-card terms file in inspected frozen model folder or HF snapshot. Do not substitute TC CC-BY4.0 for base-model terms or claim redistribution clearance."
+    },
+    {
+      "id": "LOCAL_CODE_LICENSE",
+      "status": "missing_local_record",
+      "detail": "Workspace has no root LICENSE and is not a git repository; no upstream code commit/license is certified. Per-file sourceSHA256 is authoritative for this release inventory."
+    },
+    {
+      "id": "TOKENIZER_COMMIT",
+      "status": "qualified_provenance",
+      "detail": "Tokenizer fileSHA256 values are frozen independently. Model cache revision is linked through prior config/checkpoint provenance; a separate per-tokenizer download metadata record was not recovered."
+    },
+    {
+      "id": "TC_CODE_REVISION",
+      "status": "not_recorded",
+      "detail": "Public HF artifact/revision and CC-BY4.0 card are recorded. No particular upstream GitHub/library source commit is certified; exact local adapter/unfused-reference source hashes are supplied."
+    },
+    {
+      "id": "DATA_LICENSE",
+      "status": "not_consolidated",
+      "detail": "NLTK Names exclusive-category source is recorded in protocol. Its redistribution notice/license was not consolidated in the inspected release inputs; local holdout is not pretraining-freshness certification."
+    },
+    {
+      "id": "FINAL_REPORT",
+      "status": "pending",
+      "detail": "B final report/result/snapshot/review are not yet available at inventory; fill only from actual closed outputs. No numerical result invented."
+    },
+    {
+      "id": "BUNDLE_LOCATION",
+      "status": "pending_root_choice",
+      "detail": "Compact/full bundle destination not assigned. Commands assume preserved repository-relative layout; original absolute request paths remain historical provenance."
+    },
+    {
+      "id": "PORTABILITY",
+      "status": "known_constraint",
+      "detail": "Canonical native rerun needs pinned weights, exact runtime, accepted manifests and new authorized output. Compact saved-output inspection needs no weights. Reanalysis into a NEW result uses relocated absolute request identity, so byte-identical cached request replay is not promised."
+    }
+  ]
+}

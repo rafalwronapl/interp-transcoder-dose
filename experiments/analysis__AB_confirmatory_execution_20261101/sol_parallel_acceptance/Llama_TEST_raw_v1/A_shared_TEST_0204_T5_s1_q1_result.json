@@ -1,0 +1,41 @@
+{
+  "document": {
+    "id": "A_shared_TEST_0204_T5_s1_q1",
+    "donor": "A_shared_TEST_0204_T5_s0_q1",
+    "block": "A_shared_TEST_0204",
+    "study": "A",
+    "cohort": "shared",
+    "split": "TEST",
+    "index": 204,
+    "frame": "T5",
+    "side": 1,
+    "q": 1,
+    "text": "Everyone agrees that the burgraves, unlike the boardinghouses,"
+  },
+  "files": {
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/completed/capture_A_shared_TEST_0204_T5_s1_q1.json": "32ae2c68fbccb88c5525c1a279edd779d65f47f5e57357cafcd8ce85fc639c2c",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/cache/c5e4c60b1db72b533e3fa9c835f44b72f8b6d542b6026d987b112ceb8383b128.json": "eb713fa34901aae462110ca1b44c364723556c6903cbef06fad0e71eb07112d3",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/completed/capture_A_shared_TEST_0204_T5_s0_q1.json": "aacad2bb3ded234977c2dbbf2592a5da9a5dad61fdcd1e62d3d2990f04aaac78",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/cache/31d555883b188ed5c400d370e4ae5f5cab5252e2a425dc909b36764bb9d3cc5b.json": "e432d917505d8f41148078864fa063a1d6f5e6dc0912bd5fb71c23f736ac49ad",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/completed/suffix_A_shared_TEST_0204_T5_s1_q1_native.json": "3a8e5f31200588d7c43a827f4996b2d8f139ef22472f9b839f4e6db10c5a9cdb",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/cache/c70fc337c342e8655be879ba8276fad56a4868509dead1a0837e7a6d82e2d64f.json": "33cb70584c73613df07c5cbb5fc5c9915302414b0ccf272af2dc11519e01f244",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/completed/suffix_A_shared_TEST_0204_T5_s1_q1_r0_P.json": "c21ce805bf67f75e8b3c487adc9a9129dec79ad18ea99d6f8c807c3be1c2550a",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/cache/3d6470a0ed265f1bdb63a791359b1541c200537898786c015598950d7c5b112f.json": "051c9b82bae6878bdf201243e82e8d87b85492eef29e9caf77d7e3f3755695f0",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/completed/suffix_A_shared_TEST_0204_T5_s1_q1_r0_U0.json": "2211e2cb3ad69b076ced6a6d76b2df06d0327442e6b75a010ada6c93a265246c",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/cache/26f2c5476fe43432534abb0eb1022e3e6887466c02efd3bee416097d7bd9317b.json": "0d132871d943d5fba6fc7958c1bbe6d58348e1d6990a8371a78b2685cfefb3ed",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/results/r0/A_shared_TEST_0204_T5_s1_q1.json": "5d32c45b84c043d4efa56a0ab38f9c7f281d27b1c98497b370f6db46721c212f"
+  },
+  "identity": {
+    "model": "5fb518228899f9c15e3db99e01c11d159af8451337dee6d85c28f3880fde2b29",
+    "code": "25737ad0d8d462c020f979d68f61d55e90b2e2668df0fb2d0a8008b19f7db7b7",
+    "corpus": "361064de9ca092fcd6a97649eb7daac7f01b03a084cb021f6e6d0b819c00180c",
+    "tokens": "64569cc7e32d060a398bb0dba55885712cb963aa4475dbaf847e795f4b4926f9",
+    "config": "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/config.json",
+    "frozen_fit_hashes": {
+      "r0": "9215ff51a78cfd3a5c9a8149332c17fe9a8d50a8571d6943f1cc2059fb52c833"
+    }
+  },
+  "own_fit_sha256": "9215ff51a78cfd3a5c9a8149332c17fe9a8d50a8571d6943f1cc2059fb52c833",
+  "max_target_error": 0.0,
+  "all_saved_loss_vector_arithmetic_passed": true
+}

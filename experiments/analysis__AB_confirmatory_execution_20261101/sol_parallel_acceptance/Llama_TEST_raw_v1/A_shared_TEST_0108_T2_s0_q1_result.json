@@ -1,0 +1,41 @@
+{
+  "document": {
+    "id": "A_shared_TEST_0108_T2_s0_q1",
+    "donor": "A_shared_TEST_0108_T2_s1_q1",
+    "block": "A_shared_TEST_0108",
+    "study": "A",
+    "cohort": "shared",
+    "split": "TEST",
+    "index": 108,
+    "frame": "T2",
+    "side": 0,
+    "q": 1,
+    "text": "Near the enclosure, the freewheel that the suffragettes can observe"
+  },
+  "files": {
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/completed/capture_A_shared_TEST_0108_T2_s0_q1.json": "47ee01e7611717166c8a8cf358d9769ece6eabceb0781e8475ce76bbeb7f2198",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/cache/fee60c096fe6141da549c58959320ce8cb92fb11c59506d2073a598c24a2dfad.json": "cde2c3be39c3363884256f0053e771325e516ccd75148fadfb60d2c411facf09",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/completed/capture_A_shared_TEST_0108_T2_s1_q1.json": "246079168ec81cab685fe8d7e1948ef1bd6d41e1af3774158a02398a7c10e424",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/cache/2ddf20c5241136e0b114507031802c620b36665d756cc40ae7fa985f324341c8.json": "90ab14c1f2e9666aae98a8adc66bedd920d7154ff8c326300ec9b6f8943e9175",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/completed/suffix_A_shared_TEST_0108_T2_s0_q1_native.json": "467e349be7fb521185cfd31d475e3e225d484f91d6e5ef9e07c3db2a038c6bfa",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/cache/5d480e6adbde2f90d2885a02e549287bce55fe5c7ab93b7b47743c2c479a0fc8.json": "c1897ae38dd6b3086995aac9cae76b1b9d50e6f6954f20d866eb67c467aad291",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/completed/suffix_A_shared_TEST_0108_T2_s0_q1_r0_P.json": "3f848f99ddbf6aee323b442ecd1dfe57b1cd805b3c7bd02c74a25b49af64010e",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/cache/528d6689b5798f75a5be3d90c3829ad6e67abdea5e400d6d37a69a6430783c32.json": "3a71d68d0a0447424a70f13ddc509f40d38fc7eb9b2410e16a1f1abf93fa3397",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/completed/suffix_A_shared_TEST_0108_T2_s0_q1_r0_U0.json": "18f3c228ef5271e810e46d4f64d586c081b34cf132d8ff621b2126fa8063f482",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/cache/1db6fed393cfdf8cd0cf335ceaec2e8e767629ae246a2fab31acdb99873111d0.json": "bb557ec45868d0101ee158946d38f121f81fa1eab08ba9adad11e9e4d47c1141",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/results/r0/A_shared_TEST_0108_T2_s0_q1.json": "53680b4e14006e6d5cff633051857425e4360f9bd4470ba1d76682885e9ce14c"
+  },
+  "identity": {
+    "model": "5fb518228899f9c15e3db99e01c11d159af8451337dee6d85c28f3880fde2b29",
+    "code": "25737ad0d8d462c020f979d68f61d55e90b2e2668df0fb2d0a8008b19f7db7b7",
+    "corpus": "361064de9ca092fcd6a97649eb7daac7f01b03a084cb021f6e6d0b819c00180c",
+    "tokens": "64569cc7e32d060a398bb0dba55885712cb963aa4475dbaf847e795f4b4926f9",
+    "config": "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/config.json",
+    "frozen_fit_hashes": {
+      "r0": "9215ff51a78cfd3a5c9a8149332c17fe9a8d50a8571d6943f1cc2059fb52c833"
+    }
+  },
+  "own_fit_sha256": "9215ff51a78cfd3a5c9a8149332c17fe9a8d50a8571d6943f1cc2059fb52c833",
+  "max_target_error": 0.0,
+  "all_saved_loss_vector_arithmetic_passed": true
+}

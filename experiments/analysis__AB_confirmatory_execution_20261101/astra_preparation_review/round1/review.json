@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "snapshot_sha256": "cfb64df5ebad64dc22c0d35f4186c06ce2d727f856f07ebdece4e52080debd7e",
+  "reviewer_id": "/root/astra_preparation_audit",
+  "independent": true,
+  "verdict": "changes_requested",
+  "scope": "ROOT documentary methodology preparation only; no launch approval",
+  "launch_authorized": false,
+  "topics_checked": [
+    "design",
+    "estimands",
+    "stage gates",
+    "numerical qualification design",
+    "statistical dependency",
+    "reuse",
+    "claims scope"
+  ],
+  "findings": [
+    {
+      "id": "AP1",
+      "severity": "medium",
+      "status": "open",
+      "evidence": "PROTOCOL_B_CONTROLS.md:13,15 dose included twice in inconsistent notation",
+      "resolution": "Use h=c*delta_z and RMS(h); current forecast API dose applied once."
+    },
+    {
+      "id": "AP2",
+      "severity": "medium",
+      "status": "accepted",
+      "evidence": "sample_size_spec.json versus N_SELECTOR_DESIGN_ROOT.md PILOT-use and target justification",
+      "resolution": "Accepted as explicit draft gate; synchronized version required before PILOT, preserve active bindings."
+    },
+    {
+      "id": "AP3",
+      "severity": "medium",
+      "status": "accepted",
+      "evidence": "N_SELECTOR_DESIGN_ROOT.md unresolved B generator, bridge and stability precision",
+      "resolution": "Explicit pre-PILOT/additional-stability-FIT gates; not approval of readiness and not blocker to current r0 FIT."
+    },
+    {
+      "id": "AP4",
+      "severity": "low",
+      "status": "accepted",
+      "evidence": "ROOT_STAGE_HANDOFF.md qualification positive1e-6 versus allowed sham1e-5",
+      "resolution": "Refine fixed positive perturbation and signal-to-rounding evidence in limited B qualification before expansion."
+    }
+  ],
+  "report_sha256": "855bb2ee42512bb6c1a0fcbc1da55c97249a6d1de813cc7f5ad0eec78e01e54f",
+  "limitations": "Documentary review only; no pretrained calls, no live-run/corpus audit, no executable selector or launch approval. New snapshots require new review."
+}

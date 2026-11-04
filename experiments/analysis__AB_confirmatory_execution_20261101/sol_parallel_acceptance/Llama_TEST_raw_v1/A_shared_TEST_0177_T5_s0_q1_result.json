@@ -1,0 +1,41 @@
+{
+  "document": {
+    "id": "A_shared_TEST_0177_T5_s0_q1",
+    "donor": "A_shared_TEST_0177_T5_s1_q1",
+    "block": "A_shared_TEST_0177",
+    "study": "A",
+    "cohort": "shared",
+    "split": "TEST",
+    "index": 177,
+    "frame": "T5",
+    "side": 0,
+    "q": 1,
+    "text": "Everyone agrees that the absolver, unlike the telepathists,"
+  },
+  "files": {
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/completed/capture_A_shared_TEST_0177_T5_s0_q1.json": "625e9ea5ce05b91ce9df1ef09e667ca7337255a61d54186a73f3457a73611dbc",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/cache/36b31f784cb4557d95995661241776cffb76b7ab191ab3f448f928e688c56182.json": "1617971e0fb709b35b9823f30271ec4620e73daacc433f44be8b5e86bc5544bc",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/completed/capture_A_shared_TEST_0177_T5_s1_q1.json": "41c3d10207914a056fbf658eedfdd2b52ad979da9a45e5f00358100ac62499b7",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/cache/a1fe8b03e8c9813ef9a62111980e97d321226184dcd776ddac50f33d738cbc47.json": "22ec7e82939d956e588e244718983fdba6a60a0bf4d5c4f4f7e78d8aa189aeec",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/completed/suffix_A_shared_TEST_0177_T5_s0_q1_native.json": "342c4a8aecf40a881ddf8a3b305b6260e743883197cbc413ecbb960c6e28a4e3",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/cache/6c32ee956bcbd37948898f892052b78d1a38af312ffec0f1e4de8949035ca245.json": "3c9e942bc183af22a97f60e7d60649ff433938662a1cb6d03d6137fea56912d0",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/completed/suffix_A_shared_TEST_0177_T5_s0_q1_r0_P.json": "c8a5a30e6f1967ab50772196ca47d397539a90a3b16bf309c5dbea3dbd06dfe2",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/cache/dd0055cb671c1219eefe40233aeb013c955a8fae60b3db5989adcdc6f0419e2f.json": "1157590eabefeb820687abfcee2338ff3253ea6e5a6c1b9f4660bb2aecd518e5",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/completed/suffix_A_shared_TEST_0177_T5_s0_q1_r0_U0.json": "782d7d6154146c8779975cb1a8b9ec1130e954a4a55460044df3fb231fca1a86",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/cache/c9981e22b9e87b6055daa7fe68c70a5feaf36ef97057ce77addb0fdc212366fc.json": "e6b0cdd87ca961302000c0a2119efa979cc5d2794aa5336f675b29f6d8263485",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/results/r0/A_shared_TEST_0177_T5_s0_q1.json": "15213aedc24efd324d7a7cff73ea529bb70a0279ee76d00d3c21b3c6bd40a554"
+  },
+  "identity": {
+    "model": "5fb518228899f9c15e3db99e01c11d159af8451337dee6d85c28f3880fde2b29",
+    "code": "25737ad0d8d462c020f979d68f61d55e90b2e2668df0fb2d0a8008b19f7db7b7",
+    "corpus": "361064de9ca092fcd6a97649eb7daac7f01b03a084cb021f6e6d0b819c00180c",
+    "tokens": "64569cc7e32d060a398bb0dba55885712cb963aa4475dbaf847e795f4b4926f9",
+    "config": "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/config.json",
+    "frozen_fit_hashes": {
+      "r0": "9215ff51a78cfd3a5c9a8149332c17fe9a8d50a8571d6943f1cc2059fb52c833"
+    }
+  },
+  "own_fit_sha256": "9215ff51a78cfd3a5c9a8149332c17fe9a8d50a8571d6943f1cc2059fb52c833",
+  "max_target_error": 0.0,
+  "all_saved_loss_vector_arithmetic_passed": true
+}

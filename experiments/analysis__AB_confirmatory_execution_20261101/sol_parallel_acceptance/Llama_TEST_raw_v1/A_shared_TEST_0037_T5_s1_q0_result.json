@@ -1,0 +1,41 @@
+{
+  "document": {
+    "id": "A_shared_TEST_0037_T5_s1_q0",
+    "donor": "A_shared_TEST_0037_T5_s0_q0",
+    "block": "A_shared_TEST_0037",
+    "study": "A",
+    "cohort": "shared",
+    "split": "TEST",
+    "index": 37,
+    "frame": "T5",
+    "side": 1,
+    "q": 0,
+    "text": "Everyone agrees that the yagis, unlike the oximeter,"
+  },
+  "files": {
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/completed/capture_A_shared_TEST_0037_T5_s1_q0.json": "d7cf01c0b3a64ddf8f83ecfef6be75aceb31f5acd1da053693b2e80b72e0d37a",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/cache/aadc42450cf163edab3d122920915e73351ffba13574f821428e180cdb270a15.json": "9f9ec36c131baf62682da56a5cae8399e7fa76a63bb1766e5310d2d74ddae060",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/completed/capture_A_shared_TEST_0037_T5_s0_q0.json": "0a39c93ba03ed7d4ea15fd340c69ac0d29bfcb98d6c3d95a79a460f3722757ba",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/cache/e88ca8e9b9e61a8bef1459fbfb308bee8d35551ee715888cce00279716d5cf6c.json": "48d7588d2061ecbc3f935b3b03dce6da85ddac610bd96128c7bc9d5b2060c62c",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/completed/suffix_A_shared_TEST_0037_T5_s1_q0_native.json": "0ec09d993bcb1168f73e5ac5ab2a4734016efffb173a6f2e09dbdf6eab8862f9",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/cache/61ed90ade3cf0295db2664e699de4ec84dd215637caabf7fc57e343a55e53d55.json": "248ecc32bf70377c969bcae1616d4cb602b1e4f8de7caff2555aa87dd030602a",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/completed/suffix_A_shared_TEST_0037_T5_s1_q0_r0_P.json": "adefc9a7512cbebef3f6b91bab505ba65268bda49144904ca18d40c8a04740df",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/cache/f03eb1827939ca9e190e7e48d03522fac57fc93b3969e07b653b2ba96299affa.json": "0a5f8eaf9378194597c2a0a15708c5ca6befcad4a027b97d743c168914d1d7f6",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/completed/suffix_A_shared_TEST_0037_T5_s1_q0_r0_U0.json": "0ba2335f42c045a79823ac4080f4455119a327ab4b83dede4455af0c3680fd66",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/cache/75b088b1604c506c2345e4b4c99ab455d5f038fced3a10300fffdb5a1650bf50.json": "03f30bc0ce2446adb89065c7124adb7fc80a4fd18662b347d2e85ac84ba85390",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/results/r0/A_shared_TEST_0037_T5_s1_q0.json": "83e91a404b58e5ff1b6cfe040404d93f295d80b82279357c195bacdd051e2cac"
+  },
+  "identity": {
+    "model": "5fb518228899f9c15e3db99e01c11d159af8451337dee6d85c28f3880fde2b29",
+    "code": "25737ad0d8d462c020f979d68f61d55e90b2e2668df0fb2d0a8008b19f7db7b7",
+    "corpus": "361064de9ca092fcd6a97649eb7daac7f01b03a084cb021f6e6d0b819c00180c",
+    "tokens": "64569cc7e32d060a398bb0dba55885712cb963aa4475dbaf847e795f4b4926f9",
+    "config": "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/config.json",
+    "frozen_fit_hashes": {
+      "r0": "9215ff51a78cfd3a5c9a8149332c17fe9a8d50a8571d6943f1cc2059fb52c833"
+    }
+  },
+  "own_fit_sha256": "9215ff51a78cfd3a5c9a8149332c17fe9a8d50a8571d6943f1cc2059fb52c833",
+  "max_target_error": 0.0,
+  "all_saved_loss_vector_arithmetic_passed": true
+}

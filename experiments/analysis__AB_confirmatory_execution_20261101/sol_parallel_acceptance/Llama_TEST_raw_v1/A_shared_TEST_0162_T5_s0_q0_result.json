@@ -1,0 +1,41 @@
+{
+  "document": {
+    "id": "A_shared_TEST_0162_T5_s0_q0",
+    "donor": "A_shared_TEST_0162_T5_s1_q0",
+    "block": "A_shared_TEST_0162",
+    "study": "A",
+    "cohort": "shared",
+    "split": "TEST",
+    "index": 162,
+    "frame": "T5",
+    "side": 0,
+    "q": 0,
+    "text": "Everyone agrees that the lionet, unlike the staggerer,"
+  },
+  "files": {
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/completed/capture_A_shared_TEST_0162_T5_s0_q0.json": "e2bdcff59ca7bd3162fce2e36f609a3094decb202df928f3f4cb697aaf3ec9e2",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/cache/d1f91440fbe17ecfb1452518309aac4635376f910712c7c712116fa283413230.json": "1d60841aa24cbc5c09631eef4f9e66f9235b1207735bf3068bdb437801af8c37",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/completed/capture_A_shared_TEST_0162_T5_s1_q0.json": "1b6075a9db4294f8fe20cb372ca12ae7285b9322586025e39a18b7b6915d2265",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/cache/a86b9b82999d2eec823b53a507e176889c3105f88a10a310af6641203fdcc2e2.json": "7dac8c32e56322342468b2a0696c82981809b3da1892d230461ff24779b2d88a",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/completed/suffix_A_shared_TEST_0162_T5_s0_q0_native.json": "046b77b4a82d490e07c632b0f8f79dd343e616551b66fb1f5d1df4ced40992c4",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/cache/eb77cad288b0c608f62b91ad05d180d651d5475e158ee3739727712affba332b.json": "3520b13a385bb0e0889641c1849241b045742efe880c7880be11d174d0873c17",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/completed/suffix_A_shared_TEST_0162_T5_s0_q0_r0_P.json": "c3e7ced2cc6c62cc770b1212215208b8af6112f95831f4839600a16ac9b6353c",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/cache/79f156045b0fe04f0993e586a3b6ec36e126e1f35f600b3e73caca698cbd36cf.json": "98ebbddad9a8086c0575f89d85ffb40fce9ff4d2456e727dd5d2262c27b90687",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/completed/suffix_A_shared_TEST_0162_T5_s0_q0_r0_U0.json": "7682969ada2125685ed3a473d734522732ef3c6e2f8579f34122c69a8f22f66f",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/cache/66c8d4f3f8ef315acd82924e32d1d284b7f559a9cc4f559c6e28173b4d73e7f1.json": "7acef2e6cee38ec20e7c4dce08ae39d77c9f7fda0963c2f85b0937c01b896bd4",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/results/r0/A_shared_TEST_0162_T5_s0_q0.json": "8bdf7a59e1230724c9119153a729ff96f0858e542898ec83c736f0cde5c72202"
+  },
+  "identity": {
+    "model": "5fb518228899f9c15e3db99e01c11d159af8451337dee6d85c28f3880fde2b29",
+    "code": "25737ad0d8d462c020f979d68f61d55e90b2e2668df0fb2d0a8008b19f7db7b7",
+    "corpus": "361064de9ca092fcd6a97649eb7daac7f01b03a084cb021f6e6d0b819c00180c",
+    "tokens": "64569cc7e32d060a398bb0dba55885712cb963aa4475dbaf847e795f4b4926f9",
+    "config": "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/config.json",
+    "frozen_fit_hashes": {
+      "r0": "9215ff51a78cfd3a5c9a8149332c17fe9a8d50a8571d6943f1cc2059fb52c833"
+    }
+  },
+  "own_fit_sha256": "9215ff51a78cfd3a5c9a8149332c17fe9a8d50a8571d6943f1cc2059fb52c833",
+  "max_target_error": 0.0,
+  "all_saved_loss_vector_arithmetic_passed": true
+}

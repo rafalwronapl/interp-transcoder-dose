@@ -1,0 +1,26 @@
+{
+  "reviewer": "/root/astra_goals_and_concurrency_review",
+  "independent": true,
+  "status": "APPROVED_FOCUSED_DESCRIPTIVE_RECONSTRUCTION",
+  "files": {
+    "analysis/B_primary_summary_20261102/result.json": "e582a54e54e516671426d5c6fae36d5a44b679583cc97cd5e604325ce0b0d604",
+    "analysis/B_primary_summary_20261102/sources.json": "e220f16a7b9b08e1effdaae3b5d860f7c8bda616452324d9374bd07260ff7b2e",
+    "analysis/B_primary_summary_20261102/compute.py": "c12d94f0e5032f23156323599a43a5da85b8d4801f36613d77fa759bb04b9636",
+    "analysis/AB_confirmatory_execution_20261101/astra_goals_concurrency_review/b_primary_summary_20261102/independent_summary.json": "000d9a1c874b8e3dca83c03d5142088dbbfa4a716fa946a0a38879f3a9267ff4",
+    "analysis/AB_confirmatory_execution_20261101/astra_goals_concurrency_review/b_primary_summary_20261102/source_manifest.json": "3e63b209737d839594b21a0e5a661a3254b1bd0b6cd1f7fba5a138ce40d56676",
+    "analysis/AB_confirmatory_execution_20261101/astra_goals_concurrency_review/b_primary_summary_20261102/reconstruct.py": "55a1cefd110e42a773dc7fb78a0543584833f43fa7b5407a8f9b2eb1bceb73c4"
+  },
+  "raw_source_sets_equal": true,
+  "raw_records": 3072,
+  "blocks": 256,
+  "max_abs_method_numeric_difference": 4.263256414560601e-14,
+  "checked": [
+    "all3072actualrecordhashes match priorindependentrecipientproofs androotsealedsource set",
+    "independent256x2templatex2side tensor, allsixmethodmeans andpooledenergyRMSratios",
+    "allfivefiniteB1/B2/B3contrasts match root to floatingroundoff",
+    "currentroot compute script uses exactequalconditions and no populationdecision/bootstrap"
+  ],
+  "limitations": "Descriptive finitecorpus results only; failedoriginalfamilyqualification retained. No p/Holm/supportlabels or newconfidenceintervals. FullBofficialcompletionmetadata acceptance separate; all1536rawrecipientgroups alreadyindependentlyaudited. HistoricalPILOT comparison has differentcorpus/FITscope, not pairedcausalcomparison.",
+  "model_calls": 0,
+  "bootstrap_calls": 0
+}

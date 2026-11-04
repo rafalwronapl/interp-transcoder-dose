@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "snapshot_sha256": "85b0db98fa1df7068ddb4333906a4c300649eff006421a128053b514dd431332",
+  "reviewer_id": "/root/sol_ab_execution/single_capture_review",
+  "independent": true,
+  "verdict": "approved",
+  "topics_checked": ["design", "implementation", "data", "cost", "claims"],
+  "findings": [],
+  "limitations": "Approval covers exactly the frozen one-forward zero-backward natural technical capture, with canonical launch and live resource/process check by author. Independently reran both production tiny-Gemma/mock-loader tests (PASS), canonical preflight (PASS), actual tokenizer literal/answer-ID verification (PASS), and recomputed the exact snapshot (MATCH). No pretrained model was loaded or measured in review. Trained sham, nonzero sensitivity, statistical adequacy, fitting, transfer and A/B hypotheses are untested and receive no approval or evidential support. The explicit technical-only amendment is acceptable for this capture; later admission to FIT requires a newly reviewed compatibility/provenance check as the protocol states. Environment identity binds distribution versions, not every binary library byte. Raw-record completion and resource use remain subject to completion audit."
+}

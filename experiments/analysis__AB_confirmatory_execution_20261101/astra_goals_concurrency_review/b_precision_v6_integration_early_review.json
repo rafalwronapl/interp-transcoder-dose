@@ -1,0 +1,27 @@
+{
+  "reviewer": "/root/astra_goals_and_concurrency_review",
+  "scope": "Early source review; not future stage authorization",
+  "sources": {
+    "precision_candidate_v6.py": "669c4207cdf6cea5807b739aadcd2269241eec393e5218018bc7dcfed1a993d9",
+    "b_precision_calibration_v6.py": "8aa02bd3936ab511a59765ffa077479000879122a002e6976e6d3a1bcd82d05a",
+    "precision_eligibility_v6.py": "2637d93ed9525b9c9aa1134d0bb142e2af719b440f5ffa094a04cb5ac6a8c48a",
+    "selector_b_v6.py": "039a7c4ea82080f111113c4628c2a1756afadbadde52b4b25b0eae7cd7d3b7a2",
+    "final_analysis_b_v6.py": "09ee9144c0a7939b60f02dbca6dd871891f683affc9193e1a8a407f1de6150ab",
+    "worker_b_production_v6.py": "bfcaa17ec93dd5cfe9ef1ed5c1c9d4b8eb1ea6c0e285672e1e391738e198e7f3",
+    "prepare_precision_v6.py": "bf1e8e0c63946a799ca93681b7a6ff9963cc476c526377e2399bce36e219aa84",
+    "test_precision_integration_v6.py": "af78f4021995d2a2cee7fd4e6931bda3ed664aea451108e91553141dce9c2f63"
+  },
+  "resolved_findings": [
+    "TEST native admission now binds selector exact v6 method/precision specification and unchanged power specification before native worker.",
+    "Eligibility review paths resolve against manifest base.",
+    "Final evidence and selector budget now state direct1999 precision without obsolete20k bridge.",
+    "Candidate finite log-scale estimate replaces overflowing raw ratio; actual3PASS evidence bound.",
+    "Narrow calibration binds direct prepare.py dependency plus numerical tests; future adapter changes excluded."
+  ],
+  "remaining_requirements": [
+    "Actual calibration closure and independent acceptance before any v6 B PILOT.",
+    "Actual eligibility synthesis, native stage, selector and final packets require own exact snapshots and semantic acceptance.",
+    "No finite-scenario simulation establishes unseen-law or distribution-free coverage."
+  ],
+  "no_model_or_production_simulation_runs": true
+}

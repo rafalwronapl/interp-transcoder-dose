@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "snapshot_sha256": "7a915b3cf331909a0d50228b83c807ba210defbbe0781b7835a7b34fca9b32da",
+  "reviewer_id": "/root/astra_goals_and_concurrency_review",
+  "independent": true,
+  "verdict": "approved",
+  "topics_checked": [
+    "design",
+    "implementation",
+    "data",
+    "cost",
+    "claims"
+  ],
+  "findings": [
+    {
+      "id": "ACTIVE-V2-CPU-COMPATIBILITY",
+      "severity": "high",
+      "status": "resolved",
+      "evidence": "Initial v3 draft rejected active stability CPU2500/3256 because it only grandfathered A model5708/16848. Final policy adds exact cpu_slot1 lock hash and actual parent/child identities; no generic v2 allowance.",
+      "resolution": "Independently exercised final legacy_state against actual live table:managed_model PASS; exact A model and stability CPU chains/locks match. No worker stopped or restarted."
+    },
+    {
+      "id": "EXACT-A-B-OVERLAP",
+      "severity": "low",
+      "status": "accepted",
+      "evidence": "Shared output/stage locks preserved; two model slots, two CPU slots. Only exact smallB PILOT41389c7d with19776F/192B is admitted. Three focused fixtures cover occupiedA+newB+third rejection, wrongheavyjob/RAM rejection, active globalowner and namespace protection.",
+      "resolution": "Approve exact policy only; current A scientific process/source/cache unchanged. Canonical parent/child stage checks retained."
+    },
+    {
+      "id": "RESOURCE-GUARD",
+      "severity": "low",
+      "status": "accepted",
+      "evidence": "Latest policy records current freeRAM and2.5GiB minimum checked twice before B child, fixed small Gemma270M/TC/FIT footprints; no dtype/model substitution.",
+      "resolution": "Fail closed if available memory or ownership changes. Resource headroom estimated, no speedup guarantee."
+    }
+  ],
+  "limitations": "Focused runtime maintenance approval for exact active A model and A stability CPU plus exact approved early B PILOT. Read changed source, policy and focused test evidence; independently checked live locks/processes. No model/MC/numerical rerun. Full original v1/v2 workers and canonical gate/child source remain unchanged. All future launches use this narrow v3 policy; arbitrary Qwen/Llama/model jobs are not admitted. Native B remains data-only, family failures retained, no TEST/inference authorization. Memory check does not guarantee peak usage or faster wall-clock progress."
+}

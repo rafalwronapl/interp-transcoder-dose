@@ -1,0 +1,30 @@
+﻿{
+    "started_utc":  "2026-11-01T15:21:23.5696252Z",
+    "launcher_pid":  21916,
+    "arguments":  [
+                      "-X",
+                      "utf8",
+                      "-m",
+                      "concurrency_runtime_v3",
+                      "--snapshot",
+                      "analysis/AB_confirmatory_execution_20261101/B_pilot_early_v7/pre_run_snapshot_v1.json",
+                      "--review",
+                      "analysis/AB_confirmatory_execution_20261101/B_pilot_early_v7/pre_run_review_astra_v1.json",
+                      "--policy",
+                      "analysis/AB_confirmatory_execution_20261101/sol_parallel_acceptance/concurrency_migration_v3/migration_policy_v2.json",
+                      "--policy-snapshot",
+                      "analysis/AB_confirmatory_execution_20261101/sol_parallel_acceptance/concurrency_migration_v3/snapshot_v2.json",
+                      "--policy-review",
+                      "analysis/AB_confirmatory_execution_20261101/sol_parallel_acceptance/concurrency_migration_v3/review_astra_v2.json"
+                  ],
+    "snapshot":  "41389c7d2c95e0c06d15d783fae5564a67f7e80cffff57091324444862616e8b",
+    "migration_snapshot":  "7a915b3cf331909a0d50228b83c807ba210defbbe0781b7835a7b34fca9b32da",
+    "scope":  "EarlyB PILOT32blocks192docs;19776forward192backward;allmethods/doses/transfer;data-nuisance/descriptiveonly;noTESTorprimaryeligibilityclaim",
+    "status":  "launcher_started",
+    "free_RAM_KB":  2904340,
+    "preserved_A_parent":  5708,
+    "preserved_A_worker":  16848,
+    "preserved_CPU_parent":  2500,
+    "preserved_CPU_worker":  3256,
+    "mutable_STATUS_polling":  false
+}

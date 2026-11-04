@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "snapshot_sha256": "1a377cef40548a3c0afa45415c675be0faca6f71fba5840a8548dcb69091e369",
+  "reviewer_id": "/root/astra_preparation_audit",
+  "independent": true,
+  "verdict": "approved",
+  "topics_checked": [
+    "design",
+    "implementation",
+    "data",
+    "cost",
+    "claims"
+  ],
+  "findings": [
+    {
+      "id": "REC-SERIALIZATION",
+      "severity": "high",
+      "status": "resolved",
+      "evidence": "worker_b_serialization_recovery.publish plus actual shadow and numpy.float32 regression",
+      "resolution": "JSON-native conversion only; original measurement code/config/cache preserved."
+    },
+    {
+      "id": "REC-REFERENCE",
+      "severity": "high",
+      "status": "resolved",
+      "evidence": "Closed four-call unfused diagnostic, independent completion audit, explicit gate1 provenance and non-TC rechecks",
+      "resolution": "Original failed fused comparison retained; new reference exactly matches at unchanged cutoffs; no native recapture."
+    },
+    {
+      "id": "REC-BIND",
+      "severity": "medium",
+      "status": "resolved",
+      "evidence": "v3 snapshot binds completed reference raw ledger/cache/receipts, producer, packet and schedule",
+      "resolution": "Manifest-only correction; no repeated computations."
+    }
+  ],
+  "limitations": "Only1800 remaining B FIT forwards and0 new backwards; old64 operations must be reused. Includes scoped completion audit of4 new official-unfused references, not scientific faithfulness findings. Projected gate2 remains mandatory. No PILOT/TEST/statistical or A stability approval. Original failures preserved and full completion audit required. See pre_run_REPORT_v3.md."
+}

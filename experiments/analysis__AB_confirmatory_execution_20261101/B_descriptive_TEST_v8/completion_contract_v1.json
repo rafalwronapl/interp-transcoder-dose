@@ -1,0 +1,114 @@
+{
+  "schema_version": 1,
+  "id": "B_DESCRIPTIVE_ACTUAL_ACQUISITION_COMPLETION_V8",
+  "kind": "experiment",
+  "primary_agent": "/root",
+  "purpose": "Acceptanceofcompletefixed2561536doc159744opdescriptiveacquisition; no originalinferentialfamily/CIclaimbyclosure.",
+  "tracked_files": [
+    "ab_confirmatory_20261101/__init__.py",
+    "ab_confirmatory_20261101/admission_a_v2.py",
+    "ab_confirmatory_20261101/analyze_b_descriptive_v8.py",
+    "ab_confirmatory_20261101/b_precision_calibration_v6.py",
+    "ab_confirmatory_20261101/baselines_b.py",
+    "ab_confirmatory_20261101/campaign_authorization.py",
+    "ab_confirmatory_20261101/eligibility_calibration_v3.py",
+    "ab_confirmatory_20261101/eligibility_paths_v5.py",
+    "ab_confirmatory_20261101/fitting.py",
+    "ab_confirmatory_20261101/native.py",
+    "ab_confirmatory_20261101/native_tail_b.py",
+    "ab_confirmatory_20261101/offline_io_v3.py",
+    "ab_confirmatory_20261101/offline_io_v4.py",
+    "ab_confirmatory_20261101/precision.py",
+    "ab_confirmatory_20261101/precision_candidate_v6.py",
+    "ab_confirmatory_20261101/prepare.py",
+    "ab_confirmatory_20261101/prepare_b_descriptive_v8.py",
+    "ab_confirmatory_20261101/recovery_a_status_v1.py",
+    "ab_confirmatory_20261101/runtime.py",
+    "ab_confirmatory_20261101/schedule_a.py",
+    "ab_confirmatory_20261101/schedule_a_v2.py",
+    "ab_confirmatory_20261101/selector_v3.py",
+    "ab_confirmatory_20261101/statistics.py",
+    "ab_confirmatory_20261101/transcoder.py",
+    "ab_confirmatory_20261101/worker_a.py",
+    "ab_confirmatory_20261101/worker_a_estimation_v7.py",
+    "ab_confirmatory_20261101/worker_a_v2.py",
+    "ab_confirmatory_20261101/worker_b_descriptive_v8.py",
+    "ab_confirmatory_20261101/worker_b_evaluate.py",
+    "ab_confirmatory_20261101/worker_b_production_v2.py",
+    "analysis/AB_confirmatory_execution_20261101/B_descriptive_TEST_v8/config.json",
+    "analysis/AB_confirmatory_execution_20261101/B_descriptive_TEST_v8/corpus.json",
+    "analysis/AB_confirmatory_execution_20261101/B_descriptive_TEST_v8/cost.json",
+    "analysis/AB_confirmatory_execution_20261101/B_descriptive_TEST_v8/tokens.json",
+    "analysis/AB_confirmatory_execution_20261101/B_descriptive_authorization_v8/amendment.json",
+    "analysis/AB_confirmatory_execution_20261101/B_descriptive_authorization_v8/authorization.json",
+    "ab_confirmatory_20261101/test_b_descriptive_v8.py",
+    "analysis/AB_confirmatory_execution_20261101/B_descriptive_TEST_v8/focused_tests.json",
+    "analysis/A_estimation_v7/recovery_status_v1/focused_tests.json"
+  ],
+  "tracked_trees": [],
+  "input_manifests": [
+    "analysis/AB_confirmatory_execution_20261101/B_descriptive_TEST_v8/input_manifest.json",
+    "analysis/AB_confirmatory_execution_20261101/B_descriptive_TEST_v8/completion_outputs_manifest_v1.json"
+  ],
+  "gates": [
+    {
+      "id": "hooks",
+      "category": "hooks",
+      "evidence": "analysis/AB_confirmatory_execution_20261101/B_descriptive_TEST_v8/readiness.json",
+      "pointer": "/qualified_tail",
+      "op": "eq",
+      "expected": true,
+      "reason": "Exact prospective data-only TEST and accepted controls; all methods/cells retained, no validity gate relabelled."
+    },
+    {
+      "id": "data",
+      "category": "data",
+      "evidence": "analysis/AB_confirmatory_execution_20261101/B_descriptive_TEST_v8/readiness.json",
+      "pointer": "/documents",
+      "op": "eq",
+      "expected": 1536,
+      "reason": "Exact prospective data-only TEST and accepted controls; all methods/cells retained, no validity gate relabelled."
+    },
+    {
+      "id": "pilot",
+      "category": "pilot",
+      "evidence": "analysis/AB_confirmatory_execution_20261101/B_descriptive_TEST_v8/readiness.json",
+      "pointer": "/primary_inference_authorized",
+      "op": "eq",
+      "expected": false,
+      "reason": "Exact prospective data-only TEST and accepted controls; all methods/cells retained, no validity gate relabelled."
+    },
+    {
+      "id": "accounting",
+      "category": "accounting",
+      "evidence": "analysis/AB_confirmatory_execution_20261101/B_descriptive_TEST_v8/readiness.json",
+      "pointer": "/new_FIT_calls",
+      "op": "eq",
+      "expected": 0,
+      "reason": "Exact prospective data-only TEST and accepted controls; all methods/cells retained, no validity gate relabelled."
+    },
+    {
+      "id": "restart",
+      "category": "restart",
+      "evidence": "analysis/AB_confirmatory_execution_20261101/B_descriptive_TEST_v8/readiness.json",
+      "pointer": "/raw_complete_required",
+      "op": "eq",
+      "expected": true,
+      "reason": "Exact prospective data-only TEST and accepted controls; all methods/cells retained, no validity gate relabelled."
+    }
+  ],
+  "circuits": [],
+  "structural_scope": "Unchanged qualified layer15 B native-tail measurement; only descriptive resource/sample admission and telemetry/hash I/O adapted.",
+  "entrypoint": {
+    "module": "ab_confirmatory_20261101.worker_b_descriptive_v8",
+    "args": [
+      "--config",
+      "analysis/AB_confirmatory_execution_20261101/B_descriptive_TEST_v8/config.json"
+    ]
+  },
+  "schedule": "analysis/AB_confirmatory_execution_20261101/B_descriptive_TEST_v8/operations.json",
+  "budget": {
+    "forward": 158208,
+    "backward": 1536
+  }
+}

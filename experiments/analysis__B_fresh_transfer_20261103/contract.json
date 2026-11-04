@@ -1,0 +1,81 @@
+{
+  "schema_version": 1,
+  "id": "B_FRESH_TRANSFER_20261103",
+  "kind": "experiment",
+  "primary_agent": "/root/next_b_fresh",
+  "purpose": "Fresh fixed-norm direction confirmation and grammatical object-pronoun readout transfer",
+  "tracked_files": [
+    "analysis/B_fresh_transfer_20261103/worker.py",
+    "analysis/B_fresh_transfer_20261103/prepare.py",
+    "analysis/B_fresh_transfer_20261103/common.py",
+    "analysis/B_fresh_transfer_20261103/PLAN.txt",
+    "analysis/B_fresh_transfer_20261103/corpus.json",
+    "analysis/B_fresh_transfer_20261103/config.json",
+    "analysis/B_fresh_transfer_20261103/controls.json",
+    "analysis/B_fresh_transfer_20261103/fixtures.py",
+    "analysis/B_fresh_transfer_20261103/fixtures.json",
+    "analysis/B_fresh_transfer_20261103/input_manifest.json"
+  ],
+  "tracked_trees": [],
+  "input_manifests": [
+    "analysis/B_fresh_transfer_20261103/input_manifest.json"
+  ],
+  "gates": [
+    {
+      "id": "hooks",
+      "category": "hooks",
+      "evidence": "analysis/B_fresh_transfer_20261103/fixtures.json",
+      "pointer": "/hooks",
+      "op": "eq",
+      "expected": true,
+      "reason": "Actual worker synthetic end-to-end hooks controls; literal corpus contextual tokenizer assertions run by preparation"
+    },
+    {
+      "id": "data",
+      "category": "data",
+      "evidence": "analysis/B_fresh_transfer_20261103/fixtures.json",
+      "pointer": "/data",
+      "op": "eq",
+      "expected": true,
+      "reason": "Actual worker synthetic end-to-end data controls; literal corpus contextual tokenizer assertions run by preparation"
+    },
+    {
+      "id": "pilot",
+      "category": "pilot",
+      "evidence": "analysis/B_fresh_transfer_20261103/fixtures.json",
+      "pointer": "/pilot",
+      "op": "eq",
+      "expected": true,
+      "reason": "Actual worker synthetic end-to-end pilot controls; literal corpus contextual tokenizer assertions run by preparation"
+    },
+    {
+      "id": "accounting",
+      "category": "accounting",
+      "evidence": "analysis/B_fresh_transfer_20261103/fixtures.json",
+      "pointer": "/accounting",
+      "op": "eq",
+      "expected": true,
+      "reason": "Actual worker synthetic end-to-end accounting controls; literal corpus contextual tokenizer assertions run by preparation"
+    },
+    {
+      "id": "restart",
+      "category": "restart",
+      "evidence": "analysis/B_fresh_transfer_20261103/fixtures.json",
+      "pointer": "/restart",
+      "op": "eq",
+      "expected": true,
+      "reason": "Actual worker synthetic end-to-end restart controls; literal corpus contextual tokenizer assertions run by preparation"
+    }
+  ],
+  "circuits": [],
+  "structural_scope": "L15 postfeedforward output replacement reaches both later decoder blocks and readout; exact dynamic suffix adapter plus signed sensitivity controls.",
+  "entrypoint": {
+    "module": "analysis.B_fresh_transfer_20261103.worker",
+    "args": []
+  },
+  "schedule": "analysis/B_fresh_transfer_20261103/schedule.json",
+  "budget": {
+    "forward": 3088,
+    "backward": 0
+  }
+}

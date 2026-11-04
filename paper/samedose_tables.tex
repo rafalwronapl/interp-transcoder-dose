@@ -1,0 +1,46 @@
+\section{All strata of the same-dose residual and switch tests}\label{app:samedose}
+These 32 previously observed blocks (indices 16--47) are distinct from the earlier 16-block baseline-error-swap sample. Each template/operator/dose stratum contains 64 contexts. The pooled rows combine three templates, 192 contexts. Means are squared-logit readout errors; no resampling or population inference is introduced here.
+\begin{table}[!ht]\centering\scriptsize
+\setlength{\tabcolsep}{3pt}
+\begin{tabular}{lrrrrrr}\toprule
+Stratum & $c$ & RR & partner1 & partner7 & FROZEN & BASE\\\midrule
+pooled/full & 0.05 & 0.00293709 & 0.00389121 & 0.0035735 & 0.00265269 & 0.00265269\\
+pooled/full & 1.0 & 0.111526 & 0.149397 & 0.186591 & 10.5638 & 8.75787\\
+pooled/projected & 0.05 & 0.00263151 & 0.00687211 & 0.00569738 & 0.00226307 & 0.00226303\\
+pooled/projected & 1.0 & 0.121187 & 0.236412 & 0.252004 & 8.68375 & 7.40691\\
+so/full & 0.05 & 0.00417757 & 0.00621664 & 0.00595314 & 0.0042204 & 0.0042204\\
+so/full & 1.0 & 0.121832 & 0.164722 & 0.163311 & 17.8439 & 14.0759\\
+so/projected & 0.05 & 0.00333393 & 0.00977587 & 0.00759232 & 0.00336507 & 0.00336501\\
+so/projected & 1.0 & 0.122582 & 0.300486 & 0.316593 & 14.9351 & 12.2521\\
+transfer/full & 0.05 & 0.00179935 & 0.00244838 & 0.00163993 & 0.00139815 & 0.00139811\\
+transfer/full & 1.0 & 0.110315 & 0.137047 & 0.225728 & 4.04231 & 3.67423\\
+transfer/projected & 0.05 & 0.00191576 & 0.00458449 & 0.00447688 & 0.00122532 & 0.00122529\\
+transfer/projected & 1.0 & 0.1204 & 0.199773 & 0.256423 & 3.36569 & 3.23866\\
+when/full & 0.05 & 0.00283435 & 0.00300863 & 0.00312743 & 0.00233952 & 0.00233956\\
+when/full & 1.0 & 0.102432 & 0.146423 & 0.170734 & 9.80522 & 8.52347\\
+when/projected & 0.05 & 0.00264484 & 0.00625597 & 0.00502293 & 0.00219883 & 0.00219878\\
+when/projected & 1.0 & 0.120578 & 0.208976 & 0.182995 & 7.75049 & 6.72996\\
+\bottomrule\end{tabular}
+\caption{Residual directions and references. All accepted strata, including negative small-dose contrasts. BASE fixes the mask while retaining endpoint activation magnitudes; it is not defined as the archived linear frozen-mask predictor.}\end{table}
+\begin{table}[!ht]\centering\scriptsize
+\setlength{\tabcolsep}{3pt}
+\begin{tabular}{lrrrrrrr}\toprule
+Stratum & $c$ & ONLY\_top & EXCEPT\_top & ONLY\_random & EXCEPT\_random & ON & OFF\\\midrule
+pooled/full & 0.05 & 0.00292583 & 0.00265264 & 0.00265325 & 0.00293671 & 0.00266263 & 0.00293565\\
+pooled/full & 1.0 & 0.104627 & 8.93294 & 8.75817 & 0.111598 & 0.110022 & 8.75681\\
+pooled/projected & 0.05 & 0.00263718 & 0.00225158 & 0.00226303 & 0.00263151 & 0.00242625 & 0.00247379\\
+pooled/projected & 1.0 & 0.117823 & 7.45841 & 7.40661 & 0.121182 & 0.120428 & 7.40282\\
+so/full & 0.05 & 0.00430413 & 0.00408945 & 0.0042204 & 0.00417757 & 0.00416564 & 0.00424086\\
+so/full & 1.0 & 0.108445 & 14.4942 & 14.0759 & 0.121832 & 0.120206 & 14.0876\\
+so/projected & 0.05 & 0.00345424 & 0.00324405 & 0.00336501 & 0.00333393 & 0.00339914 & 0.00332126\\
+so/projected & 1.0 & 0.110681 & 12.3368 & 12.2521 & 0.122582 & 0.122454 & 12.251\\
+transfer/full & 0.05 & 0.00179911 & 0.00139419 & 0.00139811 & 0.00179935 & 0.00160703 & 0.00159406\\
+transfer/full & 1.0 & 0.112731 & 3.74614 & 3.67423 & 0.110315 & 0.110042 & 3.6906\\
+transfer/projected & 0.05 & 0.00192862 & 0.0012172 & 0.00122529 & 0.00191576 & 0.001712 & 0.00143369\\
+transfer/projected & 1.0 & 0.125113 & 3.31099 & 3.23866 & 0.1204 & 0.120207 & 3.25025\\
+when/full & 0.05 & 0.00267425 & 0.0024743 & 0.00234124 & 0.0028332 & 0.00221521 & 0.00297204\\
+when/full & 1.0 & 0.0927059 & 8.55847 & 8.52438 & 0.102648 & 0.099819 & 8.49221\\
+when/projected & 0.05 & 0.00252867 & 0.00229349 & 0.00219878 & 0.00264484 & 0.00216759 & 0.0026664\\
+when/projected & 1.0 & 0.117675 & 6.7274 & 6.72906 & 0.120564 & 0.118622 & 6.7072\\
+\bottomrule\end{tabular}
+\caption{Selective switch arms. All accepted strata, including negative small-dose contrasts. BASE fixes the mask while retaining endpoint activation magnitudes; it is not defined as the archived linear frozen-mask predictor.}\end{table}

@@ -1,0 +1,35 @@
+{
+  "document": {
+    "id": "A_shared_TEST_0209_T5_s0_q1",
+    "donor": "A_shared_TEST_0209_T5_s1_q1",
+    "block": "A_shared_TEST_0209",
+    "study": "A",
+    "cohort": "shared",
+    "split": "TEST",
+    "index": 209,
+    "frame": "T5",
+    "side": 0,
+    "q": 1,
+    "text": "Everyone agrees that the paraplegic, unlike the maypoles,"
+  },
+  "files": {
+    "analysis/A_short_replication_qwen_20261101/TEST_fixed256_v3/run/completed/capture_A_shared_TEST_0209_T5_s0_q1.json": "c4522ec23c85c99591efbda442b14daf8c1cf480787e5863ef502aab03abddd4",
+    "analysis/A_short_replication_qwen_20261101/TEST_fixed256_v3/run/cache/a730556e3accc44775802ec4d63b7acedc0f33373be0ca3814216a7db6a569c0.json": "10f6d7c58dcfc9ed867afc1d231fc1dd26611c74121ac52c96ecb76ea7dfa65e",
+    "analysis/A_short_replication_qwen_20261101/TEST_fixed256_v3/run/completed/capture_A_shared_TEST_0209_T5_s1_q1.json": "1fe0edaae4b4c4268ba827638b7b54d35c02eb7dddf2bc3b06b528ece51b72cb",
+    "analysis/A_short_replication_qwen_20261101/TEST_fixed256_v3/run/cache/de3ed4114a0f1d53d82079ea0e94ab9a00c359545867c2eab88cc4bf2cab87f1.json": "e72222c216728db86fef424454968dd22576710292f8735be353681a9b4479f7",
+    "analysis/A_short_replication_qwen_20261101/TEST_fixed256_v3/run/completed/suffix_A_shared_TEST_0209_T5_s0_q1_native.json": "479bedd33dcb74112b741c2c220ad2f5f1d35bed7f8a83f63937632e569c0923",
+    "analysis/A_short_replication_qwen_20261101/TEST_fixed256_v3/run/cache/c9de3f1262e17f98ab2db71ec675db1630f67398a128de453ffc88f98973777c.json": "42fcd1e6b797cbf3df5b301f1eefbf570caa76e5ded0f2c595937d48f60674f3",
+    "analysis/A_short_replication_qwen_20261101/TEST_fixed256_v3/run/completed/suffix_A_shared_TEST_0209_T5_s0_q1_P.json": "c4af2825e5f6966bbb8135c5642589a98f6ad0bcdf67e2accc9c5381ae56e001",
+    "analysis/A_short_replication_qwen_20261101/TEST_fixed256_v3/run/cache/e7dcc507c96838546d73d9fdb0174ca000b352256308efbd739409bbf8a34517.json": "703aa93a6c1b723f36dad95e3e2f71530ae476974e3d28c2fde1062fb09ced2b",
+    "analysis/A_short_replication_qwen_20261101/TEST_fixed256_v3/run/completed/suffix_A_shared_TEST_0209_T5_s0_q1_U0.json": "8f013c19d38ea9bb40bf85fdcacabd249124bc31c9add0d595bed1879dd17bbe",
+    "analysis/A_short_replication_qwen_20261101/TEST_fixed256_v3/run/cache/b4e6f4d57116ccf9184e61c640820b29dfa4427552a87e471bea75fc70c657e4.json": "f17c100b268208eff9c3e3e09b6ab8e23f6417979c11ed4ff5feb0be0d4ea089",
+    "analysis/A_short_replication_qwen_20261101/TEST_fixed256_v3/run/results/A_shared_TEST_0209_T5_s0_q1.json": "0bbf78343d1df249d20b1863e74398ab7ebef1401c610960aece00cc3417eb36"
+  },
+  "identity": {
+    "model": "6c0a47f03e2523c9a91ba0c2d0619671e7ab16f1b27a2cd039742997148c9269",
+    "code": "a7e0eb7c001d76058f8622dd71c6073784e9c3472bc2bdfbea4184b2cbba1bb5"
+  },
+  "own_fit_sha256": "56d4c8fe1448ff02683ab4b001243d56b983c128e33d65811919b54e23af4ccc",
+  "max_target_error": 0.0,
+  "all_saved_loss_vector_arithmetic_passed": true
+}

@@ -1,0 +1,20 @@
+{
+    "scope":  "1800remainingforward;0newbackward;reuse64oldopsand4newunfusedrefs;projectedgate2required",
+    "arguments":  [
+                      "-m",
+                      "research_checks",
+                      "launch",
+                      "--snapshot",
+                      "analysis/AB_confirmatory_execution_20261101/B_fit_reference_recovery_v2/pre_run_snapshot_v3.json",
+                      "--review",
+                      "analysis/AB_confirmatory_execution_20261101/B_fit_reference_recovery_v2/pre_run_review_v3.json"
+                  ],
+    "launcher_pid":  4500,
+    "existing_python_pids":  [
+                                 4428,
+                                 12416
+                             ],
+    "started_utc":  "2026-11-01T10:46:48.8498872Z",
+    "snapshot":  "1a377cef40548a3c0afa45415c675be0faca6f71fba5840a8548dcb69091e369",
+    "status":  "launcher_started_measurements_not_yet_confirmed"
+}

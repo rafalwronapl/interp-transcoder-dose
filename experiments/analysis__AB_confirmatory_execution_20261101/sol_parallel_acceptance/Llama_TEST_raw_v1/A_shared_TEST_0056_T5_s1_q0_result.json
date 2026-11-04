@@ -1,0 +1,41 @@
+{
+  "document": {
+    "id": "A_shared_TEST_0056_T5_s1_q0",
+    "donor": "A_shared_TEST_0056_T5_s0_q0",
+    "block": "A_shared_TEST_0056",
+    "study": "A",
+    "cohort": "shared",
+    "split": "TEST",
+    "index": 56,
+    "frame": "T5",
+    "side": 1,
+    "q": 0,
+    "text": "Everyone agrees that the pocketcombs, unlike the bidet,"
+  },
+  "files": {
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/completed/capture_A_shared_TEST_0056_T5_s1_q0.json": "f0d3229c854cbf6356dd6c588e2f992afbc341e322b7f6061f707ea5476f0cb8",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/cache/1cc1a9a0fb044f12ae0469b4b59e5d36a30f08a16ab8125ca81239bbd54dbc84.json": "fe2056fd38ae5108c955962647a996cb4e90f29c8f70b2de288f605f5154fe5c",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/completed/capture_A_shared_TEST_0056_T5_s0_q0.json": "ca7ca5f6ee09e92cc7aa6e1b1fd12d9eb366169647f9891e89169558e6c2bce5",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/cache/d462764156c259c3500832977aeb2ad0e19ab283bf8c08ed9283877a7ca3b1d2.json": "2391e99b4e19be6c103234721f532a3038cce4387934ed0bbcde8b7bb9c90bdd",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/completed/suffix_A_shared_TEST_0056_T5_s1_q0_native.json": "4413b437e0737d553fade72f58f8f181a1477aebf73fe91704bc7a7437dccd43",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/cache/575e9a5778905a65164abe33ae204be2d2caf39301c9eef4c536a9c248fe2589.json": "be68bf855413f5e3cfb02147361d5eab2f11fd15c952ba2a408fbe01e01317b9",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/completed/suffix_A_shared_TEST_0056_T5_s1_q0_r0_P.json": "8cfb85cbd17b69ce84b9a68b0cf3fe64c8ee490de8108e1c470a4bc75b4a4e13",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/cache/93b32863eb0ce14ddbaea73723a0c5293bd55ff1e9e1555f5aa4f80330e1b543.json": "c98c19791a1f08b4751ced4a5ac00c83bfc655831fcd37a2eace8b5dc48645a3",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/completed/suffix_A_shared_TEST_0056_T5_s1_q0_r0_U0.json": "88a1cbfa474d00baac654b5c7503222d01034af74d9a4a506eaa6e1ef3dfd919",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/cache/73b0ab388cf211d9d837d38f7096dedda8507f007f7b3f16934998b8cd1571d9.json": "f5678cf1b56ec300c2d4895ba0973cd4528d70e897dd17d80b32e95c63abf5d9",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/results/r0/A_shared_TEST_0056_T5_s1_q0.json": "0cd3001e1d635c7539e00fe28b7dd3b2b664db42656e8da21cdd8ef9d096947f"
+  },
+  "identity": {
+    "model": "5fb518228899f9c15e3db99e01c11d159af8451337dee6d85c28f3880fde2b29",
+    "code": "25737ad0d8d462c020f979d68f61d55e90b2e2668df0fb2d0a8008b19f7db7b7",
+    "corpus": "361064de9ca092fcd6a97649eb7daac7f01b03a084cb021f6e6d0b819c00180c",
+    "tokens": "64569cc7e32d060a398bb0dba55885712cb963aa4475dbaf847e795f4b4926f9",
+    "config": "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/config.json",
+    "frozen_fit_hashes": {
+      "r0": "9215ff51a78cfd3a5c9a8149332c17fe9a8d50a8571d6943f1cc2059fb52c833"
+    }
+  },
+  "own_fit_sha256": "9215ff51a78cfd3a5c9a8149332c17fe9a8d50a8571d6943f1cc2059fb52c833",
+  "max_target_error": 0.0,
+  "all_saved_loss_vector_arithmetic_passed": true
+}

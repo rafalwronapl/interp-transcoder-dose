@@ -1,0 +1,5 @@
+# B fixed256 descriptive TEST acquisition completion
+
+All256prespecified blocks/1536documents completed the unchanged qualified native measurement grid:158208forward+1536backward operations, all sixmethods/doses/bothoperators and transfer,18432resultcells. Frozen ownFIT/qualifiedtail were reused without recapture/refit. All159744operations and158208callback caches are durable; final canonical runtime exited0. Cost categories are retained exactly from the frozen cost.json.
+
+This is the prospectively authorized resource-capped DESCRIPTIVE branch. Both original Bfamily candidateNs remained ineligible; no originalB1-B3family p/Holm/support claim or80percentpower assurance is authorized. No resultstatistic/CI/bootstrap is calculated by this closure. The separately frozen analyzer may report all finite-corpus cells and only the qualified TCc1joint12v6intervals after accepted closure and its own reviewed zeromodelpacket. Independent completion acceptance is pending; all failures/negative controls/transfer remain preserved, no complete-case selection.

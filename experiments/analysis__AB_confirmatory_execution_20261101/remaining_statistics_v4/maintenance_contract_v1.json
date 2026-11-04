@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "id": "AB_offline_remaining_statistics_v4_preparation",
+  "kind": "maintenance",
+  "primary_agent": "/root/astra_remaining_statistics",
+  "purpose": "Review new runnable offline A/B analysis, selector and calibration preparation, including prospective1999production amendment; no campaign/model launch authority.",
+  "tracked_files": [
+    "ab_confirmatory_20261101/__init__.py",
+    "ab_confirmatory_20261101/analysis_ab_v3.py",
+    "ab_confirmatory_20261101/analysis_ab_v4.py",
+    "ab_confirmatory_20261101/benchmark_offline_v3.py",
+    "ab_confirmatory_20261101/eligibility_calibration_v3.py",
+    "ab_confirmatory_20261101/offline_io_v3.py",
+    "ab_confirmatory_20261101/offline_io_v4.py",
+    "ab_confirmatory_20261101/precision.py",
+    "ab_confirmatory_20261101/safe_statistics.py",
+    "ab_confirmatory_20261101/selector_tests_v3.py",
+    "ab_confirmatory_20261101/selector_tests_v4.py",
+    "ab_confirmatory_20261101/selector_v3.py",
+    "ab_confirmatory_20261101/selector_v4.py",
+    "ab_confirmatory_20261101/stability_validation_v3.py",
+    "ab_confirmatory_20261101/stability_validation_v4.py",
+    "ab_confirmatory_20261101/statistics.py",
+    "ab_confirmatory_20261101/validation.py",
+    "analysis/AB_confirmatory_execution_20261101/remaining_statistics_v3/DESIGN_AMENDMENT_1.md",
+    "analysis/AB_confirmatory_execution_20261101/remaining_statistics_v3/DESIGN_FROZEN_V3.md",
+    "analysis/AB_confirmatory_execution_20261101/remaining_statistics_v3/HANDOFF.md",
+    "analysis/AB_confirmatory_execution_20261101/remaining_statistics_v3/correctness_tests_v3.json",
+    "analysis/AB_confirmatory_execution_20261101/remaining_statistics_v4/HANDOFF.md",
+    "analysis/AB_confirmatory_execution_20261101/remaining_statistics_v4/PROSPECTIVE_AMENDMENT.md",
+    "analysis/AB_confirmatory_execution_20261101/remaining_statistics_v4/correctness_tests_v4.json",
+    "research_checks/__init__.py",
+    "research_checks/gate.py",
+    "research_checks/persistence.py"
+  ],
+  "tracked_trees": [],
+  "input_manifests": [
+    "analysis/AB_confirmatory_execution_20261101/remaining_statistics_v4/review_inputs_v1.json"
+  ],
+  "gates": [
+    {
+      "id": "shared_kernel_tests",
+      "category": "implementation",
+      "evidence": "analysis/AB_confirmatory_execution_20261101/remaining_statistics_v3/correctness_tests_v3.json",
+      "pointer": "/payload/tests_run",
+      "op": "eq",
+      "expected": 14,
+      "reason": "Preserved independent-seeded kernel/provenance tests; reviewer inspects actual tests."
+    },
+    {
+      "id": "v4_tests",
+      "category": "implementation",
+      "evidence": "analysis/AB_confirmatory_execution_20261101/remaining_statistics_v4/correctness_tests_v4.json",
+      "pointer": "/payload/exit_code",
+      "op": "eq",
+      "expected": 0,
+      "reason": "New v4draw/count/restart tests passed."
+    }
+  ],
+  "circuits": [],
+  "structural_scope": "Offline NumPy/SciPy statistics only; no native model, hooks, interventions or reduced circuit.",
+  "entrypoint": null,
+  "schedule": null,
+  "budget": null
+}

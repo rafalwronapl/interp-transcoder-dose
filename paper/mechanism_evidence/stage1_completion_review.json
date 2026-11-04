@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "snapshot_sha256": "a6e083a6d91cd3e350377d71393f08d158277b58f770bed865208fd5567fb926",
+  "reviewer_id": "/root/astra_b_mechanism_execution_plan",
+  "independent": true,
+  "verdict": "approved",
+  "topics_checked": [
+    "design",
+    "implementation",
+    "data",
+    "cost",
+    "claims"
+  ],
+  "findings": [
+    {
+      "id": "BMECH-COMPLETE-NUMERIC",
+      "severity": "low",
+      "status": "accepted",
+      "evidence": "Independent review_completion.py reconstructed all384 cells from adopted native/TC and new arm caches, verified1920 new FP32 targets, all signed errors/losses/four contrasts and12 balanced strata plus pooled summary. COMPLETION_NUMERIC_REVIEW.json is bound in the actual completion snapshot.",
+      "resolution": "All checks passed without model execution or resampling. Pooled losses RR0.0632549890, PR0.4707358868, RP0.0424595326, PP0.0930949160; parallel0.0651852340, perpendicular0.00003509561. These are descriptive squared logit errors, not mechanism shares."
+    },
+    {
+      "id": "BMECH-COMPLETE-COST",
+      "severity": "low",
+      "status": "accepted",
+      "evidence": "Independent ledger inspection verified2704 unique attempted operations exactly equal computed and scheduled sets:2316 suffixF and388 suffixB. All4 controls independently rechecked against cached gradients and finite signed margins. One durable model-load attempt; zero aliases, undefined slots or uncertain operations.",
+      "resolution": "Runtime exit0 and closure summary bound; no full forwards, TC evaluations, fitting, retries or scientific sample expansion. Canonical completion verification checks sealed file bytes."
+    },
+    {
+      "id": "BMECH-COMPLETE-HETEROGENEITY",
+      "severity": "low",
+      "status": "accepted",
+      "evidence": "Report retains all12 frame/operator/dose strata. All six c=.05 strata have shuffled norm increases for32/32 cells and higher PR loss, but norm-matched RP loss is lower than RR in each. At c=1, RP is worse in all3 full-patch strata and better in all3 projected strata. Norm increases336/decreases48 overall.",
+      "resolution": "Interpret magnitude/direction effects conditionally. A favorable original direction for full c=1 does not imply universally favorable TC geometry. Large factorial interactions prevent additive percentage attribution. Parallel/perpendicular intervention examines local readout sensitivity, not downstream layer localization or TC training causes."
+    },
+    {
+      "id": "BMECH-COMPLETE-REPORT-BINDING",
+      "severity": "medium",
+      "status": "resolved",
+      "evidence": "Initial closer did not include reporter and displayed reports. Final completion snapshot explicitly binds report_stage1.py, STAGE1_SUMMARY.json, STAGE1_REPORT.md and independent numeric review source/proof.",
+      "resolution": "Verified actual snapshot payload digest and current hash equality of all five report/review artifacts before approval."
+    }
+  ],
+  "limitations": "Approved only completed stage1 fixed384-cell posthoc oracle diagnosis on16 cyclically coupled old TEST blocks, not a fresh holdout, population claim, restored B-family eligibility, general mechanism explanation or worldwide priority. Reviewer authored the execution plan but not worker, geometry or reporter; independent all-cell scalar/target and accounting audit performed with zero model calls. Full historical raw acquisition was not re-audited; accepted original qualification/provenance reused. Full byte integrity is additionally enforced by canonical completion snapshot verification. Stage0 full18432-cell offline analysis is separate and was not completed at this review; its results are not certified here."
+}

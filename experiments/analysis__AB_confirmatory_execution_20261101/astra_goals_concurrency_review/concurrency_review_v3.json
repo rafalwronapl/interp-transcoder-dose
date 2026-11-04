@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "snapshot_sha256": "c1089be1d7ee60a297dfc84d3211088c516dffa8592f98ee506348db8bbc85ea",
+  "reviewer_id": "/root/astra_goals_and_concurrency_review",
+  "independent": true,
+  "verdict": "approved",
+  "topics_checked": [
+    "design",
+    "implementation",
+    "data",
+    "cost",
+    "claims"
+  ],
+  "findings": [
+    {
+      "id": "CONFIG-NAMESPACE",
+      "severity": "high",
+      "status": "resolved",
+      "evidence": "Initial extractor ignored actual A/B --config-only contracts. Corrected source verifies config membership/hash in original accepted snapshot and derives resolved config.output; actual packet tests pass.",
+      "resolution": "Resolved before approved snapshot; changed contract sharing same output retains namespace exclusion."
+    },
+    {
+      "id": "LEGACY-QUEUE-RACE",
+      "severity": "high",
+      "status": "resolved",
+      "evidence": "Bypassing legacy CPU global lock could allow old native queues at CPU completion. Source rejects original queue identities and recognizable replacement script PIDs.",
+      "resolution": "Runtime fails closed until exact idle queues retired. All future cooperative launch actors must use v1; old live CPU lock is never removed."
+    },
+    {
+      "id": "FINAL-CPU-ALLOWLIST",
+      "severity": "medium",
+      "status": "resolved",
+      "evidence": "v2 omitted final_analysis_v5. v3 adds the actual reviewed final analysis builder entrypoint.",
+      "resolution": "Final analyses supported with zero-budget classification intact."
+    },
+    {
+      "id": "MIGRATION-SCOPE",
+      "severity": "low",
+      "status": "accepted",
+      "evidence": "Workflow guard, not OS sandbox. Legacy bypass requires exact active reviewed Bprecision snapshot/token/hash and PID creation/command chain. One new CPU lane and one native lane; direct family CPU preserved.",
+      "resolution": "Unknown/stale identities fail closed; no worker restart/cache deletion. Concurrent timing must disclose contention."
+    }
+  ],
+  "limitations": "Additive concurrency migration maintenance only. Independently read actual source, policy, canonical gate/child and real A/B contracts; reran all7 cheap tests PASS; reproduced canonical v3 snapshot exactly. No model or Monte Carlo run. Existing gate/worker/source identities unchanged. Approval does not waive scientific reviews or assert legacy queues already retired. Runtime requires their absence and exact reviewed legacy CPU ownership; executor retires only verified idle queue watchers and routes all future jobs through v1. External uncooperative launchers outside this workflow guard. Canonical child verification mandatory before worker import. Goal audit separate GOAL_AUDIT.md with28-source manifest, not raw-result recertification."
+}

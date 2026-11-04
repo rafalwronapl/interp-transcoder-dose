@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "snapshot_sha256": "fac5f4f7df97ded249121c7d280cd33202915226036d4ac2db0398cdb899b47a",
+  "reviewer_id": "/root/fast_followup_review",
+  "independent": true,
+  "verdict": "approved",
+  "topics_checked": [
+    "design",
+    "implementation",
+    "data",
+    "cost",
+    "claims"
+  ],
+  "findings": [
+    {
+      "id": "B_ATOMIC_FINAL_OUTPUT",
+      "severity": "low",
+      "status": "accepted",
+      "evidence": "analyze.save uses direct write_bytes for deterministic final reports; existing corrupt bytes cause rejection rather than acceptance.",
+      "resolution": "Accepted for bounded stateless cheap cached algebra with zero model calls. No completed native measurement can be lost or falsely accepted. Incomplete output requires explicit preservation and a fresh output version; do not claim robust crash resume from these fixtures."
+    }
+  ],
+  "limitations": "Only measured FIT full/dose1/so condition, 64 blocks128 documents. No causal/native/readout claim or B-MASK approval. Checked historical JumpReLU/feature_arms conventions and top score formula, code, protocol,790input manifest and all799snapshot hashes. Independent synthetic audit recomputes counts/norm/W1 for selected groups and verifies OFF contribution, deterministic matching, unique/disjoint32 groups and changed-result rejection. No actual FIT matching or model evaluation executed during review. Heuristic does not establish global infeasibility; count support bound is separate. FIT heterogeneity tolerances are descriptive marginal distribution bands, not equivalence proof or joint/per-context balance."
+}

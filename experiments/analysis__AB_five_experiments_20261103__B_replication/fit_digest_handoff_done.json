@@ -1,0 +1,27 @@
+{
+  "previous_status": {
+    "stage": "TEST_curve",
+    "completed": 379,
+    "total": 1536,
+    "logical_attempts": 22129,
+    "scheduled": 80932,
+    "elapsed": 2294.1077124000294
+  },
+  "previous_processes": [
+    {
+      "ProcessId": 20808,
+      "ParentProcessId": 7872,
+      "CreationDate": "/Date(1793688046641)/",
+      "CommandLine": "\"C:\\Users\\rafal\\miniconda3\\python.exe\" -m research_checks launch --snapshot analysis/AB_five_experiments_20261103/B_replication/resume_snapshot.json --review analysis/AB_five_experiments_20261103/B_replication/resume_review.json "
+    },
+    {
+      "ProcessId": 14756,
+      "ParentProcessId": 20808,
+      "CreationDate": "/Date(1793688093547)/",
+      "CommandLine": "C:\\Users\\rafal\\miniconda3\\python.exe -m research_checks._worker --snapshot analysis/AB_five_experiments_20261103/B_replication/resume_snapshot.json --review analysis/AB_five_experiments_20261103/B_replication/resume_review.json"
+    }
+  ],
+  "ledger_unchanged": true,
+  "new_scientific_calls_interrupted": 0,
+  "reason": "Avoid repeated immutable74.8MB FIT serialization; same exact digest"
+}

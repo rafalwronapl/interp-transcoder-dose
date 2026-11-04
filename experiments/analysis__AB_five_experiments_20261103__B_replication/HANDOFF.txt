@@ -1,0 +1,31 @@
+Prepared second-artifact B campaign. No pretrained measurement executed yet.
+Final snapshot: pre_run_snapshot_v2.json
+snapshot_sha256: 7b00619ea5530e612bb7a213066444f06046e4bc8879fe1989ca56edd1bddcd9
+Independent reviewer /root/five_campaign_review to write pre_run_review_v2.json.
+Launch ONLY after actual approval, from laboratory root:
+C:/Users/rafal/miniconda3/python.exe -m research_checks launch --snapshot analysis/AB_five_experiments_20261103/B_replication/pre_run_snapshot_v2.json --review analysis/AB_five_experiments_20261103/B_replication/pre_run_review_v2.json
+Use detached hidden Windows process, UTF8 console encoding, stdout/stderr logs.
+Coordinate host RAM with root and preserve existing mathprocess; model approximately
+4GB parameters plus TC/tail/capture working memory. Threads2, localCPU, no downloads.
+
+Actual executed preparation: literalfreshcorpus1664contexts,128FIT/1536TEST;
+models/tokenizer/sourcefileidentity;2syntheticE2E/restart and3tinyadaptertests;
+true subprocess exit0 in test_exit.json; canonicalpreflightPASS.
+All newwrites confinedthisfolder. No original model/corpus/cache mutation.
+Production: 80932scheduledheterogeneousforward/0backward,1model loadattempt;
+1664naturalcaptures+12technicalfullcalls. FourtechnicalFITcontexts fromone
+namepair/twoframes first; no TEST capture until fitting is frozen.
+3332durablebundles,9216TESTrows,144summarycells. NominalpointwiseblockCI1999,
+not familyqualifiedpopulationinference. No positiveoutcome requirement.
+
+Monitor run/STATUS.json and run/ledger.jsonl plus real process CPU; completed
+receipt run/completed.json binds all outputs/cache/ledger. Initialstatus absent
+until model load and firstFITcapture; do not confuse launchvalidation withmodel.
+No automatic duplicate/retry after crashedattempt: explicit reviewedresume.
+Do not modify frozen worker/config/inputs after launch.
+
+Important limitation: artifact selection is newcampaign-predeclared but
+family/artifact had historical exploratory exposure. Newnames are disjoint
+against acceptedhistoricalinventory and previousconfirmatorycorpus. This
+extends artifact/model/layer while retaining samepronounreadout; no causal
+claim of modelscale or architecture. Fulloperator only,6dosecurve.

@@ -1,0 +1,17 @@
+{
+  "reviewer_id": "/root/five_campaign_review",
+  "independent": true,
+  "verdict": "approved_operational_helper",
+  "files_sha256": {
+    "queue.py": "e81dbf0f2a7fa16c1f29ee9a582286ed8a9effefa34ce90163457cf2cba98426",
+    "complete.py": "b1f787b7204d7d4a59689a2cc878401653f99a22d168f8fc190d301034661d9b"
+  },
+  "checks": [
+    "Bounded24hour wait,30second polling; exits on recorded A main failure or timeout.",
+    "Waits actual A main completed marker and absence of canonical research_worker.lock; race safety remains canonical lock creation.",
+    "Only canonical research_checks launch uses approved final B mechanism snapshot/review; no alternate direct worker, retries or gate bypass.",
+    "On successful worker exit, offline completion preparation validates sealed outputs,768cells/32actualblockIDs and writes a pending-review report.",
+    "Completion snapshot generation is not an independent final approval; queue explicitly ends awaiting such review."
+  ],
+  "limitations": "Source-level operational review only; helper has not been exercised through actual model completion. All scientific authorization remains the separate canonical pre_run_review_v2.json. Failure log and completion source evidence must be checked after execution."
+}

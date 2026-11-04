@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "snapshot_sha256": "3a2ff399bf2b7e0552c18adc3242007043ee473b486d23b321fb922fd2061fee",
+  "reviewer_id": "/root/fast_followup_review",
+  "independent": true,
+  "verdict": "changes_requested",
+  "topics_checked": [
+    "design",
+    "implementation",
+    "data",
+    "cost",
+    "claims"
+  ],
+  "findings": [
+    {
+      "id": "B_ACTUAL_FIT_SCOPE",
+      "severity": "high",
+      "status": "open",
+      "evidence": "Actual source_index.json fit length128, unique document.block32, frames so and when; INVENTORY.json correctly reflects32 blocks/two frames. analyze result.scope, FROZEN_GROUPS condition and PROTOCOL/REPORT incorrectly describe64blocks/so-only and missingwhen.",
+      "resolution": "Correct scope/metadata and missing-work schedule using actual32blocks/twoframes, preserve original run outputs and issue explicit hash-bound amendment without rerunning matching."
+    }
+  ],
+  "limitations": "Independent actual-source completion audit caught scope error missed by initial pre-run review. Numeric group means and analytic norm bound not invalidated by scope mislabeling, but claims and remaining-work accounting require correction. No native calls."
+}

@@ -1,0 +1,20 @@
+{
+    "arguments":  [
+                      "-m",
+                      "research_checks",
+                      "launch",
+                      "--snapshot",
+                      "analysis/AB_confirmatory_execution_20261101/B_fit_primary_v1/pre_run_snapshot_v1.json",
+                      "--review",
+                      "analysis/AB_confirmatory_execution_20261101/B_fit_primary_v1/pre_run_review_v2.json"
+                  ],
+    "launcher_pid":  20004,
+    "existing_python_pids":  [
+                                 4428,
+                                 6936,
+                                 12416
+                             ],
+    "started_utc":  "2026-11-01T10:27:08.7715849Z",
+    "snapshot":  "d2ed7dbddcc533ba0bbec15353ad5dd10712b63c711c0e8915c9a3a5193aef56",
+    "status":  "launcher_started_measurements_not_yet_confirmed"
+}

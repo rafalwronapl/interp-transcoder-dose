@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "id": "AB_B_REMAINING_PREPARATION_v3",
+  "kind": "maintenance",
+  "primary_agent": "/root",
+  "purpose": "Complete B production execution/assembly preparation and real-evidence admission; no scientific launch.",
+  "tracked_files": [
+    "ab_confirmatory_20261101/worker_b_evaluate.py",
+    "ab_confirmatory_20261101/native_tail_b.py",
+    "ab_confirmatory_20261101/worker_b_production_v2.py",
+    "ab_confirmatory_20261101/campaign_authorization.py",
+    "ab_confirmatory_20261101/eligibility_paths_v5.py",
+    "ab_confirmatory_20261101/prepare_production_b.py",
+    "ab_confirmatory_20261101/prepare_b_drafts_v2.py",
+    "ab_confirmatory_20261101/assemble_b_v2.py",
+    "ab_confirmatory_20261101/test_worker_b_evaluate.py",
+    "ab_confirmatory_20261101/test_b_production_v2.py",
+    "ab_confirmatory_20261101/test_campaign_authorization.py",
+    "ab_confirmatory_20261101/test_eligibility_paths_v5.py",
+    "ab_confirmatory_20261101/test_assemble_b_v2.py",
+    "ab_confirmatory_20261101/native.py",
+    "ab_confirmatory_20261101/runtime.py",
+    "ab_confirmatory_20261101/prepare.py",
+    "ab_confirmatory_20261101/baselines_b.py",
+    "ab_confirmatory_20261101/transcoder.py",
+    "ab_confirmatory_20261101/offline_io_v3.py",
+    "ab_confirmatory_20261101/offline_io_v4.py",
+    "ab_confirmatory_20261101/analysis_ab_v3.py",
+    "ab_confirmatory_20261101/analysis_ab_v4.py",
+    "ab_confirmatory_20261101/statistics.py",
+    "ab_confirmatory_20261101/safe_statistics.py",
+    "ab_confirmatory_20261101/precision.py",
+    "analysis/AB_confirmatory_execution_20261101/B_remaining_preparation/HANDOFF.md",
+    "analysis/AB_confirmatory_execution_20261101/B_remaining_preparation/test_evidence.json",
+    "ab_confirmatory_20261101/__init__.py",
+    "ab_confirmatory_20261101/selector_v3.py",
+    "ab_confirmatory_20261101/selector_v4.py",
+    "ab_confirmatory_20261101/stability_validation_v3.py",
+    "ab_confirmatory_20261101/stability_validation_v4.py",
+    "ab_confirmatory_20261101/eligibility_calibration_v3.py",
+    "analysis/AB_confirmatory_execution_20261101/B_remaining_preparation/test_evidence_v2.json"
+  ],
+  "tracked_trees": [
+    "analysis/AB_confirmatory_execution_20261101/B_remaining_preparation/drafts"
+  ],
+  "input_manifests": [
+    "analysis/AB_confirmatory_execution_20261101/B_remaining_preparation/provenance_inputs_v2.json"
+  ],
+  "gates": [
+    {
+      "id": "actual_tests",
+      "category": "implementation",
+      "evidence": "analysis/AB_confirmatory_execution_20261101/B_remaining_preparation/test_evidence_v2.json",
+      "pointer": "/tests_passed",
+      "op": "eq",
+      "expected": 6,
+      "reason": "Actual preserved production, canonical boundary and assembly tests; no reruns."
+    }
+  ],
+  "circuits": [],
+  "structural_scope": "Technical tail stage separately reviewed; actual tail completion required before production. This maintenance prepares production and immutable analysis, no model calls.",
+  "entrypoint": null,
+  "schedule": null,
+  "budget": null
+}

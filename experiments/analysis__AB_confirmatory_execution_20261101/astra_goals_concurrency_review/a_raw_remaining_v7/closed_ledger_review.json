@@ -1,0 +1,13 @@
+{
+  "scope": "Closed original A TEST ledger; checked independently after actual acquisition closure",
+  "tool_evidence": "exec chunk cea844: actual event digest and snapshot-ledger hash verification passed",
+  "snapshot_sha256": "464c78fea3762ba9e4a4e817ce48b8af61475ee06e1c9526e00aa25692498df6",
+  "ledger_sha256": "51e75b88b8a379ed94b4c58061473dbaa27699ff57d253a404205e7f9e06630f",
+  "attempts": 35840,
+  "computed": 35840,
+  "unique_attempt_operations": 35840,
+  "unique_computed_operations": 35840,
+  "all_event_digests_valid": true,
+  "duplicate_operations": 0,
+  "model_calls": 0
+}

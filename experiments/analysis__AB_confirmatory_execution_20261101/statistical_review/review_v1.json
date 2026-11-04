@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "reviewer_id": "/root/sol_ab_execution/statistical_review",
+  "independent": true,
+  "verdict": "changes_requested",
+  "scope": "Early offline statistical source review. Source hashes in source_manifest_v1.json; no canonical pre-run snapshot was supplied. This receipt cannot authorize model execution.",
+  "topics_checked": ["design", "implementation", "claims"],
+  "findings": [
+    {"id":"SR1","severity":"high","status":"open","evidence":"crossed_coverage.json and crossed_stress_screen.json:8FIT95%percentile coverage~.87-.88 in FIT-dominant models.","resolution":"Choose and calibrate a defensible number of independent FIT cohorts/interval construction, or explicitly limit stability to descriptive spread."},
+    {"id":"SR2","severity":"high","status":"open","evidence":"calibrate.py and calibrate_b.py use only one partial-null arrangement; B partial null leaves all3family hypotheses null.","resolution":"Add least favorable IUT boundary orientations, single-null families with other slots strong alternatives, heavy tails and full missing/zero pipeline."},
+    {"id":"SR3","severity":"high","status":"open","evidence":"No final sample_size_spec, physical-effect power or joint12metric precision-assurance implementation yet.","resolution":"Freeze complete numerical N rule and execute calibrated power/precision simulations before PILOT."},
+    {"id":"SR4","severity":"medium","status":"resolved","evidence":"Earlier empty FIT returnedNaNparameters; current fitting.py now rejects it and independent8unit tests pass.","resolution":"Current guards solve observed bug. Add explicit regression test in subsequent implementation snapshot."},
+    {"id":"SR5","severity":"medium","status":"open","evidence":"Screens report plug-in MC SE only, includingSE0when500/500pass, with no acceptance thresholds/confidence bounds.","resolution":"Prespecify binomial uncertainty bounds, tolerances and simulation counts, then use them in readiness decisions."}
+  ],
+  "limitations": "No pretrained models loaded. Review concerns provisional code/specification only and does not supply model-stage approval or prove universal finite-sample validity. Synthetic stress screen uses500replications/999bootstrap draws, not final N calibration. Corpus/hooks/accounting/cache/restart outside scope."
+}

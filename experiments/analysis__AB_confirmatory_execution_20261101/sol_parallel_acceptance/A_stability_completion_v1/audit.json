@@ -1,0 +1,220 @@
+{
+  "snapshot_sha256": "9421b4ba6f10e6c672068ba74c0b1b28171a5f62f0d38dd762ed2790089c4e75",
+  "case_rows": [
+    {
+      "index": 0,
+      "case": {
+        "distribution": "normal",
+        "fit_fraction": 0.1,
+        "n": 128
+      },
+      "successes": 1970,
+      "coverage_lower": 0.9757784378207658,
+      "passed": true
+    },
+    {
+      "index": 1,
+      "case": {
+        "distribution": "t3",
+        "fit_fraction": 0.1,
+        "n": 128
+      },
+      "successes": 1970,
+      "coverage_lower": 0.9757784378207658,
+      "passed": true
+    },
+    {
+      "index": 2,
+      "case": {
+        "distribution": "lognormal",
+        "fit_fraction": 0.1,
+        "n": 128
+      },
+      "successes": 1937,
+      "coverage_lower": 0.9560739680901229,
+      "passed": true
+    },
+    {
+      "index": 3,
+      "case": {
+        "distribution": "normal",
+        "fit_fraction": 0.5,
+        "n": 128
+      },
+      "successes": 1947,
+      "coverage_lower": 0.9619221227161645,
+      "passed": true
+    },
+    {
+      "index": 4,
+      "case": {
+        "distribution": "t3",
+        "fit_fraction": 0.5,
+        "n": 128
+      },
+      "successes": 1953,
+      "coverage_lower": 0.9654734096161408,
+      "passed": true
+    },
+    {
+      "index": 5,
+      "case": {
+        "distribution": "lognormal",
+        "fit_fraction": 0.5,
+        "n": 128
+      },
+      "successes": 1856,
+      "coverage_lower": 0.9105254443080407,
+      "passed": false
+    },
+    {
+      "index": 6,
+      "case": {
+        "distribution": "normal",
+        "fit_fraction": 0.9,
+        "n": 128
+      },
+      "successes": 1942,
+      "coverage_lower": 0.9589880330611591,
+      "passed": true
+    },
+    {
+      "index": 7,
+      "case": {
+        "distribution": "t3",
+        "fit_fraction": 0.9,
+        "n": 128
+      },
+      "successes": 1928,
+      "coverage_lower": 0.9508722229172794,
+      "passed": true
+    },
+    {
+      "index": 8,
+      "case": {
+        "distribution": "lognormal",
+        "fit_fraction": 0.9,
+        "n": 128
+      },
+      "successes": 1805,
+      "coverage_lower": 0.8827418774726309,
+      "passed": false
+    },
+    {
+      "index": 9,
+      "case": {
+        "distribution": "normal",
+        "fit_fraction": 0.1,
+        "n": 256
+      },
+      "successes": 1962,
+      "coverage_lower": 0.9708761517474694,
+      "passed": true
+    },
+    {
+      "index": 10,
+      "case": {
+        "distribution": "t3",
+        "fit_fraction": 0.1,
+        "n": 256
+      },
+      "successes": 1962,
+      "coverage_lower": 0.9708761517474694,
+      "passed": true
+    },
+    {
+      "index": 11,
+      "case": {
+        "distribution": "lognormal",
+        "fit_fraction": 0.1,
+        "n": 256
+      },
+      "successes": 1927,
+      "coverage_lower": 0.9502973539545583,
+      "passed": true
+    },
+    {
+      "index": 12,
+      "case": {
+        "distribution": "normal",
+        "fit_fraction": 0.5,
+        "n": 256
+      },
+      "successes": 1957,
+      "coverage_lower": 0.9678621765449131,
+      "passed": true
+    },
+    {
+      "index": 13,
+      "case": {
+        "distribution": "t3",
+        "fit_fraction": 0.5,
+        "n": 256
+      },
+      "successes": 1947,
+      "coverage_lower": 0.9619221227161645,
+      "passed": true
+    },
+    {
+      "index": 14,
+      "case": {
+        "distribution": "lognormal",
+        "fit_fraction": 0.5,
+        "n": 256
+      },
+      "successes": 1853,
+      "coverage_lower": 0.9088773989626017,
+      "passed": false
+    },
+    {
+      "index": 15,
+      "case": {
+        "distribution": "normal",
+        "fit_fraction": 0.9,
+        "n": 256
+      },
+      "successes": 1939,
+      "coverage_lower": 0.9572373445151146,
+      "passed": true
+    },
+    {
+      "index": 16,
+      "case": {
+        "distribution": "t3",
+        "fit_fraction": 0.9,
+        "n": 256
+      },
+      "successes": 1952,
+      "coverage_lower": 0.9648790059405321,
+      "passed": true
+    },
+    {
+      "index": 17,
+      "case": {
+        "distribution": "lognormal",
+        "fit_fraction": 0.9,
+        "n": 256
+      },
+      "successes": 1806,
+      "coverage_lower": 0.8832824513676938,
+      "passed": false
+    }
+  ],
+  "all_cases_gate_passed": false,
+  "full_saved_arithmetic_cases": [
+    17
+  ],
+  "full_saved_data_records": 2000,
+  "full_saved_statistic_records": 2000,
+  "other_cases_scope": "Case metadata, aggregate agreement, artifact membership and CP arithmetic only; canonical verification covers all member hashes. No other raw statistic re-derivation.",
+  "runtime_returncode": 0,
+  "scope": "Negative multiple-FIT calibration only; additional15FIT stage not admitted. Single frozen-r0 A primary study has separate eligibility and remains unaffected.",
+  "no_model_or_bootstrap_or_data_generation": true,
+  "canonical_verification_passed": true,
+  "canonical_successful_tool_chunk": "6db3f9",
+  "authoritative_review": "completion_review_sol_v2.json",
+  "identical_canonical_verified_alias": "completion_review_sol_v1.json",
+  "review_sha256": "52a0d2f74c9186df6061a599dd9fb1913b81e6f636e3eae85140782ea592d6ef",
+  "canonical_attempts": 2,
+  "first_attempt": "Full current-snapshot comparison passed, rejected reviewer limitations type; diagnostic retained."
+}

@@ -1,0 +1,41 @@
+{
+  "document": {
+    "id": "A_shared_TEST_0002_T2_s1_q0",
+    "donor": "A_shared_TEST_0002_T2_s0_q0",
+    "block": "A_shared_TEST_0002",
+    "study": "A",
+    "cohort": "shared",
+    "split": "TEST",
+    "index": 2,
+    "frame": "T2",
+    "side": 1,
+    "q": 0,
+    "text": "Near the enclosure, the expressionists that the amnesic can observe"
+  },
+  "files": {
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/completed/capture_A_shared_TEST_0002_T2_s1_q0.json": "9f50ba8f31e38608264f6c4b0ecfcb03182a1ae8c2ddb6214d17d8ccb40d0800",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/cache/394123bb9caa8c8beab6d43810bcaf72c9ff7a1f894661b54388b48537c10c6c.json": "3c366506bbd567aa6091a22e0ae88e5229a44b4d565211c6ebdd20fdc08e8ab3",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/completed/capture_A_shared_TEST_0002_T2_s0_q0.json": "88f22f6655f17ad90e99c47a970a7f00256aa414469d97804571486018d6ac55",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/cache/6d206c7b57cb208a3137b977c777671c345b4af8fa97da45c58fe6dff02fbbef.json": "02cd8829b652bf04be842607b18d40bf4450f66d8e13619ff28ad9c5655faee6",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/completed/suffix_A_shared_TEST_0002_T2_s1_q0_native.json": "ce07f1b452a54f0ff4239b9ebf52c7c785f2a33e91f4fad83e6dc6290d0939f9",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/cache/8903769f1de6df05e2d7b03f67a208d36f0e2676414516b0c0d6b7adb6f6f856.json": "d39b62386b4c1320d9399f478c5365534f4b375d39fe3d81794e2fd3a6077e38",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/completed/suffix_A_shared_TEST_0002_T2_s1_q0_r0_P.json": "a9788c40028cffed47aa03cad5d24e35c738084faaf44110e3d7d65abdaccfad",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/cache/7069fd33ce43afccd277d70f993a5f43b897378673630c5549e40a8d55e81689.json": "c8253af60eef9d10549b7f07e973108119baddbc31eeb3acfea6acb9415270be",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/completed/suffix_A_shared_TEST_0002_T2_s1_q0_r0_U0.json": "db5638665d2f12268225d959ac9591a574660cc0007cd766949530a09054397f",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/cache/1588d71a62ded5e73effcced38c793f3ae3c972a9093aa628014d7bf56d497ca.json": "1703af78648e9fb9792e3dd8817742ba9a3ca45cd6fd3c1a7b5044969a2b6e32",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/results/r0/A_shared_TEST_0002_T2_s1_q0.json": "3493c42ebca3b5540ad61905cc9a2462b93c1747190be19d5558c5c12261a160"
+  },
+  "identity": {
+    "model": "5fb518228899f9c15e3db99e01c11d159af8451337dee6d85c28f3880fde2b29",
+    "code": "25737ad0d8d462c020f979d68f61d55e90b2e2668df0fb2d0a8008b19f7db7b7",
+    "corpus": "361064de9ca092fcd6a97649eb7daac7f01b03a084cb021f6e6d0b819c00180c",
+    "tokens": "64569cc7e32d060a398bb0dba55885712cb963aa4475dbaf847e795f4b4926f9",
+    "config": "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/config.json",
+    "frozen_fit_hashes": {
+      "r0": "9215ff51a78cfd3a5c9a8149332c17fe9a8d50a8571d6943f1cc2059fb52c833"
+    }
+  },
+  "own_fit_sha256": "9215ff51a78cfd3a5c9a8149332c17fe9a8d50a8571d6943f1cc2059fb52c833",
+  "max_target_error": 0.0,
+  "all_saved_loss_vector_arithmetic_passed": true
+}

@@ -1,0 +1,122 @@
+{
+  "schema_version": 1,
+  "id": "AB5_B_MECHANISM_20261103_RESUME_V3",
+  "kind": "experiment",
+  "primary_agent": "/root/b_second_artifact_five",
+  "purpose": "Same-dose whole residual and FIT-selected feature switching; posthoc oracle finite-corpus diagnostics. Exact historical2threadTC arithmetic; explicit adoption of valid actual1thread FIT/control cache, no tolerance relaxation.",
+  "tracked_files": [
+    "ab_confirmatory_20261101/__init__.py",
+    "ab_confirmatory_20261101/native.py",
+    "ab_confirmatory_20261101/native_tail_b.py",
+    "ab_confirmatory_20261101/runtime.py",
+    "ab_confirmatory_20261101/transcoder.py",
+    "analysis/AB_confirmatory_execution_20261101/close_short_pilot_imports_v1.py",
+    "analysis/AB_five_experiments_20261103/B_mechanism/fixtures.py",
+    "analysis/AB_five_experiments_20261103/B_mechanism/geometry.py",
+    "analysis/AB_five_experiments_20261103/B_mechanism/prepare.py",
+    "analysis/AB_five_experiments_20261103/B_mechanism/worker.py",
+    "analysis/B_mechanism_20261102/common.py",
+    "analysis/B_mechanism_20261102/geometry.py",
+    "analysis/B_mechanism_20261102/worker.py",
+    "research_checks/__init__.py",
+    "research_checks/gate.py",
+    "research_checks/persistence.py",
+    "research_checks/reachability.py",
+    "analysis/AB_five_experiments_20261103/B_mechanism/PROTOCOL.txt",
+    "analysis/AB_five_experiments_20261103/B_mechanism/budget.json",
+    "analysis/AB_five_experiments_20261103/B_mechanism/fixtures.json",
+    "analysis/AB_five_experiments_20261103/review_mechanism_e2e.py",
+    "analysis/AB_five_experiments_20261103/review_mechanism_e2e.json",
+    "analysis/AB_five_experiments_20261103/B_mechanism/worker_v3.py",
+    "analysis/AB_five_experiments_20261103/B_mechanism/prepare_resume.py",
+    "analysis/AB_five_experiments_20261103/B_mechanism/config_v3.json",
+    "analysis/AB_five_experiments_20261103/B_mechanism/adoption_v3.json",
+    "analysis/AB_five_experiments_20261103/test_mechanism_resume.py",
+    "analysis/AB_five_experiments_20261103/B_mechanism/resume_e2e.json",
+    "analysis/AB_five_experiments_20261103/B_mechanism/resume_e2e.log",
+    "analysis/AB_five_experiments_20261103/B_mechanism/qualification/completion_audit.json"
+  ],
+  "tracked_trees": [],
+  "input_manifests": [
+    "analysis/AB_five_experiments_20261103/B_mechanism/input_manifest_v3.json"
+  ],
+  "gates": [
+    {
+      "id": "hooks",
+      "category": "hooks",
+      "evidence": "analysis/AB_five_experiments_20261103/B_mechanism/fixtures.json",
+      "pointer": "/passed",
+      "op": "eq",
+      "expected": true,
+      "reason": "Detailed fixtures and accepted adapter parity/control adoption reviewed independently."
+    },
+    {
+      "id": "data",
+      "category": "data",
+      "evidence": "analysis/AB_five_experiments_20261103/B_mechanism/fixtures.json",
+      "pointer": "/passed",
+      "op": "eq",
+      "expected": true,
+      "reason": "Detailed fixtures and accepted adapter parity/control adoption reviewed independently."
+    },
+    {
+      "id": "pilot",
+      "category": "pilot",
+      "evidence": "analysis/AB_five_experiments_20261103/B_mechanism/fixtures.json",
+      "pointer": "/passed",
+      "op": "eq",
+      "expected": true,
+      "reason": "Detailed fixtures and accepted adapter parity/control adoption reviewed independently."
+    },
+    {
+      "id": "accounting",
+      "category": "accounting",
+      "evidence": "analysis/AB_five_experiments_20261103/B_mechanism/fixtures.json",
+      "pointer": "/passed",
+      "op": "eq",
+      "expected": true,
+      "reason": "Detailed fixtures and accepted adapter parity/control adoption reviewed independently."
+    },
+    {
+      "id": "restart",
+      "category": "restart",
+      "evidence": "analysis/AB_five_experiments_20261103/B_mechanism/fixtures.json",
+      "pointer": "/passed",
+      "op": "eq",
+      "expected": true,
+      "reason": "Detailed fixtures and accepted adapter parity/control adoption reviewed independently."
+    },
+    {
+      "id": "e2e",
+      "category": "restart",
+      "evidence": "analysis/AB_five_experiments_20261103/review_mechanism_e2e.json",
+      "pointer": "/passed",
+      "op": "eq",
+      "expected": true,
+      "reason": "Independent fullworker fakeTC/native suffix run and replay/corruption accounting."
+    },
+    {
+      "id": "resume_adoption",
+      "category": "restart",
+      "evidence": "analysis/AB_five_experiments_20261103/B_mechanism/resume_e2e.json",
+      "pointer": "/passed",
+      "op": "eq",
+      "expected": true,
+      "reason": "Full synthetic old-to-corrected48cell worker includes explicit control/FIT adoption, no control/FIT callbacks, accounting and completed replay."
+    }
+  ],
+  "circuits": [],
+  "structural_scope": "Original L15 output to exact dynamic L16/L17 then head; accepted adapter reused with fixed FIT controls.",
+  "entrypoint": {
+    "module": "analysis.AB_five_experiments_20261103.B_mechanism.worker_v3",
+    "args": [
+      "--config",
+      "analysis/AB_five_experiments_20261103/B_mechanism/config_v3.json"
+    ]
+  },
+  "schedule": "analysis/AB_five_experiments_20261103/B_mechanism/operations.json",
+  "budget": {
+    "forward": 14284,
+    "backward": 4
+  }
+}

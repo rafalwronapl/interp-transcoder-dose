@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "id": "AB_concurrency_runtime_v2_two_CPU",
+  "kind": "maintenance",
+  "primary_agent": "/root/sol_parallel_acceptance",
+  "purpose": "Two managed CPU slots plus one model lane; exact running v1Aselector grandfathered, shared locks and canonical parent/child gates.",
+  "tracked_files": [
+    "concurrency_runtime_v2.py",
+    "concurrency_runtime_v1.py",
+    "research_checks/gate.py",
+    "research_checks/_worker.py",
+    "analysis/AB_confirmatory_execution_20261101/sol_parallel_acceptance/test_concurrency_runtime_v2.py",
+    "analysis/AB_confirmatory_execution_20261101/sol_parallel_acceptance/concurrency_migration_v2/migration_policy.json",
+    "analysis/AB_confirmatory_execution_20261101/sol_parallel_acceptance/concurrency_migration_v2/tests_v1.json"
+  ],
+  "tracked_trees": [],
+  "input_manifests": [],
+  "gates": [
+    {
+      "id": "hooks",
+      "category": "hooks",
+      "evidence": "analysis/AB_confirmatory_execution_20261101/sol_parallel_acceptance/concurrency_migration_v2/tests_v1.json",
+      "pointer": "/returncode",
+      "op": "eq",
+      "expected": 0,
+      "reason": "Five cheap cross-version lock/CPU cap/recognized child/model exclusion tests; no model or campaign."
+    },
+    {
+      "id": "data",
+      "category": "data",
+      "evidence": "analysis/AB_confirmatory_execution_20261101/sol_parallel_acceptance/concurrency_migration_v2/tests_v1.json",
+      "pointer": "/returncode",
+      "op": "eq",
+      "expected": 0,
+      "reason": "Five cheap cross-version lock/CPU cap/recognized child/model exclusion tests; no model or campaign."
+    },
+    {
+      "id": "pilot",
+      "category": "pilot",
+      "evidence": "analysis/AB_confirmatory_execution_20261101/sol_parallel_acceptance/concurrency_migration_v2/tests_v1.json",
+      "pointer": "/returncode",
+      "op": "eq",
+      "expected": 0,
+      "reason": "Five cheap cross-version lock/CPU cap/recognized child/model exclusion tests; no model or campaign."
+    },
+    {
+      "id": "accounting",
+      "category": "accounting",
+      "evidence": "analysis/AB_confirmatory_execution_20261101/sol_parallel_acceptance/concurrency_migration_v2/tests_v1.json",
+      "pointer": "/returncode",
+      "op": "eq",
+      "expected": 0,
+      "reason": "Five cheap cross-version lock/CPU cap/recognized child/model exclusion tests; no model or campaign."
+    },
+    {
+      "id": "restart",
+      "category": "restart",
+      "evidence": "analysis/AB_confirmatory_execution_20261101/sol_parallel_acceptance/concurrency_migration_v2/tests_v1.json",
+      "pointer": "/returncode",
+      "op": "eq",
+      "expected": 0,
+      "reason": "Five cheap cross-version lock/CPU cap/recognized child/model exclusion tests; no model or campaign."
+    }
+  ],
+  "circuits": [],
+  "structural_scope": "Versioned controlled-session orchestration; original running workers and v1policy/code untouched.",
+  "entrypoint": null,
+  "schedule": null,
+  "budget": null
+}

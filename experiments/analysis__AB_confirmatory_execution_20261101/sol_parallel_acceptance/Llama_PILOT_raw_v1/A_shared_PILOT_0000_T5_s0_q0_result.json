@@ -1,0 +1,41 @@
+{
+  "document": {
+    "id": "A_shared_PILOT_0000_T5_s0_q0",
+    "donor": "A_shared_PILOT_0000_T5_s1_q0",
+    "block": "A_shared_PILOT_0000",
+    "study": "A",
+    "cohort": "shared",
+    "split": "PILOT",
+    "index": 0,
+    "frame": "T5",
+    "side": 0,
+    "q": 0,
+    "text": "Everyone agrees that the skycap, unlike the noria,"
+  },
+  "files": {
+    "analysis/A_short_replication_llama_20261101/PILOT_ready_v1/run/completed/capture_A_shared_PILOT_0000_T5_s0_q0.json": "fc97b287ccaabced7e4acb8a0858eb1ead5e017c33fc58139238beaa4740f387",
+    "analysis/A_short_replication_llama_20261101/PILOT_ready_v1/run/cache/386b203f4b149b7f9d498074f70b5e266fd959630ebe42f0fb2d768877ff4f01.json": "c763a67eb15d709c34d11d039adf9b2243280f77c122ff801d85fad3865bc797",
+    "analysis/A_short_replication_llama_20261101/PILOT_ready_v1/run/completed/capture_A_shared_PILOT_0000_T5_s1_q0.json": "df5bf1a8af7674bff3fca4e48811c4ec8d71b13184f835c5d9f3169fa7a96e8f",
+    "analysis/A_short_replication_llama_20261101/PILOT_ready_v1/run/cache/a53974bce7c7bec86fea4182eb2b5f5879bd2526712c3b69182532c8c66d1743.json": "d3d18b3c0965fbd084b55e5878b82d2d15e9e29a875127b946b89e22b4fbe93e",
+    "analysis/A_short_replication_llama_20261101/PILOT_ready_v1/run/completed/suffix_A_shared_PILOT_0000_T5_s0_q0_native.json": "ba714b63552a19149978e037f40a8e55ebbe25d84717e7cb6a37906ed3c3a53d",
+    "analysis/A_short_replication_llama_20261101/PILOT_ready_v1/run/cache/703ce9d3c948fd10f742278bd78a2ba50c1fc70c66747eaf9fcd7c923351b5f0.json": "ed30179e80e69e746742bbcb8583382f8d22a9ea8b720925802f4702df76f3f4",
+    "analysis/A_short_replication_llama_20261101/PILOT_ready_v1/run/completed/suffix_A_shared_PILOT_0000_T5_s0_q0_r0_P.json": "357e64f5180560b01aa97cc79b4d8c4b1f6153ba47382eefb458bcdefa90b268",
+    "analysis/A_short_replication_llama_20261101/PILOT_ready_v1/run/cache/4b82debe2a08ac6ea1847cfe8029153ab1a5873e5c79b340c2d250eb1707a2a8.json": "49e0fd85d3e302bb31798068e75dc761bb07e0968b1c517bd0655b7380ceb84b",
+    "analysis/A_short_replication_llama_20261101/PILOT_ready_v1/run/completed/suffix_A_shared_PILOT_0000_T5_s0_q0_r0_U0.json": "d69526888840733ec1590dfd7c082f1c32430bdc910f0a4d29f24057ddaae3fc",
+    "analysis/A_short_replication_llama_20261101/PILOT_ready_v1/run/cache/5805c6ddd059750f48fac97bd1d8dc0e0bdbacd59021b2f0f459f9927b5256da.json": "cf79ef6ac1a6aa6de56d6f43dc0da840b6f2fbd22603783130a7c5a98ccee606",
+    "analysis/A_short_replication_llama_20261101/PILOT_ready_v1/run/results/r0/A_shared_PILOT_0000_T5_s0_q0.json": "a405e0529215c6ae697d4219b3402b5f2357dc7ef2fa24d52cc95533c75d87fd"
+  },
+  "identity": {
+    "model": "5fb518228899f9c15e3db99e01c11d159af8451337dee6d85c28f3880fde2b29",
+    "code": "e48716286b27b7893bdf75395d4dfbf107f3bc0b6754278bebc0a8ab8bbd5f76",
+    "corpus": "5e3ee9294d9b5402b9e188046c61bc18efbd537cbeda0460d37e2bf22daf2ff5",
+    "tokens": "6f4cd89ddff77b0b823e47390cc3236a8a3cafb3cca252d66d06997c2bf60a81",
+    "config": "analysis/A_short_replication_llama_20261101/PILOT_ready_v1/config.json",
+    "frozen_fit_hashes": {
+      "r0": "9215ff51a78cfd3a5c9a8149332c17fe9a8d50a8571d6943f1cc2059fb52c833"
+    }
+  },
+  "own_fit_sha256": "9215ff51a78cfd3a5c9a8149332c17fe9a8d50a8571d6943f1cc2059fb52c833",
+  "max_target_error": 0.0,
+  "all_saved_loss_vector_arithmetic_passed": true
+}

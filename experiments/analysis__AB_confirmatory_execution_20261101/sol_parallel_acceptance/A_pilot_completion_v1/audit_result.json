@@ -1,0 +1,19 @@
+{
+  "ok": true,
+  "blocks": 32,
+  "documents": 640,
+  "full_forwards": 640,
+  "local_forwards": 3840,
+  "backward": 0,
+  "unique_attempts": 4480,
+  "unique_computed": 4480,
+  "closed_files": 9605,
+  "stage_receipt_sha256": "f4786e28eb1492cf1ab9c96d728cdae6368ee1420ede5570b4e97bf030d4bcb9",
+  "assembly_receipt_sha256": "a7469692b297d84b1f08226fa97dd4c99e3f1bb85d47991466bfba9a22229236",
+  "max_vector_error_reconstruction_relative": 5.093960804982405e-16,
+  "arrays_independently_reconstructed": true,
+  "no_model_calls": true,
+  "no_worker_replay": true,
+  "no_bootstrap": true,
+  "limits": "Verifies saved outputs and acquisition/assembly consistency; no independent model rerun and no hypothesis, chosen TEST N, power or population claim."
+}

@@ -1,0 +1,44 @@
+### 2026-11-03 — B: diagnostyka kierunków TC po wyrównaniu normy wektora
+
+Zakończono nowy test na Gemma270M, warstwa 15: 32 historyczne bloki TEST,
+128kontekstów (so/when, obie strony pary), pełna interwencja c=1. Wszystkie
+konteksty spełniły wspólny warunek dostępności sześciu kierunków. Zachowano
+wcześniejszy negatywny wynik B-FIT dotyczący niedostępności rozłącznej kontroli 32
+o porównywalnej surowej sile; nowy test ma inny przedmiot pomiaru.
+
+Punktem odniesienia był TC_FULL/RR, a nie historyczne ramię ON. Porównano
+kierunki usunięcia wkładu przełączeń top32 i pięciu zamrożonych grup kontrolnych,
+po przeskalowaniu do wspólnej normy 101,51097375. Skala pochodziła wyłącznie
+z FIT; cele i dostępność zamrożono przed nowymi odczytami. Rzeczywiste normy
+po zaokrągleniu float32 wynosiły101,51094179–101,51100590. Konstrukcja celu
+nie korzystała z prawdziwego błędu natywnego D.
+
+MSE odczytu TC_FULL wynosiło0,11213189. Dla kierunku top32 wzrosło do 0,27334720;
+dla pięciu kierunków kontrolnych wynosiło0,10710757–0,10817792. Główny kontrast
+przyrostu MSE: top32 minus średnia pięciu kontroli, przy równym ważeniu bloków,
+wyniósł+0,16580718. Kontrast był dodatni w obu ramach:so +0,22897452,
+when +0,10263985. Średnia bezwzględna zmiana marginesu she−he względem TC_FULL
+wynosiła0,29702243 dla top32 i 0,01848592–0,02080799 dla kontroli.
+
+Wniosek ograniczony: w tych historycznych kontekstach kierunek zmiany prognozy
+wyznaczony przez FIT top32 silniej zaburzał natywny odczyt niż pięć ustalonych
+kierunków kontrolnych, mimo wyrównania normy wektora. To diagnostyka kierunków
+zmian prognozy TC w natywnym sufiksie. Nie jest to porównanie równej liczby
+przełączeń natywnych neuronów ani dowód szczególnej funkcji obwodu natywnego.
+Badanie pozostaje posthoc, dotyczy jednego artefaktu TC, jednego odczytu i c=1;
+kontrole mocno się pokrywają i nie stanowią pięciu niezależnych replikacji.
+
+Koszt rzeczywisty:420przebiegów natywnego sufiksu, w tym 412 naukowych i 8 kontroli
+technicznych;356dokładnych aliasów celu;1ładowanie modelu natywnego;0 nowych
+przebiegów prefiksu,0 TC-forward i 0 backward. Wszystkie kontrole techniczne
+przeszły. Historycznych wyników nie zmieniono.
+
+Dowody: [raport](C:/Users/rafal/interpretability-lab/analysis/B_norm_control_20261103/REPORT.txt),
+[analiza](C:/Users/rafal/interpretability-lab/analysis/B_norm_control_20261103/FINAL_ANALYSIS.json),
+[zamrożone cele](C:/Users/rafal/interpretability-lab/analysis/B_norm_control_20261103/TARGETS_FROZEN.json),
+[potwierdzenie wykonania](C:/Users/rafal/interpretability-lab/analysis/B_norm_control_20261103/run/stage_completed.json).
+
+Status niezależnej recenzji końcowej: OCZEKUJE; przed włączeniem jako approved
+zastąpić ten wiersz rzeczywistym receipt review/completion_review.json oraz
+wynikiem canonical verify. Snapshot ukończenia:
+786b215fabe9ae6915f3ffbaa4247eedbff689b965410de18f2056337a16c6d2.

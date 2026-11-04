@@ -1,0 +1,18 @@
+import json,hashlib
+from pathlib import Path
+from research_checks.gate import digest
+R=Path.cwd();O=Path(__file__).resolve().parent/'a_raw_remaining_v7';P=R/'analysis/A_estimation_v7/TEST_v1';run=P/'run'
+def sha(p):return hashlib.sha256(p.read_bytes()).hexdigest()
+s=json.loads((P/'completion_snapshot_v1.json').read_text());assert digest(s['payload'])==s['snapshot_sha256']=='464c78fea3762ba9e4a4e817ce48b8af61475ee06e1c9526e00aa25692498df6'
+a=json.loads((O/'audit_result.json').read_text());assert a['ok'] and a['blocks']==256 and a['immutable_scientific_files']==76800
+c=json.loads((run/'stage_completed.json').read_text());assert digest(c['payload'])==c['payload_sha256'];assert c['payload']['attempted_operations']==35840 and c['payload']['scope']=='TEST'
+for name,h in a['file_hashes'].items():
+ assert c['payload']['files'][name]==h,name
+ assert s['payload']['files'][(run/name).relative_to(R).as_posix()]==h,name
+rt=R/'operations/concurrency_runtime_v1/launch_29f787e91626498d90c33315835c4f5a.json';runtime=json.loads(rt.read_text());assert runtime['returncode']==0 and runtime['snapshot_sha256']=='dfc8514fcf32201bc664f145f1838b0e06303b751406064f4ce5e5e566d3cb2b'
+assert s['payload']['files'][rt.relative_to(R).as_posix()]==sha(rt)
+ledger=json.loads((O/'closed_ledger_review.json').read_text());assert ledger['attempts']==ledger['computed']==35840 and ledger['duplicate_operations']==0
+report=dict(snapshot_sha256=s['snapshot_sha256'],raw_audit_sha256=sha(O/'audit_result.json'),closed_ledger_review_sha256=sha(O/'closed_ledger_review.json'),runtime_sha256=sha(rt),all76800_raw_audit_hashes_match_producer_and_official_closure=True,blocks=256,documents=5120,forwards=35840,backwards=0,model_calls=0,bootstrap_calls=0,max_vector_error_relative=a['max_vector_error_relative'])
+(O/'final_closure_review.json').write_text(json.dumps(report,indent=2)+'\n')
+review=dict(schema_version=1,snapshot_sha256=s['snapshot_sha256'],reviewer_id='/root/astra_goals_and_concurrency_review',independent=True,verdict='approved',topics_checked=['design','implementation','data','cost','claims'],findings=[dict(id='ACTUAL-A256-CLOSED',severity='low',status='accepted',evidence='All256blocks/5120documents/76800immutable scientific files covered: first39blocks reuse independently hash-checked Sol raw receipts; remaining217 independently checked by Astra. Request identities, exact native/suffix targets, saved readout, squared losses, vector norms, zero controls and full grid checked. Raw audit digests all match producer seal and official snapshot.',resolution='Accept completed fixed256 estimation acquisition,35840unique attempts/computed,0backward, runtimeexit0. Existing qualified frozen P/U recipe proof reused; no model/native replay or bootstrap.'),dict(id='A2-NOT-SUPPORTED',severity='low',status='accepted',evidence='Separate focused all5120-result tensor reconstruction agrees with frozen primary analysis: A1/A3 supported, A2 readout contrast negative; original jointsuccess false.',resolution='Preserve A2 negative and original power-selector infeasibility; no claim80percent jointpower or15extraFIT stability extension.')],limitations='Completion acceptance of fixed-r0 Gemma A TEST under resourcecap amendment. It is not universal generalization or mechanism proof. No fresh bootstrap regeneration: stored inference checked against validated frozen kernel/semantics and independent tensor reconstruction. Frozen fitted P/U numerical recipe and technical controls reused from prior accepted stages; cache arithmetic checked without redoing fitting. New A2 posthoc explanatory audit has separate review status.')
+(P/'completion_review_astra_v1.json').write_text(json.dumps(review,indent=2)+'\n');print('APPROVED',s['snapshot_sha256'])

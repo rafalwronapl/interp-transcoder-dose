@@ -1,0 +1,41 @@
+{
+  "document": {
+    "id": "A_shared_TEST_0025_T5_s0_q1",
+    "donor": "A_shared_TEST_0025_T5_s1_q1",
+    "block": "A_shared_TEST_0025",
+    "study": "A",
+    "cohort": "shared",
+    "split": "TEST",
+    "index": 25,
+    "frame": "T5",
+    "side": 0,
+    "q": 1,
+    "text": "Everyone agrees that the mesomorph, unlike the echocardiographs,"
+  },
+  "files": {
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/completed/capture_A_shared_TEST_0025_T5_s0_q1.json": "c98f0a27798cb2a14d2cefec8232e22a9355132e0ec278a63b4fa87440a186fe",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/cache/dda04278c73a2347c8d251db1fd38066cbda418ae079c1860f27cc3483262a5a.json": "44cba7441fbebd20b673c5e622fe418c4a3cc0714595f420719abc17ef296873",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/completed/capture_A_shared_TEST_0025_T5_s1_q1.json": "5f4834b4f23f9a7f9d81c126c435a0e20e405173488d5996c90c2db98d857bcb",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/cache/229569f7d786bb416877e5ce43c48f97a3954543c56fd5b34a78c7623d3e4686.json": "9f01b2c7726602890a7ce6568219774ca671cfb002fbaa50cdf164afee3ea2e0",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/completed/suffix_A_shared_TEST_0025_T5_s0_q1_native.json": "c8332baefb48bcdb27083eaad23ecee8746c19f236a9ec2529d1e689a2116ba8",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/cache/eb8c077edb101a31255aeff3ba342a1e2011961bededab200960bdbfcb10977d.json": "efc35ddbb574e05a14c9b5edf25bd33bf5876d50c2ba730af58cb03a70c6b716",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/completed/suffix_A_shared_TEST_0025_T5_s0_q1_r0_P.json": "faea1e2e6567f233e8eb4bab05f17fc8c1b75f1025a73c5f2f2199c84abde886",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/cache/46197d7ecb336d32c43aeb920a373bff17479ceee1e4389b83b2979764175914.json": "3d58e237ceba9971712d6b28ab4e8dcbe9564176e5469644c4d72038a42a8595",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/completed/suffix_A_shared_TEST_0025_T5_s0_q1_r0_U0.json": "723bc92240be3ef68b2b154122f22ee3f5fd38f863f19fedc9d688ba049b6494",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/cache/b8325fc1a73c305cd93f4232cedf006ba0f8f310e8ef3b7dec6bb5e8e297813a.json": "c0f82323a6111cdbbdd297820271cb505ec275332e5a7bfd74157bd41d4d69bb",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/results/r0/A_shared_TEST_0025_T5_s0_q1.json": "a1107cec910eada33cb2e75d4c27658a43fe06b7d7e1e7e6c722d6d70406061b"
+  },
+  "identity": {
+    "model": "5fb518228899f9c15e3db99e01c11d159af8451337dee6d85c28f3880fde2b29",
+    "code": "25737ad0d8d462c020f979d68f61d55e90b2e2668df0fb2d0a8008b19f7db7b7",
+    "corpus": "361064de9ca092fcd6a97649eb7daac7f01b03a084cb021f6e6d0b819c00180c",
+    "tokens": "64569cc7e32d060a398bb0dba55885712cb963aa4475dbaf847e795f4b4926f9",
+    "config": "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/config.json",
+    "frozen_fit_hashes": {
+      "r0": "9215ff51a78cfd3a5c9a8149332c17fe9a8d50a8571d6943f1cc2059fb52c833"
+    }
+  },
+  "own_fit_sha256": "9215ff51a78cfd3a5c9a8149332c17fe9a8d50a8571d6943f1cc2059fb52c833",
+  "max_target_error": 0.0,
+  "all_saved_loss_vector_arithmetic_passed": true
+}

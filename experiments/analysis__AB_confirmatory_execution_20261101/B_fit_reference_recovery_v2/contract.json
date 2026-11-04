@@ -1,0 +1,117 @@
+{
+    "schema_version":  1,
+    "id":  "AB_B_FIT_SERIALIZATION_RECOVERY_20261101_v1",
+    "kind":  "experiment",
+    "primary_agent":  "/root",
+    "purpose":  "Continue unchanged B measurements with explicit serialization/reference qualification amendment;64completed operations reused,1800remainingforward,0newbackward.",
+    "tracked_files":  [
+                          "ab_confirmatory_20261101/__init__.py",
+                          "ab_confirmatory_20261101/worker_b.py",
+                          "ab_confirmatory_20261101/prepare.py",
+                          "ab_confirmatory_20261101/native.py",
+                          "ab_confirmatory_20261101/runtime.py",
+                          "ab_confirmatory_20261101/baselines_b.py",
+                          "ab_confirmatory_20261101/transcoder.py",
+                          "ab_confirmatory_20261101/prepare_fit_b.py",
+                          "ab_confirmatory_20261101/test_worker_b.py",
+                          "ab_confirmatory_20261101/test_transcoder.py",
+                          "analysis/AB_confirmatory_execution_20261101/B_fit_primary_v1/ROOT_STAGE_HANDOFF.md",
+                          "analysis/AB_confirmatory_execution_20261101/B_fit_primary_v1/PROTOCOL_B.md",
+                          "analysis/AB_confirmatory_execution_20261101/B_fit_primary_v1/PROTOCOL_B_CONTROLS.md",
+                          "analysis/AB_confirmatory_execution_20261101/B_fit_primary_v1/B_QUALIFICATION_DESIGN_ROOT.md",
+                          "analysis/AB_confirmatory_execution_20261101/B_fit_primary_v1/B_REFERENCE_RETRIEVAL.md",
+                          "analysis/AB_confirmatory_execution_20261101/B_fit_primary_v1/config.json",
+                          "analysis/AB_confirmatory_execution_20261101/B_fit_primary_v1/corpus.json",
+                          "analysis/AB_confirmatory_execution_20261101/B_fit_primary_v1/tokens.json",
+                          "analysis/AB_confirmatory_execution_20261101/B_fit_primary_v1/model_identity.json",
+                          "analysis/AB_confirmatory_execution_20261101/B_fit_primary_v1/cost_estimate.json",
+                          "analysis/AB_confirmatory_execution_20261101/B_fit_primary_v1/synthetic_tests.log",
+                          "analysis/AB_confirmatory_execution_20261101/B_fit_primary_v1/run_synthetic_review_tests.py",
+                          "ab_confirmatory_20261101/worker_b_serialization_recovery.py",
+                          "ab_confirmatory_20261101/prepare_b_recovery.py",
+                          "analysis/AB_confirmatory_execution_20261101/B_fit_reference_recovery_v2/amendment.json",
+                          "analysis/AB_confirmatory_execution_20261101/B_fit_reference_recovery_v2/PROTOCOL.md",
+                          "analysis/AB_confirmatory_execution_20261101/B_fit_reference_recovery_v2/prior_run_manifest.json",
+                          "analysis/AB_confirmatory_execution_20261101/B_fit_reference_recovery_v2/ledger_before.jsonl",
+                          "analysis/AB_confirmatory_execution_20261101/B_fit_reference_recovery_v2/gate1_from_cached_data.json",
+                          "analysis/AB_confirmatory_execution_20261101/B_reference_unfused_v1/pre_run_snapshot_v2.json",
+                          "analysis/AB_confirmatory_execution_20261101/B_reference_unfused_v1/pre_run_review_v2.json",
+                          "analysis/AB_confirmatory_execution_20261101/astra_preparation_review/reference_completion_audit.json",
+                          "ab_confirmatory_20261101/reference_b_unfused.py",
+                          "analysis/AB_confirmatory_execution_20261101/B_reference_unfused_v1/packet.json",
+                          "analysis/AB_confirmatory_execution_20261101/B_reference_unfused_v1/operations.json"
+                      ],
+    "tracked_trees":  [
+
+                      ],
+    "input_manifests":  [
+                            "analysis/AB_confirmatory_execution_20261101/B_fit_primary_v1/model_manifest.json",
+                            "analysis/AB_confirmatory_execution_20261101/B_fit_primary_v1/input_manifest.json",
+                            "analysis/AB_confirmatory_execution_20261101/B_fit_reference_recovery_v2/raw_manifest.json"
+                        ],
+    "gates":  [
+                  {
+                      "id":  "hooks",
+                      "category":  "hooks",
+                      "evidence":  "analysis/AB_confirmatory_execution_20261101/B_fit_primary_v1/test_evidence.json",
+                      "pointer":  "/two_stage_qualification_tested",
+                      "op":  "eq",
+                      "expected":  true,
+                      "reason":  "Full gate1 then naturalcapture then finalFITw thenprojectedgate2; end-to-end random test."
+                  },
+                  {
+                      "id":  "data",
+                      "category":  "data",
+                      "evidence":  "analysis/AB_confirmatory_execution_20261101/B_fit_primary_v1/test_evidence.json",
+                      "pointer":  "/literal_documents",
+                      "op":  "eq",
+                      "expected":  128,
+                      "reason":  "Reviewed corpus subset,paired main-template FIT, noPILOT/TEST."
+                  },
+                  {
+                      "id":  "pilot",
+                      "category":  "pilot",
+                      "evidence":  "analysis/AB_confirmatory_execution_20261101/B_fit_primary_v1/test_evidence.json",
+                      "pointer":  "/scientific_inference",
+                      "op":  "eq",
+                      "expected":  false,
+                      "reason":  "Separately reviewed fixedFIT-only scope; no Nselection or hypothesis test."
+                  },
+                  {
+                      "id":  "accounting",
+                      "category":  "accounting",
+                      "evidence":  "analysis/AB_confirmatory_execution_20261101/B_fit_reference_recovery_v2/evidence.json",
+                      "pointer":  "/new_operation_allowlist",
+                      "op":  "eq",
+                      "expected":  1800,
+                      "reason":  "Remaining explicit allowlist; no newbackward; old64ops forbidden from recomputation."
+                  },
+                  {
+                      "id":  "restart",
+                      "category":  "restart",
+                      "evidence":  "analysis/AB_confirmatory_execution_20261101/B_fit_reference_recovery_v2/evidence.json",
+                      "pointer":  "/old_immutable_preserved",
+                      "op":  "eq",
+                      "expected":  true,
+                      "reason":  "Actual raw-cache gate1 replay in isolated shadow, no model calls, original files unchanged."
+                  }
+              ],
+    "circuits":  [
+
+                 ],
+    "structural_scope":  "Full native layer15 postnorm output replacement with complete later native attention/MLP. No last-layer shortcut. Nonzero measured sensitivity and input/output parity; finalw only after128natural FIT captures.",
+    "entrypoint":  {
+                       "module":  "ab_confirmatory_20261101.worker_b_serialization_recovery",
+                       "args":  [
+                                    "--config",
+                                    "analysis/AB_confirmatory_execution_20261101/B_fit_primary_v1/config.json",
+                                    "--amendment",
+                                    "analysis/AB_confirmatory_execution_20261101/B_fit_reference_recovery_v2/amendment.json"
+                                ]
+                   },
+    "schedule":  "analysis/AB_confirmatory_execution_20261101/B_fit_reference_recovery_v2/operations.json",
+    "budget":  {
+                   "forward":  1800,
+                   "backward":  0
+               }
+}

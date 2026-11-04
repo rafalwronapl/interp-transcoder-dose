@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "snapshot_sha256": "27caffb68da0517e018428d78bcbcc0d531e7066e798b0e8db7a60c7de1bb32b",
+  "reviewer_id": "/root/astra_preparation_audit",
+  "independent": true,
+  "verdict": "approved",
+  "topics_checked": [
+    "design",
+    "implementation",
+    "data",
+    "cost",
+    "claims"
+  ],
+  "findings": [],
+  "limitations": "Actual A-only eligibility synthesis plus inspected independent-study selector preparation. A128 ineligible:35/36 family cases pass, maximal simultaneous upper.06425470643996488 exceeds.06. A256 eligible:36/36 pass, maximal upper.058365094916281286. Both have4/4 scalar coverage gates; missing/degenerate correctness evidence retained. Independently recomputed CP bounds from existing counts, no resimulation. Eligibility is finite-scenario procedural qualification, not selectedN or scientific support. PILOT requires separate acquisition packet/review, TEST requires successful prospective selector. B precision/eligibility not approved by this receipt. See REPORT_astra.md."
+}

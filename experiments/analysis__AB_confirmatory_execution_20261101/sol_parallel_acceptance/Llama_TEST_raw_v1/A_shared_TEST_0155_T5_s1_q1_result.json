@@ -1,0 +1,41 @@
+{
+  "document": {
+    "id": "A_shared_TEST_0155_T5_s1_q1",
+    "donor": "A_shared_TEST_0155_T5_s0_q1",
+    "block": "A_shared_TEST_0155",
+    "study": "A",
+    "cohort": "shared",
+    "split": "TEST",
+    "index": 155,
+    "frame": "T5",
+    "side": 1,
+    "q": 1,
+    "text": "Everyone agrees that the saddlebags, unlike the wattmeters,"
+  },
+  "files": {
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/completed/capture_A_shared_TEST_0155_T5_s1_q1.json": "7ee7cfacb03bb506fe68a24339dcba16d7c1c971213d4781258b8c7dc8527c60",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/cache/aab1e1b8a1a98eba48dd32d07ee254f47d4b655931b324fe2ac719fec301756b.json": "1769829f815169938d8448667aa12e30c2eeddc45678a24c98e57d80ef91433d",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/completed/capture_A_shared_TEST_0155_T5_s0_q1.json": "cf76fa0aa5657f65b86c744752c820fe3c09acdafe7425aa97eb987569ee6597",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/cache/a8d62b4e0241d3ef9bde1269ae6ae6fa2a94a1023f97b27ad4727551061baf7c.json": "601a0c6826e52ee75ca6c70dd32664b7671621164f971cabd35e94d6d9de6506",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/completed/suffix_A_shared_TEST_0155_T5_s1_q1_native.json": "6e2e1c299cd75d9edd7a40d3785081b0872ea23be1081cd5f83b0ab6523ac30d",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/cache/15a6359f09339c97253a4d9d2ab82e86d694d8a900b1da72fff3d6746b3e6662.json": "61ddceb5ce1cc59e7280a6a923a9b27f0c88ebf7f610fea5338536d76745648f",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/completed/suffix_A_shared_TEST_0155_T5_s1_q1_r0_P.json": "ece46c12e021133cd44471eeb72c03da7211d647784f325eb50c4782e5823c88",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/cache/9275dc380fbbd5f79e9966d0cb4d7d67c905cebec5bc9daafb63f5b2f59245a4.json": "04f0725e47d9e4e24c383b3f6e267d163203b4416b65607e395238292ad49644",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/completed/suffix_A_shared_TEST_0155_T5_s1_q1_r0_U0.json": "06d2a2b13f6c746a852eadcafb8a9efaab4ae42c2558b47dc75f832666ed46f1",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/cache/4f70e2ce61b06c9bfdf3129663a0effde5e07dfe0e6f55f15bde5c6cf9f915d4.json": "614d2f9a71d74396601f8286d3ee2f938e8f0a9b2d80afc0c11a85ae0df47894",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/results/r0/A_shared_TEST_0155_T5_s1_q1.json": "0b292e85257425ab1755eca0e3332d1e209e6cc78a6bef5d12e82ca804f99a1e"
+  },
+  "identity": {
+    "model": "5fb518228899f9c15e3db99e01c11d159af8451337dee6d85c28f3880fde2b29",
+    "code": "25737ad0d8d462c020f979d68f61d55e90b2e2668df0fb2d0a8008b19f7db7b7",
+    "corpus": "361064de9ca092fcd6a97649eb7daac7f01b03a084cb021f6e6d0b819c00180c",
+    "tokens": "64569cc7e32d060a398bb0dba55885712cb963aa4475dbaf847e795f4b4926f9",
+    "config": "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/config.json",
+    "frozen_fit_hashes": {
+      "r0": "9215ff51a78cfd3a5c9a8149332c17fe9a8d50a8571d6943f1cc2059fb52c833"
+    }
+  },
+  "own_fit_sha256": "9215ff51a78cfd3a5c9a8149332c17fe9a8d50a8571d6943f1cc2059fb52c833",
+  "max_target_error": 0.0,
+  "all_saved_loss_vector_arithmetic_passed": true
+}

@@ -1,0 +1,35 @@
+{
+  "document": {
+    "id": "A_shared_TEST_0235_T5_s1_q1",
+    "donor": "A_shared_TEST_0235_T5_s0_q1",
+    "block": "A_shared_TEST_0235",
+    "study": "A",
+    "cohort": "shared",
+    "split": "TEST",
+    "index": 235,
+    "frame": "T5",
+    "side": 1,
+    "q": 1,
+    "text": "Everyone agrees that the chairlifts, unlike the mutineers,"
+  },
+  "files": {
+    "analysis/A_short_replication_qwen_20261101/TEST_fixed256_v3/run/completed/capture_A_shared_TEST_0235_T5_s1_q1.json": "16c011740bd6ff8808770bdfd064ba0d6ef738fe30ad2f272401b80a8f130ab5",
+    "analysis/A_short_replication_qwen_20261101/TEST_fixed256_v3/run/cache/7a785881076502ca04dbfad480ba16eb8719b40a23e9a045a546b918df499afe.json": "cb1ddd3118d1d47d0174fa0300f98c76a5dc15dc4ba29114279eb958617a0f36",
+    "analysis/A_short_replication_qwen_20261101/TEST_fixed256_v3/run/completed/capture_A_shared_TEST_0235_T5_s0_q1.json": "1b7f72b34e3fe48a3aa706d5d6515037974b0bca39cef43cfe3bd4505a363345",
+    "analysis/A_short_replication_qwen_20261101/TEST_fixed256_v3/run/cache/228edd3186a0e097e42cee1e7631344be5902cbcb204e37cbc38ef7d733ceb5d.json": "15744394335862a3a43a9df49281928442cc968767f5e2fa44a88f3318bee124",
+    "analysis/A_short_replication_qwen_20261101/TEST_fixed256_v3/run/completed/suffix_A_shared_TEST_0235_T5_s1_q1_native.json": "b3e2e0d8494d43163cf54b45b89c23b2ce2ec45342a8fde6a98b9bce1a325d33",
+    "analysis/A_short_replication_qwen_20261101/TEST_fixed256_v3/run/cache/1fc1ba6a228463907291490ac63a3bb7eccf67bbfb3537c719483f85e3f2af96.json": "05acd79b1c556450460008367254c6fd35c66177730a3a9c90905d812ac96a39",
+    "analysis/A_short_replication_qwen_20261101/TEST_fixed256_v3/run/completed/suffix_A_shared_TEST_0235_T5_s1_q1_P.json": "21d6c97012924ef247e44f0755d515f3ca97b387678ac2ea553e682c7e9b9f66",
+    "analysis/A_short_replication_qwen_20261101/TEST_fixed256_v3/run/cache/254ddc204c3cbf29902787f78544e8fb9b240fe81b461cb163263a320a4a3502.json": "fbf83c50a6e4161c75d488f407db8f05b79233c1964cb6832c96224c17a1a59b",
+    "analysis/A_short_replication_qwen_20261101/TEST_fixed256_v3/run/completed/suffix_A_shared_TEST_0235_T5_s1_q1_U0.json": "4229e4220aa3b6554c34f413a0f7a6cced9fddd3c2b2563424654260d5d97a15",
+    "analysis/A_short_replication_qwen_20261101/TEST_fixed256_v3/run/cache/26eec3141e9d1a1975c6bfdca81c1efbc136d3b1ec57ab4b64bf8f21e17724c3.json": "2b56a56d510c09524030c48155995fc133cb66d10decd90b80bb24c92de934a4",
+    "analysis/A_short_replication_qwen_20261101/TEST_fixed256_v3/run/results/A_shared_TEST_0235_T5_s1_q1.json": "507c7ef2923d23c1be8a25eaa63678eb725c7fd174528adf028aa84aeb3bde98"
+  },
+  "identity": {
+    "model": "6c0a47f03e2523c9a91ba0c2d0619671e7ab16f1b27a2cd039742997148c9269",
+    "code": "a7e0eb7c001d76058f8622dd71c6073784e9c3472bc2bdfbea4184b2cbba1bb5"
+  },
+  "own_fit_sha256": "56d4c8fe1448ff02683ab4b001243d56b983c128e33d65811919b54e23af4ccc",
+  "max_target_error": 0.0,
+  "all_saved_loss_vector_arithmetic_passed": true
+}

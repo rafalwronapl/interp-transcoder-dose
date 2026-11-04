@@ -1,0 +1,602 @@
+{
+  "scope": "Independent descriptive reconstruction only; no population inference/pvalues/Holm/bootstrap. Equal block/template/side weights; ratios of pooled mean energies, not mean individual ratios. B has no method P; MEAN/RIDGE are fitted baselines.",
+  "blocks": 256,
+  "records_read": 3072,
+  "summary": [
+    {
+      "operator": "full",
+      "dose": 1.0,
+      "frame": "equal_so_when_mixture",
+      "blocks": 256,
+      "records": 1024,
+      "mean_native_energy": 11.947758869668089,
+      "native_RMS": 3.4565530329604504,
+      "methods": {
+        "TC": {
+          "MSE": 0.1222393236733268,
+          "relative_MSE": 0.010231150879991154,
+          "absolute_RMSE": 0.349627406925325,
+          "relative_RMSE": 0.10114915165235522,
+          "mean_signed_error": -0.054217422381043434,
+          "mean_vector_squared_error": 762750.8186647934,
+          "fraction_records_error_above_ZERO": 0.07421875
+        },
+        "TAYLOR": {
+          "MSE": 20.180279235947552,
+          "relative_MSE": 1.689043062894369,
+          "absolute_RMSE": 4.4922465689171105,
+          "relative_RMSE": 1.2996318951512267,
+          "mean_signed_error": 0.1527275862172246,
+          "mean_vector_squared_error": 2116325.0992400437,
+          "fraction_records_error_above_ZERO": 0.59765625
+        },
+        "ZERO": {
+          "MSE": 11.947758869668075,
+          "relative_MSE": 0.9999999999999988,
+          "absolute_RMSE": 3.4565530329604486,
+          "relative_RMSE": 0.9999999999999993,
+          "mean_signed_error": 0.6168118948116899,
+          "mean_vector_squared_error": 2477621.278278667,
+          "fraction_records_error_above_ZERO": 0.0
+        },
+        "MEAN": {
+          "MSE": 3.9820643556197624,
+          "relative_MSE": 0.3332896486326883,
+          "absolute_RMSE": 1.9955110512396974,
+          "relative_RMSE": 0.5773124358895175,
+          "mean_signed_error": 0.19657007791101933,
+          "mean_vector_squared_error": 1540908.1481824392,
+          "fraction_records_error_above_ZERO": 0.25390625
+        },
+        "RIDGE": {
+          "MSE": 0.940231490956366,
+          "relative_MSE": 0.07869521817546406,
+          "absolute_RMSE": 0.9696553464795448,
+          "relative_RMSE": 0.2805266799708435,
+          "mean_signed_error": -0.09445739351212978,
+          "mean_vector_squared_error": 548266.2955049921,
+          "fraction_records_error_above_ZERO": 0.14453125
+        },
+        "FROZEN": {
+          "MSE": 14.025873431564083,
+          "relative_MSE": 1.1739334200300717,
+          "absolute_RMSE": 3.745113273529131,
+          "relative_RMSE": 1.0834820810839798,
+          "mean_signed_error": 0.40311918780207634,
+          "mean_vector_squared_error": 2903815.9357035155,
+          "fraction_records_error_above_ZERO": 0.580078125
+        }
+      }
+    },
+    {
+      "operator": "full",
+      "dose": 1.0,
+      "frame": "so",
+      "blocks": 256,
+      "records": 512,
+      "mean_native_energy": 15.347200380337808,
+      "native_RMS": 3.917550303485305,
+      "methods": {
+        "TC": {
+          "MSE": 0.14091475598457315,
+          "relative_MSE": 0.009181789022909172,
+          "absolute_RMSE": 0.3753861425047189,
+          "relative_RMSE": 0.0958216521612374,
+          "mean_signed_error": -0.03778108023107052,
+          "mean_vector_squared_error": 785862.5529815797,
+          "fraction_records_error_above_ZERO": 0.064453125
+        },
+        "TAYLOR": {
+          "MSE": 25.227174349481942,
+          "relative_MSE": 1.6437639259471677,
+          "absolute_RMSE": 5.02266605992096,
+          "relative_RMSE": 1.2820935714475632,
+          "mean_signed_error": 0.18877193331718445,
+          "mean_vector_squared_error": 2588851.0059248987,
+          "fraction_records_error_above_ZERO": 0.556640625
+        },
+        "ZERO": {
+          "MSE": 15.347200380337808,
+          "relative_MSE": 1.0,
+          "absolute_RMSE": 3.917550303485305,
+          "relative_RMSE": 1.0,
+          "mean_signed_error": 0.7379751037806273,
+          "mean_vector_squared_error": 2823293.9983751588,
+          "fraction_records_error_above_ZERO": 0.0
+        },
+        "MEAN": {
+          "MSE": 4.7519460748643905,
+          "relative_MSE": 0.30962950617054463,
+          "absolute_RMSE": 2.179895886244201,
+          "relative_RMSE": 0.5564436235330086,
+          "mean_signed_error": 0.30985369347035885,
+          "mean_vector_squared_error": 1581538.3088084,
+          "fraction_records_error_above_ZERO": 0.25390625
+        },
+        "RIDGE": {
+          "MSE": 1.2188989967486048,
+          "relative_MSE": 0.07942158612265253,
+          "absolute_RMSE": 1.1040375884672609,
+          "relative_RMSE": 0.281818356610517,
+          "mean_signed_error": -0.1542206946760416,
+          "mean_vector_squared_error": 610142.2266277861,
+          "fraction_records_error_above_ZERO": 0.138671875
+        },
+        "FROZEN": {
+          "MSE": 18.267832903650387,
+          "relative_MSE": 1.190303928464658,
+          "absolute_RMSE": 4.274088546538359,
+          "relative_RMSE": 1.0910105079533643,
+          "mean_signed_error": 0.5218311138451099,
+          "mean_vector_squared_error": 3456829.461411147,
+          "fraction_records_error_above_ZERO": 0.57421875
+        }
+      }
+    },
+    {
+      "operator": "full",
+      "dose": 1.0,
+      "frame": "when",
+      "blocks": 256,
+      "records": 512,
+      "mean_native_energy": 8.548317358998371,
+      "native_RMS": 2.9237505637448575,
+      "methods": {
+        "TC": {
+          "MSE": 0.10356389136208044,
+          "relative_MSE": 0.012115120088875045,
+          "absolute_RMSE": 0.3218134418604674,
+          "relative_RMSE": 0.11006870621968373,
+          "mean_signed_error": -0.07065376453101635,
+          "mean_vector_squared_error": 739639.0843480071,
+          "fraction_records_error_above_ZERO": 0.083984375
+        },
+        "TAYLOR": {
+          "MSE": 15.133384122413217,
+          "relative_MSE": 1.7703348491715842,
+          "absolute_RMSE": 3.8901650507932457,
+          "relative_RMSE": 1.3305393076386673,
+          "mean_signed_error": 0.11668323911726475,
+          "mean_vector_squared_error": 1643799.1925551891,
+          "fraction_records_error_above_ZERO": 0.638671875
+        },
+        "ZERO": {
+          "MSE": 8.548317358998371,
+          "relative_MSE": 1.0,
+          "absolute_RMSE": 2.9237505637448575,
+          "relative_RMSE": 1.0,
+          "mean_signed_error": 0.49564868584275246,
+          "mean_vector_squared_error": 2131948.5581821734,
+          "fraction_records_error_above_ZERO": 0.0
+        },
+        "MEAN": {
+          "MSE": 3.2121826363751342,
+          "relative_MSE": 0.3757678267517567,
+          "absolute_RMSE": 1.7922562976246266,
+          "relative_RMSE": 0.612999043026787,
+          "mean_signed_error": 0.0832864623516798,
+          "mean_vector_squared_error": 1500277.9875564736,
+          "fraction_records_error_above_ZERO": 0.25390625
+        },
+        "RIDGE": {
+          "MSE": 0.6615639851641273,
+          "relative_MSE": 0.07739113528204859,
+          "absolute_RMSE": 0.8133658372246324,
+          "relative_RMSE": 0.2781926226233338,
+          "mean_signed_error": -0.034694092348217964,
+          "mean_vector_squared_error": 486390.3643821975,
+          "fraction_records_error_above_ZERO": 0.150390625
+        },
+        "FROZEN": {
+          "MSE": 9.783913959477811,
+          "relative_MSE": 1.14454266829235,
+          "absolute_RMSE": 3.1279248647430475,
+          "relative_RMSE": 1.069833009535764,
+          "mean_signed_error": 0.28440726175904274,
+          "mean_vector_squared_error": 2350802.409995864,
+          "fraction_records_error_above_ZERO": 0.5859375
+        }
+      }
+    },
+    {
+      "operator": "full",
+      "dose": 0.05,
+      "frame": "equal_so_when_mixture",
+      "blocks": 256,
+      "records": 1024,
+      "mean_native_energy": 0.0026356081857077385,
+      "native_RMS": 0.051338174740710625,
+      "methods": {
+        "TC": {
+          "MSE": 0.0036362290319598145,
+          "relative_MSE": 1.379654628361757,
+          "absolute_RMSE": 0.06030115282446775,
+          "relative_RMSE": 1.1745870033172328,
+          "mean_signed_error": 0.00783345103263855,
+          "mean_vector_squared_error": 9780.513547214901,
+          "fraction_records_error_above_ZERO": 0.49609375
+        },
+        "TAYLOR": {
+          "MSE": 3.856271113900078e-05,
+          "relative_MSE": 0.01463142789892556,
+          "absolute_RMSE": 0.006209888174436057,
+          "relative_RMSE": 0.12096043939621565,
+          "mean_signed_error": 0.0012563439086079597,
+          "mean_vector_squared_error": 9.30717436441905,
+          "fraction_records_error_above_ZERO": 0.07421875
+        },
+        "ZERO": {
+          "MSE": 0.0026356081857077385,
+          "relative_MSE": 1.0,
+          "absolute_RMSE": 0.051338174740710625,
+          "relative_RMSE": 1.0,
+          "mean_signed_error": 0.0034921076148748398,
+          "mean_vector_squared_error": 10456.368104549683,
+          "fraction_records_error_above_ZERO": 0.0
+        },
+        "MEAN": {
+          "MSE": 0.004299023354446874,
+          "relative_MSE": 1.6311314321147699,
+          "absolute_RMSE": 0.06556693796759823,
+          "relative_RMSE": 1.27715755962793,
+          "mean_signed_error": 0.014234255999326706,
+          "mean_vector_squared_error": 5330.777165427397,
+          "fraction_records_error_above_ZERO": 0.4521484375
+        },
+        "RIDGE": {
+          "MSE": 0.007962434954097652,
+          "relative_MSE": 3.0210996449608856,
+          "absolute_RMSE": 0.08923247701424439,
+          "relative_RMSE": 1.7381310781873978,
+          "mean_signed_error": 0.007589858956634998,
+          "mean_vector_squared_error": 3095.390274934389,
+          "fraction_records_error_above_ZERO": 0.609375
+        },
+        "FROZEN": {
+          "MSE": 0.003198374117089564,
+          "relative_MSE": 1.213524124880765,
+          "absolute_RMSE": 0.05655416975864436,
+          "relative_RMSE": 1.1016007102760805,
+          "mean_signed_error": 0.00772488210350275,
+          "mean_vector_squared_error": 3592.1148898644155,
+          "fraction_records_error_above_ZERO": 0.470703125
+        }
+      }
+    },
+    {
+      "operator": "full",
+      "dose": 0.05,
+      "frame": "so",
+      "blocks": 256,
+      "records": 512,
+      "mean_native_energy": 0.0034264899868805543,
+      "native_RMS": 0.05853622798644062,
+      "methods": {
+        "TC": {
+          "MSE": 0.004425011429761483,
+          "relative_MSE": 1.2914123335261731,
+          "absolute_RMSE": 0.06652075938954308,
+          "relative_RMSE": 1.1364032442430694,
+          "mean_signed_error": 0.018010610714554787,
+          "mean_vector_squared_error": 10525.12827914457,
+          "fraction_records_error_above_ZERO": 0.458984375
+        },
+        "TAYLOR": {
+          "MSE": 4.4499160809508e-05,
+          "relative_MSE": 0.012986806025958838,
+          "absolute_RMSE": 0.0066707691317799325,
+          "relative_RMSE": 0.11395966841808043,
+          "mean_signed_error": 0.0018746685236692429,
+          "mean_vector_squared_error": 10.696116019310193,
+          "fraction_records_error_above_ZERO": 0.07421875
+        },
+        "ZERO": {
+          "MSE": 0.0034264899868805543,
+          "relative_MSE": 1.0,
+          "absolute_RMSE": 0.05853622798644062,
+          "relative_RMSE": 1.0,
+          "mean_signed_error": 0.00887935422360897,
+          "mean_vector_squared_error": 12260.942039022695,
+          "fraction_records_error_above_ZERO": 0.0
+        },
+        "MEAN": {
+          "MSE": 0.005302125588737994,
+          "relative_MSE": 1.5473926989540108,
+          "absolute_RMSE": 0.07281569603277849,
+          "relative_RMSE": 1.2439424017831415,
+          "mean_signed_error": 0.016442015767097473,
+          "mean_vector_squared_error": 5680.164327449438,
+          "fraction_records_error_above_ZERO": 0.53125
+        },
+        "RIDGE": {
+          "MSE": 0.010612320437447309,
+          "relative_MSE": 3.0971403617346245,
+          "absolute_RMSE": 0.10301611736736785,
+          "relative_RMSE": 1.7598694161029744,
+          "mean_signed_error": 0.006569484248757362,
+          "mean_vector_squared_error": 3531.243852309707,
+          "fraction_records_error_above_ZERO": 0.595703125
+        },
+        "FROZEN": {
+          "MSE": 0.0041409631053994644,
+          "relative_MSE": 1.2085145794251568,
+          "absolute_RMSE": 0.0643503155034959,
+          "relative_RMSE": 1.0993246014827271,
+          "mean_signed_error": 0.019030101597309113,
+          "mean_vector_squared_error": 3679.532170699764,
+          "fraction_records_error_above_ZERO": 0.4453125
+        }
+      }
+    },
+    {
+      "operator": "full",
+      "dose": 0.05,
+      "frame": "when",
+      "blocks": 256,
+      "records": 512,
+      "mean_native_energy": 0.0018447263845349227,
+      "native_RMS": 0.04295027804956474,
+      "methods": {
+        "TC": {
+          "MSE": 0.002847446634158146,
+          "relative_MSE": 1.543560420683212,
+          "absolute_RMSE": 0.05336147143921489,
+          "relative_RMSE": 1.242401070783188,
+          "mean_signed_error": -0.002343708649277687,
+          "mean_vector_squared_error": 9035.898815285227,
+          "fraction_records_error_above_ZERO": 0.533203125
+        },
+        "TAYLOR": {
+          "MSE": 3.262626146849357e-05,
+          "relative_MSE": 0.017686233439285378,
+          "absolute_RMSE": 0.005711940254282564,
+          "relative_RMSE": 0.1329895989891141,
+          "mean_signed_error": 0.0006380192935466766,
+          "mean_vector_squared_error": 7.9182327095279,
+          "fraction_records_error_above_ZERO": 0.07421875
+        },
+        "ZERO": {
+          "MSE": 0.0018447263845349227,
+          "relative_MSE": 1.0,
+          "absolute_RMSE": 0.04295027804956474,
+          "relative_RMSE": 1.0,
+          "mean_signed_error": -0.001895138993859291,
+          "mean_vector_squared_error": 8651.794170076648,
+          "fraction_records_error_above_ZERO": 0.0
+        },
+        "MEAN": {
+          "MSE": 0.0032959211201557537,
+          "relative_MSE": 1.7866720765674386,
+          "absolute_RMSE": 0.05741011339612345,
+          "relative_RMSE": 1.336664534042644,
+          "mean_signed_error": 0.012026496231555939,
+          "mean_vector_squared_error": 4981.390003405355,
+          "fraction_records_error_above_ZERO": 0.373046875
+        },
+        "RIDGE": {
+          "MSE": 0.005312549470747996,
+          "relative_MSE": 2.8798576934147078,
+          "absolute_RMSE": 0.07288723805130769,
+          "relative_RMSE": 1.6970143468499927,
+          "mean_signed_error": 0.008610233664512634,
+          "mean_vector_squared_error": 2659.5366975590814,
+          "fraction_records_error_above_ZERO": 0.623046875
+        },
+        "FROZEN": {
+          "MSE": 0.0022557851287796638,
+          "relative_MSE": 1.2228291131361326,
+          "absolute_RMSE": 0.04749510636665281,
+          "relative_RMSE": 1.1058160394641292,
+          "mean_signed_error": -0.0035803373903036118,
+          "mean_vector_squared_error": 3504.697609029067,
+          "fraction_records_error_above_ZERO": 0.49609375
+        }
+      }
+    },
+    {
+      "operator": "projected",
+      "dose": 1.0,
+      "frame": "equal_so_when_mixture",
+      "blocks": 256,
+      "records": 1024,
+      "mean_native_energy": 9.986459445253146,
+      "native_RMS": 3.160135985247019,
+      "methods": {
+        "TC": {
+          "MSE": 0.1223765085600581,
+          "relative_MSE": 0.012254243781886803,
+          "absolute_RMSE": 0.34982353917376413,
+          "relative_RMSE": 0.1106988878981483,
+          "mean_signed_error": -0.046033880673348904,
+          "mean_vector_squared_error": 195261.73825932766,
+          "fraction_records_error_above_ZERO": 0.0732421875
+        },
+        "TAYLOR": {
+          "MSE": 16.385152883343046,
+          "relative_MSE": 1.6407369371665936,
+          "absolute_RMSE": 4.047857814121322,
+          "relative_RMSE": 1.2809125407952697,
+          "mean_signed_error": 0.316092386841774,
+          "mean_vector_squared_error": 1566199.86884934,
+          "fraction_records_error_above_ZERO": 0.572265625
+        },
+        "ZERO": {
+          "MSE": 9.98645944525314,
+          "relative_MSE": 0.9999999999999993,
+          "absolute_RMSE": 3.1601359852470177,
+          "relative_RMSE": 0.9999999999999997,
+          "mean_signed_error": 0.81521584559232,
+          "mean_vector_squared_error": 1382510.8720710888,
+          "fraction_records_error_above_ZERO": 0.0
+        },
+        "MEAN": {
+          "MSE": 3.352145375259706,
+          "relative_MSE": 0.33566905204357267,
+          "absolute_RMSE": 1.8308864998299883,
+          "relative_RMSE": 0.5793695297852423,
+          "mean_signed_error": 0.3626381494104862,
+          "mean_vector_squared_error": 440277.44392770244,
+          "fraction_records_error_above_ZERO": 0.28125
+        },
+        "RIDGE": {
+          "MSE": 1.0566514063294612,
+          "relative_MSE": 0.10580841109125198,
+          "absolute_RMSE": 1.0279355068920721,
+          "relative_RMSE": 0.3252820485228965,
+          "mean_signed_error": 0.07151175290346146,
+          "mean_vector_squared_error": 135766.9452300028,
+          "fraction_records_error_above_ZERO": 0.205078125
+        },
+        "FROZEN": {
+          "MSE": 11.662057907380824,
+          "relative_MSE": 1.1677870391717395,
+          "absolute_RMSE": 3.414975535400045,
+          "relative_RMSE": 1.0806419569736034,
+          "mean_signed_error": 0.5590644581243396,
+          "mean_vector_squared_error": 1772766.3408741716,
+          "fraction_records_error_above_ZERO": 0.5908203125
+        }
+      }
+    },
+    {
+      "operator": "projected",
+      "dose": 1.0,
+      "frame": "so",
+      "blocks": 256,
+      "records": 512,
+      "mean_native_energy": 13.217069402508232,
+      "native_RMS": 3.6355287651878414,
+      "methods": {
+        "TC": {
+          "MSE": 0.14910206364783107,
+          "relative_MSE": 0.011281022979234388,
+          "absolute_RMSE": 0.38613736370342494,
+          "relative_RMSE": 0.10621216022299136,
+          "mean_signed_error": 0.027382779866456985,
+          "mean_vector_squared_error": 266216.94439992146,
+          "fraction_records_error_above_ZERO": 0.0625
+        },
+        "TAYLOR": {
+          "MSE": 20.134643371296846,
+          "relative_MSE": 1.5233818298234745,
+          "absolute_RMSE": 4.487164290651374,
+          "relative_RMSE": 1.2342535516754547,
+          "mean_signed_error": 0.6124997437000275,
+          "mean_vector_squared_error": 2000307.7305499555,
+          "fraction_records_error_above_ZERO": 0.541015625
+        },
+        "ZERO": {
+          "MSE": 13.217069402508232,
+          "relative_MSE": 1.0,
+          "absolute_RMSE": 3.6355287651878414,
+          "relative_RMSE": 1.0,
+          "mean_signed_error": 1.2183511275798082,
+          "mean_vector_squared_error": 1852905.6271037217,
+          "fraction_records_error_above_ZERO": 0.0
+        },
+        "MEAN": {
+          "MSE": 4.237315806490342,
+          "relative_MSE": 0.3205942011385835,
+          "absolute_RMSE": 2.05847414520813,
+          "relative_RMSE": 0.5662103859331649,
+          "mean_signed_error": 0.45814563147723675,
+          "mean_vector_squared_error": 561058.8797992495,
+          "fraction_records_error_above_ZERO": 0.296875
+        },
+        "RIDGE": {
+          "MSE": 1.3779034090782023,
+          "relative_MSE": 0.10425181007347321,
+          "absolute_RMSE": 1.173841304895258,
+          "relative_RMSE": 0.3228804888398697,
+          "mean_signed_error": 0.06480726785957813,
+          "mean_vector_squared_error": 158374.50225516112,
+          "fraction_records_error_above_ZERO": 0.220703125
+        },
+        "FROZEN": {
+          "MSE": 15.277627110375686,
+          "relative_MSE": 1.155901255044966,
+          "absolute_RMSE": 3.9086605263665053,
+          "relative_RMSE": 1.0751284830404997,
+          "mean_signed_error": 0.9287616908550262,
+          "mean_vector_squared_error": 2338430.281263767,
+          "fraction_records_error_above_ZERO": 0.578125
+        }
+      }
+    },
+    {
+      "operator": "projected",
+      "dose": 1.0,
+      "frame": "when",
+      "blocks": 256,
+      "records": 512,
+      "mean_native_energy": 6.755849487998063,
+      "native_RMS": 2.5992017020612432,
+      "methods": {
+        "TC": {
+          "MSE": 0.09565095347228514,
+          "relative_MSE": 0.014158242222863531,
+          "absolute_RMSE": 0.3092748833518253,
+          "relative_RMSE": 0.1189884121369116,
+          "mean_signed_error": -0.11945054121315479,
+          "mean_vector_squared_error": 124306.53211873419,
+          "fraction_records_error_above_ZERO": 0.083984375
+        },
+        "TAYLOR": {
+          "MSE": 12.6356623953893,
+          "relative_MSE": 1.8703291744194233,
+          "absolute_RMSE": 3.5546676912742914,
+          "relative_RMSE": 1.3675997859093951,
+          "mean_signed_error": 0.019685029983520508,
+          "mean_vector_squared_error": 1132092.0071487278,
+          "fraction_records_error_above_ZERO": 0.603515625
+        },
+        "ZERO": {
+          "MSE": 6.755849487998063,
+          "relative_MSE": 1.0,
+          "absolute_RMSE": 2.5992017020612432,
+          "relative_RMSE": 1.0,
+          "mean_signed_error": 0.4120805636048317,
+          "mean_vector_squared_error": 912116.1170384587,
+          "fraction_records_error_above_ZERO": 0.0
+        },
+        "MEAN": {
+          "MSE": 2.4669749440290705,
+          "relative_MSE": 0.3651613240365573,
+          "absolute_RMSE": 1.5706606711919258,
+          "relative_RMSE": 0.6042857966530053,
+          "mean_signed_error": 0.2671306673437357,
+          "mean_vector_squared_error": 319496.008056154,
+          "fraction_records_error_above_ZERO": 0.265625
+        },
+        "RIDGE": {
+          "MSE": 0.7353994035807201,
+          "relative_MSE": 0.10885372814879546,
+          "absolute_RMSE": 0.857554315236487,
+          "relative_RMSE": 0.3299298836856029,
+          "mean_signed_error": 0.07821623794734478,
+          "mean_vector_squared_error": 113159.38820484496,
+          "fraction_records_error_above_ZERO": 0.189453125
+        },
+        "FROZEN": {
+          "MSE": 8.046488704385999,
+          "relative_MSE": 1.191040256104105,
+          "absolute_RMSE": 2.836633339786092,
+          "relative_RMSE": 1.0913479079120942,
+          "mean_signed_error": 0.18936722539365292,
+          "mean_vector_squared_error": 1207102.4004845705,
+          "fraction_records_error_above_ZERO": 0.603515625
+        }
+      }
+    }
+  ],
+  "finite_contrasts": {
+    "B1_full_c1_native_minus_TC": 11.825519545994762,
+    "B1_full_c1_Taylor_minus_TC": 20.058039912274225,
+    "B2_small_vs_c1_log_relative_energy": 4.9041514034018645,
+    "B2_small_over_c1_relative_energy_ratio": 134.84842952124959,
+    "B3_projected_c1_native_minus_TC": 9.864082936693087,
+    "B3_projected_c1_Taylor_minus_TC": 16.262776374782987
+  },
+  "model_calls": 0,
+  "bootstrap_calls": 0
+}

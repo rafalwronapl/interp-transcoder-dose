@@ -1,0 +1,41 @@
+{
+  "document": {
+    "id": "A_shared_TEST_0203_T2_s0_q1",
+    "donor": "A_shared_TEST_0203_T2_s1_q1",
+    "block": "A_shared_TEST_0203",
+    "study": "A",
+    "cohort": "shared",
+    "split": "TEST",
+    "index": 203,
+    "frame": "T2",
+    "side": 0,
+    "q": 1,
+    "text": "Near the enclosure, the dunce that the panopticons can observe"
+  },
+  "files": {
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/completed/capture_A_shared_TEST_0203_T2_s0_q1.json": "41d014e222ad412db5eb221a3fd946fca9e508156feae717a2567e24951c5675",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/cache/f7a0935b7431c7e5e2c01e670968936dfc60c54f266d39c4e974a40c1ccfbb39.json": "dadd261a6744347e41c798cf60cc26d4e07b7e700ebcc385dcc204fc0fe722ec",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/completed/capture_A_shared_TEST_0203_T2_s1_q1.json": "9ecaebd3fd1c502abc59d7289b46bf404b1cf50ec83fdf67c4ca2f82356c8a60",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/cache/e1d576d0250735ee6e9ecd9780b39983a8c1b166ae32305667dc78a23ac7605e.json": "7509ca5cbfa9a2b20ee43ece88cf098089196e5a3899ba84702667e577ab7a88",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/completed/suffix_A_shared_TEST_0203_T2_s0_q1_native.json": "7421a37967f138796844fdae73cd11a604a9efa55fdc79d51429d0ec02810768",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/cache/8a68a1ce8c0ce86fa6902a1dbc067253c89313c8af1faa7c2289c3a32fb557fe.json": "3dfeb2052b1b60a67fe677c1468d30fdc81bb50335607dd19e40139f55349824",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/completed/suffix_A_shared_TEST_0203_T2_s0_q1_r0_P.json": "fb9126b82a3403485e5205b9af04d85a0a5462260cc549d19495941ee764e501",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/cache/0bcf99da8f291a77589cf99d5e8ef6de238ea2d01675cce3baa5ffabfc3fda5a.json": "c4406cfc12fdab4ba315fd71254a0831625406793d04deb05938b1b53afc8fab",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/completed/suffix_A_shared_TEST_0203_T2_s0_q1_r0_U0.json": "7f34bc8bd37f7e2bd8947a06897cd91dc2a04cf9e1f411128414270f0b5b3336",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/cache/a7dc49435db1e8aaa9d70ffb262b36de29dc14bea222771b1384d484c8b5e5e6.json": "9a4a0c839a2e3c022ec6d82e0d3e7d1d1af674b720a5c991b8f9c1f928e24f53",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/results/r0/A_shared_TEST_0203_T2_s0_q1.json": "76b337531f55f6881c68078f1a7c5563d6063a8c1d516b2d3284921b15263b18"
+  },
+  "identity": {
+    "model": "5fb518228899f9c15e3db99e01c11d159af8451337dee6d85c28f3880fde2b29",
+    "code": "25737ad0d8d462c020f979d68f61d55e90b2e2668df0fb2d0a8008b19f7db7b7",
+    "corpus": "361064de9ca092fcd6a97649eb7daac7f01b03a084cb021f6e6d0b819c00180c",
+    "tokens": "64569cc7e32d060a398bb0dba55885712cb963aa4475dbaf847e795f4b4926f9",
+    "config": "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/config.json",
+    "frozen_fit_hashes": {
+      "r0": "9215ff51a78cfd3a5c9a8149332c17fe9a8d50a8571d6943f1cc2059fb52c833"
+    }
+  },
+  "own_fit_sha256": "9215ff51a78cfd3a5c9a8149332c17fe9a8d50a8571d6943f1cc2059fb52c833",
+  "max_target_error": 0.0,
+  "all_saved_loss_vector_arithmetic_passed": true
+}

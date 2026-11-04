@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "snapshot_file_sha256": "520a7a301fb38f2820aad1fc9f955fc8b93cb9a4b21eb763c91bc336a7bdbcdf",
+  "snapshot_file": "papers/B_v15_20261104/editorial_snapshot.json",
+  "reviewer_id": "/root/prior_and_paper_review",
+  "independent": true,
+  "verdict": "approved",
+  "topics_checked": [
+    "design",
+    "implementation",
+    "data",
+    "cost",
+    "claims",
+    "editorial",
+    "actual_pdf"
+  ],
+  "findings": [
+    {
+      "id": "B15-CONTROLS",
+      "severity": "low",
+      "status": "resolved",
+      "evidence": "main.tex section6.3 and appendixS report1?4 unique directions, top32 distinct,28?31 shared features and exact per-context counts. Repeated directions retain multiplicity/5 in original five-group mean; blocks remain inference units.",
+      "resolution": "Confirmed corrected framing; no posthoc deduplication or fictitious independent control replicates."
+    },
+    {
+      "id": "B15-FRESH-SCOPE",
+      "severity": "low",
+      "status": "resolved",
+      "evidence": "Abstract, introduction, section6.3 and discussion call fresh norm comparison descriptive and disclose absence of inferential decision/CI, object 12/64 contexts and 9 blocks and coupled construction/readout change.",
+      "resolution": "No formal confirmation, broad object transfer, or newly demonstrated gradient mechanism claimed."
+    },
+    {
+      "id": "B15-PROVENANCE-PDF",
+      "severity": "low",
+      "status": "resolved",
+      "evidence": "All 308 snapshot files hash verified. Final methodological/Fable/lab reports copied with hashes. Current PDF39pages; visually reviewed everypage in current rendered contact sheets; N/O, complete grids and S heading/tables occur in correct order. Source rounding .000152279 and D.2 cross-reference corrected; scope map updated.",
+      "resolution": "Source and PDF corrections verified; no overfull/undefined warnings in successful four-stage compile."
+    },
+    {
+      "id": "B15-LIMITS",
+      "severity": "low",
+      "status": "accepted",
+      "evidence": "Pooled endpoint cancellation is distinguished from within-frame centering/nonlinear readout; exact loss-increment identity separates sensitivity from worsening. TC_FULL gradient/delta-collinearity remains untested.",
+      "resolution": "Accept bounded interpretation. Suggested new gradient/direction experiments remain future work and are not required to claim the existing descriptive findings."
+    }
+  ],
+  "limitations": "Independent editorial/source review of B15 and its actual PDF, against final external reviews and preserved approved evidence; no pretrained model calls, refitting, bootstrap or new raw tensor audit. Verified all snapshot file hashes and read current changed source. Visual review uses current rendered contact sheets of all 39 pages; dense tabular PDF text extraction can still reorder cells although visual tables and TeX remain coherent. Earlier scientific approvals apply only to their original snapshots. This private working manuscript still requires human authorship/publication/license disclosures before public release; no external peer-review or global-novelty certification."
+}

@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "snapshot_sha256": "7b00619ea5530e612bb7a213066444f06046e4bc8879fe1989ca56edd1bddcd9",
+  "reviewer_id": "/root/five_campaign_review",
+  "independent": true,
+  "verdict": "approved",
+  "topics_checked": ["design", "implementation", "data", "cost", "claims"],
+  "findings": [
+    {"id":"B2-CACHE-SEAL","severity":"medium","status":"resolved","evidence":"Initial completed fast path bound only root JSON files. Final worker recursively seals immutable cache, bundles and ledger and validates the seal before completed replay.","resolution":"Reviewed final worker and full snapshot; unchanged completed runs do not load the model."},
+    {"id":"B2-SOFTWARE","severity":"medium","status":"resolved","evidence":"Final software_identity.json binds package versions and six relevant Transformers semantic-source files; worker validates these before model loading. Invoked native-tail and TC fixture source files and true subprocess exit receipt are tracked.","resolution":"Semantic implementation and test provenance now bound in final snapshot."},
+    {"id":"B2-INFERENCE-SCOPE","severity":"low","status":"accepted","evidence":"One second Gemma1B layer22 medium no-affine artifact, same pronoun readout, full operator only, prior historical exposure disclosed. 256 TEST lexical pairs shared across three templates; 32 disjoint FIT pairs. Four technical contexts are one FIT pair in two frames.","resolution":"Interpret as second-artifact finite-corpus study conditional on fixed FIT, not blind artifact discovery, independent-task replication, isolated model-size effect or calibrated family test. Technical controls execute and must pass before TEST capture."},
+    {"id":"B2-TOKEN-LENGTH","severity":"low","status":"accepted","evidence":"714 recipient contexts have a donor of a different token length. This experiment uses the donor's captured final-position vector and the recipient's own separately captured exact suffix; it does not transplant sequence tensors or assume aligned positions across entire prompts.","resolution":"No equal-length requirement is needed for this operator. Exact donor pairing, final-position semantics, nonempty tokenization and recipient-specific suffix are preserved."}
+  ],
+  "checks": {
+    "snapshot_members_verified": 53,
+    "scheduled_forward": 80932,
+    "scheduled_backward": 0,
+    "documents": 1664,
+    "test_documents": 1536,
+    "blocks_total": 288,
+    "blocks_test": 256,
+    "paired_donors_verified": true,
+    "unique_operation_ids_verified": true,
+    "synthetic_end_to_end_and_uncertain_restart_tests": 2,
+    "random_native_tail_and_transcoder_tests": 3,
+    "true_test_subprocess_exit": 0,
+    "reviewer_model_calls": 0
+  },
+  "limitations": "Source and complete hash-bound input audit plus inspection of synthetic fixture runs; no pretrained calls by reviewer. Four real FIT technical controls remain scheduled ahead of scientific TEST measurements and stop the worker on numerical failure. Nominal pointwise block intervals do not have independently qualified population/family coverage. A failed or interrupted model session requires explicit reviewed recovery; there is no automatic retry authorization."
+}

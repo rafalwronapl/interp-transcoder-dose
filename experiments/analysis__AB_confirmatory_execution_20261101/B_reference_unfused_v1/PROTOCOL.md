@@ -1,0 +1,11 @@
+# Four new reference-only evaluations, frozen scope v1
+
+2026-11-01,root. Original B FIT retained64durableoperations (60forward,4backward),including4natural captures and allfull-operatorqualification. JSONsummarypublication failed; cache replay showed allnon-TC gatespassed butTCabsolutecomparisonfailed. Oldreference used F.linear,fusing bias/reductions differently from the official tutorial's explicit matmulthenbias. Outputnorms2628–3401,difference norms.00124–.00282; the original maxabsolute1e-5 gate is NOT retrospectively declaredpassed.
+
+This NEW diagnostic computes the official unfused expression independently from boundrawsafetensorweights on the SAME4savednormalized inputs and compares it with SAVEDactualTCoutputs. Fournewlocalreferenceevaluations,0nativeforwards,0backwards,0newdata,0repeatedoriginaloperations. No native model loads. Original64operations/failedreference remainimmutable. ReLU and strictthreshold plusoptionalinputskip are as in B_REFERENCE_RETRIEVAL.md,already independentlycorroborated byAstra.
+
+Retain exactoriginalcutoffs:maxabsolute<=1e-5 AND normdifference<=1e-5*max(norm(reference),1),finiteoutputsrequired. No tolerancewidening or favorable-inputselection. PASS supports formula-conformance underthisarithmetic,not generalTCfaithfulness or hypothesisB1–B3. FAIL stops expansion and records unresolvedimplementation/numericalquestion; no escalatingtoleranceuntilpass.
+
+Inputpacketbinds originalcapture/resultcompletion/cachehashes and rawweightSHA. Reviewmust confirm eachsavedactual belongs tosame document/input and originalmodel/TCidentity; no compareofunrelatedartifacts. Runtime identity binds newreferencecode+packet. Scheduleexactly4operations;durablecache skipscompletedlocalreferences,includingavoidingweightloadonfullreplay. Noautomaticretryreserve. Canonicalpre-runreview/launchandcompletionreviewrequired.
+
+IfPASS, a separately reviewed recoveryamendment may substitute thisreferencequalification while retaining/rechecking allnon-TC originalgates fromcache. It must record originalFAIL and newreferenceprovenance,not merely overwriteaPASSflag. Originalmeasurementworker/config/cacheidentityremainpreserved for validreuse. Thisdiagnostic does not itself authorize remaining1800Boperations.

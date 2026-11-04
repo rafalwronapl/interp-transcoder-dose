@@ -1,0 +1,20 @@
+{
+    "scope":  "4newlocalunfusedreferences;0native;0backward;oldoutputsreused",
+    "arguments":  [
+                      "-m",
+                      "research_checks",
+                      "launch",
+                      "--snapshot",
+                      "analysis/AB_confirmatory_execution_20261101/B_reference_unfused_v1/pre_run_snapshot_v2.json",
+                      "--review",
+                      "analysis/AB_confirmatory_execution_20261101/B_reference_unfused_v1/pre_run_review_v2.json"
+                  ],
+    "launcher_pid":  20680,
+    "existing_python_pids":  [
+                                 4428,
+                                 12416
+                             ],
+    "started_utc":  "2026-11-01T10:39:56.7636452Z",
+    "snapshot":  "ce6434621cf2c6775c9a83bb191d85b917ce760a57e8e687325d368636368aa6",
+    "status":  "launcher_started_measurements_not_yet_confirmed"
+}

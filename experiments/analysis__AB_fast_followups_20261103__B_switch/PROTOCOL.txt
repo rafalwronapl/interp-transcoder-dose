@@ -1,0 +1,49 @@
+B-FIT cache-only feasibility, 2026-11-03. New analysis; historical artifacts immutable.
+
+Question: can disjoint groups of 32 features match historical top32's actual
+threshold-switch counts and norms of SUMMED switch-contribution vectors?
+Existing measured FIT contains 64 independent blocks, 128 so-frame recipient
+documents and full donor endpoints at dose1. It does not supply measured .05 or
+projected FIT endpoints. Report this restriction explicitly; no reconstruction
+of preactivations/forwards for missing conditions. No TEST outcome access.
+
+Keep original top32 from run_v3 and adopted selection byte-for-byte, and verify
+its historical ranking using mean abs switch coefficient times decoder row norm.
+Stored preactivation convention: pre=x@w_enc+b_enc. JumpReLU uses pre>threshold,
+relu(pre), no rescaling. W_dec has rows=16384 features, columns=640 outputs.
+Switch contribution = relu(pre1)*(mask1-mask0) @ W_dec. This matches historical
+BASE=relu(pre1)*mask0 and feature_arms; OFF terms may be nonzero subthreshold.
+No b_dec/encoder/native model load or evaluation. Existing decoder/threshold
+arrays may be selectively read with safetensors safe_open for pure cache algebra.
+Native/TC classes must never be instantiated. ZERO pretrained forward calls.
+
+Compare empirical count and norm distributions using Wasserstein1 (sorted
+equal-size vectors) within observed single condition, supplemented by full
+per-context counts/norms. Tolerances are the 95th percentile of128 balanced
+whole-block splits of the historical top distributions (seed20261102).
+These are descriptive FIT heterogeneity bands, not an equivalence test or
+prespecified scientific effect threshold. Report distances and balance even if
+all groups fail. No automatic promotion into B-MASK.
+
+Five fixed seeds20261103..20261107. All candidate groups size32 and disjoint from
+top32; overlap among controls allowed and disclosed. Candidate pool is all
+alternative switching features plus first32 inactive features. Initialize by
+mean individual absolute switch contribution with seeded random tie order;
+256 proposals of single swaps minimize sum of count/norm W1 divided by each
+FIT tolerance. This bounded heuristic cannot establish global infeasibility.
+Record all results without selecting the best seed. Report analytic count
+support bound using ALL alternative features; context count deficits alone do
+not prove distribution mismatch, but mean count bound is valid for W1 distance.
+
+Useful outcomes: matched candidates within observed condition; inadequate
+bounded search; or count-support bound proving tolerance unattainable. None
+establishes exceptional native mechanism or causal/readout performance.
+
+Missing-work schedule: additional FIT condition arrays require a separately
+reviewed TC cache-algebra proposal or explicit new TC evaluation budget; no
+native forwards needed for these input encodings if compatible stored inputs
+exist. B-MASK uses fixed groups only after its own exact reviewed plan and
+canonical launcher. Existing TEST is posthoc, not confirmatory fresh TEST.
+Closest literature/claim bounds: inherit plans/DALSZE_EKSPERYMENTY_A_B_20261103.txt
+and reviewed B13 bibliography; feature ablation and intervention strength are
+established methods, this stage is specific feasibility accounting, no novelty claim.

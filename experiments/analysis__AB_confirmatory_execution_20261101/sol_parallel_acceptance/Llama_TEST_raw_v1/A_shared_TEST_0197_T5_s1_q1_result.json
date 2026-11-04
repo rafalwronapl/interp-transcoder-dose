@@ -1,0 +1,41 @@
+{
+  "document": {
+    "id": "A_shared_TEST_0197_T5_s1_q1",
+    "donor": "A_shared_TEST_0197_T5_s0_q1",
+    "block": "A_shared_TEST_0197",
+    "study": "A",
+    "cohort": "shared",
+    "split": "TEST",
+    "index": 197,
+    "frame": "T5",
+    "side": 1,
+    "q": 1,
+    "text": "Everyone agrees that the klystrons, unlike the incinerators,"
+  },
+  "files": {
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/completed/capture_A_shared_TEST_0197_T5_s1_q1.json": "84904ad3ac3f309f25a9920a91a8726e1923830b61011edd2d7da3cb66c1aaa5",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/cache/bc5ce50b8ef3e57231aa3160409a15e2a248767141bc596367f1bbfd6e744aa4.json": "588856ebbaf55232f4ec038dc27ef67dc42960c77624428b4687277b22fb96a2",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/completed/capture_A_shared_TEST_0197_T5_s0_q1.json": "8745b1a3956746746210d086d7dda339662604a170e54af167377add4ab4eeb2",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/cache/970b323f10e78b8a5cddde597c4fcd7fb991b1ae1b19aa1150a3ddab89ff6cb0.json": "15ae5766a79ab99d09f10438ec720a7417b105c817752c46c10c005ae538b472",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/completed/suffix_A_shared_TEST_0197_T5_s1_q1_native.json": "50f18280ab17b91d45f7b29cc19e7ab2bbc1f7bb604985d7f9f36456e6ddaf1c",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/cache/ce3ce44694f56ea7453d64f8085fcf8cb71807e3ccdb6fd320768314377a9cc0.json": "57d997c00341e6b2c75841c7193df22d432f6dec26429704e240a6123fd8eb97",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/completed/suffix_A_shared_TEST_0197_T5_s1_q1_r0_P.json": "87b025d2db82f87a32ea4aee80fa22d3fe1984b5e09ced0f9850d232407322b8",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/cache/6320e4cefdd0c89f6d5d4378e253e45df7cff448258176abcfc0f0efba0e6713.json": "2666b2578201f26669e205e1eacae6657e8b83c0760fb898516b9eab05057477",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/completed/suffix_A_shared_TEST_0197_T5_s1_q1_r0_U0.json": "e716820e319f179881c9307179f3f394298cb314ebfe62f05f8b50474825c4ee",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/cache/a624688ffcfadeaaa14017933c0e0836ef532550e36b0fccd7c91a3049a33586.json": "c061ab27f94c78145acc5b05cc7349405b9b87dd8c4fe3594c214ced2db1b758",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/results/r0/A_shared_TEST_0197_T5_s1_q1.json": "c6ecd97df28bafdd571021c3b317a8d84ca71a203e7a785cd7baa4bfb778b35f"
+  },
+  "identity": {
+    "model": "5fb518228899f9c15e3db99e01c11d159af8451337dee6d85c28f3880fde2b29",
+    "code": "25737ad0d8d462c020f979d68f61d55e90b2e2668df0fb2d0a8008b19f7db7b7",
+    "corpus": "361064de9ca092fcd6a97649eb7daac7f01b03a084cb021f6e6d0b819c00180c",
+    "tokens": "64569cc7e32d060a398bb0dba55885712cb963aa4475dbaf847e795f4b4926f9",
+    "config": "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/config.json",
+    "frozen_fit_hashes": {
+      "r0": "9215ff51a78cfd3a5c9a8149332c17fe9a8d50a8571d6943f1cc2059fb52c833"
+    }
+  },
+  "own_fit_sha256": "9215ff51a78cfd3a5c9a8149332c17fe9a8d50a8571d6943f1cc2059fb52c833",
+  "max_target_error": 0.0,
+  "all_saved_loss_vector_arithmetic_passed": true
+}

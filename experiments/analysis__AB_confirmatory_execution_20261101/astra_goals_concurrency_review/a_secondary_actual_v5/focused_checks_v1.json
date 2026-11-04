@@ -1,0 +1,21 @@
+{
+  "status": "focused_semantic_checks_passed_awaiting_official_snapshot",
+  "reviewer": "/root/astra_goals_and_concurrency_review",
+  "accepted_TEST": "464c78fea3762ba9e4a4e817ce48b8af61475ee06e1c9526e00aa25692498df6",
+  "checks": [
+    "5120 actual TEST documents; r0 only",
+    "five frames T0/T2/T5/T6/T7 times zero/P/U0/Uctrl/U2/U5 = 30 cells",
+    "paired side/q averaging inside each of 256 blocks",
+    "1999 frozen descriptive draws; no new primary support slots",
+    "harm fraction over all prescribed records, not independent-record inference",
+    "immutable per-statistic cache includes source/input identity, sufficient-array hashes, seed/draw settings",
+    "zero forward/backward budget; accepted sealed raw reused"
+  ],
+  "hashes": {
+    "ab_confirmatory_20261101/secondary_analysis_v5.py": "8cbdd1e40596133bbc4cc169b484e8fdc2be81209afc0c9fbbc97ad52b78638a",
+    "ab_confirmatory_20261101/prepare_secondary_v5.py": "26f218f5a760641612d4dbfc1cf3fe8f37cc38131066073129e467c0b24af2e2",
+    "ab_confirmatory_20261101/analysis_ab_v3.py": "8901efea05d641712943e708d76120bc086ba8bcc73f4a53a3efa9590d0d25d7",
+    "analysis/AB_confirmatory_execution_20261101/A_secondary_actual_v5/contract.json": "e2b7e926b43a640ff11234e4f113e3d4e7a629e1f72efaa0425d7883193662b9"
+  },
+  "limitations": "No numerical execution or raw rehash; no 15-FIT stability inference. Final approval requires exact official snapshot."
+}

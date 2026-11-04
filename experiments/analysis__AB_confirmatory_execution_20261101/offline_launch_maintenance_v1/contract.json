@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "id": "AB_OFFLINE_ZERO_MODEL_LAUNCH_20261101_v1",
+  "kind": "maintenance",
+  "primary_agent": "/root",
+  "purpose": "Permit empty operation schedule only at exact zero forward/backward budget; retain all experiment evidence and review gates.",
+  "tracked_files": [
+    "research_checks/gate.py",
+    "ab_confirmatory_20261101/record_preparation_receipts.py"
+  ],
+  "tracked_trees": [
+    "analysis/AB_confirmatory_execution_20261101/astra_preparation_review/offline_launch_proposal"
+  ],
+  "input_manifests": [],
+  "gates": [
+    {
+      "id": "equivalence",
+      "category": "implementation",
+      "evidence": "analysis/AB_confirmatory_execution_20261101/offline_launch_maintenance_v1/evidence.json",
+      "pointer": "/applied_source_matches_tested_proposal",
+      "op": "eq",
+      "expected": true,
+      "reason": "Applied code byte-equivalent to independently tested proposal."
+    }
+  ],
+  "circuits": [],
+  "structural_scope": "No inference or reduced circuit. Pure CPU calibration keeps explicit simulation budget in each own packet.",
+  "entrypoint": null,
+  "schedule": null,
+  "budget": null
+}

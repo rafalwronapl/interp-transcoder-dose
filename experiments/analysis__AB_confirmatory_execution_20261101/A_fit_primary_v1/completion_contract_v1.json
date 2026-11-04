@@ -1,0 +1,122 @@
+{
+  "schema_version": 1,
+  "id": "AB_A_PRIMARY_R0_FIT_ONLY_20261101_completion_v1",
+  "kind": "experiment",
+  "primary_agent": "/root/sol_ab_execution",
+  "purpose": "Completion audit of fixedprimaryr0 FITonly:448records,1import,477newfull+5localsuffix,technicalqualification/vectoronlyP/U;noPILOT/TESTorhypothesistests.",
+  "tracked_files": [
+    "ab_confirmatory_20261101/__init__.py",
+    "ab_confirmatory_20261101/worker_a.py",
+    "ab_confirmatory_20261101/prepare.py",
+    "ab_confirmatory_20261101/prepare_fit_a.py",
+    "ab_confirmatory_20261101/schedule_a.py",
+    "ab_confirmatory_20261101/native.py",
+    "ab_confirmatory_20261101/fitting.py",
+    "ab_confirmatory_20261101/runtime.py",
+    "ab_confirmatory_20261101/test_worker_a.py",
+    "ab_confirmatory_20261101/test_native.py",
+    "ab_confirmatory_20261101/test_runtime.py",
+    "ab_confirmatory_20261101/test_fitting.py",
+    "analysis/AB_confirmatory_execution_20261101/A_fit_primary_v1/PROTOCOL.md",
+    "analysis/AB_confirmatory_execution_20261101/A_fit_primary_v1/config.json",
+    "analysis/AB_confirmatory_execution_20261101/A_fit_primary_v1/corpus.json",
+    "analysis/AB_confirmatory_execution_20261101/A_fit_primary_v1/tokens.json",
+    "analysis/AB_confirmatory_execution_20261101/A_fit_primary_v1/model_identity.json",
+    "analysis/AB_confirmatory_execution_20261101/A_fit_primary_v1/cost_estimate.json",
+    "analysis/AB_confirmatory_execution_20261101/A_fit_primary_v1/synthetic_tests.log"
+  ],
+  "tracked_trees": [],
+  "input_manifests": [
+    "analysis/AB_confirmatory_execution_20261101/A_fit_primary_v1/model_manifest.json",
+    "analysis/AB_confirmatory_execution_20261101/A_fit_primary_v1/import_manifest.json",
+    "analysis\\AB_confirmatory_execution_20261101\\A_fit_primary_v1\\completion_outputs_manifest_v1.json"
+  ],
+  "gates": [
+    {
+      "id": "hooks",
+      "category": "hooks",
+      "evidence": "analysis/AB_confirmatory_execution_20261101/A_fit_primary_v1/evidence.json",
+      "pointer": "/qualification_first",
+      "op": "eq",
+      "expected": true,
+      "reason": "Actual sham/positive/negative/donor/suffix controls execute on five fixedFIT cases before remaining captures or fitting; random production tests pass."
+    },
+    {
+      "id": "data",
+      "category": "data",
+      "evidence": "analysis/AB_confirmatory_execution_20261101/A_fit_primary_v1/evidence.json",
+      "pointer": "/tokenizer_replay_documents",
+      "op": "eq",
+      "expected": 448,
+      "reason": "Qualified primaryr0 FIT literals only;16blocks per split, noPILOT/TEST. Exact imports/token/model hashes and donor parity."
+    },
+    {
+      "id": "pilot",
+      "category": "pilot",
+      "evidence": "analysis/AB_confirmatory_execution_20261101/A_fit_primary_v1/evidence.json",
+      "pointer": "/statistical_decisions",
+      "op": "eq",
+      "expected": false,
+      "reason": "This separate fixedFIT-only stage does not select N or test hypotheses; unresolved inference does not affect data/recipe choice."
+    },
+    {
+      "id": "accounting",
+      "category": "accounting",
+      "evidence": "analysis/AB_confirmatory_execution_20261101/A_fit_primary_v1/evidence.json",
+      "pointer": "/logical_forwards",
+      "op": "eq",
+      "expected": 482,
+      "reason": "477new full-transformer forwards+5local suffix calls;1compatible prior capture imported, no double measurement;0backward."
+    },
+    {
+      "id": "restart",
+      "category": "restart",
+      "evidence": "analysis/AB_confirmatory_execution_20261101/A_fit_primary_v1/evidence.json",
+      "pointer": "/zero_load_completed_replay",
+      "op": "eq",
+      "expected": true,
+      "reason": "Actual production random end-to-end FIT/frozenFIT/TEST path and completed-stage no-load replay, corruption and partial failure tests."
+    },
+    {
+      "id": "actual_qualified",
+      "category": "hooks",
+      "evidence": "analysis\\AB_confirmatory_execution_20261101\\A_fit_primary_v1\\fit_summary_v1.json",
+      "pointer": "/all_controls_passed",
+      "op": "eq",
+      "expected": true,
+      "reason": "ActualtrainedqualificationbeforeexpandedFITcapture;allfivefixedgroups."
+    },
+    {
+      "id": "actual_full_budget",
+      "category": "accounting",
+      "evidence": "analysis\\AB_confirmatory_execution_20261101\\A_fit_primary_v1\\fit_summary_v1.json",
+      "pointer": "/new_full_transformer",
+      "op": "eq",
+      "expected": 477,
+      "reason": "477newfullrecords;oneoldrecordimported,notremeasured;5suffixseparate."
+    },
+    {
+      "id": "actual_cache_replay",
+      "category": "restart",
+      "evidence": "analysis\\AB_confirmatory_execution_20261101\\A_fit_primary_v1\\actual_cached_replay_v1.json",
+      "pointer": "/all_bytes_preserved",
+      "op": "eq",
+      "expected": true,
+      "reason": "Actualcanonicalcompleted-stagecachepathpreservesall972runfilesandreturnsbeforemodelimport."
+    }
+  ],
+  "circuits": [],
+  "structural_scope": "Full native last-layer/final-position MLP branch directly adds to same-position residual then final norm/head. No reduced circuit. Earlier-position last-MLP nonzero edit cannot reach final-position readout; implemented negativecontrol. Qualification before larger FIT capture.",
+  "entrypoint": {
+    "module": "ab_confirmatory_20261101.worker_a",
+    "args": [
+      "--config",
+      "analysis/AB_confirmatory_execution_20261101/A_fit_primary_v1/config.json"
+    ]
+  },
+  "schedule": "analysis/AB_confirmatory_execution_20261101/A_fit_primary_v1/operations.json",
+  "budget": {
+    "forward": 482,
+    "backward": 0
+  }
+}

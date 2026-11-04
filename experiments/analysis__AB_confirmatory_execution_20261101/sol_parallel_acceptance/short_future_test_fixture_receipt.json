@@ -1,0 +1,21 @@
+{
+  "scope": "gate-only isolated fixtures, no models/fitting/MC/bootstrap",
+  "tests": 5,
+  "passed": 5,
+  "seconds": 0.305,
+  "tool_chunk": "d8a3d8",
+  "sources": {
+    "short_fixed_workflow_v3.py": "8d3354afc784dfd0526fd10e40a1cbc3fd1f7ed0ff056e4d82a17fb8e2ab51c1",
+    "prepare_short_fixed_v3.py": "ec02246d79f9b5c85fe464ce15dd53d8e62253e969515b3b01b6f0fa2a62de70"
+  },
+  "artifacts": {
+    "test_short_future_test_v3.py": "8e9cfde1dcf4ea3d3ebbe5cb880d0a5ba3d2cca342b83deef21c1fb4c9aa7c4d",
+    "SHORT_FIXED_EXECUTION_HANDOFF.md": "8e366c6b653b532ba80fd325a18ebfab5129cc06975779900502a591892a4e78",
+    "close_local_imports.py": "20feada39601cff5b36874d5680dcc652e124c79034f2ccba53a857c15013727"
+  },
+  "import_closure_fixture": {
+    "passed": true,
+    "tool_chunk": "7977cc",
+    "scope": "read-only reuse of exact executor closure helper;37 files each original PILOT"
+  }
+}

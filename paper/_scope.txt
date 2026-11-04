@@ -1,0 +1,12 @@
+\begin{table}[ht]\centering\scriptsize
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{>{\raggedright\arraybackslash}p{.20\textwidth}>{\raggedright\arraybackslash}p{.34\textwidth}>{\raggedright\arraybackslash}p{.37\textwidth}}\toprule
+Study & Sample and reuse & Reporting scope\\\midrule
+Gemma-270M main & 256 fresh name-pair blocks; so/when and transfer share names; 1,536 contexts & Fixed six-dose/two-operator TEST; descriptive finite-corpus errors. Separate qualified intervals cover 12 full-dose TC metrics.\\[3pt]
+Gemma-1B replication & 256 additional disjoint blocks; six doses, full donor operator & Frozen FIT/protocol; historically exposed artifact; nominal block intervals.\\[3pt]
+Residual/mask tests & 32 exposed 270M blocks, indices 16--47; 768 dependent conditions & Posthoc whole-residual substitutions and FIT-selected masks. Earlier 16-block construction is separately retained.\\[3pt]
+Strength/direction tests & Cached FIT32; then exposed TEST32; then fresh32 blocks & Failed unscaled matching; fixed-norm diagnostic; fresh result is descriptive. Transfer 45/64 contexts; object 12/64.\\[3pt]
+Qwen boundary & 256 shared companion blocks; 4,096 unit-dose native/ridge margins adopted & Descriptive CLT-component dose curve; shared lexical cohort and selected outputs.\\\bottomrule
+\end{tabular}
+\caption{Evidence map. Lexical blocks are the sampling units. Repeated templates, doses, fits and control groups retain their dependence. Each stage has separate independent scientific completion receipts.}\label{tab:scope}
+\end{table}

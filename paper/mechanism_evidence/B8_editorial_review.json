@@ -1,0 +1,19 @@
+{
+  "status": "approved_working_manuscript",
+  "reviewer_id": "/root",
+  "independent": true,
+  "files_sha256": {
+    "main.tex": "cf45dafd96283c2d9064e10e367ef9d938044b621caa8df1a93ed16917ccd6d8",
+    "main.pdf": "49a75737f5443f357d38b689acfdec15af5e64f67260a1db8c0c8958d699c7e3",
+    "qwen06_tables.tex": "eaa67bc4645486b3691b83228d7a8af6e17ba416b4618f5aef5155b936715b79",
+    "editorial_snapshot.json": "025966d98cbaaf2f94029edf423224280985ca0a16aad76d02d26577ac396682"
+  },
+  "findings": [],
+  "checks": [
+    "Qwen additions and editorial scope read against accepted B_REPORT and final independent receipt",
+    "Negative Qwen local27 component distinct from full CLT, E041 and positive Gemma15 operator; shared-cohort/adoption limitations retained",
+    "Taylor vector-JVP versus composed scalar distinction and actual Gemma no-skip corrected",
+    "Snapshot file hashes verified; all126cells reported with source acceptance; clean20page build"
+  ],
+  "limitations": "Focused documentary/editorial review relying on existing independent numerical/raw acceptance. No new scientific computation/full raw audit. Mechanism plan unexecuted; authorship/licensing/publicrelease gaps remain."
+}

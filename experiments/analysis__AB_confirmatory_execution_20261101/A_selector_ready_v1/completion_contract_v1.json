@@ -1,0 +1,105 @@
+{
+  "schema_version": 1,
+  "id": "AB_A_SELECTOR_COMPLETION_20261101_v1",
+  "kind": "experiment",
+  "primary_agent": "/root",
+  "purpose": "Completion audit of frozen A selector infeasibility;720synthetic repetitions,0models,noTEST.",
+  "tracked_files": [
+    "ab_confirmatory_20261101/__init__.py",
+    "ab_confirmatory_20261101/analysis_ab_v3.py",
+    "ab_confirmatory_20261101/analysis_ab_v4.py",
+    "ab_confirmatory_20261101/eligibility_calibration_v3.py",
+    "ab_confirmatory_20261101/eligibility_paths_v5.py",
+    "ab_confirmatory_20261101/offline_io_v3.py",
+    "ab_confirmatory_20261101/offline_io_v4.py",
+    "ab_confirmatory_20261101/precision.py",
+    "ab_confirmatory_20261101/prepare_selector_packet_v5.py",
+    "ab_confirmatory_20261101/prepare_selector_v5.py",
+    "ab_confirmatory_20261101/safe_statistics.py",
+    "ab_confirmatory_20261101/selector_execution_v5.py",
+    "ab_confirmatory_20261101/selector_v3.py",
+    "ab_confirmatory_20261101/selector_v4.py",
+    "ab_confirmatory_20261101/stability_validation_v3.py",
+    "ab_confirmatory_20261101/stability_validation_v4.py",
+    "ab_confirmatory_20261101/statistics.py",
+    "analysis/AB_confirmatory_execution_20261101/remaining_statistics_v3/DESIGN_AMENDMENT_1.md",
+    "analysis/AB_confirmatory_execution_20261101/remaining_statistics_v3/DESIGN_FROZEN_V3.md",
+    "analysis/AB_confirmatory_execution_20261101/remaining_statistics_v4/PROSPECTIVE_AMENDMENT.md",
+    "research_checks/__init__.py",
+    "research_checks/gate.py",
+    "research_checks/persistence.py",
+    "analysis/AB_confirmatory_execution_20261101/A_selector_ready_v1/compute_budget.json",
+    "analysis/AB_confirmatory_execution_20261101/A_selector_ready_v1/completion_summary_v1.json",
+    "analysis/AB_confirmatory_execution_20261101/A_selector_ready_v1/REPORT_COMPLETION_v1.md"
+  ],
+  "tracked_trees": [],
+  "input_manifests": [
+    "analysis/AB_confirmatory_execution_20261101/A_selector_ready_v1/input_manifest.json",
+    "analysis/AB_confirmatory_execution_20261101/A_selector_ready_v1/completion_outputs_manifest_v1.json"
+  ],
+  "gates": [
+    {
+      "id": "hooks",
+      "category": "hooks",
+      "evidence": "analysis/AB_confirmatory_execution_20261101/A_selector_ready_v1/evidence.json",
+      "pointer": "/model_calls",
+      "op": "eq",
+      "expected": 0,
+      "reason": "Accepted actual PILOT/eligibility, fixed numerical method and immutable resumable computation."
+    },
+    {
+      "id": "data",
+      "category": "data",
+      "evidence": "analysis/AB_confirmatory_execution_20261101/A_selector_ready_v1/evidence.json",
+      "pointer": "/pilot_raw_accepted",
+      "op": "eq",
+      "expected": true,
+      "reason": "Accepted actual PILOT/eligibility, fixed numerical method and immutable resumable computation."
+    },
+    {
+      "id": "pilot",
+      "category": "pilot",
+      "evidence": "analysis/AB_confirmatory_execution_20261101/A_selector_ready_v1/evidence.json",
+      "pointer": "/eligibility_verified",
+      "op": "eq",
+      "expected": true,
+      "reason": "Accepted actual PILOT/eligibility, fixed numerical method and immutable resumable computation."
+    },
+    {
+      "id": "accounting",
+      "category": "accounting",
+      "evidence": "analysis/AB_confirmatory_execution_20261101/A_selector_ready_v1/evidence.json",
+      "pointer": "/repetitions",
+      "op": "eq",
+      "expected": 2000,
+      "reason": "Accepted actual PILOT/eligibility, fixed numerical method and immutable resumable computation."
+    },
+    {
+      "id": "restart",
+      "category": "restart",
+      "evidence": "analysis/AB_confirmatory_execution_20261101/A_selector_ready_v1/evidence.json",
+      "pointer": "/immutable_case_receipts",
+      "op": "eq",
+      "expected": true,
+      "reason": "Accepted actual PILOT/eligibility, fixed numerical method and immutable resumable computation."
+    }
+  ],
+  "circuits": [],
+  "structural_scope": "Offline selector; no model or reduced circuit.",
+  "entrypoint": {
+    "module": "ab_confirmatory_20261101.selector_execution_v5",
+    "args": [
+      "--study",
+      "A",
+      "--manifest",
+      "C:\\Users\\rafal\\interpretability-lab\\analysis\\AB_confirmatory_execution_20261101\\A_selector_input_v1\\manifest.json",
+      "--out",
+      "analysis/AB_confirmatory_execution_20261101/A_selector_ready_v1/run"
+    ]
+  },
+  "schedule": "analysis/AB_confirmatory_execution_20261101/A_selector_ready_v1/operations.json",
+  "budget": {
+    "forward": 0,
+    "backward": 0
+  }
+}

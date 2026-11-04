@@ -1,0 +1,42 @@
+{
+  "snapshot_sha256": "5713f19a2cd0524ade423fb4a56be2b60f230e2eb9ea4cae127ff8c2bb58fe01",
+  "raw_proofs_reused": 18432,
+  "assembly_proof_reused": true,
+  "focused_numerical_review_sha256": "1c12198dbd575e3cea190eb2378e22ff7a3d568056ce68b97769822f37e10350",
+  "result_sha256": "5a8303a1f1a94d2fad67461a033e214119a53f6f1667ca3b7f6b34fcac188426",
+  "runtime_returncode": 0,
+  "utf8_mode": 1,
+  "primary": {
+    "ci": [
+      -0.24935524702088163,
+      -0.11085584193381576
+    ],
+    "decision": "not_supported",
+    "draws": 1999,
+    "estimate": -0.18191558349341008,
+    "n": 256,
+    "p_bonferroni_two_models": 1.0,
+    "p_for_holm": 1.0,
+    "p_raw": 1.0,
+    "p_transform": "fixed min(1,2*p_raw), prospectivev2",
+    "scope": "T5 paired-block mean L(U0)-L(P), one frozen r0 FIT; two-model Bonferroni family.",
+    "se": 0.02634545056549151,
+    "seed": 2026110175,
+    "status": "defined"
+  },
+  "secondary": {
+    "ci": [
+      0.20491641295163693,
+      0.31439944268908926
+    ],
+    "draws": 1999,
+    "estimate": 0.25759566165311654,
+    "n": 256,
+    "scope": "T2 descriptive only; no replication-support decision from this secondary frame.",
+    "se": 0.021033698448884145,
+    "seed": 2026110176,
+    "status": "defined"
+  },
+  "no_bootstrap_rawrehash_model_or_canonical_replay": true,
+  "scope": "Formal completion plus actual hash bindings, not repeated numerical inference."
+}

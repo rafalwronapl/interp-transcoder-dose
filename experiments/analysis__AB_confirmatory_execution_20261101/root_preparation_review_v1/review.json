@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "reviewer_id": "/root/sol_ab_execution/a_fit_pre_run_review",
+  "independent": true,
+  "verdict": "approved_design_handoff",
+  "launch_authorized": false,
+  "snapshot_sha256": "a23d2b63b7eb934e996dd8f0e2877aa3523f0feeb6d07f04b90583dd543bfc62",
+  "topics_checked": [
+    "design",
+    "implementation",
+    "data",
+    "cost",
+    "claims"
+  ],
+  "findings": [
+    {
+      "id": "RPH-ENERGY-NOTATION",
+      "severity": "low",
+      "status": "accepted",
+      "evidence": "ROOT_STAGE_HANDOFF.md B1/B2/B3 use E/S; PROTOCOL_B_CONTROLS.md also uses vector energies.",
+      "resolution": "Literal B contract/analysis must explicitly define primary E as squared finite she-minus-he margin prediction error and S as squared finite native margin change, in logit squared. Vector endpoint energy is secondary and must have distinct fields. Fixed primary hypotheses and precision-in-logits source make the intended target recoverable; this does not change design."
+    },
+    {
+      "id": "RPH-STALE-A-DRAFT",
+      "severity": "low",
+      "status": "accepted",
+      "evidence": "PROTOCOL_A.md still says no canonical contract exists and before any FIT requires numeric N; frozen A_fit_primary_v1 already amends this.",
+      "resolution": "ROOT_STAGE_HANDOFF.md explicitly makes frozen running A protocol authoritative. Implementer must use exact frozen A contract, never treat stale generic preparation status as a reason to repeat or mutate its inputs."
+    },
+    {
+      "id": "RPH-RESOURCE-ACCOUNTING",
+      "severity": "low",
+      "status": "accepted",
+      "evidence": "Handoff specifies one JVP per recipient/operator but no execution implementation or method-level schedule yet.",
+      "resolution": "Future literal schedule must charge actual JVP/autodiff primal and derivative work, native endpoints, TC base/endpoints, gradient forward/backward and full patched remainder forwards separately; reuse durable endpoints and never add independent repeated sweeps. This is an explicit remaining gate, not permission to launch."
+    }
+  ],
+  "remaining_gates": [
+    "Exact B literal FIT contract/schedule/model and TC identities with all transitive dependencies.",
+    "Random-model B derivative and replacement-equivalence tests; trained sham/positive and branch/full-margin parity before expansion.",
+    "Public TC independent reference parity including JumpReLU threshold, affine skip, output normalization and dtype. Metadata match alone is insufficient.",
+    "Predeclared finite-difference/JVP settings, actual rounding-scale diagnostics, numeric gates and accounting.",
+    "Independent reviewed inferential eligibility, power/precision selector calibration and numeric targets before PILOT; independent TEST pre-run review.",
+    "Stability precision goal and independent calibration before fifteen additional A FIT cohorts."
+  ],
+  "limitations": "Read-only source review; no pretrained loading, inference, calibration mutation, B worker execution or launch. Existing operators/baselines/TC are partial implementation, not an end-to-end B pipeline. The current B worker and literal B operation schedule are absent. Statistical code was inspected for intended paired/IUT/Holm/crossed behavior, not certified calibrated by this review. Design source copies are frozen here; edits elsewhere require a new source snapshot/review."
+}

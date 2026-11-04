@@ -1,0 +1,277 @@
+{
+  "snapshot_sha256": "529ae145f195afa74f2193f91f11f29bac2faff2182ce493502ff55f905e8bdb",
+  "summary": {
+    "128": {
+      "family_pass": 46,
+      "family_total": 54,
+      "precision_pass": 4,
+      "pointwise_pass": 8,
+      "missing_degenerate": true,
+      "eligible": false
+    },
+    "256": {
+      "family_pass": 52,
+      "family_total": 54,
+      "precision_pass": 4,
+      "pointwise_pass": 8,
+      "missing_degenerate": true,
+      "eligible": false
+    }
+  },
+  "failed_family_cases": [
+    {
+      "case": {
+        "distribution": "t3",
+        "id": "mask6_orientation012",
+        "n": 128,
+        "null": [
+          false,
+          true,
+          true
+        ],
+        "study": "B",
+        "truth": [
+          1,
+          1,
+          0,
+          1,
+          0
+        ]
+      },
+      "false_rejections": 84,
+      "bounds": [
+        0.02753492668815626,
+        0.06072824435156891
+      ]
+    },
+    {
+      "case": {
+        "distribution": "heterogeneous",
+        "id": "mask2_orientation010",
+        "n": 128,
+        "null": [
+          false,
+          true,
+          false
+        ],
+        "study": "B",
+        "truth": [
+          1,
+          1,
+          0,
+          1,
+          1
+        ]
+      },
+      "false_rejections": 92,
+      "bounds": [
+        0.03079715720325652,
+        0.06542563283299953
+      ]
+    },
+    {
+      "case": {
+        "distribution": "heterogeneous",
+        "id": "mask3_orientation210",
+        "n": 128,
+        "null": [
+          true,
+          true,
+          false
+        ],
+        "study": "B",
+        "truth": [
+          1,
+          0,
+          0,
+          1,
+          1
+        ]
+      },
+      "false_rejections": 88,
+      "bounds": [
+        0.02916137487780792,
+        0.06308154816605695
+      ]
+    },
+    {
+      "case": {
+        "distribution": "heterogeneous",
+        "id": "mask5_orientation202",
+        "n": 128,
+        "null": [
+          true,
+          false,
+          true
+        ],
+        "study": "B",
+        "truth": [
+          1,
+          0,
+          1,
+          1,
+          0
+        ]
+      },
+      "false_rejections": 98,
+      "bounds": [
+        0.033267098061404286,
+        0.06892568400799902
+      ]
+    },
+    {
+      "case": {
+        "distribution": "heterogeneous",
+        "id": "mask6_orientation011",
+        "n": 128,
+        "null": [
+          false,
+          true,
+          true
+        ],
+        "study": "B",
+        "truth": [
+          1,
+          1,
+          0,
+          0,
+          1
+        ]
+      },
+      "false_rejections": 89,
+      "bounds": [
+        0.0295694687889057,
+        0.06366841068773167
+      ]
+    },
+    {
+      "case": {
+        "distribution": "heterogeneous",
+        "id": "mask6_orientation012",
+        "n": 128,
+        "null": [
+          false,
+          true,
+          true
+        ],
+        "study": "B",
+        "truth": [
+          1,
+          1,
+          0,
+          1,
+          0
+        ]
+      },
+      "false_rejections": 104,
+      "bounds": [
+        0.03575507636972654,
+        0.07240789985932358
+      ]
+    },
+    {
+      "case": {
+        "distribution": "heterogeneous",
+        "id": "mask7_orientation111",
+        "n": 128,
+        "null": [
+          true,
+          true,
+          true
+        ],
+        "study": "B",
+        "truth": [
+          0,
+          1,
+          0,
+          0,
+          1
+        ]
+      },
+      "false_rejections": 85,
+      "bounds": [
+        0.02794062995418498,
+        0.06131746763097904
+      ]
+    },
+    {
+      "case": {
+        "distribution": "heterogeneous",
+        "id": "mask7_orientation211",
+        "n": 128,
+        "null": [
+          true,
+          true,
+          true
+        ],
+        "study": "B",
+        "truth": [
+          1,
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "false_rejections": 86,
+      "bounds": [
+        0.02834694576948308,
+        0.06190608613410179
+      ]
+    },
+    {
+      "case": {
+        "distribution": "t3",
+        "id": "mask3_orientation110",
+        "n": 256,
+        "null": [
+          true,
+          true,
+          false
+        ],
+        "study": "B",
+        "truth": [
+          0,
+          1,
+          0,
+          1,
+          1
+        ]
+      },
+      "false_rejections": 84,
+      "bounds": [
+        0.02753492668815626,
+        0.06072824435156891
+      ]
+    },
+    {
+      "case": {
+        "distribution": "heterogeneous",
+        "id": "mask6_orientation011",
+        "n": 256,
+        "null": [
+          false,
+          true,
+          true
+        ],
+        "study": "B",
+        "truth": [
+          1,
+          1,
+          0,
+          0,
+          1
+        ]
+      },
+      "false_rejections": 85,
+      "bounds": [
+        0.02794062995418498,
+        0.06131746763097904
+      ]
+    }
+  ],
+  "precision_reused": "All8 prior independent4000artifact case audits exactcaseSHA matched;32000artifacthashes match newmanifest without rawre-audit",
+  "family_scope": "Actual108case receipts/spec/counts/CP/gate arithmetic checked, no dataset/bootstrap regeneration",
+  "model_calls": 0,
+  "simulations": 0
+}

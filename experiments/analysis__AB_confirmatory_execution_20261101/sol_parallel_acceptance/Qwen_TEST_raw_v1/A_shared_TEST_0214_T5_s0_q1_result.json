@@ -1,0 +1,35 @@
+{
+  "document": {
+    "id": "A_shared_TEST_0214_T5_s0_q1",
+    "donor": "A_shared_TEST_0214_T5_s1_q1",
+    "block": "A_shared_TEST_0214",
+    "study": "A",
+    "cohort": "shared",
+    "split": "TEST",
+    "index": 214,
+    "frame": "T5",
+    "side": 0,
+    "q": 1,
+    "text": "Everyone agrees that the linendraper, unlike the centenarians,"
+  },
+  "files": {
+    "analysis/A_short_replication_qwen_20261101/TEST_fixed256_v3/run/completed/capture_A_shared_TEST_0214_T5_s0_q1.json": "ada2965ca79e587d35f0c2837e717fd2552967aafb8080ab952c95847b180709",
+    "analysis/A_short_replication_qwen_20261101/TEST_fixed256_v3/run/cache/d8bd7d43bac2f7b3114ee11da084e260b984c33f983ee8c60e4810c6972bb4b6.json": "9b449c8b9cb71d3a354cc48a5867bc0e8a15281c076c632e53d37aa9cc35a189",
+    "analysis/A_short_replication_qwen_20261101/TEST_fixed256_v3/run/completed/capture_A_shared_TEST_0214_T5_s1_q1.json": "d91e5a7d0736c7297731bc72ab7664cb4cf4b91e8b731f84f200c34c432d351d",
+    "analysis/A_short_replication_qwen_20261101/TEST_fixed256_v3/run/cache/19fdb007e94414813a7e4586c213af2c0f74d3c330349690ca20d41fb5a87714.json": "36f3905ca75f84a5e5f8fe0ccab922c195c9184785fd1c6460f99a526f4d6a64",
+    "analysis/A_short_replication_qwen_20261101/TEST_fixed256_v3/run/completed/suffix_A_shared_TEST_0214_T5_s0_q1_native.json": "27bcfd5f9858ea21e0837eb220b95acb2ec79470cb6b221f88bc3c65da4759a5",
+    "analysis/A_short_replication_qwen_20261101/TEST_fixed256_v3/run/cache/152a73829660033ac497f34429fa0704a798ea8972b9d53090001f1662df385b.json": "d6dbf8e8d55e229b6885a161d8a3428b4efd868f4ad19043289ec20346e866bf",
+    "analysis/A_short_replication_qwen_20261101/TEST_fixed256_v3/run/completed/suffix_A_shared_TEST_0214_T5_s0_q1_P.json": "fce2e13c9d8763b98f7f01a58937ed82fc2818128db7f9d57c62072e28802b4a",
+    "analysis/A_short_replication_qwen_20261101/TEST_fixed256_v3/run/cache/d5608e0418e6b79767ed18f5439189772ef0b04b0d8bff01c448604d7bc93e4c.json": "256fb910af04a604d1e48630ed4fda80e3cd69d5611d1cef12f3fda716fad66e",
+    "analysis/A_short_replication_qwen_20261101/TEST_fixed256_v3/run/completed/suffix_A_shared_TEST_0214_T5_s0_q1_U0.json": "1b6076d638adecef659807e41fc9257507c0c819b7975a7d7ef29c5ab6c783dc",
+    "analysis/A_short_replication_qwen_20261101/TEST_fixed256_v3/run/cache/1089382b1e2ecfcbb02e64f91690380996743cfc318d548953f5de1ae3e21445.json": "7decbbb3f75824b11075aa01200ed2fdff42d598150d8ba88fb3a388c4846a60",
+    "analysis/A_short_replication_qwen_20261101/TEST_fixed256_v3/run/results/A_shared_TEST_0214_T5_s0_q1.json": "0c29056616a6b56c16eae7fe202874f3ba79153fb7cf049f63b14291a80e232b"
+  },
+  "identity": {
+    "model": "6c0a47f03e2523c9a91ba0c2d0619671e7ab16f1b27a2cd039742997148c9269",
+    "code": "a7e0eb7c001d76058f8622dd71c6073784e9c3472bc2bdfbea4184b2cbba1bb5"
+  },
+  "own_fit_sha256": "56d4c8fe1448ff02683ab4b001243d56b983c128e33d65811919b54e23af4ccc",
+  "max_target_error": 0.0,
+  "all_saved_loss_vector_arithmetic_passed": true
+}

@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "reviewer_id": "/root/papers_new_review",
+  "independent": true,
+  "verdict": "approved",
+  "reviewed_utc": "2026-11-03T18:29:36.606750+00:00",
+  "snapshot_file": "editorial_snapshot.json",
+  "snapshot_file_sha256": "22daa849ca22d3e367933ccb876f43a2f32b9d4f017e694918f24c34d330b076",
+  "pdf_sha256": "7c6cfa43e81c59fefc6345d0f18dff6cf3a71a73cb73fd9a0e79309397278476",
+  "topics_checked": [
+    "source and PDF hash binding",
+    "new numerical claims against actual summaries and bound certificate",
+    "actual completion reviews",
+    "archived evidence byte preservation",
+    "A/B cohort sharing",
+    "scope and negative findings",
+    "PDF rendering and logs"
+  ],
+  "findings": [
+    {
+      "id": "B14_DISJOINT_MEANING",
+      "severity": "low",
+      "status": "resolved",
+      "evidence": "Initial disjoint-group wording might imply pairwise disjoint controls despite28..31 mutual overlap.",
+      "resolution": "Final source and rendered page9 explicitly state each alternative is disjoint from top32; analytical certificate similarly qualified."
+    }
+  ],
+  "checks": {
+    "snapshot_files": 283,
+    "new_evidence_source_and_copy_hashes": 136,
+    "prior_preservation_files_byte_exact": 66,
+    "blank_pages": 0,
+    "undefined_or_overfull_log_entries": 0,
+    "visual_pages": [
+      1,
+      9,
+      11,
+      32,
+      33
+    ],
+    "numerical_sources": [
+      "analysis/AB_fast_followups_20261103/B_switch/ANALYTIC_NORM_BOUND.json",
+      "analysis/B_norm_control_20261103/run/SUMMARY.json",
+      "analysis/B_fresh_transfer_20261103/run/SUMMARY.json"
+    ],
+    "claims": "Failed unscaled matching remains negative; norm-rescaled direction estimand distinct; .165807 historical and .198352 fresh; transfer45/64 across26blocks and object12/64 across9blocks; no native circuit/general mechanism; original two-artifact crossover versus useful accuracy distinction retained."
+  },
+  "limitations": "Independent editorial and selected numerical-source audit, not a full new raw activation recalculation, external peer review, or literature search. Relies on approved campaign raw-data audits for underlying measurement validity. All pages text-inspected; visual inspection focused on abstract, amended main table/discussion and full new appendix tables. No model calls, refit or bootstrap."
+}

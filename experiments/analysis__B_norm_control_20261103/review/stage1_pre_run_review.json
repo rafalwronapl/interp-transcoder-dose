@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "snapshot_sha256": "957ea6d57f620acf40f55a491c98ac1218f122617b1ab8f260c2ab122917701f",
+  "reviewer_id": "/root/fast_followup_review",
+  "independent": true,
+  "verdict": "approved",
+  "topics_checked": [
+    "design",
+    "implementation",
+    "data",
+    "cost",
+    "claims"
+  ],
+  "findings": [],
+  "limitations": "Cache-only stage1 target freeze, zero native/TC model loads or forwards; separate native suffix stage remains unapproved. Verified all1568snapshot files, actual source code and source identities. Independently rederived FIT q10 commonrho101.51097375004979 and epsrho/4,127/128FITeligibility; tested negative summed-switch directions, float32 achievednorm bounds, ALL6 exclusion for missing direction and immutable changed-result rejection. Actual TEST scope32blocks/128so+when/full1contexts bound dynamically. FULL/RR reference is distinct from historicalON. Normalizing directions changes the estimand and does not match native switchcounts or prove nativecircuit importance; oldTEST is posthoc. Exact snapshot applies only to algebra targetconstruction/eligibility; no native readout execution authorized by this receipt."
+}

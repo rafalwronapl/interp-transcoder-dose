@@ -1,0 +1,41 @@
+{
+  "document": {
+    "id": "A_shared_TEST_0220_T5_s1_q0",
+    "donor": "A_shared_TEST_0220_T5_s0_q0",
+    "block": "A_shared_TEST_0220",
+    "study": "A",
+    "cohort": "shared",
+    "split": "TEST",
+    "index": 220,
+    "frame": "T5",
+    "side": 1,
+    "q": 0,
+    "text": "Everyone agrees that the flankers, unlike the breechblock,"
+  },
+  "files": {
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/completed/capture_A_shared_TEST_0220_T5_s1_q0.json": "ef86594761c1ad5d44fcfb2def9ae0c8904b28afd179e04e6dbf5bbc654de8e8",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/cache/a52a5588a0c421eb65ba021f9b33bbc877a8976398d808d496c4ff0c8df3def2.json": "e789a976e2d3620dbc0cd5285db3d9a82b68665ac47439393a9007ecefc9b945",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/completed/capture_A_shared_TEST_0220_T5_s0_q0.json": "f81caa7d2b76dc436ab9810b27e510669e03ba67faedad6061b39a718ef8e19e",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/cache/8ce26474e05f39149d29998b79e06f66ebef828f6d5704f2e47753613dbd5326.json": "1d3b161035a673e9dd1357c95dde02592cb5bb9ba1094012d425ad9e71311fed",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/completed/suffix_A_shared_TEST_0220_T5_s1_q0_native.json": "21c7af3bdc401e294b5ec15c8d7edeee0543db0a4079586390e9004babaa359e",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/cache/26e780e6585c992b148cc5f503f1e672e68113835815e89997be5a38c623f631.json": "8b529c4665d060d3de1b8c88c870d5307fdb575b4831452d299a27a16dec854f",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/completed/suffix_A_shared_TEST_0220_T5_s1_q0_r0_P.json": "a4972e41400d7137dee391a1674a1219f8f3bf1ca93809687f1f3b6cd6cc90ff",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/cache/c9ac5ea3e97a436991059f270499fd0bbf1e81457d2c13e3e72009d50310535e.json": "cd70e1e11d058f26d93ce16dac5bfe494bacf65a1019c4a706849cb2cb847460",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/completed/suffix_A_shared_TEST_0220_T5_s1_q0_r0_U0.json": "2117796276e4c2bae060d379c016626a3e21d152f2d79cd8bc4237f56c782ded",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/cache/6002641323a2239043f2d2ce8af5878f1bb72f993244f3389dd53dbaa908d428.json": "63f500ad0778d4192ade305895484734260c149c33a8885f0ec094fbed926cb5",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/results/r0/A_shared_TEST_0220_T5_s1_q0.json": "8884209d1eab4d4f9c53fc2093aa9cb1a19f362c9ccfb1f4195f4dcaa53a9ca8"
+  },
+  "identity": {
+    "model": "5fb518228899f9c15e3db99e01c11d159af8451337dee6d85c28f3880fde2b29",
+    "code": "25737ad0d8d462c020f979d68f61d55e90b2e2668df0fb2d0a8008b19f7db7b7",
+    "corpus": "361064de9ca092fcd6a97649eb7daac7f01b03a084cb021f6e6d0b819c00180c",
+    "tokens": "64569cc7e32d060a398bb0dba55885712cb963aa4475dbaf847e795f4b4926f9",
+    "config": "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/config.json",
+    "frozen_fit_hashes": {
+      "r0": "9215ff51a78cfd3a5c9a8149332c17fe9a8d50a8571d6943f1cc2059fb52c833"
+    }
+  },
+  "own_fit_sha256": "9215ff51a78cfd3a5c9a8149332c17fe9a8d50a8571d6943f1cc2059fb52c833",
+  "max_target_error": 0.0,
+  "all_saved_loss_vector_arithmetic_passed": true
+}

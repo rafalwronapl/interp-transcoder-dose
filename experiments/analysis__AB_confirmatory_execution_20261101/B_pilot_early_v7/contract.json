@@ -1,0 +1,116 @@
+{
+  "schema_version": 1,
+  "id": "B_EARLY_PILOT_ONLY_V7",
+  "kind": "experiment",
+  "primary_agent": "/root",
+  "purpose": "Actual fixed32 data-only B PILOT, all original methods/doses/transfer; no refit, TEST or primary inferential validity claim. Exact three closed prerequisite snapshot/review receipts and consumed artifacts reused; unused calibration raw not reread. New canonical pre-run/child gates remain mandatory.",
+  "tracked_files": [
+    "ab_confirmatory_20261101/__init__.py",
+    "ab_confirmatory_20261101/admission_a_v2.py",
+    "ab_confirmatory_20261101/b_precision_calibration_v6.py",
+    "ab_confirmatory_20261101/baselines_b.py",
+    "ab_confirmatory_20261101/campaign_authorization.py",
+    "ab_confirmatory_20261101/eligibility_calibration_v3.py",
+    "ab_confirmatory_20261101/eligibility_paths_v5.py",
+    "ab_confirmatory_20261101/fitting.py",
+    "ab_confirmatory_20261101/native.py",
+    "ab_confirmatory_20261101/native_tail_b.py",
+    "ab_confirmatory_20261101/offline_io_v3.py",
+    "ab_confirmatory_20261101/offline_io_v4.py",
+    "ab_confirmatory_20261101/precision.py",
+    "ab_confirmatory_20261101/precision_candidate_v6.py",
+    "ab_confirmatory_20261101/prepare.py",
+    "ab_confirmatory_20261101/prepare_b_pilot_only_v7.py",
+    "ab_confirmatory_20261101/prepare_production_b.py",
+    "ab_confirmatory_20261101/recovery_a_status_v1.py",
+    "ab_confirmatory_20261101/runtime.py",
+    "ab_confirmatory_20261101/schedule_a.py",
+    "ab_confirmatory_20261101/schedule_a_v2.py",
+    "ab_confirmatory_20261101/selector_v3.py",
+    "ab_confirmatory_20261101/statistics.py",
+    "ab_confirmatory_20261101/test_b_pilot_only_v7.py",
+    "ab_confirmatory_20261101/transcoder.py",
+    "ab_confirmatory_20261101/worker_a.py",
+    "ab_confirmatory_20261101/worker_a_estimation_v7.py",
+    "ab_confirmatory_20261101/worker_a_v2.py",
+    "ab_confirmatory_20261101/worker_b_evaluate.py",
+    "ab_confirmatory_20261101/worker_b_pilot_only_v7.py",
+    "ab_confirmatory_20261101/worker_b_production_v2.py",
+    "analysis/AB_confirmatory_execution_20261101/B_pilot_early_v7/admission.json",
+    "analysis/AB_confirmatory_execution_20261101/B_pilot_early_v7/config.json",
+    "analysis/AB_confirmatory_execution_20261101/B_pilot_early_v7/corpus.json",
+    "analysis/AB_confirmatory_execution_20261101/B_pilot_early_v7/cost.json",
+    "analysis/AB_confirmatory_execution_20261101/B_pilot_early_v7/tokens.json",
+    "analysis/AB_confirmatory_execution_20261101/B_pilot_only_authorization_v7/amendment.json",
+    "analysis/AB_confirmatory_execution_20261101/B_pilot_only_authorization_v7/authorization.json",
+    "analysis/AB_confirmatory_execution_20261101/B_pilot_early_v7/focused_tests.json",
+    "analysis/A_estimation_v7/recovery_status_v1/focused_tests.json",
+    "analysis/A_estimation_v7/recovery_status_v1/pre_run_snapshot_v1.json",
+    "analysis/A_estimation_v7/recovery_status_v1/pre_run_review_astra_v1.json"
+  ],
+  "tracked_trees": [],
+  "input_manifests": [
+    "analysis/AB_confirmatory_execution_20261101/B_pilot_early_v7/input_manifest.json"
+  ],
+  "gates": [
+    {
+      "id": "hooks",
+      "category": "hooks",
+      "evidence": "analysis/AB_confirmatory_execution_20261101/B_pilot_early_v7/test_evidence.json",
+      "pointer": "/production_integration_passed",
+      "op": "eq",
+      "expected": true,
+      "reason": "Random production branch tests and actual full/tail qualification."
+    },
+    {
+      "id": "data",
+      "category": "data",
+      "evidence": "analysis/AB_confirmatory_execution_20261101/B_pilot_early_v7/test_evidence.json",
+      "pointer": "/blocks",
+      "op": "eq",
+      "expected": 32,
+      "reason": "Exact fixed32 PILOT or independently selected TEST prefix."
+    },
+    {
+      "id": "pilot",
+      "category": "pilot",
+      "evidence": "analysis/AB_confirmatory_execution_20261101/B_pilot_early_v7/test_evidence.json",
+      "pointer": "/admission_verified",
+      "op": "eq",
+      "expected": true,
+      "reason": "Actual reviewed calibration and selection receipts; no standalone approval Boolean."
+    },
+    {
+      "id": "accounting",
+      "category": "accounting",
+      "evidence": "analysis/AB_confirmatory_execution_20261101/B_pilot_early_v7/test_evidence.json",
+      "pointer": "/forward",
+      "op": "eq",
+      "expected": 19776,
+      "reason": "Full, tail and local work separately itemized."
+    },
+    {
+      "id": "restart",
+      "category": "restart",
+      "evidence": "analysis/AB_confirmatory_execution_20261101/B_pilot_early_v7/test_evidence.json",
+      "pointer": "/zero_load_replay_passed",
+      "op": "eq",
+      "expected": true,
+      "reason": "Completed stage bytes preserved; no model load on replay."
+    }
+  ],
+  "circuits": [],
+  "structural_scope": "Native layer15 postnormMLP output before residual; complete later dynamic native layers; qualified exact shared prefix.",
+  "entrypoint": {
+    "module": "ab_confirmatory_20261101.worker_b_pilot_only_v7",
+    "args": [
+      "--config",
+      "analysis/AB_confirmatory_execution_20261101/B_pilot_early_v7/config.json"
+    ]
+  },
+  "schedule": "analysis/AB_confirmatory_execution_20261101/B_pilot_early_v7/operations.json",
+  "budget": {
+    "forward": 19776,
+    "backward": 192
+  }
+}

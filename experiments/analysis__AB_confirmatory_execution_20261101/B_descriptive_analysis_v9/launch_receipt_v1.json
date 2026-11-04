@@ -1,0 +1,21 @@
+﻿{
+    "args":  [
+                 "-X",
+                 "utf8",
+                 "-m",
+                 "concurrency_runtime_v2",
+                 "--snapshot",
+                 "analysis/AB_confirmatory_execution_20261101/B_descriptive_analysis_v9/pre_run_snapshot_v1.json",
+                 "--review",
+                 "analysis/AB_confirmatory_execution_20261101/B_descriptive_analysis_v9/pre_run_review_astra_v1.json",
+                 "--policy",
+                 "analysis/AB_confirmatory_execution_20261101/sol_parallel_acceptance/offline_policy_v3/migration_policy.json",
+                 "--policy-snapshot",
+                 "analysis/AB_confirmatory_execution_20261101/sol_parallel_acceptance/offline_policy_v3/snapshot_v1.json",
+                 "--policy-review",
+                 "analysis/AB_confirmatory_execution_20261101/sol_parallel_acceptance/offline_policy_v3/review_astra_v1.json"
+             ],
+    "pid":  5240,
+    "scope":  "B full fixed256 descriptive analysis:288cells/36endpointgroups/5contrasts/qualified12TCc1CI,0F0B,no primaryfamily pHolm",
+    "started_utc":  "2026-11-02T08:54:19.7348785Z"
+}

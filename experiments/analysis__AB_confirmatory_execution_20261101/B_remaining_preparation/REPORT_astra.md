@@ -1,0 +1,7 @@
+# Independent B production preparation review
+
+Approved exact maintenance snapshot recorded in review_astra.json. Source hashes match the six saved tests; no tests or model measurements repeated. The production path covers all six methods, six doses and three templates, finite readout/vector targets, fixed learned FIT baselines and exact dynamic native tail reuse. Numerical production guards reject baseline and captured-native anchor mismatches.
+
+Reviewed actual authorization, real canonical path conversion, exact selected minimumN, literal corpus prefixes, full source identity, zero-load replay, paired-energy assembly, missing-cell retention and sealed-result rejection. Every current draft schedule was independently reconstructed; draft corpus/token/FIT/model manifest references were hash-checked. PILOT32/TEST128/TEST256 remain blocked and TEST uses only the selectedN. Builder provenance-only path amendment is disclosed separately from unchanged measurement tests.
+
+The v2 maintenance manifest now binds package/statistical identity dependencies, design documents and original corpus/token provenance. Future ready acquisition packets must independently bind actual FIT/model data, eligibility and completed tail qualification; drafts are not launch authority. Model-stage costs and large tail/local call counts are explicitly reported. No scientific result or calibration pass follows from these synthetic correctness checks.

@@ -1,0 +1,22 @@
+{
+  "natural_fit_records": 128,
+  "independent_name_pairs": 32,
+  "main_forward_operations": 1860,
+  "main_backward_operations": 4,
+  "main_logical_operations": 1864,
+  "new_unfused_reference_operations": 4,
+  "combined_forward_operations": 1864,
+  "combined_backward_operations": 4,
+  "combined_logical_operations": 1868,
+  "full_transformer": 152,
+  "local_native": 1692,
+  "JVP": 8,
+  "TC_or_reference": 12,
+  "reused_initial_logical_operations": 64,
+  "recovery_new_forward": 1800,
+  "recovery_new_backward": 0,
+  "fitted_cells": 36,
+  "lambda": 0.01,
+  "both_qualification_gates_passed": true,
+  "scientific_hypothesis_tests": 0
+}

@@ -1,0 +1,27 @@
+{
+  "study": "B",
+  "phase": "TAIL_QUALIFICATION",
+  "corpus": "analysis/AB_confirmatory_execution_20261101/B_tail_qualification_v1/corpus.json",
+  "tokens": "analysis/AB_confirmatory_execution_20261101/B_tail_qualification_v1/tokens.json",
+  "model_identity": "analysis/AB_confirmatory_execution_20261101/B_fit_primary_v1/model_identity.json",
+  "frozen_fit": "analysis/AB_confirmatory_execution_20261101/B_fit_primary_v1/run/FIT_B.json",
+  "frozen_fit_sha256": "27bc20e2e710a4d3e935750ce0116737a2d1d595fe2608208dbdef5f9ca95b9a",
+  "output": "analysis/AB_confirmatory_execution_20261101/B_tail_qualification_v1/run",
+  "threads": 2,
+  "layer": 15,
+  "answer_ids": [
+    1304,
+    668
+  ],
+  "doses": [
+    0.05,
+    2.0
+  ],
+  "gates": {
+    "margin_parity": 0.0001,
+    "branch_relative": 0.0001,
+    "gradient_relative": 0.0001,
+    "gradient_absolute": 1e-05
+  },
+  "schedule": "analysis/AB_confirmatory_execution_20261101/B_tail_qualification_v1/operations.json"
+}

@@ -1,0 +1,41 @@
+{
+  "document": {
+    "id": "A_shared_TEST_0195_T2_s0_q1",
+    "donor": "A_shared_TEST_0195_T2_s1_q1",
+    "block": "A_shared_TEST_0195",
+    "study": "A",
+    "cohort": "shared",
+    "split": "TEST",
+    "index": 195,
+    "frame": "T2",
+    "side": 0,
+    "q": 1,
+    "text": "Near the enclosure, the rollerblader that the catafalques can observe"
+  },
+  "files": {
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/completed/capture_A_shared_TEST_0195_T2_s0_q1.json": "b9666853305d58fc24149298242fc2e6999210135ec13eff4fb853e3d841dee4",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/cache/994727c05cb044bf2e6282ce3afd931d4323b7f1d76e6f60ef8d951e7bbeeb40.json": "2a90136c85e1534abaed2738f70a9e20b3fd73d9fdd2ebaf26f67e59e78b515f",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/completed/capture_A_shared_TEST_0195_T2_s1_q1.json": "19ec9ea4d6bcb9d9d13c21ada775d47d3cb54b46d6585656beef0bd83a15e0dd",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/cache/63d01f2ed487712deb8d46f0518287321ea5e1f17664907d8ae59723ec73c80b.json": "38bb5e09e5b6051b345f79f78a86ad45fa22d3931f7c1b7f097604a637ec3bc5",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/completed/suffix_A_shared_TEST_0195_T2_s0_q1_native.json": "43d63f7744ea426c59accf95757a61d2e1ccb8a0368b84e5a8cec59e7b55169c",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/cache/c4521bbc46fa4440b2711eb11c16832c099704dc6ce667cbf6af69e945a6b303.json": "371a61ad01afba27a332b7986b9e47adbc3de6f41ed3bf0e7479b6b18a46fb2d",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/completed/suffix_A_shared_TEST_0195_T2_s0_q1_r0_P.json": "b872a0af720828cadd0ad2efd36c1eb7929bb7c1694cb02df1719f1012fe2a4a",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/cache/df32da9b47b4cf94bd244a724fd5e455dc090c593e67ba6975217da25ac4407d.json": "76089c8968115e56b4f68a3a86233d8197639623fcf49193e2e2a60a576539b8",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/completed/suffix_A_shared_TEST_0195_T2_s0_q1_r0_U0.json": "1d6fa56a7cf2cf38f0574c01d0acb2305997b62fdf41cfaf33202178f11b800c",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/cache/aaba0be1d5d2fc81469fb5a44894e8d399f7827d1180840574d147b368f06b58.json": "3b88deaf9ad34429d893d0b86e4725d140f724fc7c7207b39039b4ea1a56386f",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/results/r0/A_shared_TEST_0195_T2_s0_q1.json": "0c4b369f1fce11ff9658ecd2b27890f5f9d18785da94949837844a7e237e5b19"
+  },
+  "identity": {
+    "model": "5fb518228899f9c15e3db99e01c11d159af8451337dee6d85c28f3880fde2b29",
+    "code": "25737ad0d8d462c020f979d68f61d55e90b2e2668df0fb2d0a8008b19f7db7b7",
+    "corpus": "361064de9ca092fcd6a97649eb7daac7f01b03a084cb021f6e6d0b819c00180c",
+    "tokens": "64569cc7e32d060a398bb0dba55885712cb963aa4475dbaf847e795f4b4926f9",
+    "config": "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/config.json",
+    "frozen_fit_hashes": {
+      "r0": "9215ff51a78cfd3a5c9a8149332c17fe9a8d50a8571d6943f1cc2059fb52c833"
+    }
+  },
+  "own_fit_sha256": "9215ff51a78cfd3a5c9a8149332c17fe9a8d50a8571d6943f1cc2059fb52c833",
+  "max_target_error": 0.0,
+  "all_saved_loss_vector_arithmetic_passed": true
+}

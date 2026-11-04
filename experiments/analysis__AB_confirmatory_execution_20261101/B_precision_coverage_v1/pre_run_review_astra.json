@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "snapshot_sha256": "c66e39c425fc9c6e202e72c385052f4790dfec84d3db1daa9a41c574bb041faf",
+  "reviewer_id": "/root/astra_preparation_audit",
+  "independent": true,
+  "verdict": "approved",
+  "topics_checked": [
+    "design",
+    "implementation",
+    "data",
+    "cost",
+    "claims"
+  ],
+  "findings": [],
+  "limitations": "Eight fixed synthetic joint12 B precision coverage cases;2000 datasets each,1999screen and first1000 extended to20000 draws;16 one-sided bounds and L-U>=.95. No family bridge. Zero model operations. Reuses independently reviewed unchanged scientific sources and saved tests, not rerun. Launcher amendment independently reviewed by Sol, who did not author it. One new CPU calibration at a time beside existing family process; no duplicate cases or outcome-dependent extension. Completion and eligibility interpretation require independent review."
+}

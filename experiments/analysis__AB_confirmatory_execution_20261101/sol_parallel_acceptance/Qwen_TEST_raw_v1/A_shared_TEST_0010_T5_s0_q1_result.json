@@ -1,0 +1,35 @@
+{
+  "document": {
+    "id": "A_shared_TEST_0010_T5_s0_q1",
+    "donor": "A_shared_TEST_0010_T5_s1_q1",
+    "block": "A_shared_TEST_0010",
+    "study": "A",
+    "cohort": "shared",
+    "split": "TEST",
+    "index": 10,
+    "frame": "T5",
+    "side": 0,
+    "q": 1,
+    "text": "Everyone agrees that the righthander, unlike the pteridologists,"
+  },
+  "files": {
+    "analysis/A_short_replication_qwen_20261101/TEST_fixed256_v3/run/completed/capture_A_shared_TEST_0010_T5_s0_q1.json": "4c5dcd7b70af603cada8f5366930df65b81d91a6753ea59f10f43b04a5bf7d36",
+    "analysis/A_short_replication_qwen_20261101/TEST_fixed256_v3/run/cache/2ba14c645cdaf7228bc11d85a48267ace0aa80a0506ac7a2d7b7d41985909d75.json": "5ac43720cda43d8932ea0e47d6a69c3526e91f3c0209f69a45b80b8797793d1f",
+    "analysis/A_short_replication_qwen_20261101/TEST_fixed256_v3/run/completed/capture_A_shared_TEST_0010_T5_s1_q1.json": "bd33852d9c864e7c21e991f436892f8b1298c8aadd65ace81892a2742cea94b5",
+    "analysis/A_short_replication_qwen_20261101/TEST_fixed256_v3/run/cache/1c419fdffeb21c9cca1d8062b37aaffb2614277ca33767a86994f0068de66bd1.json": "d342ef10260a719b338e1b62087c562ce2500a32c3122926ea15db7c67f5c462",
+    "analysis/A_short_replication_qwen_20261101/TEST_fixed256_v3/run/completed/suffix_A_shared_TEST_0010_T5_s0_q1_native.json": "38dbed822f35e541cd71407c1fdeb4acc95f73eb812a20e62602dd27991a1302",
+    "analysis/A_short_replication_qwen_20261101/TEST_fixed256_v3/run/cache/dbf87b0e13c1f0118dcb9c0cbab2e7815dccaa1f580daec9204c6824d50b606e.json": "e49e839ec6aee96739266b4d8142c069377b55fb9000b21d22b0eb8187e7974f",
+    "analysis/A_short_replication_qwen_20261101/TEST_fixed256_v3/run/completed/suffix_A_shared_TEST_0010_T5_s0_q1_P.json": "a0bc3f3a4a548bd1b3fe5d29fa6365587c89950ba210c942fb2f12ea2d3c80e6",
+    "analysis/A_short_replication_qwen_20261101/TEST_fixed256_v3/run/cache/4cc2db4472e04e683bb8abe6413e42b731069be618e901267b0c313f4ce8165f.json": "53d7b3bc505aa963bac1c4da4f1dffe624617d74556829b2499d54c1c8750c17",
+    "analysis/A_short_replication_qwen_20261101/TEST_fixed256_v3/run/completed/suffix_A_shared_TEST_0010_T5_s0_q1_U0.json": "7709d6545108582dd5cde7b8855de50db8377f60b771570d260a3b81f6c500fe",
+    "analysis/A_short_replication_qwen_20261101/TEST_fixed256_v3/run/cache/cbb1f0414b7cc62715d2adf044a235114c9347907063e0d6a857e6dadb7a9c14.json": "28823b9372adeda94436efed12c2c284e3e3e811df7d357be5f56c483c0b948d",
+    "analysis/A_short_replication_qwen_20261101/TEST_fixed256_v3/run/results/A_shared_TEST_0010_T5_s0_q1.json": "dc84308270d031e1bc64c79e8dcd760b5fcf206debec5d1ee4288726d718e0a0"
+  },
+  "identity": {
+    "model": "6c0a47f03e2523c9a91ba0c2d0619671e7ab16f1b27a2cd039742997148c9269",
+    "code": "a7e0eb7c001d76058f8622dd71c6073784e9c3472bc2bdfbea4184b2cbba1bb5"
+  },
+  "own_fit_sha256": "56d4c8fe1448ff02683ab4b001243d56b983c128e33d65811919b54e23af4ccc",
+  "max_target_error": 0.0,
+  "all_saved_loss_vector_arithmetic_passed": true
+}

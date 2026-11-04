@@ -1,0 +1,175 @@
+{
+  "accounting_sha256": "dfb6aca18045c8031f6d295cf12339894a88f6106e0278a0e09cd5e6fc923a20",
+  "stage_checks": [
+    {
+      "stage": "single_technical",
+      "budget_and_components": true,
+      "prior_independent_completion_review": "analysis/AB_confirmatory_execution_20261101/single_capture_v1/completion_review_v1.json"
+    },
+    {
+      "stage": "A_FIT_r0",
+      "budget_and_components": true,
+      "prior_independent_completion_review": "analysis/AB_confirmatory_execution_20261101/A_fit_primary_v1/completion_review_sol/completion_review_v2.json"
+    },
+    {
+      "stage": "A_PILOT",
+      "budget_and_components": true,
+      "prior_independent_completion_review": "analysis/AB_confirmatory_execution_20261101/A_pilot_ready_v1/completion_review_sol_v1.json"
+    },
+    {
+      "stage": "A_fixed256_TEST",
+      "budget_and_components": true,
+      "prior_independent_completion_review": "analysis/A_estimation_v7/TEST_v1/completion_review_astra_v1.json"
+    },
+    {
+      "stage": "B_FIT_composite",
+      "budget_and_components": true,
+      "prior_independent_completion_review": "analysis/AB_confirmatory_execution_20261101/B_fit_reference_recovery_v2/completion_review_astra_v1.json"
+    },
+    {
+      "stage": "B_tail_technical",
+      "budget_and_components": true,
+      "prior_independent_completion_review": "analysis/AB_confirmatory_execution_20261101/B_tail_qualification_v1/completion_review_astra_v2.json"
+    },
+    {
+      "stage": "B_descriptive_PILOT",
+      "budget_and_components": true,
+      "prior_independent_completion_review": "analysis/AB_confirmatory_execution_20261101/B_pilot_early_v7/completion_review_astra_v1.json"
+    },
+    {
+      "stage": "B_descriptive_TEST",
+      "budget_and_components": true,
+      "prior_independent_completion_review": "analysis/AB_confirmatory_execution_20261101/B_descriptive_TEST_v8/completion_review_astra_v1.json"
+    },
+    {
+      "stage": "Qwen_FIT",
+      "budget_and_components": true,
+      "prior_independent_completion_review": "analysis/A_short_replication_qwen_20261101/FIT_ready_v1/completion_review_sol_v1.json"
+    },
+    {
+      "stage": "Qwen_PILOT",
+      "budget_and_components": true,
+      "prior_independent_completion_review": "analysis/A_short_replication_qwen_20261101/PILOT_ready_v1/completion_review_sol_v1.json"
+    },
+    {
+      "stage": "Qwen_TEST",
+      "budget_and_components": true,
+      "prior_independent_completion_review": "analysis/A_short_replication_qwen_20261101/TEST_fixed256_v3/completion_review_sol_v1.json"
+    },
+    {
+      "stage": "Llama_FIT",
+      "budget_and_components": true,
+      "prior_independent_completion_review": "analysis/A_short_replication_llama_20261101/FIT_ready_v1/completion_review_sol_v1.json"
+    },
+    {
+      "stage": "Llama_PILOT",
+      "budget_and_components": true,
+      "prior_independent_completion_review": "analysis/A_short_replication_llama_20261101/PILOT_ready_v1/completion_review_sol_v1.json"
+    },
+    {
+      "stage": "Llama_TEST",
+      "budget_and_components": true,
+      "prior_independent_completion_review": "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/completion_review_sol_v1.json"
+    }
+  ],
+  "totals": {
+    "forward": 239803,
+    "backward": 1740,
+    "language_model_loads": 16,
+    "full_transformer": 13342,
+    "local_suffix": 48397,
+    "local_native": 22444,
+    "native_JVP": 3472,
+    "TC_reference": 25952,
+    "tail": 126196
+  },
+  "B_original_preserved_prefix": {
+    "forward": 60,
+    "backward": 4
+  },
+  "B_reference_separate_four_F": true,
+  "A_original501_plus_recovery35339": true,
+  "single_capture_not_recounted_in_Afit": true,
+  "language_model_loads_basis": "14closed acquisition groups plus two documented fail/resume additional loads; zero-load cached replays excluded, TC-only safetensors reference load excluded.",
+  "evidence_files_sha256": {
+    "analysis/AB_confirmatory_execution_20261101/single_capture_v1/contract.json": "a4da4193f76ba7445384af8015e6967844ef1c05c6af523e4fef88ea5184f823",
+    "analysis/AB_confirmatory_execution_20261101/single_capture_v1/completion_review_v1.json": "12fa81899831a50be2f689ba312435f88d61ef65d58494287f3e4ef638ce168c",
+    "analysis/AB_confirmatory_execution_20261101/A_fit_primary_v1/contract.json": "2e407b0911519d08f6194a82f9d3f898405ef629d32a147cc300ef372b9b62ab",
+    "analysis/AB_confirmatory_execution_20261101/A_fit_primary_v1/run/stage_completed.json": "1c385c179178e0ba90bbbf3d3e2bb253c71a7bee69dccb0395d7e666f424998e",
+    "analysis/AB_confirmatory_execution_20261101/A_fit_primary_v1/completion_review_sol/completion_review_v2.json": "f384a65c9467828f2c8312b6d9bda1c56ce0dd4dc23e505b78b4239034f466fc",
+    "analysis/AB_confirmatory_execution_20261101/A_fit_primary_v1/actual_cached_replay_v1.json": "abe33e0e8e1910e97ce120e8862953d90a200d30c74372e0dd1b3ce4334d61b1",
+    "analysis/AB_confirmatory_execution_20261101/A_pilot_ready_v1/cost.json": "a2ca9b87d91ccf893be4d730dad19d149f48654c60df6527b2a55aeb186300c9",
+    "analysis/AB_confirmatory_execution_20261101/A_pilot_ready_v1/contract.json": "189ed7855ca6fc1bb761b42db7db309a354dd0073f815fd6dc134d14d723ed8d",
+    "analysis/AB_confirmatory_execution_20261101/A_pilot_ready_v1/completion_summary_v1.json": "fb9640d798dcc3a5afa7b715d02ff95a31a0a26940b3d2bd2d2a5dfd7121af27",
+    "analysis/AB_confirmatory_execution_20261101/A_pilot_ready_v1/run/stage_completed.json": "f4786e28eb1492cf1ab9c96d728cdae6368ee1420ede5570b4e97bf030d4bcb9",
+    "analysis/AB_confirmatory_execution_20261101/A_pilot_ready_v1/completion_review_sol_v1.json": "1d79d8b05d4e62e69f5703ed76d318566595f8a9bc2f00785f4c023eb70a1d42",
+    "analysis/A_estimation_v7/TEST_v1/cost.json": "e3dc7ca38cb472c8ad8984764dffa85524b17ae47212c2b8b73b5e83bf6d6b85",
+    "analysis/A_estimation_v7/TEST_v1/contract.json": "4442324f813c4b1dcf283de233b3da9e56f843582358a6639607bc398f7ff05d",
+    "analysis/A_estimation_v7/TEST_v1/completion_summary_v1.json": "ee65e64cbf281ec0bfb824d6576dd6b95ed1272ae8b6b0da403b797514aa7ba2",
+    "analysis/A_estimation_v7/TEST_v1/run/stage_completed.json": "60737c2580c53504cea4252e30a94f8a717025ffa3d950ea6714295a3867468f",
+    "analysis/A_estimation_v7/TEST_v1/completion_review_astra_v1.json": "d422df6fd0d1ed83626ad4802665098508b2c685d024df76361901484ae64636",
+    "analysis/AB_confirmatory_execution_20261101/B_fit_primary_v1/contract.json": "c2910434aac39e52cd996a3f4908336caf07967ee6a98877f4cceb702c557642",
+    "analysis/AB_confirmatory_execution_20261101/B_fit_primary_v1/run/stage_completed.json": "c53387163173801712e5850bfbe1d21055030890e0a5ede85573c6ea2ee0da9c",
+    "analysis/AB_confirmatory_execution_20261101/B_reference_unfused_v1/contract.json": "ff58b22e729abfbe30f70c4576dafa00c4290d2b334c4c959fccfb35099aee32",
+    "analysis/AB_confirmatory_execution_20261101/B_reference_unfused_v1/operations.json": "2a04e3fb607b3aa047ed907cf7fe6b3d4e4e8ae42c5e588ab583a364027d350b",
+    "analysis/AB_confirmatory_execution_20261101/B_fit_reference_recovery_v2/contract.json": "fcc5b90dfc16f2c801a023b74cf92020259be5f25b45aabac1439f715a629393",
+    "analysis/AB_confirmatory_execution_20261101/B_fit_reference_recovery_v2/operations.json": "99f508d36f221d8561f1a1151ddd9d7bb60cb67d5243cd01f2173bba591199bb",
+    "analysis/AB_confirmatory_execution_20261101/B_fit_reference_recovery_v2/completion_summary_v1.json": "df2ad5eb828a12b7f87c0ae394a0cbe574898961c25505e41ff743abf4191f4d",
+    "analysis/AB_confirmatory_execution_20261101/B_fit_reference_recovery_v2/completion_review_astra_v1.json": "e475061a814d474a6419f44c163d95d50f07cb8def6c7a801656461867da1d1f",
+    "analysis/AB_confirmatory_execution_20261101/B_tail_qualification_v1/cost.json": "dfd35e65583127ed9e002663e79ae0cd2cf0e515ed5ac1ab3a0dc9959412a5d4",
+    "analysis/AB_confirmatory_execution_20261101/B_tail_qualification_v1/contract.json": "013dfa90844815fdeecad3179b3b52765c87181410c41fcba076d77a66e31046",
+    "analysis/AB_confirmatory_execution_20261101/B_tail_qualification_v1/completion_summary_v1.json": "ac2b0f79f23dc52b5d5d7ca0282cbea2c0b4647445586676f9cf25e8d1178e5d",
+    "analysis/AB_confirmatory_execution_20261101/B_tail_qualification_v1/run/stage_completed.json": "cdcc88f26173b8aeaaf4f179bd7eb7b9a347884b1a084e4239718833e387f841",
+    "analysis/AB_confirmatory_execution_20261101/B_tail_qualification_v1/completion_review_astra_v2.json": "8c868ece34edf276a8ccbacc2198d2eac64b181e95eae8f83d8a37d651e7e59f",
+    "analysis/AB_confirmatory_execution_20261101/B_pilot_early_v7/cost.json": "da7ec3c737402321785573b1033240c4bc1abbc65b95f23a27bfdd71e828381a",
+    "analysis/AB_confirmatory_execution_20261101/B_pilot_early_v7/contract.json": "2876f2c98e60aaa72a75409269e2fd27ba423e276e17a6619b6bc2fc6233e0ad",
+    "analysis/AB_confirmatory_execution_20261101/B_pilot_early_v7/completion_summary_v1.json": "b2e50ad1f3ff36b8e0a0132d6d888100034cceaab16c79afcd06daaf3fbb5c1c",
+    "analysis/AB_confirmatory_execution_20261101/B_pilot_early_v7/run/stage_completed.json": "e26d1978aaf78b6c34a1112f8c7671fe8e61c5669d307b8ff4961f093ee9f2bb",
+    "analysis/AB_confirmatory_execution_20261101/B_pilot_early_v7/completion_review_astra_v1.json": "e4faca23374b6be4acae446abb03d662d11e4a13df7a2fe7c5740461fa972050",
+    "analysis/AB_confirmatory_execution_20261101/B_descriptive_TEST_v8/cost.json": "cfbebc82551c5d54b5611bef763816450a4da1d0f15d953929ab36a7bde55a3a",
+    "analysis/AB_confirmatory_execution_20261101/B_descriptive_TEST_v8/contract.json": "dd4effe7ef23d08c6ca69b8f2973ea4d1ac7a7bd56476c45e574a7976581c8ca",
+    "analysis/AB_confirmatory_execution_20261101/B_descriptive_TEST_v8/completion_summary_v1.json": "437b31e161048a646780b4b6898a4cc174e54ddc27cdc831c45285ce88a755aa",
+    "analysis/AB_confirmatory_execution_20261101/B_descriptive_TEST_v8/run/stage_completed.json": "78e74dece7ae05b25e84292ddb9da243bc27ca59fed3d8c682357337c45f4412",
+    "analysis/AB_confirmatory_execution_20261101/B_descriptive_TEST_v8/completion_review_astra_v1.json": "73feff251414a17ee2ffccb777b1b209941fb487f7acaf0a918176b735a8c9f1",
+    "analysis/A_short_replication_qwen_20261101/FIT_ready_v1/cost.json": "e820576d7e6d7bc44b703f0f10c9d11e1429d1441a0cb08d9228e1167bb52bb4",
+    "analysis/A_short_replication_qwen_20261101/FIT_ready_v1/contract.json": "be27e07813a84a08d75b5f488715416a8c01fc5a50de5d7724dea7aefabca02d",
+    "analysis/A_short_replication_qwen_20261101/FIT_ready_v1/completion_summary_v1.json": "e79231037d77db943b8140664a9dfd1f527edef31f7cdcc51027864e8179e789",
+    "analysis/A_short_replication_qwen_20261101/FIT_ready_v1/run/stage_completed.json": "d1457a034a48007c2ebba8b848cc78a149f86dc580757f5118df782e252a4806",
+    "analysis/A_short_replication_qwen_20261101/FIT_ready_v1/completion_review_sol_v1.json": "285cc123d71522c16525cc7d7ea5f8a6ed388236ad5fc8820a09fcb110365cf4",
+    "analysis/A_short_replication_qwen_20261101/PILOT_ready_v1/cost.json": "bbeeb06604f912d576d758a3243f1b55e42f34c2062f55683e4650a80c2a45a6",
+    "analysis/A_short_replication_qwen_20261101/PILOT_ready_v1/contract.json": "78fe4379d974319328b5b9c4eee5c42e9f133e8580892393b1dc61e506a52745",
+    "analysis/A_short_replication_qwen_20261101/PILOT_ready_v1/completion_summary_v1.json": "abd8f48dec4f3cec64a1746a84ba5af6aa2d809dc3bae5ab357dcdf987f85555",
+    "analysis/A_short_replication_qwen_20261101/PILOT_ready_v1/run/stage_completed.json": "f4660ff6b26556b9890b6f5c853423a95b52b5bf53f06e1804186e34dad47f51",
+    "analysis/A_short_replication_qwen_20261101/PILOT_ready_v1/completion_review_sol_v1.json": "4ec4033c0580df42a2b473dfead79ed00bf2de598d8a1cab4835dfeacde60c84",
+    "analysis/A_short_replication_qwen_20261101/TEST_fixed256_v3/cost.json": "d3042190a70406ba06d53967077223ddc970e7bcbc65fa54f6f1e166137f6300",
+    "analysis/A_short_replication_qwen_20261101/TEST_fixed256_v3/contract.json": "0bf354924527afdf8e46ab9d59fb9524cdfc6db5b15cad611f9c93077123b73e",
+    "analysis/A_short_replication_qwen_20261101/TEST_fixed256_v3/completion_summary_v1.json": "8df6f3d75b718e3e6ef8c3ed6cee6319ad3c22b186e0e623c61f0733fd40a722",
+    "analysis/A_short_replication_qwen_20261101/TEST_fixed256_v3/run/stage_completed.json": "fae9299d5e747b2c494c03fa44f4e7776c85c54cf048529197e923e455657e8d",
+    "analysis/A_short_replication_qwen_20261101/TEST_fixed256_v3/completion_review_sol_v1.json": "ae8404bb2c8671dd6c4fbba739b5b1a6af21753d893224238a87203a6231675f",
+    "analysis/A_short_replication_llama_20261101/FIT_ready_v1/cost.json": "a969eb288c05b7616c04788755ec191aa07d556598bb6f880e00afa9b1b9565a",
+    "analysis/A_short_replication_llama_20261101/FIT_ready_v1/contract.json": "ee62564838cc465123ff26dceb95e24eb079d5e51c2e10980af41c26ead83895",
+    "analysis/A_short_replication_llama_20261101/FIT_ready_v1/completion_summary_v1.json": "b489c35ab6c96cc4361537b09a1889ce6fbd13a4fc8c96dc4ac041b89e51d9fd",
+    "analysis/A_short_replication_llama_20261101/FIT_ready_v1/run/stage_completed.json": "21e63b947400d8a1a186e4d3ade27deaccb374e3b84af4f75fcd3dab16a8a732",
+    "analysis/A_short_replication_llama_20261101/FIT_ready_v1/completion_review_sol_v1.json": "8c17b4ce9891b7029351cc32a8adce096d914214e485bdb45051aceedb06cc74",
+    "analysis/A_short_replication_llama_20261101/PILOT_ready_v1/cost.json": "75e7f241601f9adec878e5366a3a2177ad6e2fb391ab73bb5ba0b725655d30c0",
+    "analysis/A_short_replication_llama_20261101/PILOT_ready_v1/contract.json": "52dd552fa17b8c55853133c20f6e9ec40d13c9ee50c83efca6238f02eacd3d64",
+    "analysis/A_short_replication_llama_20261101/PILOT_ready_v1/completion_summary_v1.json": "abd8f48dec4f3cec64a1746a84ba5af6aa2d809dc3bae5ab357dcdf987f85555",
+    "analysis/A_short_replication_llama_20261101/PILOT_ready_v1/run/stage_completed.json": "98b449feaba0dfa9b1a0e44eb82a6c374da349e97d08f77e58ecb0cb519e9f31",
+    "analysis/A_short_replication_llama_20261101/PILOT_ready_v1/completion_review_sol_v1.json": "c870818c7952da275ac3bef10ab4e87d3fdbbbb13984a381e7da034f8204cbe7",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/cost.json": "e547cbcdfa6b173dc509ec503c65dba5c5fcc7cde76235c944f8e8f4ce4de99f",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/contract.json": "aefd39ed4eacf83df504e72184ec59a95bd42c33c3020f1bc1a0b05f75a4a904",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/completion_summary_v1.json": "8df6f3d75b718e3e6ef8c3ed6cee6319ad3c22b186e0e623c61f0733fd40a722",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/stage_completed.json": "c1b4d0e7370b3f7f2dd88d14b3675c1b6570af4677120ccfa8d14573f308bbcf",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/completion_review_sol_v1.json": "bffddfec30ce6f7e96cb5e9eb47b6c5ec35c8674e0bcd5bbb7459c72595531d6",
+    "analysis/AB_confirmatory_execution_20261101/B_fit_reference_recovery_v2/ledger_before.jsonl": "d29bf56cbf345f9ca062146449d91e9939020034d1e5f26b1efbf3bb47f9b462",
+    "ab_confirmatory_20261101/reference_b_unfused.py": "c335f13f708e15da17dd9291d3b52d85ef4986c7a5596fcd1a04a3909411ccf2",
+    "analysis/A_estimation_v7/recovery_status_v1/prefix_audit.json": "1240f35064ffafadb4132efe174c13acbccb58f898a7f7c1d1e53e380cac70b2",
+    "analysis/A_estimation_v7/recovery_status_v1/contract.json": "dc6b658e6dcb8ef5868257df0dc8ab1dca8d037b0ca829d8011a1894f7bbff6f",
+    "analysis/AB_confirmatory_execution_20261101/single_capture_v1/actual_cached_replay_v1.json": "69c10b4e7cfea1523228b8f39e8f0d72b72ccda5ec81cbe03266f68b332f5b18",
+    "analysis/AB_confirmatory_execution_20261101/sol_parallel_acceptance/Qwen_PILOT_raw_v1/audit_summary.json": "28277325d44bbc57c58cb8a398fcb08dee1392c6d48101e07d6579a7517c9c57",
+    "analysis/AB_confirmatory_execution_20261101/sol_parallel_acceptance/Qwen_TEST_raw_v1/audit_summary.json": "132bc50caf286a0b140d309fff05d6f2054dfc24efa5c9652db87e9ea5341000",
+    "analysis/AB_confirmatory_execution_20261101/sol_parallel_acceptance/Llama_PILOT_raw_v1/audit_summary.json": "fd428fd6b808351197e7a60460e6ef7580112265ff2fbd3a72f5cc65cebcf2c8",
+    "analysis/AB_confirmatory_execution_20261101/sol_parallel_acceptance/Llama_TEST_raw_v1/audit_summary.json": "c57b5751053020f1bf480c874f56265400b2996c6100eb1d8d2c70950554d522"
+  },
+  "no_raw_rehash_model_or_MC": true
+}

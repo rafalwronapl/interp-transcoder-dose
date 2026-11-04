@@ -1,0 +1,104 @@
+{
+  "schema_version": 1,
+  "id": "AB_B_ORIGINAL_PRECISION_COMPLETION_20261101_v1",
+  "kind": "experiment",
+  "primary_agent": "/root",
+  "purpose": "Completion audit of eight fixed original B precision cases;2pass6fail;no scientific null,0models.",
+  "tracked_files": [
+    "ab_confirmatory_20261101/__init__.py",
+    "ab_confirmatory_20261101/analysis_ab_v3.py",
+    "ab_confirmatory_20261101/analysis_ab_v4.py",
+    "ab_confirmatory_20261101/benchmark_offline_v3.py",
+    "ab_confirmatory_20261101/eligibility_calibration_v3.py",
+    "ab_confirmatory_20261101/offline_io_v3.py",
+    "ab_confirmatory_20261101/offline_io_v4.py",
+    "ab_confirmatory_20261101/precision.py",
+    "ab_confirmatory_20261101/safe_statistics.py",
+    "ab_confirmatory_20261101/selector_tests_v3.py",
+    "ab_confirmatory_20261101/selector_tests_v4.py",
+    "ab_confirmatory_20261101/selector_v3.py",
+    "ab_confirmatory_20261101/selector_v4.py",
+    "ab_confirmatory_20261101/stability_validation_v3.py",
+    "ab_confirmatory_20261101/stability_validation_v4.py",
+    "ab_confirmatory_20261101/statistics.py",
+    "ab_confirmatory_20261101/validation.py",
+    "analysis/AB_confirmatory_execution_20261101/remaining_statistics_v3/DESIGN_AMENDMENT_1.md",
+    "analysis/AB_confirmatory_execution_20261101/remaining_statistics_v3/DESIGN_FROZEN_V3.md",
+    "analysis/AB_confirmatory_execution_20261101/remaining_statistics_v3/HANDOFF.md",
+    "analysis/AB_confirmatory_execution_20261101/remaining_statistics_v3/correctness_tests_v3.json",
+    "analysis/AB_confirmatory_execution_20261101/remaining_statistics_v4/HANDOFF.md",
+    "analysis/AB_confirmatory_execution_20261101/remaining_statistics_v4/PROSPECTIVE_AMENDMENT.md",
+    "analysis/AB_confirmatory_execution_20261101/remaining_statistics_v4/correctness_tests_v4.json",
+    "ab_confirmatory_20261101/prepare_offline_calibrations.py",
+    "analysis/AB_confirmatory_execution_20261101/B_precision_coverage_v1/compute_budget.json",
+    "analysis/AB_confirmatory_execution_20261101/B_precision_coverage_v1/completion_summary_v1.json",
+    "analysis/AB_confirmatory_execution_20261101/B_precision_coverage_v1/REPORT_COMPLETION_v1.md"
+  ],
+  "tracked_trees": [],
+  "input_manifests": [
+    "analysis/AB_confirmatory_execution_20261101/B_precision_coverage_v1/input_manifest.json",
+    "analysis/AB_confirmatory_execution_20261101/B_precision_coverage_v1/completion_outputs_manifest_v1.json"
+  ],
+  "gates": [
+    {
+      "id": "hooks",
+      "category": "hooks",
+      "evidence": "analysis/AB_confirmatory_execution_20261101/B_precision_coverage_v1/evidence.json",
+      "pointer": "/model_calls",
+      "op": "eq",
+      "expected": 0,
+      "reason": "Pure NumPy/SciPy; no model, hooks or pretrained inference."
+    },
+    {
+      "id": "data",
+      "category": "data",
+      "evidence": "analysis/AB_confirmatory_execution_20261101/B_precision_coverage_v1/evidence.json",
+      "pointer": "/synthetic_only",
+      "op": "eq",
+      "expected": true,
+      "reason": "Fixed distributions/seeds and cases frozen in code; no PILOT/TEST data."
+    },
+    {
+      "id": "pilot",
+      "category": "pilot",
+      "evidence": "analysis/AB_confirmatory_execution_20261101/B_precision_coverage_v1/evidence.json",
+      "pointer": "/reviewed_fixed_case_count",
+      "op": "eq",
+      "expected": 8,
+      "reason": "Fixed prospective calibration, no optional extension or posthoc threshold edits."
+    },
+    {
+      "id": "accounting",
+      "category": "accounting",
+      "evidence": "analysis/AB_confirmatory_execution_20261101/B_precision_coverage_v1/evidence.json",
+      "pointer": "/existing_measurements_repeated",
+      "op": "eq",
+      "expected": 0,
+      "reason": "New calibration question; reused prior tests/timings, zero model budget."
+    },
+    {
+      "id": "restart",
+      "category": "restart",
+      "evidence": "analysis/AB_confirmatory_execution_20261101/B_precision_coverage_v1/evidence.json",
+      "pointer": "/durable_resume_tested",
+      "op": "eq",
+      "expected": true,
+      "reason": "Actual preserved partial-resume and changed-identity rejection tests."
+    }
+  ],
+  "circuits": [],
+  "structural_scope": "No native circuit or model. Truth known from explicitly fixed synthetic populations.",
+  "entrypoint": {
+    "module": "ab_confirmatory_20261101.eligibility_calibration_v3",
+    "args": [
+      "precision",
+      "--out",
+      "analysis/AB_confirmatory_execution_20261101/B_precision_coverage_v1/run"
+    ]
+  },
+  "schedule": "analysis/AB_confirmatory_execution_20261101/B_precision_coverage_v1/operations.json",
+  "budget": {
+    "forward": 0,
+    "backward": 0
+  }
+}

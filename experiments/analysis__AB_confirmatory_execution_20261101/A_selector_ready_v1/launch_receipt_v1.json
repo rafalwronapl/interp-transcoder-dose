@@ -1,0 +1,36 @@
+﻿{
+    "started_utc":  "2026-11-01T12:40:25.6353372Z",
+    "launcher_pid":  21532,
+    "arguments":  [
+                      "-X",
+                      "utf8",
+                      "-m",
+                      "concurrency_runtime_v1",
+                      "--snapshot",
+                      "analysis/AB_confirmatory_execution_20261101/A_selector_ready_v1/pre_run_snapshot_v1.json",
+                      "--review",
+                      "analysis/AB_confirmatory_execution_20261101/A_selector_ready_v1/pre_run_review_sol_v1.json",
+                      "--policy",
+                      "analysis/AB_confirmatory_execution_20261101/sol_parallel_acceptance/concurrency_migration_v1/migration_policy.json",
+                      "--policy-snapshot",
+                      "analysis/AB_confirmatory_execution_20261101/sol_parallel_acceptance/concurrency_migration_v1/snapshot_v3.json",
+                      "--policy-review",
+                      "analysis/AB_confirmatory_execution_20261101/astra_goals_concurrency_review/concurrency_review_v3.json"
+                  ],
+    "snapshot":  "98f4beb80559bc5669c527f9af5dcdcc5c478977aaed8f3594208861b5c4a848",
+    "migration_snapshot":  "c1089be1d7ee60a297dfc84d3211088c516dffa8592f98ee506348db8bbc85ea",
+    "scope":  "Actual A-only prospective fixed selector;0modelcalls;2000replicatecap/percase;originalindices0,3,6,9",
+    "status":  "launcher_started",
+    "existing_python":  [
+                            {
+                                "ProcessId":  4428,
+                                "ParentProcessId":  6668,
+                                "CommandLine":  "\"C:\\Users\\rafal\\miniconda3\\python.exe\" -m neuron_lab serve --port 8765 "
+                            },
+                            {
+                                "ProcessId":  12416,
+                                "ParentProcessId":  808,
+                                "CommandLine":  "\"C:\\Users\\rafal\\miniconda3\\python.exe\" -m ab_confirmatory_20261101.validate_family_v2 "
+                            }
+                        ]
+}

@@ -1,0 +1,88 @@
+# B-MECH execution contract, 2026-11-02
+
+READY FOR IMPLEMENTER. This is a bounded follow-up to `plans/B_MECHANISM_20261102/PLAN.md` and `PROTOKOL_MINIMUM.md`, not permission to bypass actual implementation review. Root owns implementation and launch. Scope is the existing Gemma 3 270M, layer15 post-feedforward-layernorm output, she-minus-he [1304,668], unchanged native dynamic suffix16/17. No download, fit, feature-mask reconstruction, bootstrap, new text or sample extension. All writes stay on C. Preserve historical B and every other worker/cache.
+
+## Scientific question and fixed sample
+
+The old B TEST is already inspected. This is an oracle, posthoc, finite-corpus diagnostic, not a fresh holdout or recovery of failed family tests. No new p values, family claims, inherited confidence intervals, success thresholds or worldwide novelty claim. Common constant TC bias is unidentifiable from deltas. The test isolates effects of constructed residual magnitude/direction at fixed native truth; it does not decompose a natural mechanism into percentages or identify training causes.
+
+Known before this design (from the existing B mechanism plan and Bv8 report): full-patch main-mixture TC relRMS117.46% at c=.05 versus10.11% at c=1; Taylor12.10% versus129.96%; ridge28.05% at c=1. TC absolute error rises0.06030 to0.34963logit while native signal rises0.05134 to3.45655; transfer TC c=1 relRMS16.28%. These motivate the posthoc question and are not new findings of this stage. Actual public TC has no affine skip; native model has no final-logit softcap. Neither absent component is an explanation to ablate. The larger program's established native-delta/prediction/correction/readout/transfer/cost contribution and E041 vector-FIT rank8 oracle result remain distinct from this single-readout B diagnostic.
+
+Use blocks `B_TEST_0000` through `B_TEST_0015`, in increasing order. All six documents per block, preserving the exact corpus metadata and original document order; actual frame strings are `so`, `when`, `transfer`, sides0/1. Both operators `full`, `projected`; dose indices0 and4 in the original grid, hence .05 and1. Exactly96 recipients and384 cells. Partner block is `(block_index+1)%16`, same frame and side; same partner for both doses/operators. Donor used in the original intervention remains the opposite-side document in the original block. Never select or replace a cell according to an outcome. Do not expand N after heterogeneity, weak effects or null findings.
+
+## Stage0, no new model evaluations
+
+Historical root `H=analysis/AB_confirmatory_execution_20261101/B_descriptive_TEST_v8`; raw run `H/run`. Before computing derived statistics, freeze an explicit manifest of every consumed historical file, with bytes and SHA256. Reading bytes to inventory/hash and inspect schema is preparation; the analysis executes against the frozen manifest. Do not call an old worker to acquire missing data.
+
+Use all18432 result cells (256blocks ×6documents ×2operators ×6doses). Canonical record loader: JSON wrapper with `payload_sha256 == research_checks.gate.digest(payload)`; result files `run/results/{document}/{operator}_{ci}.json`. Completed receipt `run/completed/{operation}.json` contains payload.request; resolve cache `run/cache/{request}.json`, validate wrapper, `digest(payload.request)==request`, and source model/code/document/readout/intervention identities. Cache result is payload.result; request is payload.request. Validate metadata, layer15, final token position len(ids)-1, answer orientation and dose/operator. Never trust a filename alone.
+
+Minimal original-data requirements: all18432 result wrappers; all1536 `capture_{id}` and `tail_gradient_{id}` receipt/cache pairs; every cell's `tail_{id}_{operator}_{ci}_{NATIVE,TC}` receipt/cache pairs for exact TC-error target geometry and absolute margins. No FROZEN/TAYLOR tail caches are required: those methods receive scalar summaries from accepted result records, not a new rounded-target geometry claim. This pre-freeze scope refinement avoids reading two unused target families while retaining every method's stored outcomes. Include `tc_base_{id}`, `jvp_{id}_{operator}`, `native_endpoint_{id}_{operator}_{ci}`, `tc_endpoint_{id}_{operator}_{ci}` pairs if validating raw endpoint reconstruction (required for384 selected cells; optional for full18432, explicitly state which scope was validated). Bind any extra read files too. Results already contain e0,e1 and all six methods' scalar outcomes; no TC reload is needed. Do not materialize masks, rank flips or classify turn-on/off now.
+
+Outputs, CSV/JSON with all cells retained:
+
+1. `stage0_cells`: identifiers, native_change, every method's signed finite error and squared loss, vector error, exact-target residual norm, g_y dot(actual target difference), squared cosine (undefined if either normzero), linear and nonlinear terms. g_y is the old gradient at natural y, never call it g_N.
+2. `stage0_summary`: each frame/operator/dose/method plus pooled and block tables: n, mean signed error, mean absolute error, RMSE; signal RMS sqrt(mean(native_change²)); relRMS sqrt(sum(error²)/sum(native_change²)), undefined if denominatorzero. Never mean per-cell ratios. Include finite error `E=G(vT)-G(vN)`, linear `A=g_y dot(vT-vN)`, remainder `E-A`; independently `rhoT=G(vT)-G(y)-g_y dot(vT-y)`, `rhoN=G(vN)-G(y)-g_y dot(vN-y)` and verify `E-A=rhoT-rhoN` to FP64 numerical tolerance.
+3. `stage0_endpoint_energy`: for each frame/operator/dose/side and pooled, means mu0/mu1, E||e0||²,E||e1||²,-2E(e1·e0),E||e1-e0||²; split cross term into -2mu1·mu0 and -2E[(e1-mu1)·(e0-mu0)]. Check energy identity, report centered energies and residual, do not call common mean bias causal explanation. e0 repetitions are explicitly condition-balanced weights, not independent endpoints.
+4. `stage0_integrity`: counts, provenance joins, expected missing/undefined quantities, rounding offsets, hash validations, and exact scope of reconstruction audit.
+
+For summaries use equal weight of blocks and equal sides within block; show all frame/operator/dose strata. No bootstrap. Stage0 completion report and independent review precede separately reported scientific claims and update of the living Dorobek by root.
+
+## Actual coordinates and reusable API
+
+Use unchanged `ab_confirmatory_20261101/native_tail_b.py:ExactTail`, instantiated on existing local FP32 eager model in eval mode with layer15 and [1304,668]. It imports `native.py:Native`. `capture` cache result includes layer, answer_ids, ids, boundary encoded tensor [1,T,640], encoded kwargs for16/17, and states R,x,y,margin. Decode with the existing `decode` function. ExactTail.tensor_margin(record,target) sets **h[0,-1]=R+target** in native addition order; it runs both full-sequence later layers with dynamic attention, final norm and two answer head rows. `margin(record,target)` is one suffixF. `gradient(record,target)` is one suffixF plus one suffixB, returning gradient640 and the same absolute margin. Do not use Native.suffix (last-layer only).
+
+Target is the640-dimensional output of post_feedforward_layernorm at L15 final token, not the raw MLP down-projection and not residual R+output. Earlier tokens remain in captured boundary. Native dependency path is outputL15 -> residualL15 -> L16 -> L17 -> finalnorm/head. This last-position patch cannot affect earlier tokens or upstreamL15 input. Do not demand sensitivity at unreachable checkpoints.
+
+Authoritative `vN`, `vT`: cached tail request.intervention.target for NATIVE and TC, respectively. Their source absolute margins are cached scalar results. Reconstruct for selected384 cells using original worker arithmetic and require bitwise equality of FP32 targets:
+
+```
+y,n0,n1,t0,t1 = original cached vectors loaded as float64
+vN = float32(y + (n1-n0))
+dT = float64(float32(t1)-float32(t0))
+vT = float32(y + dT)
+```
+
+n0 is jvp.primal; t0 is tc_base.output; e0=t0-n0 and e1=t1-n1, all computed/stored in float64 from original FP32 vectors. Native branch output includes post-feedforward norm. Do not simplify vN to n1: natural y and n0 may differ numerically. Check original capture/tokens IDs and same donor/frame/side, and n0 equality between operators. Existing `worker_b_evaluate.py` is the arithmetic specification; it must remain unchanged.
+
+## Core experiment and numerical contract
+
+Call root's pure `analysis/B_mechanism_20261102/geometry.py:crossed_targets(vN,vT,e0,e1,partner_e0)`. All these arrays enter as float64. Let r=vT-vN, analytic=e1-e0, offset=r-analytic; rP=e1-partner_e0+offset. Keep offset per cell. RR is exact cached vT. PR=vN+||rP||r/||r||; RP=vN+||r||rP/||rP||; PP=vN+rP. Construct non-RR targets in FP64, then round once to FP32. This is normP/directionR, normR/directionP, normP/directionP respectively.
+
+Only a mathematically zero norm (float64 norm ==0) makes a direction undefined. PR is undefined if ||r||=0; RP if ||rP||=0. PP remains defined even if zero because no normalization is required. RR always reused. Undefined slots get durable skip receipts with reason and consume zero calls; never invent a direction. An identical already measured target may reuse its exact, provenance-bound result with an alias receipt, even across arms of the same recipient; no reuse across contexts.
+
+Frozen numerical checks use arithmetic scale, not scientific readout outcomes. Let u32=2^-24, u64=2^-53. For each selected cell require coordinatewise
+
+`abs(offset) <= 8*u32*(1+abs(y)+abs(n0)+abs(n1)+abs(t0)+abs(t1))`.
+
+This conservative forward-error bound covers the float32 TC subtraction and both target roundings. Require stored e0/e1 match raw-derived values within `64*u64*(1+abs(t0)+abs(n0)+abs(t1)+abs(n1))` coordinatewise. If either fails, stop as an arithmetic/provenance problem, not scientific failure.
+
+For each generated ideal FP64 target q and rounded FP32 target q32, bound its coordinatewise rounding by `u32*abs(q)+2^-149`; compute actual error norm ||q32-vN|| and intended norm. Their absolute difference must not exceed `||q32-q|| + 64*u64*max(1,||q-vN||,||vN||)`. Save intended/actual norms and rounding error; do not use a relative tolerance that divides by tiny target residuals. For RP/PR the ideal norm itself must match specified norm within `64*u64*max(1,specified_norm)`. Keep RR bitwise exact; no normalized reconstruction.
+
+For each cell acquire gN through `ExactTail.gradient(record,vN)` once. Its absolute margin must match cached NATIVE within1e-4; otherwise stop. `geometry.gradient_targets(vN,vT,gN)` returns parallel/perpendicular targets: r_parallel=(gN·r)/(gN·gN)gN, r_perp=r-r_parallel, then round vN+component once. If gN·gN==0, both geometric arms undefined and skipped, retaining full finite effect. Log norm, projection linear error, rounding displacement and orthogonality residual. A zero scientific gradient is not automatically an instrument failure.
+
+Measure PR, RP, PP, parallel, perpendicular only when defined and not identically reusable. All errors are signed margin differences to cached absolute G(vN), with square loss in logit². Report amplitude L(PR)-L(RR), direction L(RP)-L(RR), interaction L(PP)-L(PR)-L(RP)+L(RR); retain actual sign of norm change. For geometric arms report signed finite effects, full E, gN·r and `E-Eparallel-Eperpendicular`. Report raw and rounded component linear predictions; do not attribute all rounding error to nonlinearity. Large interactions or nulls are results, not reasons to increase N.
+
+## Small technical controls, qualification reuse, exact budget
+
+Reuse historical `analysis/AB_confirmatory_execution_20261101/B_tail_qualification_v1/run/qualification.json`, completion_snapshot_v2.json and completion_review_astra_v2.json. Their evidence already compares actual full/native suffix margins under unnatural targets and full gradients. Check hash-bound native_tail_b.py/native.py and model/software identity against that snapshot. If exact adapter/model/environment equivalence cannot be established, stop for a technical amendment; do not silently broaden this schedule. No8fullF or8suffixF repeat of the existing qualification.
+
+New controls use exactly `B_FIT_0000_transfer_s0`, `B_FIT_0000_transfer_s1`, `B_FIT_0001_transfer_s0`, `B_FIT_0001_transfer_s1`, capture and tail_gradient receipt/cache pairs under the historical qualification run. Per document:
+
+1. At cached y, run gradient (1suffixF+1B). Compare absolute margin to capture margin within1e-4; compare gradient to saved gradient with relativeL2<=1e-4 and maxabs<=1e-5. Saved gradient norm must be finite and positive.
+2. With saved g, define u=g/||g|| and h=min(1e-3*max(1,||y||),0.01/||g||). Evaluate exactly float32(y+h*u), float32(y-h*u), two suffixF. Baseline is the new gradient's margin. Require both finite nonzero signed effects magnitude>1e-4 and same sign as g dot the actual rounded displacement. This is an instrument sensitivity check, not a linearity/scientific success threshold. Save central difference, expected linear effects and deviations without imposing a relative linearity gate. If it fails, stop, report failed qualification and do not adapt h.
+
+Controls12suffixF+4suffixB. Scientific maximum384*(3 crossed +1 gradientF+2 componentF)=2304suffixF and384suffixB. **Grand maximum2316suffixF+388suffixB,0fullF,0local-native/JVP evaluations,0TC evaluations/loads,0fits.** One local model load; no prefix execution does not mean only two layers loaded. Backward is counted separately from its forward. Algebraic/BLAS operations are not new TC evaluations. No timing benchmark or retry slot is authorized here.
+
+The no-model design check `CONTROL_SCALES.json` verifies the four fixed h values yield rounded linear predictions approximately +/-0.01logit in every control,100times the numerical margin floor. Relative displacement h/||y|| ranges0.000112 to0.000166. This check used only the saved qualification gradients and y, not new finite outcomes; no scale adaptation was needed. `SELECTION.json` explicitly enumerates96 documents and384 cells with corpus SHA256. Neither file is a new model result or a full historical-cache audit.
+
+Exact schedule order: four controls in listed document order, each gradientF/backward then plus/minus; core in increasing block, original corpus document order, operator full/projected, ci0/4; each PR/RP/PP then gradientF/backward then parallel/perpendicular. Each planned slot has immutable ID including document/operator/ci/arm; gradientF/backward are coupled. Publish schedule JSON before model import. An undefined or reused slot remains in schedule and has skip/alias receipt, never disappears from accounting. Count planned, measured, reused, undefined and consumed-uncertain attempts separately.
+
+## Dependency manifest and restart acceptance
+
+Bind plan, exact selected-cells table and schedule; new code/tests/config; transitive imported local code (including native_tail_b.py,native.py, runtime.py, prepare.py, research_checks persistence/gate and any actual helpers); actual package versions for torch/transformers/numpy and loaded relevant transformers source; local model identity/config/weight hashes from B_fit_primary_v1/model_identity.json; original B configs/corpus/tokens/FIT (if read), run identity and stage_completed receipts; all original result/receipt/cache files consumed; historical qualification snapshot/review and its actual consumed control evidence; old B report/known-outcome disclosures if read in analysis. All references must resolve to C. Frozen manifest is an explicit filelist, not a glob evaluated later. Include every actual read dependency even if not listed above.
+
+Use existing Runtime persistence semantics or an equally reviewed new wrapper: reserve coupled F/B attempts before compute, durable cache before completed receipt, immutable JSON payload hash, no overwritten receipts. A result published before a crash is reused without model execution; a reserved attempt without durable result is consumed/uncertain and halts for reviewed retry amendment. No automatic retry or hidden model loads on completed replay. Cache request identity includes old source manifest digest, new code/model/config/schedule identity, recipient token IDs/boundary provenance, layer/readout, actual FP32target bytes and arm semantics. Verify a cache target against request identity, not just arm ID.
+
+Before launch synthetic tests must cover linear and nonlinear toy G, rank/shape, exact RR, cyclic16 partner mapping, zero r/rP/g, tiny values and FP32 rounding bounds, duplicate target reuse, wrong layer/readout/token/source rejection, immutable replay and two failure windows (after reservation before result; after cache before receipt). Check each arm's signed contrast and cost count. A completed replay must make0calls and leave immutable bytes unchanged. Root reviews actual implementation plus a separate independent reviewer against a hash-bound snapshot, then canonical `python -m research_checks launch --snapshot ... --review ...`. No approval is asserted by this plan. Check actual existing processes/model slot/RAM before load; do not interrupt other experiments. Completion requires actual receipts, independent review, report of all outcomes and the stable Downloads Dorobek update by root.
+
+Pre-model technical amendment: the384-cell saved-target arithmetic check found one ideal-norm false failure at B_TEST_0005_so_s1_projected_0/RP. Forming q=vN+displacement and then q-vN incurs FP64 addition/cancellation on the native endpoint scale. The ideal-norm tolerance therefore includes ||vN||, consistently with the already declared rounded-norm bound. No new model outcomes were inspected and no scientific sample/arm/criterion changed.

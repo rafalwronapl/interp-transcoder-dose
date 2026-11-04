@@ -1,0 +1,93 @@
+{
+  "schema_version": 1,
+  "id": "B_DRAFT_TEST_128",
+  "kind": "experiment",
+  "primary_agent": "/root",
+  "purpose": "Literal execution draft, deliberately blocked until actual scientific admission and own review.",
+  "tracked_files": [
+    "ab_confirmatory_20261101/__init__.py",
+    "ab_confirmatory_20261101/worker_b_evaluate.py",
+    "ab_confirmatory_20261101/native_tail_b.py",
+    "ab_confirmatory_20261101/native.py",
+    "ab_confirmatory_20261101/runtime.py",
+    "ab_confirmatory_20261101/prepare.py",
+    "ab_confirmatory_20261101/baselines_b.py",
+    "ab_confirmatory_20261101/transcoder.py",
+    "ab_confirmatory_20261101/worker_b_production_v2.py",
+    "ab_confirmatory_20261101/campaign_authorization.py",
+    "ab_confirmatory_20261101/eligibility_paths_v5.py",
+    "ab_confirmatory_20261101/offline_io_v4.py",
+    "ab_confirmatory_20261101/offline_io_v3.py",
+    "ab_confirmatory_20261101/prepare_production_b.py",
+    "ab_confirmatory_20261101/prepare_b_drafts_v2.py",
+    "analysis/AB_confirmatory_execution_20261101/B_remaining_preparation/drafts/TEST_128/config.json",
+    "analysis/AB_confirmatory_execution_20261101/B_remaining_preparation/drafts/TEST_128/corpus.json",
+    "analysis/AB_confirmatory_execution_20261101/B_remaining_preparation/drafts/TEST_128/tokens.json",
+    "analysis/AB_confirmatory_execution_20261101/B_remaining_preparation/drafts/TEST_128/cost.json"
+  ],
+  "tracked_trees": [],
+  "input_manifests": [
+    "analysis/AB_confirmatory_execution_20261101/B_remaining_preparation/drafts/TEST_128/inputs.json"
+  ],
+  "gates": [
+    {
+      "id": "hooks",
+      "category": "hooks",
+      "evidence": "analysis/AB_confirmatory_execution_20261101/B_remaining_preparation/drafts/TEST_128/evidence.json",
+      "pointer": "/admission_ready",
+      "op": "eq",
+      "expected": true,
+      "reason": "Draft must not launch without actual evidence."
+    },
+    {
+      "id": "data",
+      "category": "data",
+      "evidence": "analysis/AB_confirmatory_execution_20261101/B_remaining_preparation/drafts/TEST_128/evidence.json",
+      "pointer": "/admission_ready",
+      "op": "eq",
+      "expected": true,
+      "reason": "Draft must not launch without actual evidence."
+    },
+    {
+      "id": "pilot",
+      "category": "pilot",
+      "evidence": "analysis/AB_confirmatory_execution_20261101/B_remaining_preparation/drafts/TEST_128/evidence.json",
+      "pointer": "/admission_ready",
+      "op": "eq",
+      "expected": true,
+      "reason": "Draft must not launch without actual evidence."
+    },
+    {
+      "id": "accounting",
+      "category": "accounting",
+      "evidence": "analysis/AB_confirmatory_execution_20261101/B_remaining_preparation/drafts/TEST_128/evidence.json",
+      "pointer": "/admission_ready",
+      "op": "eq",
+      "expected": true,
+      "reason": "Draft must not launch without actual evidence."
+    },
+    {
+      "id": "restart",
+      "category": "restart",
+      "evidence": "analysis/AB_confirmatory_execution_20261101/B_remaining_preparation/drafts/TEST_128/evidence.json",
+      "pointer": "/admission_ready",
+      "op": "eq",
+      "expected": true,
+      "reason": "Draft must not launch without actual evidence."
+    }
+  ],
+  "circuits": [],
+  "structural_scope": "Qualified exact downstream native tail; scientific admission absent.",
+  "entrypoint": {
+    "module": "ab_confirmatory_20261101.worker_b_production_v2",
+    "args": [
+      "--config",
+      "analysis/AB_confirmatory_execution_20261101/B_remaining_preparation/drafts/TEST_128/config.json"
+    ]
+  },
+  "schedule": "analysis/AB_confirmatory_execution_20261101/B_remaining_preparation/drafts/TEST_128/operations.json",
+  "budget": {
+    "forward": 79104,
+    "backward": 768
+  }
+}

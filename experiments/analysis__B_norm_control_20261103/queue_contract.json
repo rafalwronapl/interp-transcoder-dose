@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "id": "B_NORM_BOUNDED_QUEUE_20261103",
+  "kind": "maintenance",
+  "primary_agent": "/root/b_switch_fit",
+  "purpose": "Exact allowlist bounded2hour predecessorA-success-to-approvedB canonical launch queue; no new experiment semantics.",
+  "tracked_files": [
+    "analysis/B_norm_control_20261103/queue.py",
+    "analysis/B_norm_control_20261103/queue_config.json",
+    "analysis/B_norm_control_20261103/queue_fixtures.py",
+    "analysis/B_norm_control_20261103/queue_fixtures.json",
+    "analysis/B_norm_control_20261103/common.py",
+    "analysis/B_norm_control_20261103/stage2_snapshot_v2.json",
+    "analysis/B_norm_control_20261103/review/stage2_pre_run_review_v2.json"
+  ],
+  "tracked_trees": [],
+  "input_manifests": [
+    "analysis/B_norm_control_20261103/stage2_input_manifest.json"
+  ],
+  "gates": [
+    {
+      "id": "hooks",
+      "category": "hooks",
+      "evidence": "analysis/B_norm_control_20261103/queue_fixtures.json",
+      "pointer": "/payload/passed",
+      "op": "eq",
+      "expected": true,
+      "reason": "Synthetic exactpredecessor/error/death/sealverification tests; no model calls."
+    },
+    {
+      "id": "data",
+      "category": "data",
+      "evidence": "analysis/B_norm_control_20261103/queue_fixtures.json",
+      "pointer": "/payload/passed",
+      "op": "eq",
+      "expected": true,
+      "reason": "Synthetic exactpredecessor/error/death/sealverification tests; no model calls."
+    },
+    {
+      "id": "pilot",
+      "category": "pilot",
+      "evidence": "analysis/B_norm_control_20261103/queue_fixtures.json",
+      "pointer": "/payload/passed",
+      "op": "eq",
+      "expected": true,
+      "reason": "Synthetic exactpredecessor/error/death/sealverification tests; no model calls."
+    },
+    {
+      "id": "accounting",
+      "category": "accounting",
+      "evidence": "analysis/B_norm_control_20261103/queue_fixtures.json",
+      "pointer": "/payload/passed",
+      "op": "eq",
+      "expected": true,
+      "reason": "Synthetic exactpredecessor/error/death/sealverification tests; no model calls."
+    },
+    {
+      "id": "restart",
+      "category": "restart",
+      "evidence": "analysis/B_norm_control_20261103/queue_fixtures.json",
+      "pointer": "/payload/passed",
+      "op": "eq",
+      "expected": true,
+      "reason": "Synthetic exactpredecessor/error/death/sealverification tests; no model calls."
+    }
+  ],
+  "circuits": [],
+  "structural_scope": "No circuit/model computation; only checks exactAcanonicalreceipt/completionseal/processrelease and invokes alreadyreviewedBcanonicalstage.",
+  "entrypoint": null,
+  "schedule": null,
+  "budget": null
+}

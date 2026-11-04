@@ -1,0 +1,41 @@
+{
+  "document": {
+    "id": "A_shared_TEST_0131_T5_s1_q0",
+    "donor": "A_shared_TEST_0131_T5_s0_q0",
+    "block": "A_shared_TEST_0131",
+    "study": "A",
+    "cohort": "shared",
+    "split": "TEST",
+    "index": 131,
+    "frame": "T5",
+    "side": 1,
+    "q": 0,
+    "text": "Everyone agrees that the gastroscopes, unlike the godson,"
+  },
+  "files": {
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/completed/capture_A_shared_TEST_0131_T5_s1_q0.json": "102285eb81638d92640a5ceb9a39e5df79c1bf68033891138fa715e0f0fffebf",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/cache/ca6e0ee4e056db439b1ec30189e2e82bc0816f4f58d14702698157622359de42.json": "89b1360981e3f5e003ac5fbb3fb6233eefe52f0dbede68b4b265914da01fe03d",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/completed/capture_A_shared_TEST_0131_T5_s0_q0.json": "7e81dd2839947e746f19b3e356148c1ca0decf7477db7a262d8214ed14360d11",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/cache/f3e2b528eff58f0a653d48171aae265410e16664d45c97703c148cb24c089f40.json": "1fe41b3487940f6fdcb33988cee7160ccbcf78fd2bdbfe738e0e5b9bb96f84a2",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/completed/suffix_A_shared_TEST_0131_T5_s1_q0_native.json": "04e23253febecf1f2c96ff84ac656010efaf33b5448c05412a154eb466bd897b",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/cache/9db9d13ffd2c640d4e5fb04ebc6af8f837f1abd6a4b434f7607904e95934f728.json": "54f2825ae9842dde18623518677b1c0c6e99194e2392821dfad62403fcccd224",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/completed/suffix_A_shared_TEST_0131_T5_s1_q0_r0_P.json": "8eb89598eeca28517c15e111906debc727b782e7636fecfc7c97268c9880a3de",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/cache/22a285eddd6b1f43671afd9b896ca979b513a5e814e191d335852631bfdc4eb5.json": "6c8fd026f1870bd477b2fc26d501d509bf753f230a5c3c8bfdcf94fdcbb47bdc",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/completed/suffix_A_shared_TEST_0131_T5_s1_q0_r0_U0.json": "7ee73bad689911eabdbe8de206a3934f2cdb70705d6c3256bf012ecc066fffeb",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/cache/efccc55184cf6ca351a98762b8d901c15abbaf0ab59de41ac7f914a75cd53316.json": "843471b9c30948ea72b80b05bee3baedce7b74b68b16784d69030df837bea7eb",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/results/r0/A_shared_TEST_0131_T5_s1_q0.json": "cc1c00c4c055f89818997a558686f4a0642b58975e3cfc7a775cb20099e411aa"
+  },
+  "identity": {
+    "model": "5fb518228899f9c15e3db99e01c11d159af8451337dee6d85c28f3880fde2b29",
+    "code": "25737ad0d8d462c020f979d68f61d55e90b2e2668df0fb2d0a8008b19f7db7b7",
+    "corpus": "361064de9ca092fcd6a97649eb7daac7f01b03a084cb021f6e6d0b819c00180c",
+    "tokens": "64569cc7e32d060a398bb0dba55885712cb963aa4475dbaf847e795f4b4926f9",
+    "config": "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/config.json",
+    "frozen_fit_hashes": {
+      "r0": "9215ff51a78cfd3a5c9a8149332c17fe9a8d50a8571d6943f1cc2059fb52c833"
+    }
+  },
+  "own_fit_sha256": "9215ff51a78cfd3a5c9a8149332c17fe9a8d50a8571d6943f1cc2059fb52c833",
+  "max_target_error": 0.0,
+  "all_saved_loss_vector_arithmetic_passed": true
+}

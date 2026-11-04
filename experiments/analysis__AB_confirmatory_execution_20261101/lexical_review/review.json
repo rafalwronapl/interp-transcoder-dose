@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "reviewer_id": "/root/sol_ab_execution/lexical_review",
+  "independent": true,
+  "scope": "Offline lexical design only; no final corpus or model launch approval",
+  "verdict": "changes_requested",
+  "source_sha256": {
+    "ab_confirmatory_20261101/prepare.py": "e4f0bf1eec787488499ef27d10411249c9b05560a3db62f1a0b3219e897f5321",
+    "analysis/AB_confirmatory_execution_20261101/corpus/candidate_pools.json": "71694c72bcf29ba67bd137b3de56c5b06d6565bd7cecd70340ed5c50720872d2",
+    "analysis/AB_confirmatory_execution_20261101/corpus/exposure_manifest.json": "e541ffe2a68b96b915cb1558abdcc555d6ccb8299f029a97897d9dd3820e5eca",
+    "analysis/AB_confirmatory_execution_20261101/corpus/historical_input_manifest.json": "1118f75bbb89f8fa6b2bb412d80896f88691e63d7eb8568f1ea808f0468bb129",
+    "analysis/AB_confirmatory_execution_20261101/corpus/observed_words.json": "fab7bb49d8e714fc994aa8bb4d1748f9522b815869b2e519b167c815239d68b0"
+  },
+  "findings": [
+    {
+      "id": "LEX-MORPHOLOGY",
+      "severity": "high",
+      "status": "open",
+      "evidence": "morphy(x+s)==x accepts irregular compound plurals such as cragsmans",
+      "resolution": "Implement exception-map and compound-ending filter then regenerate"
+    },
+    {
+      "id": "LEX-EXPOSURE",
+      "severity": "high",
+      "status": "open",
+      "evidence": "227 additional labelled sources; historical pilot includes bassoonist present in new pool",
+      "resolution": "Expand historical manifest and redo selection"
+    },
+    {
+      "id": "LEX-SEMANTICS",
+      "severity": "high",
+      "status": "open",
+      "evidence": "Raw artifact pool includes mass/abstract/taxonomic or capitalized forms",
+      "resolution": "Implement machine-defined semantic/orthographic criteria; explicitly limit population; re-review actual corpus"
+    }
+  ],
+  "limitations": "2359-entry review screen is a feasible candidate source, not manually certified final corpus. Shared synonym exclusions are conservative scope choices; no pretrained models, tokenizer or statistical checks performed. No launch approval."
+}

@@ -1,0 +1,112 @@
+{
+  "schema_version": 1,
+  "id": "AB_TECH_SINGLE_CAPTURE_20261101_completion_v1",
+  "kind": "experiment",
+  "primary_agent": "/root/sol_ab_execution",
+  "purpose": "Completion audit of exactly1native technical forward, raw vectors/within-forward identities/cache replay; no scientific hypotheses or intervention claims.",
+  "tracked_files": [
+    "ab_confirmatory_20261101/__init__.py",
+    "ab_confirmatory_20261101/single_capture.py",
+    "ab_confirmatory_20261101/test_single_capture.py",
+    "ab_confirmatory_20261101/prepare_single.py",
+    "ab_confirmatory_20261101/prepare.py",
+    "analysis/AB_confirmatory_execution_20261101/single_capture_v1/packet.json",
+    "analysis/AB_confirmatory_execution_20261101/single_capture_v1/model_identity.json",
+    "analysis/AB_confirmatory_execution_20261101/single_capture_v1/PROTOCOL.md",
+    "analysis/AB_confirmatory_execution_20261101/single_capture_v1/synthetic_tests.log",
+    "analysis/AB_confirmatory_execution_20261101/lexical_review/review_v3.json"
+  ],
+  "tracked_trees": [],
+  "input_manifests": [
+    "analysis/AB_confirmatory_execution_20261101/single_capture_v1/model_manifest.json",
+    "analysis\\AB_confirmatory_execution_20261101\\single_capture_v1\\completion_outputs_manifest_v1.json"
+  ],
+  "gates": [
+    {
+      "id": "hooks",
+      "category": "hooks",
+      "evidence": "analysis/AB_confirmatory_execution_20261101/single_capture_v1/evidence.json",
+      "pointer": "/synthetic_full_call_counter",
+      "op": "eq",
+      "expected": 1,
+      "reason": "Production capture records exact selected Gemma normalized-input/post-norm branch tensors in one random-model full forward; no causal/intervention claim."
+    },
+    {
+      "id": "data",
+      "category": "data",
+      "evidence": "analysis/AB_confirmatory_execution_20261101/single_capture_v1/evidence.json",
+      "pointer": "/selected_split",
+      "op": "eq",
+      "expected": "FIT_MAP",
+      "reason": "Dedicated qualified literal packet, actual tokenizer IDs, no TEST or data selection from model outcomes."
+    },
+    {
+      "id": "pilot",
+      "category": "pilot",
+      "evidence": "analysis/AB_confirmatory_execution_20261101/single_capture_v1/evidence.json",
+      "pointer": "/scientific_claims",
+      "op": "eq",
+      "expected": false,
+      "reason": "Bounded one-call technical capture is the entire pilot scope; statistical N and trained intervention controls are deferred, no model hypothesis result."
+    },
+    {
+      "id": "accounting",
+      "category": "accounting",
+      "evidence": "analysis/AB_confirmatory_execution_20261101/single_capture_v1/evidence.json",
+      "pointer": "/full_forward_budget",
+      "op": "eq",
+      "expected": 1,
+      "reason": "Exactly one complete native forward, no backwards/local/gradient/suffix calls."
+    },
+    {
+      "id": "restart",
+      "category": "restart",
+      "evidence": "analysis/AB_confirmatory_execution_20261101/single_capture_v1/evidence.json",
+      "pointer": "/partial_failure_retry_blocked",
+      "op": "eq",
+      "expected": true,
+      "reason": "Production mocked-loader test proves byte-preserving replay and failure-consumed attempt does not invoke a second model load or forward."
+    },
+    {
+      "id": "actual_one_forward",
+      "category": "accounting",
+      "evidence": "analysis\\AB_confirmatory_execution_20261101\\single_capture_v1\\run\\completed.json",
+      "pointer": "/payload/result/full_forwards",
+      "op": "eq",
+      "expected": 1,
+      "reason": "Actual immutable capture result, not launcher-start receipt."
+    },
+    {
+      "id": "actual_input_identity",
+      "category": "hooks",
+      "evidence": "analysis\\AB_confirmatory_execution_20261101\\single_capture_v1\\run\\completed.json",
+      "pointer": "/payload/result/input_identity_max",
+      "op": "eq",
+      "expected": 0.0,
+      "reason": "Same native forward recorded MLP and first-linear input identity."
+    },
+    {
+      "id": "actual_replay_unchanged",
+      "category": "restart",
+      "evidence": "analysis\\AB_confirmatory_execution_20261101\\single_capture_v1\\actual_cached_replay_v1.json",
+      "pointer": "/all_receipt_cache_bytes_preserved",
+      "op": "eq",
+      "expected": true,
+      "reason": "Actual canonical replay preserves all6durable run files byte-for-byte."
+    }
+  ],
+  "circuits": [],
+  "structural_scope": "No reduced circuit or intervention evaluated. Single last-layer/final-position natural capture records MLP input and post-norm output plus same-forward residual/first-linear identities. Does not establish sham or sensitivity; further model stages require new review.",
+  "entrypoint": {
+    "module": "ab_confirmatory_20261101.single_capture",
+    "args": [
+      "--stage",
+      "analysis/AB_confirmatory_execution_20261101/single_capture_v1"
+    ]
+  },
+  "schedule": "analysis/AB_confirmatory_execution_20261101/single_capture_v1/operations.json",
+  "budget": {
+    "forward": 1,
+    "backward": 0
+  }
+}

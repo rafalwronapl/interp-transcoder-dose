@@ -1,0 +1,41 @@
+{
+  "document": {
+    "id": "A_shared_TEST_0078_T5_s0_q1",
+    "donor": "A_shared_TEST_0078_T5_s1_q1",
+    "block": "A_shared_TEST_0078",
+    "study": "A",
+    "cohort": "shared",
+    "split": "TEST",
+    "index": 78,
+    "frame": "T5",
+    "side": 0,
+    "q": 1,
+    "text": "Everyone agrees that the semiprofessional, unlike the flophouses,"
+  },
+  "files": {
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/completed/capture_A_shared_TEST_0078_T5_s0_q1.json": "f765d02d9e006a1748522fd25b694b0550b664de00a3a6fea8582741713676e8",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/cache/86071cabff4908872bf6840b9ee3296e1e6b0cfb194fb36105d1f7a9fef0f0b0.json": "5ea360b8989ce5e663062bcdfb5473ac648f5ecc725f0b32171f76ee98ae3181",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/completed/capture_A_shared_TEST_0078_T5_s1_q1.json": "45251dae1750ecdb47e8b33a9f7cb82a25b9c485142cb22c6238637d964b6fa6",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/cache/a0d565e0336d33100691e8a61809470d1dbdc3bdd2867b02be1d8e0bc24c8d09.json": "070dc0661ce38436f5b79324c91c44215697592354bc0fc0a242b5630bf51f16",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/completed/suffix_A_shared_TEST_0078_T5_s0_q1_native.json": "c715df683af9124352e183c483449441b7d2bda0dcb803e53d3a0d22bf466812",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/cache/69036dba64635d71172898165ef7d2473a0c25d57c0443402efbd56bd6ff4eb7.json": "016c112d3db5cc6975b6bc4ab5d27fc0cea81f551e41dc97533d383f96887041",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/completed/suffix_A_shared_TEST_0078_T5_s0_q1_r0_P.json": "a68e433add87c60c92bc6f01f53a9900bc023bd80bcd444e01a3f14ef3b0a825",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/cache/395967fc6ec2a1ff2207f0d045ce7372654087333853f900c3529656f08b624a.json": "61f901e3401e807525681e3c2819a18ca3cf10d390d91b6305e3c03f6e02abe3",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/completed/suffix_A_shared_TEST_0078_T5_s0_q1_r0_U0.json": "cb937a69fe10e4bf2fa38b4c478ca4f112b45f0233210ca9e632a005da8e281c",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/cache/c191088b3a01022eb43adda1c1e336975a6d485eacb4611dcaed24b17c727ed5.json": "284538f4eb25afc48d439d6fb964e055e94fbc8c931c29d6b4fbcd70c52a9b95",
+    "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/run/results/r0/A_shared_TEST_0078_T5_s0_q1.json": "20dcb15a9d0bbe2ca1d46b5479e191528ec0c5a6a76e03816fc77b156008e1d5"
+  },
+  "identity": {
+    "model": "5fb518228899f9c15e3db99e01c11d159af8451337dee6d85c28f3880fde2b29",
+    "code": "25737ad0d8d462c020f979d68f61d55e90b2e2668df0fb2d0a8008b19f7db7b7",
+    "corpus": "361064de9ca092fcd6a97649eb7daac7f01b03a084cb021f6e6d0b819c00180c",
+    "tokens": "64569cc7e32d060a398bb0dba55885712cb963aa4475dbaf847e795f4b4926f9",
+    "config": "analysis/A_short_replication_llama_20261101/TEST_fixed256_v3/config.json",
+    "frozen_fit_hashes": {
+      "r0": "9215ff51a78cfd3a5c9a8149332c17fe9a8d50a8571d6943f1cc2059fb52c833"
+    }
+  },
+  "own_fit_sha256": "9215ff51a78cfd3a5c9a8149332c17fe9a8d50a8571d6943f1cc2059fb52c833",
+  "max_target_error": 0.0,
+  "all_saved_loss_vector_arithmetic_passed": true
+}

@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "artifact": "analysis/AB_confirmatory_execution_20261101/accounting_closed_campaign_20261102_v1.json",
+  "artifact_sha256": "dfb6aca18045c8031f6d295cf12339894a88f6106e0278a0e09cd5e6fc923a20",
+  "reviewer_id": "/root/sol_parallel_acceptance",
+  "independent": true,
+  "verdict": "approved",
+  "topics_checked": [
+    "design",
+    "implementation",
+    "data",
+    "cost",
+    "claims"
+  ],
+  "findings": [],
+  "totals_verified": {
+    "forward": 239803,
+    "backward": 1740,
+    "language_model_loads": 16,
+    "full_transformer": 13342,
+    "local_suffix": 48397,
+    "local_native": 22444,
+    "native_JVP": 3472,
+    "TC_reference": 25952,
+    "tail": 126196
+  },
+  "evidence": "sol_parallel_acceptance/campaign_accounting_v1/audit.json",
+  "limitations": "Mechanical accounting review of the14closed current campaign stage groups, not a new scientific inference or all historical machine/process activity. Small frozen contracts/costs, evidence hashes and prior independently accepted closure/ledger/replay proofs were reused; no full native raw-data rehash, model/refit/bootstrap/MC or canonical CLI replay.239803forward is heterogeneous logical accounting, not239803full-transformer passes or FLOPs/time; only13342are full-transformer forwards.1740backward separate; nativeJVP separate from gradient backprop. TC_reference combinesTC applications and small reference diagnostics, not25952reference tests.16LLMloads counts one per acquisition group plus preserved A_TEST/B_FITfail-resume extras; TC-only load and zero-load cache replay excluded. System sleep/walltime separate. Accountingv1 bytes and historical failures remain unchanged; pending review field is superseded by this external hash-bound receipt."
+}

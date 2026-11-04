@@ -1,0 +1,38 @@
+﻿{
+    "started_utc":  "2026-11-01T12:46:35.7642402Z",
+    "launcher_pid":  1020,
+    "arguments":  [
+                      "-X",
+                      "utf8",
+                      "-m",
+                      "concurrency_runtime_v2",
+                      "--snapshot",
+                      "analysis/AB_confirmatory_execution_20261101/B_precision_v6_calibration_v1/pre_run_snapshot_v3.json",
+                      "--review",
+                      "analysis/AB_confirmatory_execution_20261101/B_precision_v6_calibration_v1/pre_run_review_astra_v3.json",
+                      "--policy",
+                      "analysis/AB_confirmatory_execution_20261101/sol_parallel_acceptance/concurrency_migration_v2/migration_policy.json",
+                      "--policy-snapshot",
+                      "analysis/AB_confirmatory_execution_20261101/sol_parallel_acceptance/concurrency_migration_v2/snapshot_v1.json",
+                      "--policy-review",
+                      "analysis/AB_confirmatory_execution_20261101/astra_goals_concurrency_review/concurrency_review_v2_slots.json"
+                  ],
+    "snapshot":  "ec5838c61a170e59a3af0c14319761c1f08fd6ae846772cc686dd6ff2ea24316",
+    "migration_snapshot":  "1c06e12a86ed7371a10fc4485bb733165c6adf40d4eb278716b447a6feff847f",
+    "scope":  "Prospective B precision-v6 synthetic calibration;0models;second managed CPU slot beside accepted running A selector",
+    "status":  "launcher_started",
+    "free_RAM_KB":  9012832,
+    "existing_python":  [
+                            {
+                                "ProcessId":  4428,
+                                "ParentProcessId":  6668,
+                                "CommandLine":  "\"C:\\Users\\rafal\\miniconda3\\python.exe\" -m neuron_lab serve --port 8765 "
+                            },
+                            {
+                                "ProcessId":  12416,
+                                "ParentProcessId":  808,
+                                "CommandLine":  "\"C:\\Users\\rafal\\miniconda3\\python.exe\" -m ab_confirmatory_20261101.validate_family_v2 "
+                            }
+                        ],
+    "old_failed_precision_preserved":  true
+}

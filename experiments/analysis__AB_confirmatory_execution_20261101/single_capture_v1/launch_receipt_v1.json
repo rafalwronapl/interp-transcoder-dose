@@ -1,0 +1,19 @@
+{
+    "allowed_existing_python_pids":  [
+                                         4428,
+                                         6936
+                                     ],
+    "arguments":  [
+                      "-m",
+                      "research_checks",
+                      "launch",
+                      "--snapshot",
+                      "analysis/AB_confirmatory_execution_20261101/single_capture_v1/pre_run_snapshot_v1.json",
+                      "--review",
+                      "analysis/AB_confirmatory_execution_20261101/single_capture_v1/pre_run_review_v1.json"
+                  ],
+    "launcher_pid":  17880,
+    "started_utc":  "2026-11-01T09:26:33.8570113Z",
+    "snapshot":  "85b0db98fa1df7068ddb4333906a4c300649eff006421a128053b514dd431332",
+    "status":  "launcher_started_measurement_not_yet_confirmed"
+}
